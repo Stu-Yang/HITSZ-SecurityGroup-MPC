@@ -1,2 +1,2 @@
-# HITSZ-SecurityGroup-MPC
-Learn more, think more, practice more!
+# HITSZ安全组—安全多方计算团队
+多学习，多思考，多实践！
