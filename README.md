@@ -26,7 +26,12 @@ HITSZ安全组的MPC团队主要针对安全多方计算的理论与实践进行
   + BMR协议[BMR90]
   + ...
 + 通用协议框架
-  + 混淆电路
+  + 基于混淆电路的MPC协议
+  + 基于秘密共享的MPC协议
+  + 基于同态加密的MPC协议
+  + 混合协议
+    + SPDZ框架：基于秘密共享和有限同态加密的协议框架
+    + ABY系列：基于布尔电路、算术电路和混淆电路的协议框架，包括ABY、ABY3和ABY2.0
 + 应用研究
   + 隐私集合操作(Private Set Operation)
   + 隐私保护数据挖掘(Privacy Preserving Data Mining)
