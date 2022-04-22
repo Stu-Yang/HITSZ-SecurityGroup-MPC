@@ -41,7 +41,7 @@ The target audience for the school is graduate students and postdocs in cryptogr
 Participation for registered attendees includes lunch and a social event on Monday evening.
 For local participants, if you plan on coming with your private car, please include license plate number for free parking.
 
-**Hotel**: We have arranged a special rate at the [Kfar Maccabiah](http://www.kmc-hotel.co.il/) hotel for winter school participants from abroad, or local participants who wish to stay close to Bar-Ilan University. The rate is 480 NIS (approx., $130) a night for a single room and 540 NIS (approx., $150) a night for a double room with two separate beds (i.e., approximately $75 each). The rate includes breakfast. Please send your hotel requirements together with your registration information.
+**Hotel**: We have arranged a special rate at the [Kfar Maccabiah](http://www.kmc-hotel.co.il/) hotel for winter school participants from abroad, or local participants who wish to stay close to Bar-Ilan University. The rate is 480 NIS (approx., \$130) a night for a single room and 540 NIS (approx., \$150) a night for a double room with two separate beds (i.e., approximately \$75 each). The rate includes breakfast. Please send your hotel requirements together with your registration information.
 
 **Support**: Some stipends of $800 each (for flight and accommodation) are available for overseas students needing support. Please have your advisor send a letter justifying the need for financial support.
 
