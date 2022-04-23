@@ -45,7 +45,7 @@ The winter school program is designed to teach the topic from its basics up to t
 
 **Contact**: For any questions or queries, please send an e-mail to: [winterschool.biu@gmail.com](mailto:winterschool.biu@gmail.com)
 
-**Hotel**: We have arranged a special rate at the [Kfar Hamaccabiah Hotel](http://www.kmc-hotel.co.il/) where the conference center is located. The rate is \$$175$ a night for a single room, \$195 a night for a double room (with two occupants) and \$225 for a triple room (with three occupants). The rate includes breakfast. Hotel reservation form will be available soon.
+**Hotel**: We have arranged a special rate at the [Kfar Hamaccabiah Hotel](http://www.kmc-hotel.co.il/) where the conference center is located. The rate is \$ 175 a night for a single room, \$ 195 a night for a double room (with two occupants) and \$ 225 for a triple room (with three occupants). The rate includes breakfast. Hotel reservation form will be available soon.
 
 **Sponsorship**: This winter school is graciously sponsored by the BIU Center for Research in Applied Cryptography and Cyber Security in conjunction with the Israel National Cyber Bureau in the Prime Minister’s Office, the European Research Council under the European Union’s Seventh Framework Programme (FP/2007-2013) / ERC Grant Agreement n. 615172 (HIPS) and the Alter family.
 
