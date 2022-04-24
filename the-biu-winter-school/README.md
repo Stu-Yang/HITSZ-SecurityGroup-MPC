@@ -1,6 +1,6 @@
 ### BIU密码学冬令营
 
-BIU冬令营是由位于以色列的巴伊兰大学(Bar-Ilan University)发起，由其应用密码学与网络安全研究中心(Center for Research in Applied Cryptography and Cyber Security)组织的关于密码学的公益性讲学活动，会在每年的1月份至2月份开展相关课程，并发布在官网上并提供Slides下载和Video观看。截止2022年04月，BIU冬令营已经组织12届冬令营，其对应的主题和相关链接如下：
+BIU冬令营是由位于以色列的巴伊兰大学(Bar-Ilan University)应用密码学与网络安全研究中心(Center for Research in Applied Cryptography and Cyber Security)组织的关于密码学的公益性讲学活动，会在每年的1月份至2月份开展相关课程，并发布在官网上并提供Slides下载和Video观看。截止2022年04月，BIU冬令营已经组织12届冬令营，其对应的主题和相关链接如下：
 
 + [The 1st BIU Winter School: Secure Computation and Efficiency (01/30 - 02/01, 2011)](https://cyber.biu.ac.il/event/the-1st-biu-winter-school/)
 + [The 2nd BIU Winter School: Lattice-Based Cryptography and Applications (02/19 - 02/22, 2012)](https://cyber.biu.ac.il/event/the-2nd-biu-winter-school/)
