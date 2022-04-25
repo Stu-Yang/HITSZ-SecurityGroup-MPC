@@ -16,6 +16,8 @@
 + 印度科技学院的[Arpita Patra](https://www.csa.iisc.ac.in/~arpita/index.html)教授关于安全多方计算的课程
   + [Secure Computation 2015](https://www.csa.iisc.ac.in/~arpita/SecureComputation15.html)
   + [Secure Computation 2017](https://www.csa.iisc.ac.in/~arpita/FoSC17.html)
++ 俄勒冈州立大学的[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)讲述的高效安全计算技术课程，重点介绍了基于混淆电路的安全两方计算(2PC)和隐私集合求交(PSI)
+  +  
 
 ## 安全多方计算教程和幻灯片
 
