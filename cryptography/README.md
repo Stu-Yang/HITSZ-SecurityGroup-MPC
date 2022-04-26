@@ -11,6 +11,5 @@
 + [Oded Goldreich](https://www.wisdom.weizmann.ac.il/~oded/homepage.html)教授的关于密码学基础的著作[The Foundations of Cryptography - a two-volume book](https://www.wisdom.weizmann.ac.il/~oded/foc-book.html)，他是密码学的先驱，也是Jonathan Katz和Yehuda Lindell的博士导师
   + [Foundations of Cryptography: Volume 1 - Basic Tools](https://www.wisdom.weizmann.ac.il/~oded/foc-vol1.html)：介绍了密码学基础工具，包括密码学基本概念、单向函数、伪随机数生成器和零知识证明
   + [Foundations of Cryptography：Volume 2 - Basic Applications](https://www.wisdom.weizmann.ac.il/~oded/foc-vol2.html)：介绍了密码学的基本应用，包括加密方案、数字签名与消息认证码、安全多方计算
-
 + Oded Goldreich教授的学生们为致敬Oded Goldreich而撰写的有关高级密码学理论和计算复杂性的专题教材
   + [Tutorials on the Foundations of Cryptography : Dedicated to Oded Goldreich](https://www.wisdom.weizmann.ac.il/~oded/MC/219.html)：该书涵盖了当前密码学的几大分支领域：安全多方计算中的乱码电路、公钥密码学、伪随机函数、单向函数、同态加密、仿真证明技术、差分隐私
