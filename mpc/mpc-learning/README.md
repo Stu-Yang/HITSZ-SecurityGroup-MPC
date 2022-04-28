@@ -8,7 +8,7 @@ MPC的基本概念和构建协议的基础模块是MPC的基石，在此之上�
 ![](mpc-frame.png)
 
 ## 2. 安全多方计算学习路线
-安全多方计算(MPC)没有一本特别权威又特别易懂的书籍供大家参考，在我们首页的[如何学习安全多方计算？](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC#%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E5%AE%89%E5%85%A8%E5%A4%9A%E6%96%B9%E8%AE%A1%E7%AE%97)中介绍了一些大牛的学习总结、经典课程和书籍给大家，在这里我们详细地介绍一些学习安全多方计算的基本路线，并且提供一些论文、Slides、书籍和课程等。
+安全多方计算(MPC)没有一本特别权威又特别易懂的书籍供大家参考，在上级页面的[如何学习安全多方计算？](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc#%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E5%AE%89%E5%85%A8%E5%A4%9A%E6%96%B9%E8%AE%A1%E7%AE%97)中，我们介绍了一些大牛的学习总结、经典课程和书籍给大家，在这里我们详细地介绍一些学习安全多方计算的基本路线，并且提供一些论文、Slides、书籍和课程等。
 ### **2.0 安全多方计算学习路线的其他参考**
 + 知乎的[安全多方计算学习路线](https://zhuanlan.zhihu.com/p/351492646)
 + Yehuda Lindell教授的[Resources for Getting Started with MPC](https://u.cs.biu.ac.il/~lindell/MPC-resources.html)
