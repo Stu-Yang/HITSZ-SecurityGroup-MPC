@@ -20,3 +20,5 @@ HITSZ安全组的MPC团队主要针对安全多方计算的理论与实践进行
 
 这部分，我们介绍了研究生学习期间关于课程学习、课题研究方面的一些经验，这部分会在[研究生学习和研究经验](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/getting-started)进行介绍。
 
+另外，研究生阶段离不开论文的阅读，在[论文阅读](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/paper-reading)，我们列出了一些优秀的论文供大家参考和交流。
+
