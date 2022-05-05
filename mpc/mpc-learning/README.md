@@ -65,6 +65,8 @@ MPC的基础模块是构件MPC大厦的基础零件，主要包括不经意传�
   + Benny Pinkas在第5届BIU密码学冬令营上讲授了关于Yao’s Two-Party Protocol and the BMR Multi-Party Protocol ([slides](http://cyber.biu.ac.il/wp-content/uploads/2017/01/2-1.pdf) and [video](https://www.youtube.com/watch?v=GjhvJxelIVQ&index=2&list=PLXF_IJaFk-9BFn8M-dsEm5x3-5Cvji3V9))的基本知识，里面介绍了混淆电路协议的流程和证明、BMR协议的流程
 
 ### **2.4 通用安全多方计算协议**
+MPC协议可以大致分为两类：i) 低延迟协议和 ii) 高吞吐量协议。 低延迟协议可以使用混淆电路协议(GC)来构建，其通信轮数为常数轮。基于秘密共享(SS)的解决方案已用于高吞吐量协议，但通信轮次和乘法电路的深度成正比。 然而，与基于混淆电路的协议相比，较少的通信有助于并行执行多个基于秘密共享的协议实例，从而实现高吞吐量。
+
 + **基于混淆电路的MPC协议**：了解混淆电路协议的优化，了解混淆电路协议的安全性证明
   + Mike Rosulek教授讲授的混淆电路的基本思想及其优化[Optimizations to garbled circuits (point-permute, free-XOR, half-gates, arithmetic garbling)](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/2-gc.pdf)
   + Sophia Yakoubov博士的学习笔记[A Gentle Introduction to Yao’s Garbled Circuits](https://web.mit.edu/sonka89/www/papers/2017ygc.pdf)中的第2部分系统地介绍了混淆电路协议的优化
