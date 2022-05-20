@@ -3,11 +3,11 @@
 安全多方计算(Secure Multiparty Computation，MPC)最初由图灵奖获得者、中国科学院院士姚期智教授在1982年通过百万富翁问题提出。经典的MPC协议常常指n个互不信任的参与方，通过MPC协议来共同计算某个功能函数，并且要求在计算完成后不会泄露各个参与方输入的任何信息。而对于广义的安全多方计算则包括指的是在分布式计算场景下，互不信任的参与方实现安全计算的目的。经过多年的理论和实践的研究，实用安全多方计算已经得到了长足的发展，为目前十分热门的“隐私计算”概念提供了技术解。
 
 ## 安全多方计算基本框架
-安全多方计算(MPC)的基本概念和基础工具构成了安全多方计算的基石，近些年基于此进行了大量的通用安全多方计算协议研究，并在结合应用形成了大量的安全多方计算应用研究。关于MPC的理论和实践的基本框架详见[安全多方计算基本框架](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/mpc/mpc-learning/README.md#%E5%AE%89%E5%85%A8%E5%A4%9A%E6%96%B9%E8%AE%A1%E7%AE%97%E5%AD%A6%E4%B9%A0)。
+安全多方计算(MPC)的基本概念和基础工具构成了安全多方计算的基石，近些年基于此进行了大量的通用安全多方计算协议研究，并在结合应用形成了大量的安全多方计算应用研究。关于MPC的理论和实践的基本框架详见[安全多方计算基本框架](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-learning/mpc-map/README.md#%E5%AE%89%E5%85%A8%E5%A4%9A%E6%96%B9%E8%AE%A1%E7%AE%97%E5%AD%A6%E4%B9%A0)。
 
 ## 如何学习安全多方计算？
 
-下面是关于安全多方计算学习的一般性的概述，在[安全多方计算学习路线](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/mpc/mpc-learning/README.md#2-%E5%AE%89%E5%85%A8%E5%A4%9A%E6%96%B9%E8%AE%A1%E7%AE%97%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF)中，我们详细介绍了安全多方计算的学习路线和学习材料。
+下面是关于安全多方计算学习的一般性的概述，在[安全多方计算学习路线](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-learning/mpc-map/README.md#2-%E5%AE%89%E5%85%A8%E5%A4%9A%E6%96%B9%E8%AE%A1%E7%AE%97%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF)中，我们详细介绍了安全多方计算的学习路线和学习材料。
 
 + MPC大牛的学习经验
   + [Yehuda Lindell](https://u.cs.biu.ac.il/~lindell/)谈如何学习安全多方计算
