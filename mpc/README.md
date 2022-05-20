@@ -1,4 +1,4 @@
-# 安全多方计算学习
+# 安全多方计算学习和研究
 
 在这部分，我们给出了一些关于安全多方计算的学习和研究材料：
 + [mpc-learning](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-learning)部分详细介绍了安全多方计算的学习路线，并给出了一些学习资料
