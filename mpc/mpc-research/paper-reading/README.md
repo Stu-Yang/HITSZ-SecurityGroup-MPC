@@ -1,5 +1,26 @@
 # 论文阅读
 
+## 如何查找和阅读论文？
+
++ 查找论文的网站
+  + [谷歌学术](https://scholar.google.com.sg/)：谷歌学术上可以按照关键词查找相关论文，还可以获知该论文的来源、引用量、引用本文的文献、参考文献格式等；
+  + [eprint](https://eprint.iacr.org/)：eprint是密码学的预印库，包括大量期刊论文、会议论文，由于预印库不是正式出版，因此论文一般是更详细、更完整的便于阅读的版本，而且该预印库中的论文还会根据反馈更新最新版本，并修改相应错误，因此密码学领域的论文可以尝试在eprint上查找；
+  + [哈尔滨工业大学图书馆](http://www.lib.hit.edu.cn/)：可以在图书馆官网查询中文学位论文
+
++ 密码学领域的顶会：查找时，在任何一种搜索引擎的搜索框输入【会议名称+年份】即可
+  + 三大密码学会
+    + [Crypto(美密会)](https://iacr.org/meetings/crypto/)
+    + [Eurocrypt(欧密会)](https://iacr.org/meetings/eurocrypt/)
+    + [Asiacrypt(亚密会)](https://iacr.org/meetings/asiacrypt/)
+  + 四大信息安全顶会
+    + [IEEE S&P]()
+    + [ACM CCS](https://dl.acm.org/conference/ccs)
+    + NDSS
+    + UNIXSE
+  + 其他期刊或会议详见[中国计算机学会推荐国际学术刊物(网络与信息安全)](https://www.ccf.org.cn/Academic_Evaluation/NIS/)
+
+## MPC团队相关的论文
+
 在这里我们列出一些十分优秀的论文和相关资源
 
 + [SecFloat: Accurate Floating-Point meets Secure 2-Party Computation](https://eprint.iacr.org/2022/322.pdf)
