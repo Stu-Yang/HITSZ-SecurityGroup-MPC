@@ -1,6 +1,5 @@
 # 论文阅读
-
-## 如何查找和阅读论文？
+## 如何查找论文？
 
 + 查找论文的网站
   + [谷歌学术](https://scholar.google.com.sg/)：谷歌学术上可以按照关键词查找相关论文，还可以获知该论文的来源、引用量、引用本文的文献、参考文献格式等；
@@ -19,6 +18,11 @@
     + [ISOC Network and Disthibuted System Security Syumposium(NDSS)](https://www.ndss-symposium.org/previous-conferences/)
     + [Usenix Security Symposium(USENIX)](https://www.usenix.org/)
   + 其他期刊或会议详见[中国计算机学会推荐国际学术刊物(网络与信息安全)](https://www.ccf.org.cn/Academic_Evaluation/NIS/)
+
+## 如何阅读论文？
+
+可以参考[Efficient reading of papers in science and technology](https://www.cs.columbia.edu/~hgs/netbib/efficientReading.pdf)。
+
 
 ## MPC团队相关的论文
 
