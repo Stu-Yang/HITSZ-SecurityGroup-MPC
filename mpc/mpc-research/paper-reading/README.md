@@ -26,7 +26,7 @@
 可以参考[Efficient reading of papers in science and technology](https://www.cs.columbia.edu/~hgs/netbib/efficientReading.pdf)。
 
 
-## MPC团队相关的论文
+## MPC相关论文
 
 在这里我们列出一些十分优秀的论文和相关资源
 + [SecFloat: Accurate Floating-Point meets Secure 2-Party Computation](https://eprint.iacr.org/2022/322.pdf)
