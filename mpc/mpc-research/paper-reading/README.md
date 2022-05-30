@@ -17,7 +17,9 @@
     + [ACM Conference on Computer and Communications Security(CCS)](https://dl.acm.org/conference/ccs)
     + [ISOC Network and Disthibuted System Security Syumposium(NDSS)](https://www.ndss-symposium.org/previous-conferences/)
     + [Usenix Security Symposium(USENIX)](https://www.usenix.org/)
-  + 其他期刊或会议详见[中国计算机学会推荐国际学术刊物(网络与信息安全)](https://www.ccf.org.cn/Academic_Evaluation/NIS/)
+  + 其他期刊或会议详见中国计算机学会推荐国际学术刊物
+    + [中国计算机学会推荐国际学术刊物(网络与信息安全)](https://www.ccf.org.cn/Academic_Evaluation/NIS/)
+    + [中国计算机学会推荐国际学术会议和期刊目录-2019](https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=185981)
 
 ## 如何阅读论文？
 
