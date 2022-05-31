@@ -27,12 +27,23 @@
 
 
 ## MPC相关论文
+在这里，我们按主题列出一些优秀的MPC相关的论文：
 
-在这里我们列出一些十分优秀的论文和相关资源
+### 综述
++ [Secure Multiparty Computation (MPC)](https://eprint.iacr.org/2020/300.pdf)
+  + 机构&作者：以色列BIU大学Yehuda Lindell
+  + 期刊/论文：Communications of the ACM
+
+
+### 理论研究
++ [Scalable Secure Multiparty Computation](https://link.springer.com/chapter/10.1007/11818175_30)
+  + 机构&作者：Ivan Damgård & Yuval Ishai
+  + 期刊/论文：Crypto2006
 + [SecFloat: Accurate Floating-Point meets Secure 2-Party Computation](https://eprint.iacr.org/2022/322.pdf)
   + 作者：Deevashwer Rathee等
   + 期刊/论文：S&P2022
   + 阅读笔记：[SecFloat：面向精确浮点计算的安全两方计算](https://mp.weixin.qq.com/s/feyQD5OlEuRENrz2U1oSCg)
 
+### 应用研究
 
 
