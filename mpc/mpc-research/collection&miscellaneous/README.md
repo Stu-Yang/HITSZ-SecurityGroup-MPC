@@ -5,15 +5,19 @@
 ## MPC综述
 + [Secure Multiparty Computation (MPC)](https://eprint.iacr.org/2020/300.pdf)
   + 机构&作者：以色列BIU大学Yehuda Lindell
-  + 期刊/论文：Communications of the ACM(2020)
+  + 会议/期刊：Communications of the ACM(2020)
   + 主要内容：详细介绍了目前安全多方计算领域的基本概念和发展趋势，该文章不涉及复杂的公式，只有一些基本的概念
++ [实用安全多方计算协议关键技术研究进展]()
+  + 机构&作者：山东大学计算机科学与技术学院蒋瀚、徐秋亮
+  + 会议/期刊：计算机研究与发展，2015
+  + 主要内容：介绍了实用化安全多方计算协议研究的主要进展和成果，并重点介绍安全多方计算实用化的3个支撑性重要技术，包括混乱电路优化、剪切-选择技术及不经意传输扩展技术，这些技术在不同的方面显著提高了安全多方计算协议的效率。
+
 
 ## 隐私保护机器学习
 
-
-
 ## 恶意模型下的安全多方计算
 
+详见[恶意模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/malicious-mpc)
 
 ## 理论研究
 + [Scalable Secure Multiparty Computation](https://link.springer.com/chapter/10.1007/11818175_30)
