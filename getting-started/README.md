@@ -12,8 +12,11 @@
 
 ### 1.1 选课指南
 
+详见[安全组选课指南（硕士研究生）](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/getting-started/curricula-variable)
+
 ### 1.2 课程复习
 
+详见[研究生课程复习资料](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/getting-started/course-materials)
 
 ## 2. 基础学习
 
