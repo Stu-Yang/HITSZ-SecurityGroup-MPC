@@ -47,5 +47,5 @@
   + 阅读笔记：[SecFloat：面向精确浮点计算的安全两方计算](https://mp.weixin.qq.com/s/feyQD5OlEuRENrz2U1oSCg)
 
 ### 应用研究
-
++ [Arithmetic Tuples for MPC](https://eprint.iacr.org/2022/667.pdf)
 
