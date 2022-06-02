@@ -25,3 +25,5 @@
 
 可以参考[Efficient reading of papers in science and technology](https://www.cs.columbia.edu/~hgs/netbib/efficientReading.pdf)。
 
++ 阅读论文的一些技巧
+  + 顶会顶刊论文一般都有对应的视频和slides，可以去论文发表的会议/期刊官网，或者作者主页进行查看
