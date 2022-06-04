@@ -81,7 +81,7 @@ MPC协议可以大致分为两类：i) 低延迟协议和 ii) 高吞吐量协议
 + **混合协议**
   + ABY系列：基于布尔电路、算术电路和混淆电路的协议框架，包括ABY、ABY3和ABY2.0
 ### **2.5 应用研究**
-+ 隐私集合操作(Privacy-Preserving Set Operation)
++ 隐私集合操作(Privacy-Preserving Set Operation)：[多方安全计算热点：隐私保护集合求交技术 (PSI) 分析研究报告](https://anquan.baidu.com/upload/ue/file/20190814/1565763561975581.pdf)
 + 隐私保护数据挖掘(Privacy-Preserving Data Mining)：Lindell和Pinkas两位大牛写的[Secure Multiparty Computation for Privacy-Preserving Data Mining](https://eprint.iacr.org/2008/197.pdf)
 + 隐私保护机器学习(Privacy-Preserving Machine Learning)
 + ...
