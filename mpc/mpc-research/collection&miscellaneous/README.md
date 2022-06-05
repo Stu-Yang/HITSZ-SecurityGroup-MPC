@@ -11,7 +11,10 @@
   + 机构&作者：山东大学计算机科学与技术学院[蒋瀚](https://www.sc.sdu.edu.cn/info/1043/2243.htm)、[徐秋亮](https://www.sc.sdu.edu.cn/info/1043/2238.htm)
   + 会议/期刊&年份：计算机研究与发展，2015
   + 主要内容：介绍了实用化安全多方计算协议研究的主要进展和成果，并重点介绍安全多方计算实用化的3个支撑性重要技术，包括混乱电路优化、剪切-选择技术及不经意传输扩展技术，这些技术在不同的方面显著提高了安全多方计算协议的效率。
-
++ [Practical Secure Computation Outsourcing: A Survey](https://dl.acm.org/doi/pdf/10.1145/3158363)
+  + 机构&作者：ZIHAO SHAN, KUI REN, and MARINA BLANTON(State University of New York at Buffalo) | CONG WANG(City University of Hong Kong)
+  + 会议/期刊&年份：ACM Computating Survey，2018
+  + 主要内容：主要介绍了安全外包计算的基本技术，并对比了各种技术，同时也介绍了安全外包计算的一些应用
 
 ## 隐私保护机器学习
 
