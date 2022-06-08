@@ -22,7 +22,7 @@
 
 详见[恶意模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/malicious-mpc)
 
-## 理论研究
+## 其他
 + [Scalable Secure Multiparty Computation](https://link.springer.com/chapter/10.1007/11818175_30)
   + 机构&作者：Ivan Damgård & Yuval Ishai
   + 期刊/论文：Crypto2006
@@ -31,10 +31,10 @@
   + 期刊/论文：S&P2022
   + 主要内容：介绍了安全两方计算的浮点数运算
   + 阅读笔记：[SecFloat：面向精确浮点计算的安全两方计算](https://mp.weixin.qq.com/s/feyQD5OlEuRENrz2U1oSCg)
-
-## 应用研究
 + [Arithmetic Tuples for MPC](https://eprint.iacr.org/2022/667.pdf)
 + [Two Round Multiparty Computation via Multi-Key FHE](https://eprint.iacr.org/2015/345.pdf)
   + 主要内容：用HE实现MPC
 + [Two-Round Multiparty Secure Computation Minimizing Public Key Operations](https://eprint.iacr.org/2018/180.pdf)
   + 主要内容：用HE实现MPC
++ [Efficient Privacy Preserving Logistic Regression Inference and Training](https://eprint.iacr.org/2020/1396.pdf)
+  + 主要内容：结合MPC和HE实现隐私保护逻辑回归
