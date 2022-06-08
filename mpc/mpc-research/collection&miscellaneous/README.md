@@ -36,3 +36,5 @@
 + [Arithmetic Tuples for MPC](https://eprint.iacr.org/2022/667.pdf)
 + [Two Round Multiparty Computation via Multi-Key FHE](https://eprint.iacr.org/2015/345.pdf)
   + 主要内容：用HE实现MPC
++ [Two-Round Multiparty Secure Computation Minimizing Public Key Operations](https://eprint.iacr.org/2018/180.pdf)
+  + 主要内容：用HE实现MPC
