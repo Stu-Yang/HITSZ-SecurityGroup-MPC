@@ -18,6 +18,18 @@
 
 ## 隐私保护机器学习
 
++ [ABY-A framework for efficient mixed-protocol secure two-party computation](https://encrypto.de/papers/DSZ15.pdf)
++ Secureml: A system for scalable privacy-preserving machine learning
++ ABY3: A mixed protocol framework for machine learning
++ Oblivious neural network predictions via minionn transformations
++ GAZELLE: A Low Latency Framework for Secure Neural Network Inference
++ Trident: Efficient 4PC Framework for Privacy Preserving Machine Learning
++ QUOTIENT: Two-Party Secure Neural Network Training and Prediction
++ New Primitives for Actively-Secure MPC over Rings with Applications to Private Machine Learning
++ XONN: XNOR-based Oblivious Deep Neural Network Inference
++ SecureNN: 3-Party Secure Computation for Neural Network Training
+
+
 ## 恶意模型下的安全多方计算
 
 详见[恶意模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/malicious-mpc)
@@ -42,3 +54,5 @@
   + 主要内容：结合MPC和HE实现安全矩阵运算和神经网络
 + [LedMAC: More Efficient Variants of LightMAC](https://eprint.iacr.org/2021/1210.pdf)
   + 轻量级MAC
++ [Secret-Sharing Schemes: A Survey](https://link.springer.com/content/pdf/10.1007/978-3-642-20901-7_2.pdf)
+  + 秘密共享综述，2011年
