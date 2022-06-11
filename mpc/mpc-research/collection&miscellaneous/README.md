@@ -38,5 +38,7 @@
   + 主要内容：用HE实现MPC
 + [Efficient Privacy Preserving Logistic Regression Inference and Training](https://eprint.iacr.org/2020/1396.pdf)
   + 主要内容：结合MPC和HE实现隐私保护逻辑回归
++ [Secure Outsourced Matrix Computation and Application to Neural Networks](https://eprint.iacr.org/2018/1041.pdf)
+  + 主要内容：结合MPC和HE实现安全矩阵运算和神经网络
 + [LedMAC: More Efficient Variants of LightMAC](https://eprint.iacr.org/2021/1210.pdf)
   + 轻量级MAC
