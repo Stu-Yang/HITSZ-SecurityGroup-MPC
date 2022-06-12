@@ -27,7 +27,11 @@
 + [Secure Multiparty Computation with Sublinear Preprocessing](ttps://link.springer.com/chapter/10.1007/978-3-031-06944-4_15)
   + 作者&机构：Elette Boyle, Niv Gilboa, Yuval Ishai, Ariel Nof
 
-
+## [S&P 2022](https://www.ieee-security.org/TC/SP2022/program-papers.html)
++ [Multi-Server Verifiable Computation of Low-Degree Polynomials](https://www.computer.org/csdl/proceedings-article/sp/2022/131600b499/1A4Q4ozkJbi)
+ + 作者&机构：Liang Feng Zhang (ShanghaiTech University), Huaxiong Wang (Nanyang Technological University)
+ + 主要研究内容：可验证计算允许计算能力较弱的用户将复杂计算任务委托（外包）给计算资源密集的云服务器并对云服务器计算过程的正确性进行验证。更多介绍见[信息学院张良峰课题组在多服务器非交互式可验证计算研究方面取得重要进展](https://sist.shanghaitech.edu.cn/2021/1129/c2858a166288/page.htm)
+ + 相关工作：[Two-Server Verifiable Homomorphic Secret Sharing for High-Degree Polynomials](https://arxiv.org/abs/2104.12163)
 
 
 
