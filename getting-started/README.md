@@ -8,15 +8,20 @@
   + 不浮躁：板凳宁坐十年冷，文章不写半句空。
   + 不怕麻烦：千淘万漉虽辛苦，吹尽狂沙始到金。
 
-## 1. 研究生课程
+## 1. 研究生事务
 
-### 1.1 选课指南
+### 1.1 研究生选课
+#### 1.1 选课指南
 
 详见[安全组选课指南（硕士研究生）](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/getting-started/curricula-variable)
 
-### 1.2 课程复习
+#### 1.2 课程复习
 
 详见[研究生课程复习资料](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/getting-started/course-materials)
+
+### 1.2 研究生开题、中期和答辩
+
+详见[哈尔滨工业大学（深圳）硕士学位培养](http://due.hitsz.edu.cn/xwgl/ssxwpy/ktyzj.htm)
 
 ## 2. 基础学习
 
