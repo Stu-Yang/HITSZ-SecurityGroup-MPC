@@ -46,3 +46,4 @@
   + 轻量级MAC
 + [Secret-Sharing Schemes: A Survey](https://link.springer.com/content/pdf/10.1007/978-3-642-20901-7_2.pdf)
   + 秘密共享综述，2011年
++ SPDZ系列论文：[MP-SPDZ: A Versatile Framework for Multi-Party Computation](https://eprint.iacr.org/2020/521.pdf)
