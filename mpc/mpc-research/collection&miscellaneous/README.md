@@ -16,9 +16,9 @@
   + 会议/期刊&年份：ACM Computating Survey，2018
   + 主要内容：主要介绍了安全外包计算的基本技术，并对比了各种技术，同时也介绍了安全外包计算的一些应用
 
-## 隐私保护机器学习
+## 隐私保护数据挖掘
 
-
+详见[隐私保护数据挖掘](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining)
 
 ## 恶意模型下的安全多方计算
 
