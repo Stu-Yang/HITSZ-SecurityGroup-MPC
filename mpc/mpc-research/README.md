@@ -1,6 +1,13 @@
 # 安全多方计算课题研究
 
-安全多方计算理论研究和实践应用研究主要针对协议的效率和安全性。
+安全多方计算理论研究和实践应用研究主要针对协议的效率和安全性进行优化和提高。
+
+## 如何做研究？
++ 提出科学问题：可以参考[如何提出科学问题?](https://news.sciencenet.cn/sbhtmlnews/2015/1/295864.shtm)
++ 确定研究目标
++ 确定研究内容和研究方案
+
+## 实用安全多方计算研究
 
 + [paper-reading](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/paper-reading)：介绍如何查找、阅读论文
 + [collection&miscellaneous](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/collection%26miscellaneous)：包括了以下各个主题的论文，以及一些重要且有价值的论文
