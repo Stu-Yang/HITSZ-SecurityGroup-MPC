@@ -18,16 +18,6 @@
 
 ## 隐私保护机器学习
 
-+ [ABY-A framework for efficient mixed-protocol secure two-party computation](https://encrypto.de/papers/DSZ15.pdf)
-+ Secureml: A system for scalable privacy-preserving machine learning
-+ ABY3: A mixed protocol framework for machine learning
-+ Oblivious neural network predictions via minionn transformations
-+ GAZELLE: A Low Latency Framework for Secure Neural Network Inference
-+ Trident: Efficient 4PC Framework for Privacy Preserving Machine Learning
-+ QUOTIENT: Two-Party Secure Neural Network Training and Prediction
-+ New Primitives for Actively-Secure MPC over Rings with Applications to Private Machine Learning
-+ XONN: XNOR-based Oblivious Deep Neural Network Inference
-+ SecureNN: 3-Party Secure Computation for Neural Network Training
 
 
 ## 恶意模型下的安全多方计算
