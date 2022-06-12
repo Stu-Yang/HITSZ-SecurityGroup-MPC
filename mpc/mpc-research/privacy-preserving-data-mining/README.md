@@ -11,3 +11,4 @@
 + XONN: XNOR-based Oblivious Deep Neural Network Inference
 + 2019：SecureNN: 3-Party Secure Computation for Neural Network Training
 + 2022：[Privacy-Preserving Decision Trees Training and Prediction](https://dl.acm.org/doi/pdf/10.1145/3517197)
++ 2022：[MOTION - A Framework for Mixed-Protocol Multi-Party Computation](https://eprint.iacr.org/2020/1137.pdf)
