@@ -14,7 +14,7 @@
     + [Resources for Getting Started with MPC](https://u.cs.biu.ac.il/~lindell/MPC-resources.html)
     + 综述文章[Secure Multiparty Computation (MPC)](https://eprint.iacr.org/2020/300.pdf)
   + [Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)谈论如何入门学习安全多方计算
-    + [An Annotated Bibliography of Practical Secure Computation](https://web.engr.oregonstate.edu/~rosulekm/scbib/index.php?n=Main.GettingStarted)
+    + [An Annotated Bibliography of Practical Secure Computation](https://web.engr.oregonstate.edu/~rosulekm/scbib/index.php?n=Main.GettingStarted) or [An Annotated Bibliography of Practical Secure Computation](https://web.engr.oregonstate.edu/~rosulekm/scbib/index.php)
 + MPC课程学习
   + 第一届BIU密码学冬令营：安全多方计算与效率
     + [The 1st BIU Winter School: Secure Computation and Efficiency (01/30 - 02/01, 2011)](https://cyber.biu.ac.il/event/the-1st-biu-winter-school/)
