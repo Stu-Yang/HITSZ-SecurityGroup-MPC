@@ -50,3 +50,5 @@
 + [Two-Server Verifiable Homomorphic Secret Sharing for High-Degree Polynomials](https://link.springer.com/chapter/10.1007/978-3-030-62974-8_5)
 + [Two Round Multiparty Computation via Multi-Key FHE](https://eprint.iacr.org/2015/345.pdf)
   + 应用多密钥全同态实现安全多方计算
++ [GMW vs. Yao? Efficient Secure Two-Party Computation with Low Depth Circuits](https://link.springer.com/content/pdf/10.1007/978-3-642-39884-1_23.pdf)
+  + 高效安全两方计算
