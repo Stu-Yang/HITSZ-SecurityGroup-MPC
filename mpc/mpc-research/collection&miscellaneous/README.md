@@ -48,3 +48,5 @@
   + 秘密共享综述，2011年
 + SPDZ系列论文：[MP-SPDZ: A Versatile Framework for Multi-Party Computation](https://eprint.iacr.org/2020/521.pdf)
 + [Two-Server Verifiable Homomorphic Secret Sharing for High-Degree Polynomials](https://link.springer.com/chapter/10.1007/978-3-030-62974-8_5)
++ [Two Round Multiparty Computation via Multi-Key FHE](https://eprint.iacr.org/2015/345.pdf)
+  + 应用多密钥全同态实现安全多方计算
