@@ -55,3 +55,7 @@
   + 应用多密钥全同态实现安全多方计算
 + [GMW vs. Yao? Efficient Secure Two-Party Computation with Low Depth Circuits](https://link.springer.com/content/pdf/10.1007/978-3-642-39884-1_23.pdf)
   + 高效安全两方计算
++ [Privacy-preserving cloud computing on sensitive data: A survey of methods, products and challenges](https://www.sciencedirect.com/science/article/pii/S0140366418310740)
+  + 隐私保护云计算综述
++ [Privacy preserving in cloud computing environment](https://onlinelibrary.wiley.com/doi/10.1002/sec.1498)
+  + 隐私保护云计算
