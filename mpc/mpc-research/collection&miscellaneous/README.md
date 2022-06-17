@@ -34,6 +34,11 @@
   + 主要内容：介绍了安全两方计算的浮点数运算
   + 阅读笔记：[SecFloat：面向精确浮点计算的安全两方计算](https://mp.weixin.qq.com/s/feyQD5OlEuRENrz2U1oSCg)
 + [Arithmetic Tuples for MPC](https://eprint.iacr.org/2022/667.pdf)
+  + 作者&机构：Pascal Reisert, Marc Rivinius and Ralf Küsters(Institute of Information Security, University of Stuttgart, Germany), Toomas Krips(University of Tartu, Estonia)
+  + 主要内容：预处理模型下的安全多方计算乘法三元组优化
++ [Publicly Accountable Robust Multi-Party Computation](https://eprint.iacr.org/2022/436.pdf)
+  + 作者&机构：Marc Rivinius, Pascal Reisert, Daniel Rausch, and Ralf Küsters
+  + 主要内容：实现public accountability, public verifiability and robustness的安全多方计算
 + [Two Round Multiparty Computation via Multi-Key FHE](https://eprint.iacr.org/2015/345.pdf)
   + 主要内容：用HE实现MPC
 + [Two-Round Multiparty Secure Computation Minimizing Public Key Operations](https://eprint.iacr.org/2018/180.pdf)
