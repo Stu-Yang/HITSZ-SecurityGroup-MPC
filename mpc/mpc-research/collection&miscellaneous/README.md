@@ -59,3 +59,5 @@
   + 隐私保护云计算综述
 + [Privacy preserving in cloud computing environment](https://onlinelibrary.wiley.com/doi/10.1002/sec.1498)
   + 隐私保护云计算
++ [Highly Efficient Linear Regression Outsourcing to a Cloud](https://ieeexplore.ieee.org/document/6979197)
+  + 安全外包计算：线性回归
