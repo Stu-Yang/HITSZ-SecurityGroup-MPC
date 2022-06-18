@@ -61,3 +61,6 @@
   + 隐私保护云计算
 + [Highly Efficient Linear Regression Outsourcing to a Cloud](https://ieeexplore.ieee.org/document/6979197)
   + 安全外包计算：线性回归
++ [High-Precision Privacy-Preserving Real-Valued Function Evaluation](https://eprint.iacr.org/2017/1234)
+  + 作者：Christina Boura, Ilaria Chillotti, Nicolas Gama, Dimitar Jetchev, Stanislav Peceny, and Alexander Petric
+  + 主要内容：提出了一种新颖的多方计算协议来评估具有高数值精度的连续实值函数。
