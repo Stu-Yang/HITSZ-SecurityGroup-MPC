@@ -49,6 +49,7 @@ MPC的基础模块是构件MPC大厦的基础零件，主要包括不经意传�
 ### **2.3 经典协议**
 在学习完基础模块后可以开始学习经典协议，这些协议是整个安全多方计算理论研究的基础，在这里学习经典协议本身即可，关于经典协议的效率&安全性优化见【通用安全多方计算协议】
 + **混淆电路协议[Yao86]**：混淆电路协议是姚期智先生与1986年提出的半诚实模型下支持布尔电路的安全两方计算，其通信轮数为常数轮，其核心是混淆电路和不经意传输。混淆电路协议十分重要，需要掌握混淆电路协议的思想和协议流程
+  + David Evans教授的著作[[Evans et al.2018]A Pragmatic Introduction to Secure Multi-Party Computation](https://securecomputation.org/)第3章的第1节介绍了混淆电路协议的基本思想，在第4章的第1节介绍了混淆电路的优化技术，在第6章的第1节至第4节介绍了Cut-and-Choose技术，这是将半诚实混淆电路协议转换为恶意混淆电路协议的经典技术
   + Vitaly Shmatikov教授的幻灯片[Yao’s Protocol](https://www.cs.utexas.edu/~shmat/courses/cs380s_fall09/17yao.ppt)简单地介绍了混淆电路协议的流程
   + Mike Rosulek教授的[Overview of secure computation (applications and definitions) and textbook Yao's protocol](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/1-overview.pdf)的第二部分介绍了经典的混淆电路协
   + Sophia Yakoubov博士的学习笔记[A Gentle Introduction to Yao’s Garbled Circuits](https://web.mit.edu/sonka89/www/papers/2017ygc.pdf)中的第1部分也介绍了混淆电路协议
