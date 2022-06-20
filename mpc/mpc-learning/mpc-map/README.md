@@ -71,14 +71,16 @@ MPC协议可以大致分为两类：i) 低延迟协议和 ii) 高吞吐量协议
 > 
 > 延迟和吞吐量是通过网络处理和发送数据时使用的两个术语。延迟是从数据往返一次时所花的时间，而吞吐量是在给定时间内可以从一个地方传输到另一个地方的数据量。在安全多方计算中，基于GC的MPC协议一次通信的数据量很大，但通信轮次为常数轮，总的延迟是常数的，因此是低延迟的。而基于SS的MPC协议一次的通信量很小，但通信轮次和乘法电路的深度成正比，通过并行执行计算，使得总的吞吐量更高。
 
-+ **基于混淆电路的MPC协议**：了解混淆电路协议的优化，了解混淆电路协议的安全性证明
++ **基于混淆电路的MPC协议(混淆电路)**：了解混淆电路协议的优化，了解混淆电路协议的安全性证明
   + Mike Rosulek教授讲授的混淆电路的基本思想及其优化[Optimizations to garbled circuits (point-permute, free-XOR, half-gates, arithmetic garbling)](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/2-gc.pdf)
   + Sophia Yakoubov博士的学习笔记[A Gentle Introduction to Yao’s Garbled Circuits](https://web.mit.edu/sonka89/www/papers/2017ygc.pdf)中的第2部分系统地介绍了混淆电路协议的优化
   + Lindell和Pinkas在论文[A Proof of Security of Yao’s Protocol for Two-Party Computation](https://eprint.iacr.org/2004/175.pdf)证明了混淆电路协议的安全性
-+ **基于秘密共享的MPC协议**
-  + SPDZ框架：基于秘密共享和有限同态加密的协议框架
++ **基于秘密共享的MPC协议(布尔电路、算术电路)**
+  + SPDZ框架：基于秘密共享和有限同态加密的协议框架，如[Multiparty Computation from Somewhat Homomorphic Encryption](https://eprint.iacr.org/2011/535)，[Practical Covertly Secure MPC for Dishonest Majority – or: Breaking the SPDZ Limits](https://eprint.iacr.org/2012/642)，[SPDZ2k: Efficient MPC mod 2^k for Dishonest Majority](https://eprint.iacr.org/2018/482)，其中第一篇论文即为经典的SPDZ，即四位作者的姓氏首字母大写组合。
+  + SPDZ框架基本的思想是将协议分为两个阶段：1）预处理阶段，为乘法运算生成乘法三元组；2）在线阶段，进行加法运算和乘法运算。同时，利用消息认证码保证协议的恶意安全性。
+  + 关于SPDZ，可查阅[What is SPDZ? Part 1: MPC Circuit Evaluation Overview](https://bristolcrypto.blogspot.com/2016/10/what-is-spdz-part-1-mpc-circuit.html)，[What is SPDZ? Part 2: Circuit Evaluation](https://bristolcrypto.blogspot.com/2016/10/what-is-spdz-part-2-circuit-evaluation.html)，[What is SPDZ? Part 3: SPDZ specifics](https://bristolcrypto.blogspot.com/2016/11/what-is-spdz-part-3-spdz-specifics.html)
 + **基于同态加密的MPC协议**
-+ **混合协议**
++ **基于混合协议的安全多方计算**
   + ABY系列：基于布尔电路、算术电路和混淆电路的协议框架，包括ABY、ABY3和ABY2.0
 ### **2.5 应用研究**
 + 隐私集合操作(Privacy-Preserving Set Operation)：[多方安全计算热点：隐私保护集合求交技术 (PSI) 分析研究报告](https://anquan.baidu.com/upload/ue/file/20190814/1565763561975581.pdf)
