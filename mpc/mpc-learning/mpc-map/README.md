@@ -79,7 +79,7 @@ MPC协议可以大致分为两类：i) 低延迟协议和 ii) 高吞吐量协议
 + **基于秘密共享的MPC协议(布尔电路、算术电路)**
   + SPDZ框架：基于秘密共享和有限同态加密的协议框架，如[Multiparty Computation from Somewhat Homomorphic Encryption](https://eprint.iacr.org/2011/535)，[Practical Covertly Secure MPC for Dishonest Majority – or: Breaking the SPDZ Limits](https://eprint.iacr.org/2012/642)，[SPDZ2k: Efficient MPC mod 2^k for Dishonest Majority](https://eprint.iacr.org/2018/482)，其中第一篇论文即为经典的SPDZ，即四位作者的姓氏首字母大写组合。
   + SPDZ框架基本的思想是将协议分为两个阶段：1）预处理阶段，为乘法运算生成乘法三元组；2）在线阶段，进行加法运算和乘法运算。同时，利用消息认证码保证协议的恶意安全性。
-  + Ivan Damgård在第5届BIU密码学冬令营上讲授了关于SPDZ的相关内容（slide-part1&part2[http://cyber.biu.ac.il/wp-content/uploads/2017/01/13.pdf]和[video-part1](https://www.youtube.com/watch?v=N80DV3Brds0&list=PLXF_IJaFk-9BFn8M-dsEm5x3-5Cvji3V9&index=12)、[video-part2](https://www.youtube.com/watch?v=Ce45hp24b2E&list=PLXF_IJaFk-9BFn8M-dsEm5x3-5Cvji3V9&index=13)）
+  + Ivan Damgård在第5届BIU密码学冬令营上讲授了关于SPDZ的相关内容（[slide-part1&part2](http://cyber.biu.ac.il/wp-content/uploads/2017/01/13.pdf)和[video-part1](https://www.youtube.com/watch?v=N80DV3Brds0&list=PLXF_IJaFk-9BFn8M-dsEm5x3-5Cvji3V9&index=12)、[video-part2](https://www.youtube.com/watch?v=Ce45hp24b2E&list=PLXF_IJaFk-9BFn8M-dsEm5x3-5Cvji3V9&index=13)）
   + 关于SPDZ，可查阅[What is SPDZ? Part 1: MPC Circuit Evaluation Overview](https://bristolcrypto.blogspot.com/2016/10/what-is-spdz-part-1-mpc-circuit.html)，[What is SPDZ? Part 2: Circuit Evaluation](https://bristolcrypto.blogspot.com/2016/10/what-is-spdz-part-2-circuit-evaluation.html)，[MASCOT: Faster Malicious Arithmetic Secure Computation with Oblivious Transfer](https://eprint.iacr.org/2016/505)，[What is SPDZ? Part 3: SPDZ specifics](https://bristolcrypto.blogspot.com/2016/11/what-is-spdz-part-3-spdz-specifics.html)
 + **基于同态加密的MPC协议**
 + **基于混合协议的安全多方计算**
