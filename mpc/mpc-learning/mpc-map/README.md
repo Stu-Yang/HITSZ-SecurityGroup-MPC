@@ -42,7 +42,7 @@ MPC的基础模块是构件MPC大厦的基础零件，主要包括不经意传�
 + **零知识证明(Zero Knowledge Proof)**：了解零知识证明的相关概念即可，需要注意的是安全多方计算和零知识证明关系密切，在最初的安全多方计算理论研究中，通常利用零知识证明技术来将安全多方计算的半诚实模型扩展到恶意模型
   + 关于零知识证明，在知乎上有一些通俗易懂的讲解：[探索零知识证明系列](https://www.zhihu.com/people/guo-yu-89-75/posts)，Vitaly Shmatikov教授的幻灯片[Introduction to zero-knowledge proofs](https://www.cs.utexas.edu/~shmat/courses/cs380s_fall09/16zk.ppt)也简单介绍了零知识证明
   + 如果想进一步了解可以参考Lindell写的密码学基础教程[Foundations of Cryptography 89-856](https://u.cs.biu.ac.il/~lindell/89-856/main-89-856.pdf)第5章到第8章
-  + 关于系统学习零知识证明，请参考[zero-knowledge-proof](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/zero-knowledge-proof)
+  + 关于系统学习零知识证明，请参考[zero-knowledge-proof](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/miscellaneous/zero-knowledge-proof)
 + **同态加密(Homomorphic Encryption)**：了解同态加密的相关概念即可
   + 如果是只研究安全多方计算，对于同态加密不作深入研究的话，只需要在论文阅读、课题研究中遇到了同态加密后再进行学习。关于同态加密的学习路线，可参见[全同态加密学习路线](https://zhuanlan.zhihu.com/p/346531595)以及相关博客
   
