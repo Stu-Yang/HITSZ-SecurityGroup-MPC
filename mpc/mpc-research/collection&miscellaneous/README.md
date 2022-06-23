@@ -64,3 +64,6 @@
 + [High-Precision Privacy-Preserving Real-Valued Function Evaluation](https://eprint.iacr.org/2017/1234)
   + 作者：Christina Boura, Ilaria Chillotti, Nicolas Gama, Dimitar Jetchev, Stanislav Peceny, and Alexander Petric
   + 主要内容：提出了一种新颖的多方计算协议来评估具有高数值精度的连续实值函数。
++ [Secure Computation from Elastic Noisy Channels](https://eprint.iacr.org/2016/497.pdf)
+  + 作者：Dakshita Khurana, Hemanta K. Maji, and Amit Sahai
+  + 主要内容：考虑带噪声信道的安全多方计算
