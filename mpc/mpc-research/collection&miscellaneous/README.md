@@ -73,6 +73,7 @@
   + [Slide](https://asiaccs2022.conferenceservice.jp/doc/1K-1_slide.pdf)
 + [Cloud Computing Security: Foundations and Research Directions](https://www.nowpublishers.com/article/Details/SEC-028)
   + 作者&机构：By Anrin Chakraborti, Duke University, USA, anrin.chakraborti@duke.edu | Reza Curtmola, New Jersey Institute of Technology, USA, reza.curtmola@njit.edu | Jonathan Katz, University of Maryland, USA, jkatz@cs.umd.edu | Jason Nieh, Columbia University, USA, nieh@cs.columbia.edu | Ahmad-Reza Sadeghi, Technische Universität Darmstadt, Germany, ahmad.sadeghi@trust.tu-darmstadt.de | Radu Sion, Stony Brook University, USA, sion@cs.stonybrook.edu | Yinqian Zhang, Southern University of Science and Technology, China, yinqianz@acm.org
-
-
++ [Global-Scale Secure Multiparty Computation](https://eprint.iacr.org/2017/189.pdf)
+  + 作者&机构：Xiao Wang, Samuel Ranellucci, and Jonathan Katz
+  + 主要内容：We propose a new, constant-round protocol for multi-party computation of boolean circuits that is secure against an arbitrary number of malicious corruptions.
 
