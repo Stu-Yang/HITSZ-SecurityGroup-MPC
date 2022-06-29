@@ -67,3 +67,7 @@
 + [Secure Computation from Elastic Noisy Channels](https://eprint.iacr.org/2016/497.pdf)
   + 作者：Dakshita Khurana, Hemanta K. Maji, and Amit Sahai
   + 主要内容：考虑带噪声信道的安全多方计算
++ [New Multiparty Computational Model: From Nakamoto to YOSO]()
+  + 作者&机构：Tal Rabin (UPenn and Algorand Foundation)
+  + 主要内容：提出了一个安全多方计算新模型
+  + [Slide](https://asiaccs2022.conferenceservice.jp/doc/1K-1_slide.pdf)
