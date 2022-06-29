@@ -71,3 +71,8 @@
   + 作者&机构：Tal Rabin (UPenn and Algorand Foundation)
   + 主要内容：提出了一个安全多方计算新模型
   + [Slide](https://asiaccs2022.conferenceservice.jp/doc/1K-1_slide.pdf)
++ [Cloud Computing Security: Foundations and Research Directions](https://www.nowpublishers.com/article/Details/SEC-028)
+  + 作者&机构：By Anrin Chakraborti, Duke University, USA, anrin.chakraborti@duke.edu | Reza Curtmola, New Jersey Institute of Technology, USA, reza.curtmola@njit.edu | Jonathan Katz, University of Maryland, USA, jkatz@cs.umd.edu | Jason Nieh, Columbia University, USA, nieh@cs.columbia.edu | Ahmad-Reza Sadeghi, Technische Universität Darmstadt, Germany, ahmad.sadeghi@trust.tu-darmstadt.de | Radu Sion, Stony Brook University, USA, sion@cs.stonybrook.edu | Yinqian Zhang, Southern University of Science and Technology, China, yinqianz@acm.org
+
+
+
