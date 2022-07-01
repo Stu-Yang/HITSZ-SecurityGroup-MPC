@@ -1,6 +1,6 @@
 # 现代密码学
 
-密码学学习
+## 密码学学习
 
 + [William Stallings](http://williamstallings.com/)编写的关于密码编码学入门教材
   + [密码编码学与网络安全：原理与实践](http://williamstallings.com/Cryptography/)：概该书前半部分详细介绍了古典密码学、现代密码学（对称加密和公钥加密）以及一些前沿主题
@@ -13,3 +13,8 @@
   + [Foundations of Cryptography：Volume 2 - Basic Applications](https://www.wisdom.weizmann.ac.il/~oded/foc-vol2.html)：介绍了密码学的基本应用，包括加密方案、数字签名与消息认证码、安全多方计算
 + Oded Goldreich教授的学生们为致敬Oded Goldreich而撰写的有关高级密码学理论和计算复杂性的专题教材
   + [Tutorials on the Foundations of Cryptography : Dedicated to Oded Goldreich](https://www.wisdom.weizmann.ac.il/~oded/MC/219.html)：该书涵盖了当前密码学的几大分支领域：安全多方计算中的乱码电路、公钥密码学、伪随机函数、单向函数、同态加密、仿真证明技术、差分隐私
+
+
+## 课题组密码学学习资源
+
+[密码学的优秀学习资源](https://docs.qq.com/doc/DRGhsR0tuTExwUkFq)
