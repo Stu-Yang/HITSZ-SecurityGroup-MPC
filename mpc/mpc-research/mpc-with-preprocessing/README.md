@@ -5,4 +5,47 @@
 
 ## 相关论文
 
-+ 
++ [BDOZ11]Semi-Homomorphic Encryption and Multiparty Computation
+  + Rikke Bendlin, Ivan Damgård, Claudio Orlandi, and Sarah Zakarias
+  + [eprint](https://eprint.iacr.org/2010/514)
++ [BGI19]Secure computation with preprocessing via function secret sharing
+  + Elette Boyle, Niv Gilboa, and Yuval Ishai
+  + [eprint](https://eprint.iacr.org/2019/1095)
++ [CDE+18]SPDZ2^k:efficient MPC mod 2^k for dishonest majority
+  + Ronald Cramer, Ivan Damgård, Daniel Escudero, Peter Scholl, and Chaoping Xing
+  + [eprint](https://eprint.iacr.org/2018/482)
++ [DKL+13]Practical Covertly Secure MPC for Dishonest Majority – or: Breaking the SPDZ Limits
+  + Ivan Damgard, Marcel Keller, Enrique Larraia, Valerio Pastro, Peter Scholl, and Nigel P. Smart
+  + [eprint](https://eprint.iacr.org/2012/642)
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
+
+
+
+
+
+
+
+
+
+
+
