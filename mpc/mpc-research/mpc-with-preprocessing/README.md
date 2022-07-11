@@ -63,14 +63,24 @@
 + [BDTZ16]Better Preprocessing for Secure Multiparty Computation
   + Carsten Baum, Ivan Damgård, Tomas Toft, and Rasmus Zakarias
   + [eprint](https://eprint.iacr.org/2016/048)
++ [ORS21]On the Bottleneck Complexity of MPC with Correlated Randomness
+  + Claudio Orlandi, Divya Ravi, and Peter Scholl
+  + [eprint](https://eprint.iacr.org/2021/1594)
 + []
   + 
   + [eprint]()
-
-
-
-
-
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
 
 
 
