@@ -3,7 +3,7 @@
 
 在预处理模型（Preprocessing Model）中，协议被分为预处理阶段（Preprocessing Phase）和在线阶段（Online Phase）。在预处理阶段（也称为设置阶段（Setup Phase）、离线阶段（Offline Phase）），各个参与方共同运行一个与数据独立安全协议来产生相关随机性（correlated randomness），这些相关值可以辅助完成计算任务；在线阶段则利用预处理阶段提供的相关值，基于参与方的数据来计算功能函数。这种基于预处理模型的两阶段协议的优点在于将在线阶段的大量计算移到预处理阶段，从而使得在线阶段的效率较高，由于在预处理阶段不需要知道参与者的输入，因此预处理阶段可以在目标计算任务之前的任何时间执行。
 
-## correlated randomness
+## 1. correlated randomness
 
 + [Explanation of correlated randomness](https://crypto.stackexchange.com/questions/58259/explanation-of-correlated-randomness-for-garbled-circuits)
   + 从high-level的角度来介绍相关随机性
@@ -11,7 +11,9 @@
   + 关于TinyOT的介绍，里面对于基于相关随机性范式有详细地介绍
 + 1
 
-## 相关论文
+## 2. 相关论文
+
+### 2.1 理论研究
 
 + [BDOZ11]Semi-Homomorphic Encryption and Multiparty Computation
   + Rikke Bendlin, Ivan Damgård, Claudio Orlandi, and Sarah Zakarias
@@ -58,6 +60,8 @@
   + [eprint](https://eprint.iacr.org/2022/261)
 + [BCG+19]Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation
   + Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, Peter Rindal, and Peter Scholl
+  + [slides](https://simons.berkeley.edu/sites/default/files/docs/15517/mpcwithsilentpreprocessing.pdf)
+  + [slides](https://u.cs.biu.ac.il/~lindell/TPMPC2019/Peter_Scholl_TPMPC2019.pdf)
   + [eprint](https://eprint.iacr.org/2019/1159)
 + [BCG+19]Efficient Pseudorandom Correlation Generators: Silent OT Extension and More
   + Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, and Peter Scholl
@@ -92,6 +96,9 @@
   + Geoffroy Couteau
   + [slide](https://geoffroycouteau.github.io/assets/slides/presentation_corrmpc_ec2019.pdf)
   + [eprint](https://eprint.iacr.org/2018/465)
++ [LPS15]Efficient Constant Round Multi-Party Computation Combining BMR and SPDZ
+  + Yehuda Lindell, Benny Pinkas, Nigel P. Smart, and Avishay Yanai
+  + [eprint](https://eprint.iacr.org/2015/523)
 + []
   + 
   + [eprint]()
@@ -125,6 +132,12 @@
 + []
   + 
   + [eprint]()
+
+
+### 2.2 应用研究
++ [CDN21]High Performance Logistic Regression for Privacy-Preserving Genome Analysis
+  + Martine De Cock, Rafael Dowsley, Anderson C. A. Nascimento, Davis Railsback, Jianwei Shen, and Ariel Todoki
+  + [eprint](https://eprint.iacr.org/2020/171)
 + []
   + 
   + [eprint]()
