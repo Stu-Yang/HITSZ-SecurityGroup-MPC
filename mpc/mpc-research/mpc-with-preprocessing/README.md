@@ -100,6 +100,9 @@
 + [BCG+20]Efficient Pseudorandom Correlation Generators from Ring-LPN
   + Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl & Peter Scholl 
   + [Springer](https://link.springer.com/chapter/10.1007/978-3-030-56880-1_14)
++ [Keller20] MP-SPDZ: A Versatile Framework for Multi-Party Computation
+  + Marcel Keller
+  + [eprint](https://eprint.iacr.org/2020/521)
 + [BGIN21]Sublinear GMW-Style Compiler for MPC with Preprocessing
   + Elette Boyle, Niv Gilboa, Yuval Ishai, and Ariel Nof
   + [eprint](https://eprint.iacr.org/2022/261)
