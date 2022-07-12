@@ -139,12 +139,12 @@
 + [CDN21]High Performance Logistic Regression for Privacy-Preserving Genome Analysis
   + Martine De Cock, Rafael Dowsley, Anderson C. A. Nascimento, Davis Railsback, Jianwei Shen, and Ariel Todoki
   + [eprint](https://eprint.iacr.org/2020/171)
-+ []
-  + 
-  + [eprint]()
-+ []
-  + 
-  + [eprint]()
++ [BD19]Optimal-Round Preprocessing-MPC via Polynomial Representation and Distributed Random Matrix
+  + Dor Bitan and Shlomi Dolev
+  + [eprint](https://eprint.iacr.org/2019/1024)
++ [RRKK22]Arithmetic Tuples for MPC
+  + Pascal Reisert, University of Stuttgart; Marc Rivinius, University of Stuttgart; Toomas Krips, University of Tartu; Ralf Kuesters, University of Stuttgart
+  + [eprint](https://eprint.iacr.org/2022/667)
 
 
 
