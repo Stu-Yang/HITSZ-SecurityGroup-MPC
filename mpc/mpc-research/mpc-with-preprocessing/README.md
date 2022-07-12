@@ -23,49 +23,63 @@
 
 ### 2.1 理论研究
 
++ [Beaver91]Efficient Multiparty Protocols Using Circuit Randomization
+  + Donald Beaver 
+  + [Springer](https://link.springer.com/chapter/10.1007/3-540-46766-1_34)
 + [BDOZ11]Semi-Homomorphic Encryption and Multiparty Computation
   + Rikke Bendlin, Ivan Damgård, Claudio Orlandi, and Sarah Zakarias
   + [eprint](https://eprint.iacr.org/2010/514)
-+ [BGI19]Secure computation with preprocessing via function secret sharing
-  + Elette Boyle, Niv Gilboa, and Yuval Ishai
-  + [eprint](https://eprint.iacr.org/2019/1095)
-+ [CDE+18]SPDZ2^k:efficient MPC mod 2^k for dishonest majority
-  + Ronald Cramer, Ivan Damgård, Daniel Escudero, Peter Scholl, and Chaoping Xing
-  + [eprint](https://eprint.iacr.org/2018/482)
++ [NNO+12]A New Approach to Practical Active-Secure Two-Party Computation
+  + Jesper Buus Nielsen, Peter Sebastian Nordholt, Claudio Orlandi, and Sai Sheshank Burra
+  + [eprint](https://eprint.iacr.org/2011/091)
++ [SPDZ12]Multiparty Computation from Somewhat Homomorphic Encryption
+  + I. Damgard, V. Pastro, N. P. Smart, and S. Zakarias
+  + [eprint](https://eprint.iacr.org/2011/535)
 + [DKL+13]Practical Covertly Secure MPC for Dishonest Majority – or: Breaking the SPDZ Limits
   + Ivan Damgard, Marcel Keller, Enrique Larraia, Valerio Pastro, Peter Scholl, and Nigel P. Smart
   + [eprint](https://eprint.iacr.org/2012/642)
   + SPDZ-2
-+ [DNN+17]Gate-scrambling Revisited - or: The TinyTable protocol for 2-Party Secure Computation
-  + Ivan Damgård, Jesper Buus Nielsen, Michael Nielsen, and Samuel Ranellucci
-  + [eprint](https://eprint.iacr.org/2016/695)
-+ [SPDZ12]Multiparty Computation from Somewhat Homomorphic Encryption
-  + I. Damgard, V. Pastro, N. P. Smart, and S. Zakarias
-  + [eprint](https://eprint.iacr.org/2011/535)
 + [DZ13]Constant-Overhead Secure Computation of Boolean Circuits using Preprocessing
   + Ivan Damgard and Sarah Zakarias
   + [eprint](https://eprint.iacr.org/2012/512)
 + [IKM+13]On the Power of Correlated Randomness in Secure Computation
   + Yuval Ishai, Eyal Kushilevitz, Sigurd Meldgaard, Claudio Orlandi & Anat Paskin-Cherniavsky 
   + [Springer](https://link.springer.com/chapter/10.1007/978-3-642-36594-2_34)
-+ [NNO+12]A New Approach to Practical Active-Secure Two-Party Computation
-  + Jesper Buus Nielsen, Peter Sebastian Nordholt, Claudio Orlandi, and Sai Sheshank Burra
-  + [eprint](https://eprint.iacr.org/2011/091)
-+ [Beaver91]Efficient Multiparty Protocols Using Circuit Randomization
-  + Donald Beaver 
-  + [Springer](https://link.springer.com/chapter/10.1007/3-540-46766-1_34)
++ [DNPR15]On the Communication required for Unconditionally Secure Multiplication
+  + Ivan Damgård, Jesper Buus Nielsen, Antigoni Polychroniadou, and Michael Raskin
+  + [eprint](https://eprint.iacr.org/2015/1097)
++ [HIJ+15]Secure Multiparty Computation with General Interaction Patterns
+  + Shai Halevi, Yuval Ishai, Abhishek Jain, Eyal Kushilevitz, and Tal Rabin
+  + [Reusable Correlated Randomness in the CRS Model](https://1library.net/article/reusable-correlated-randomness-in-the-crs-model.zp2rn47y)
+  + [eprint](https://eprint.iacr.org/2015/1173)
++ [LPS15]Efficient Constant Round Multi-Party Computation Combining BMR and SPDZ
+  + Yehuda Lindell, Benny Pinkas, Nigel P. Smart, and Avishay Yanai
+  + [eprint](https://eprint.iacr.org/2015/523)
 + [KOS16]MASCOT: Faster Malicious Arithmetic Secure Computation with Oblivious Transfer
   + Marcel Keller, Emmanuela Orsini, and Peter Scholl
   + [eprint](https://eprint.iacr.org/2016/505)
++ [BDTZ16]Better Preprocessing for Secure Multiparty Computation
+  + Carsten Baum, Ivan Damgård, Tomas Toft, and Rasmus Zakarias
+  + [eprint](https://eprint.iacr.org/2016/048)
++ [DNN+17]Gate-scrambling Revisited - or: The TinyTable protocol for 2-Party Secure Computation
+  + Ivan Damgård, Jesper Buus Nielsen, Michael Nielsen, and Samuel Ranellucci
+  + [eprint](https://eprint.iacr.org/2016/695)
++ [HIJ17]Non-Interactive Multiparty Computation without Correlated Randomness
+  + Shai Halevi, Yuval Ishai, Abhishek Jain, Ilan Komargodski, Amit Sahai, and Eylon Yogev
+  + [eprint](https://eprint.iacr.org/2017/871)
++ [SSW17]When It’s All Just Too Much: Outsourcing MPC-Preprocessing
+  + Peter Scholl, Nigel P. Smart, and Tim Wood
+  + [eprint](https://eprint.iacr.org/2017/262)
++ [CDE+18]SPDZ2^k:efficient MPC mod 2^k for dishonest majority
+  + Ronald Cramer, Ivan Damgård, Daniel Escudero, Peter Scholl, and Chaoping Xing
+  + [eprint](https://eprint.iacr.org/2018/482)
++ [Couteau18]A Note on the Communication Complexity of Multiparty Computation in the Correlated Randomness Model
+  + Geoffroy Couteau
+  + [slide](https://geoffroycouteau.github.io/assets/slides/presentation_corrmpc_ec2019.pdf)
+  + [eprint](https://eprint.iacr.org/2018/465)
 + [KPR18]Overdrive: Making SPDZ Great Again
   + Marcel Keller, Valerio Pastro, and Dragos Rotaru
   + [eprint](https://eprint.iacr.org/2017/1230)
-+ [CRFG19]MonZa: Fast Maliciously Secure Two Party Computation on Z_{2^k}
-  + Dario Catalano, Mario Di Raimondo, Dario Fiore, and Irene Giacomelli
-  + [eprint](https://eprint.iacr.org/2019/211)
-+ [BGIN21]Sublinear GMW-Style Compiler for MPC with Preprocessing
-  + Elette Boyle, Niv Gilboa, Yuval Ishai, and Ariel Nof
-  + [eprint](https://eprint.iacr.org/2022/261)
 + [BCG+19]Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation
   + Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, Peter Rindal, and Peter Scholl
   + [slides](https://simons.berkeley.edu/sites/default/files/docs/15517/mpcwithsilentpreprocessing.pdf)
@@ -74,50 +88,36 @@
 + [BCG+19]Efficient Pseudorandom Correlation Generators: Silent OT Extension and More
   + Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, and Peter Scholl
   + [eprint](https://eprint.iacr.org/2019/448)
++ [BGI19]Secure computation with preprocessing via function secret sharing
+  + Elette Boyle, Niv Gilboa, and Yuval Ishai
+  + [eprint](https://eprint.iacr.org/2019/1095)
++ [CRFG19]MonZa: Fast Maliciously Secure Two Party Computation on Z_{2^k}
+  + Dario Catalano, Mario Di Raimondo, Dario Fiore, and Irene Giacomelli
+  + [eprint](https://eprint.iacr.org/2019/211)
++ [DLN19]Communication Lower Bounds for Statistically Secure MPC, with or without Preprocessing
+  + Ivan Damgård, Kasper Green Larsen, and Jesper Buus Nielsen
+  + [eprint](https://eprint.iacr.org/2019/220)
 + [BCG+20]Efficient Pseudorandom Correlation Generators from Ring-LPN
   + Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl & Peter Scholl 
   + [Springer](https://link.springer.com/chapter/10.1007/978-3-030-56880-1_14)
-+ [BGIN22]Secure Multiparty Computation with Sublinear Preprocessing
-  + Elette Boyle, Niv Gilboa, Yuval Ishai & Ariel Nof 
-  + [Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_15)
-+ [BDTZ16]Better Preprocessing for Secure Multiparty Computation
-  + Carsten Baum, Ivan Damgård, Tomas Toft, and Rasmus Zakarias
-  + [eprint](https://eprint.iacr.org/2016/048)
-+ [ORS21]On the Bottleneck Complexity of MPC with Correlated Randomness
-  + Claudio Orlandi, Divya Ravi, and Peter Scholl
-  + [eprint](https://eprint.iacr.org/2021/1594)
-+ [HIJ17]Non-Interactive Multiparty Computation without Correlated Randomness
-  + Shai Halevi, Yuval Ishai, Abhishek Jain, Ilan Komargodski, Amit Sahai, and Eylon Yogev
-  + [eprint](https://eprint.iacr.org/2017/871)
++ [BGIN21]Sublinear GMW-Style Compiler for MPC with Preprocessing
+  + Elette Boyle, Niv Gilboa, Yuval Ishai, and Ariel Nof
+  + [eprint](https://eprint.iacr.org/2022/261)
 + [LZZ21]Correlated Randomness Teleportation via Semi-trusted Hardware – Enabling Silent Multi-party computation
   + 浙大隐私计算团队
   + Yibiao Lu, Bingsheng Zhang, Hong-Sheng Zou, Weiran Liu, Lei Zhang, **Kui Ren**
   + Proceedings of the 26th European Symposium on Research in Computer Security(ESORICS 2021)
   + [eprint](https://eprint.iacr.org/2020/1259)
-+ [DNPR]On the Communication required for Unconditionally Secure Multiplication
-  + Ivan Damgård, Jesper Buus Nielsen, Antigoni Polychroniadou, and Michael Raskin
-  + [eprint](https://eprint.iacr.org/2015/1097)
-+ [DLN]Communication Lower Bounds for Statistically Secure MPC, with or without Preprocessing
-  + Ivan Damgård, Kasper Green Larsen, and Jesper Buus Nielsen
-  + [eprint](https://eprint.iacr.org/2019/220)
-+ [Couteau18]A Note on the Communication Complexity of Multiparty Computation in the Correlated Randomness Model
-  + Geoffroy Couteau
-  + [slide](https://geoffroycouteau.github.io/assets/slides/presentation_corrmpc_ec2019.pdf)
-  + [eprint](https://eprint.iacr.org/2018/465)
-+ [LPS15]Efficient Constant Round Multi-Party Computation Combining BMR and SPDZ
-  + Yehuda Lindell, Benny Pinkas, Nigel P. Smart, and Avishay Yanai
-  + [eprint](https://eprint.iacr.org/2015/523)
-+ [HIJ+15]Secure Multiparty Computation with General Interaction Patterns
-  + Shai Halevi, Yuval Ishai, Abhishek Jain, Eyal Kushilevitz, and Tal Rabin
-  + [Reusable Correlated Randomness in the CRS Model](https://1library.net/article/reusable-correlated-randomness-in-the-crs-model.zp2rn47y)
-  + [eprint](https://eprint.iacr.org/2015/1173)
-+ [SSW17]When It’s All Just Too Much: Outsourcing MPC-Preprocessing
-  + Peter Scholl, Nigel P. Smart, and Tim Wood
-  + [eprint](https://eprint.iacr.org/2017/262)
++ [ORS21]On the Bottleneck Complexity of MPC with Correlated Randomness
+  + Claudio Orlandi, Divya Ravi, and Peter Scholl
+  + [eprint](https://eprint.iacr.org/2021/1594)
 + [BCG+22]Correlated Pseudorandomness from Expand-Accumulate Codes
   + Elette Boyle , IDC Herzliya and NTT Research Israel; Geoffroy Couteau , CNRS, IRIF, Université de Paris; Niv Gilboa , Ben-Gurion University; Yuval Ishai , Technion
 Lisa Kohl , CWI; Nicolas Resch , CWI; Peter Scholl , Aarhus University
   + [eprint](https://iacr.org/cryptodb/data/paper.php?pubkey=32265)
++ [BGIN22]Secure Multiparty Computation with Sublinear Preprocessing
+  + Elette Boyle, Niv Gilboa, Yuval Ishai & Ariel Nof 
+  + [Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_15)
 + []
   + 
   + [eprint]()
@@ -142,30 +142,31 @@ Lisa Kohl , CWI; Nicolas Resch , CWI; Peter Scholl , Aarhus University
 
 
 ### 2.2 应用研究
-+ [CDN21]High Performance Logistic Regression for Privacy-Preserving Genome Analysis
-  + Martine De Cock, Rafael Dowsley, Anderson C. A. Nascimento, Davis Railsback, Jianwei Shen, and Ariel Todoki
-  + [eprint](https://eprint.iacr.org/2020/171)
-+ [BD19]Optimal-Round Preprocessing-MPC via Polynomial Representation and Distributed Random Matrix
-  + Dor Bitan and Shlomi Dolev
-  + [eprint](https://eprint.iacr.org/2019/1024)
-+ [RRKK22]Arithmetic Tuples for MPC
-  + Pascal Reisert, University of Stuttgart; Marc Rivinius, University of Stuttgart; Toomas Krips, University of Tartu; Ralf Kuesters, University of Stuttgart
-  + [eprint](https://eprint.iacr.org/2022/667)
+
 + [JLP15]Preprocessing-Based Verification of Multiparty Protocols with Honest Majority
   + Roman Jagomägis, Peeter Laud, and Alisa Pankova
   + [eprint](https://eprint.iacr.org/2015/674)
 + [NST16]Constant Round Maliciously Secure 2PC with Function-independent Preprocessing using LEGO
   + Jesper Buus Nielsen, Thomas Schneider, and Roberto Trifiletti
   + [eprint](https://eprint.iacr.org/2016/1069)
-+ [SXL20]Privacy-Preserving Deep Learning with SPDZ
-  + Shreya Sharma, Chaoping Xing, Yang Liu
-  + [other](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_3.pdf)
 + [MAT18]Constant-Round Client-Aided Secure Comparison Protocol
   + Hiraku Morita, Nuttapong Attrapadung, Tadanori Teruya, Satsuya Ohata, Koji Nuida & Goichiro Hanaoka 
   + [Springer](https://link.springer.com/chapter/10.1007/978-3-319-98989-1_20)
++ [BD19]Optimal-Round Preprocessing-MPC via Polynomial Representation and Distributed Random Matrix
+  + Dor Bitan and Shlomi Dolev
+  + [eprint](https://eprint.iacr.org/2019/1024)
++ [SXL20]Privacy-Preserving Deep Learning with SPDZ
+  + Shreya Sharma, Chaoping Xing, Yang Liu
+  + [other](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_3.pdf)
 + [BAH21]Outsourcing Secure MPC to Untrusted Cloud Environments with Correctness Verification
   + Oscar Bautista; Kemal Akkaya; Soamar Homsi
   + [eprint](https://ieeexplore.ieee.org/document/9524971)
++ [CDN21]High Performance Logistic Regression for Privacy-Preserving Genome Analysis
+  + Martine De Cock, Rafael Dowsley, Anderson C. A. Nascimento, Davis Railsback, Jianwei Shen, and Ariel Todoki
+  + [eprint](https://eprint.iacr.org/2020/171)
++ [RRKK22]Arithmetic Tuples for MPC
+  + Pascal Reisert, University of Stuttgart; Marc Rivinius, University of Stuttgart; Toomas Krips, University of Tartu; Ralf Kuesters, University of Stuttgart
+  + [eprint](https://eprint.iacr.org/2022/667)
 + []
   + 
   + [eprint]()
@@ -184,18 +185,3 @@ Lisa Kohl , CWI; Nicolas Resch , CWI; Peter Scholl , Aarhus University
 + []
   + 
   + [eprint]()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
