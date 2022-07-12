@@ -3,13 +3,21 @@
 
 在预处理模型（Preprocessing Model）中，协议被分为预处理阶段（Preprocessing Phase）和在线阶段（Online Phase）。在预处理阶段（也称为设置阶段（Setup Phase）、离线阶段（Offline Phase）），各个参与方共同运行一个与数据独立安全协议来产生相关随机性（correlated randomness），这些相关值可以辅助完成计算任务；在线阶段则利用预处理阶段提供的相关值，基于参与方的数据来计算功能函数。这种基于预处理模型的两阶段协议的优点在于将在线阶段的大量计算移到预处理阶段，从而使得在线阶段的效率较高，由于在预处理阶段不需要知道参与者的输入，因此预处理阶段可以在目标计算任务之前的任何时间执行。
 
-## 1. correlated randomness
+## 1. 相关材料
 
 + [Explanation of correlated randomness](https://crypto.stackexchange.com/questions/58259/explanation-of-correlated-randomness-for-garbled-circuits)
   + 从high-level的角度来介绍相关随机性
 + [The TinyOT Protocol Part 1 - Prof. Claudio Orlandi](https://www.youtube.com/watch?v=jJ5d-EUq-DY)
   + 关于TinyOT的介绍，里面对于基于相关随机性范式有详细地介绍
-+ 1
++ [MPC in the Preprocessing Model](https://simons.berkeley.edu/sites/default/files/docs/15669/simons-spdz.pdf)
+  + Homomorphic Encryption in the SPDZ Protocol for MPC
++ [Peter Scholl](https://dblp.org/pid/00/10576.html)
+  + 做安全多方计算的一个大佬，对于预处理模型下的安全多方计算很有研究
+  + Low-Communication Multiparty Triple Generation for SPDZ from Ring-LPN
+  + When It's All Just Too Much: Outsourcing MPC-Preprocessing
+  + SPDZ中的P
+
+
 
 ## 2. 相关论文
 
@@ -103,12 +111,13 @@
   + Shai Halevi, Yuval Ishai, Abhishek Jain, Eyal Kushilevitz, and Tal Rabin
   + [Reusable Correlated Randomness in the CRS Model](https://1library.net/article/reusable-correlated-randomness-in-the-crs-model.zp2rn47y)
   + [eprint](https://eprint.iacr.org/2015/1173)
-+ []
-  + 
-  + [eprint]()
-+ []
-  + 
-  + [eprint]()
++ [SSW17]When It’s All Just Too Much: Outsourcing MPC-Preprocessing
+  + Peter Scholl, Nigel P. Smart, and Tim Wood
+  + [eprint](https://eprint.iacr.org/2017/262)
++ []Correlated Pseudorandomness from Expand-Accumulate Codes
+  + Elette Boyle , IDC Herzliya and NTT Research Israel; Geoffroy Couteau , CNRS, IRIF, Université de Paris; Niv Gilboa , Ben-Gurion University; Yuval Ishai , Technion
+Lisa Kohl , CWI; Nicolas Resch , CWI; Peter Scholl , Aarhus University
+  + [eprint](https://iacr.org/cryptodb/data/paper.php?pubkey=32265)
 + []
   + 
   + [eprint]()
@@ -145,7 +154,36 @@
 + [RRKK22]Arithmetic Tuples for MPC
   + Pascal Reisert, University of Stuttgart; Marc Rivinius, University of Stuttgart; Toomas Krips, University of Tartu; Ralf Kuesters, University of Stuttgart
   + [eprint](https://eprint.iacr.org/2022/667)
-
++ [JLP15]Preprocessing-Based Verification of Multiparty Protocols with Honest Majority
+  + Roman Jagomägis, Peeter Laud, and Alisa Pankova
+  + [eprint](https://eprint.iacr.org/2015/674)
++ [NST16]Constant Round Maliciously Secure 2PC with Function-independent Preprocessing using LEGO
+  + Jesper Buus Nielsen, Thomas Schneider, and Roberto Trifiletti
+  + [eprint](https://eprint.iacr.org/2016/1069)
++ [SXL20]Privacy-Preserving Deep Learning with SPDZ
+  + Shreya Sharma, Chaoping Xing, Yang Liu
+  + [other](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_3.pdf)
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
 
 
 
