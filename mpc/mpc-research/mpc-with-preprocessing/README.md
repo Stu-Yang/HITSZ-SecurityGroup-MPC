@@ -74,6 +74,24 @@
 + [ORS21]On the Bottleneck Complexity of MPC with Correlated Randomness
   + Claudio Orlandi, Divya Ravi, and Peter Scholl
   + [eprint](https://eprint.iacr.org/2021/1594)
++ [HIJ17]Non-Interactive Multiparty Computation without Correlated Randomness
+  + Shai Halevi, Yuval Ishai, Abhishek Jain, Ilan Komargodski, Amit Sahai, and Eylon Yogev
+  + [eprint](https://eprint.iacr.org/2017/871)
++ [LZZ21]Correlated Randomness Teleportation via Semi-trusted Hardware – Enabling Silent Multi-party computation
+  + 浙大隐私计算团队
+  + Yibiao Lu, Bingsheng Zhang, Hong-Sheng Zou, Weiran Liu, Lei Zhang, **Kui Ren**
+  + Proceedings of the 26th European Symposium on Research in Computer Security(ESORICS 2021)
+  + [eprint](https://eprint.iacr.org/2020/1259)
++ [DNPR]On the Communication required for Unconditionally Secure Multiplication
+  + Ivan Damgård, Jesper Buus Nielsen, Antigoni Polychroniadou, and Michael Raskin
+  + [eprint](https://eprint.iacr.org/2015/1097)
++ [DLN]Communication Lower Bounds for Statistically Secure MPC, with or without Preprocessing
+  + Ivan Damgård, Kasper Green Larsen, and Jesper Buus Nielsen
+  + [eprint](https://eprint.iacr.org/2019/220)
++ [Couteau18]A Note on the Communication Complexity of Multiparty Computation in the Correlated Randomness Model
+  + Geoffroy Couteau
+  + [slide](https://geoffroycouteau.github.io/assets/slides/presentation_corrmpc_ec2019.pdf)
+  + [eprint](https://eprint.iacr.org/2018/465)
 + []
   + 
   + [eprint]()
@@ -89,20 +107,30 @@
 + []
   + 
   + [eprint]()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
++ []
+  + 
+  + [eprint]()
 
 
 
