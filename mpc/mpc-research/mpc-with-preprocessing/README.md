@@ -99,9 +99,10 @@
 + [LPS15]Efficient Constant Round Multi-Party Computation Combining BMR and SPDZ
   + Yehuda Lindell, Benny Pinkas, Nigel P. Smart, and Avishay Yanai
   + [eprint](https://eprint.iacr.org/2015/523)
-+ []
-  + 
-  + [eprint]()
++ [HIJ+15]Secure Multiparty Computation with General Interaction Patterns
+  + Shai Halevi, Yuval Ishai, Abhishek Jain, Eyal Kushilevitz, and Tal Rabin
+  + [Reusable Correlated Randomness in the CRS Model](https://1library.net/article/reusable-correlated-randomness-in-the-crs-model.zp2rn47y)
+  + [eprint](https://eprint.iacr.org/2015/1173)
 + []
   + 
   + [eprint]()
