@@ -114,13 +114,10 @@
 + [SSW17]When It’s All Just Too Much: Outsourcing MPC-Preprocessing
   + Peter Scholl, Nigel P. Smart, and Tim Wood
   + [eprint](https://eprint.iacr.org/2017/262)
-+ []Correlated Pseudorandomness from Expand-Accumulate Codes
++ [BCG+22]Correlated Pseudorandomness from Expand-Accumulate Codes
   + Elette Boyle , IDC Herzliya and NTT Research Israel; Geoffroy Couteau , CNRS, IRIF, Université de Paris; Niv Gilboa , Ben-Gurion University; Yuval Ishai , Technion
 Lisa Kohl , CWI; Nicolas Resch , CWI; Peter Scholl , Aarhus University
   + [eprint](https://iacr.org/cryptodb/data/paper.php?pubkey=32265)
-+ []
-  + 
-  + [eprint]()
 + []
   + 
   + [eprint]()
@@ -163,9 +160,12 @@ Lisa Kohl , CWI; Nicolas Resch , CWI; Peter Scholl , Aarhus University
 + [SXL20]Privacy-Preserving Deep Learning with SPDZ
   + Shreya Sharma, Chaoping Xing, Yang Liu
   + [other](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_3.pdf)
-+ []
-  + 
-  + [eprint]()
++ [MAT18]Constant-Round Client-Aided Secure Comparison Protocol
+  + Hiraku Morita, Nuttapong Attrapadung, Tadanori Teruya, Satsuya Ohata, Koji Nuida & Goichiro Hanaoka 
+  + [Springer](https://link.springer.com/chapter/10.1007/978-3-319-98989-1_20)
++ [BAH21]Outsourcing Secure MPC to Untrusted Cloud Environments with Correctness Verification
+  + Oscar Bautista; Kemal Akkaya; Soamar Homsi
+  + [eprint](https://ieeexplore.ieee.org/document/9524971)
 + []
   + 
   + [eprint]()
