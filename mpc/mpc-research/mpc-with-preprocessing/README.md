@@ -26,9 +26,11 @@
 + [Beaver91]Efficient Multiparty Protocols Using Circuit Randomization
   + Donald Beaver 
   + [Springer](https://link.springer.com/chapter/10.1007/3-540-46766-1_34)
+  + 预处理模型最早源于Beaver的工作，Beaver针对BGW协议的复杂乘法运算，提出了乘法三元组的概念（后也称Beaver三元组），用一轮交互便可完成一次乘法运算，大大提高了乘法运算的效率。
 + [DO10]Multiparty Computation for Dishonest Majority: from Passive to Active Security at Low Cost
   + Ivan Damgård and Claudio Orlandi
   + [eprint](https://eprint.iacr.org/2010/318)
+  + Damgård和Orlandi在2010年提出了一个不诚实大多数的恶意安全多方计算协议，并在协议中采用了预处理模型。在该协议中，采用的乘法三元组是带承诺的Beaver三元组，例如$[a],[b],[c]$和$\textsf{Comm}(a),\textsf{Comm}(b),\textsf{Comm}(c)$，并利用Shamir秘密共享来生成乘法三元组，同时用零知识证明来验证三元组的正确性。
 + [BDOZ11]Semi-Homomorphic Encryption and Multiparty Computation
   + Rikke Bendlin, Ivan Damgård, Claudio Orlandi, and Sarah Zakarias
   + [eprint](https://eprint.iacr.org/2010/514)
