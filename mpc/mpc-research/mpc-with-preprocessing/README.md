@@ -26,6 +26,9 @@
 + [Beaver91]Efficient Multiparty Protocols Using Circuit Randomization
   + Donald Beaver 
   + [Springer](https://link.springer.com/chapter/10.1007/3-540-46766-1_34)
++ [DO10]Multiparty Computation for Dishonest Majority: from Passive to Active Security at Low Cost
+  + Ivan Damgård and Claudio Orlandi
+  + [eprint](https://eprint.iacr.org/2010/318)
 + [BDOZ11]Semi-Homomorphic Encryption and Multiparty Computation
   + Rikke Bendlin, Ivan Damgård, Claudio Orlandi, and Sarah Zakarias
   + [eprint](https://eprint.iacr.org/2010/514)
