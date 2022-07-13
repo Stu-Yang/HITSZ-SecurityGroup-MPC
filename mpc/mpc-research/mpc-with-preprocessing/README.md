@@ -27,6 +27,9 @@
   + Donald Beaver 
   + [Springer](https://link.springer.com/chapter/10.1007/3-540-46766-1_34)
   + 预处理模型最早源于Beaver的工作，Beaver针对BGW协议的复杂乘法运算，提出了乘法三元组的概念（后也称Beaver三元组），用一轮交互便可完成一次乘法运算，大大提高了乘法运算的效率。
++ [DGKN08]Asynchronous Multiparty Computation: Theory and Implementation
+  + Ivan Damgård, Martin Geisler, Mikkel Krøigaard, and Jesper Buus Nielsen
+  + [eprint](https://eprint.iacr.org/2008/415)
 + [DO10]Multiparty Computation for Dishonest Majority: from Passive to Active Security at Low Cost
   + Ivan Damgård and Claudio Orlandi
   + [eprint](https://eprint.iacr.org/2010/318)
@@ -34,16 +37,19 @@
 + [BDOZ11]Semi-Homomorphic Encryption and Multiparty Computation
   + Rikke Bendlin, Ivan Damgård, Claudio Orlandi, and Sarah Zakarias
   + [eprint](https://eprint.iacr.org/2010/514)
+  + Bendlin等人在2011年提出的BDOZ协议利用部分同态加密（Somewhat Homomorphic Encryption，SHE）生成乘法三元组，而且不再基于离散对数问题的困难性（hardness of discrete logarithms），仅仅依赖于Paillier encryption的安全性。不过，BDOZ协议依然使用零知识证明协议来验证乘法三元组的正确性。
 + [NNO+12]A New Approach to Practical Active-Secure Two-Party Computation
   + Jesper Buus Nielsen, Peter Sebastian Nordholt, Claudio Orlandi, and Sai Sheshank Burra
   + [eprint](https://eprint.iacr.org/2011/091)
+  + Nielsen等人在2012年提出了一个基于OT协议的恶意安全两方计算协议。
 + [SPDZ12]Multiparty Computation from Somewhat Homomorphic Encryption
   + I. Damgard, V. Pastro, N. P. Smart, and S. Zakarias
   + [eprint](https://eprint.iacr.org/2011/535)
+  + SPDZ-1协议
 + [DKL+13]Practical Covertly Secure MPC for Dishonest Majority – or: Breaking the SPDZ Limits
   + Ivan Damgard, Marcel Keller, Enrique Larraia, Valerio Pastro, Peter Scholl, and Nigel P. Smart
   + [eprint](https://eprint.iacr.org/2012/642)
-  + SPDZ-2
+  + SPDZ-2协议
 + [DZ13]Constant-Overhead Secure Computation of Boolean Circuits using Preprocessing
   + Ivan Damgard and Sarah Zakarias
   + [eprint](https://eprint.iacr.org/2012/512)
