@@ -45,17 +45,23 @@
 + [SPDZ12]Multiparty Computation from Somewhat Homomorphic Encryption
   + I. Damgard, V. Pastro, N. P. Smart, and S. Zakarias
   + [eprint](https://eprint.iacr.org/2011/535)
-  + SPDZ-1协议
+  + SPDZ-1协议：Damgård等人在2012年基于BDOZ协议的框架，优化了BDOZ协议的可认证秘密共享方案，同时使用部分同态加密（Somewhat
+	Homomorphic Encryption，SHE）来生成乘法三元组，进一步降低了在线阶段的计算复杂度和通信复杂度，使其与参与者数量呈线性关系。
 + [DKL+13]Practical Covertly Secure MPC for Dishonest Majority – or: Breaking the SPDZ Limits
   + Ivan Damgard, Marcel Keller, Enrique Larraia, Valerio Pastro, Peter Scholl, and Nigel P. Smart
   + [eprint](https://eprint.iacr.org/2012/642)
-  + SPDZ-2协议
+  + SPDZ-2协议：Damgård等人在2013年提出了进一步的优化，使得在线阶段可以重用相关随机性，并将部分验证（称为 Sacrificing 步骤）移到离线阶段，提高了在线阶段的性能。
 + [DZ13]Constant-Overhead Secure Computation of Boolean Circuits using Preprocessing
   + Ivan Damgard and Sarah Zakarias
   + [eprint](https://eprint.iacr.org/2012/512)
+  + 在2013年，Damgård和Zakarias提出了计算布尔电路的不诚实大多数恶意安全多方计算协议，称为MiniMAC协议，该协议采用了和BDOZ协议和SPDZ-1协议的在线阶段，但与BDOZ协议和SPDZ-1协议使用消息认证码不同的是，该工作使用基于线性码（Linear Codes）的同态认证（Homomorphic Authentication）方案。
 + [IKM+13]On the Power of Correlated Randomness in Secure Computation
   + Yuval Ishai, Eyal Kushilevitz, Sigurd Meldgaard, Claudio Orlandi & Anat Paskin-Cherniavsky 
   + [Springer](https://link.springer.com/chapter/10.1007/978-3-642-36594-2_34)
+  + Ishai等人在2013年研究了相关随机性能在多大程度上帮助构造不诚实大多数的安全多方计算协议。
++ [KSS13]An architecture for practical actively secure MPC with dishonest majority
+  + Marcel Keller, Peter Scholl, and Nigel P. Smart
+  + [eprint](https://eprint.iacr.org/2013/143)
 + [LOS14]Dishonest Majority Multi-Party Computation for Binary Circuits
   + Enrique Larraia, Emmanuela Orsini, and Nigel P. Smart
   + [eprint](https://eprint.iacr.org/2014/101)
@@ -63,6 +69,10 @@
 + [DNPR15]On the Communication required for Unconditionally Secure Multiplication
   + Ivan Damgård, Jesper Buus Nielsen, Antigoni Polychroniadou, and Michael Raskin
   + [eprint](https://eprint.iacr.org/2015/1097)
+  + 帮助不大
++ [FKOS15]A Unified Approach to MPC with Preprocessing using OT
+  + Tore Kasper Frederiksen, Marcel Keller, Emmanuela Orsini, and Peter Scholl
+  + [eprint](https://eprint.iacr.org/2015/901)
 + [HIJ+15]Secure Multiparty Computation with General Interaction Patterns
   + Shai Halevi, Yuval Ishai, Abhishek Jain, Eyal Kushilevitz, and Tal Rabin
   + [Reusable Correlated Randomness in the CRS Model](https://1library.net/article/reusable-correlated-randomness-in-the-crs-model.zp2rn47y)
@@ -73,6 +83,8 @@
 + [KOS16]MASCOT: Faster Malicious Arithmetic Secure Computation with Oblivious Transfer
   + Marcel Keller, Emmanuela Orsini, and Peter Scholl
   + [eprint](https://eprint.iacr.org/2016/505)
+  + 2016年，Keller等人提出了MASCOT协议来解决有限域上算术电路的安全多方计算任务，其预处理阶段基于相关不经意传输协议（Oblivious
+	 Transfer，OT），而不是经典SPDZ协议采用的部分同态加密技术，其性能相比于SPDZ-2协议提升了两个数量级。
 + [BDTZ16]Better Preprocessing for Secure Multiparty Computation
   + Carsten Baum, Ivan Damgård, Tomas Toft, and Rasmus Zakarias
   + [eprint](https://eprint.iacr.org/2016/048)
@@ -136,9 +148,7 @@ Lisa Kohl , CWI; Nicolas Resch , CWI; Peter Scholl , Aarhus University
 + [BGIN22]Secure Multiparty Computation with Sublinear Preprocessing
   + Elette Boyle, Niv Gilboa, Yuval Ishai & Ariel Nof 
   + [Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_15)
-+ []
-  + 
-  + [eprint]()
+
 + []
   + 
   + [eprint]()
