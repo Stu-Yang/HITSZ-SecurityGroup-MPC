@@ -104,12 +104,15 @@
 + [HIJ17]Non-Interactive Multiparty Computation without Correlated Randomness
   + Shai Halevi, Yuval Ishai, Abhishek Jain, Ilan Komargodski, Amit Sahai, and Eylon Yogev
   + [eprint](https://eprint.iacr.org/2017/871)
+  + 帮助不大
 + [SSW17]When It’s All Just Too Much: Outsourcing MPC-Preprocessing
   + Peter Scholl, Nigel P. Smart, and Tim Wood
   + [eprint](https://eprint.iacr.org/2017/262)
+  + 2017年，Scholl等人也提出优化预处理阶段，其将预处理阶段外包给其他参与方集合以提高预处理阶段的效率。
 + [CDE+18]SPDZ2^k:efficient MPC mod 2^k for dishonest majority
   + Ronald Cramer, Ivan Damgård, Daniel Escudero, Peter Scholl, and Chaoping Xing
   + [eprint](https://eprint.iacr.org/2018/482)
+  + 2018年Cramer等人\cite提出了$\mathbb{F}_{2^k}$上的SPDZ类协议，称为$\texr{SPD}\mathbb{Z}_{2^k}$，该协议采用了SPDZ-1协议的预处理模型，但在预处理阶段使用MASCOT协议的OT技术来实现
 + [Couteau18]A Note on the Communication Complexity of Multiparty Computation in the Correlated Randomness Model
   + Geoffroy Couteau
   + [slide](https://geoffroycouteau.github.io/assets/slides/presentation_corrmpc_ec2019.pdf)
@@ -117,6 +120,8 @@
 + [KPR18]Overdrive: Making SPDZ Great Again
   + Marcel Keller, Valerio Pastro, and Dragos Rotaru
   + [eprint](https://eprint.iacr.org/2017/1230)
+  + 2018年，Keller等人提出SPDZ-Overdrive协议优化了基于SHE的预处理阶段，该协议采用的SHE技术是对加法同态是半同态加密（Semi-Homomorphic
+	Encryption），而不是支持深度为1的乘法的SHE。
 + [BCG+19]Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation
   + Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, Peter Rindal, and Peter Scholl
   + [slides](https://simons.berkeley.edu/sites/default/files/docs/15517/mpcwithsilentpreprocessing.pdf)
@@ -145,7 +150,7 @@
   + [eprint](https://eprint.iacr.org/2022/261)
 + [LZZ21]Correlated Randomness Teleportation via Semi-trusted Hardware – Enabling Silent Multi-party computation
   + 浙大隐私计算团队
-  + Yibiao Lu, Bingsheng Zhang, Hong-Sheng Zou, Weiran Liu, Lei Zhang, **Kui Ren**
+  + Yibiao Lu, Bingsheng Zhang, Hong-Sheng Zou, Weiran Liu, Lei Zhang, Kui Ren
   + Proceedings of the 26th European Symposium on Research in Computer Security(ESORICS 2021)
   + [eprint](https://eprint.iacr.org/2020/1259)
 + [ORS21]On the Bottleneck Complexity of MPC with Correlated Randomness
