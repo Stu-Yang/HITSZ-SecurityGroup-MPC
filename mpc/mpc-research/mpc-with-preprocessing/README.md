@@ -96,9 +96,11 @@
 + [BDTZ16]Better Preprocessing for Secure Multiparty Computation
   + Carsten Baum, Ivan Damgård, Tomas Toft, and Rasmus Zakarias
   + [eprint](https://eprint.iacr.org/2016/048)
-+ [DNN+17]Gate-scrambling Revisited - or: The TinyTable protocol for 2-Party Secure Computation
+  + 2016年，Baum等人基于SPDZ-1协议和SPDZ-2协议设计了更优的预处理阶段，在预处理阶段，该工作基于线性同态加密（Linearly Homomorphic Encryption，LHE）生成乘法三元组，并重新设计了零知识证明协议来验证其正确性。
++ [DNNR17]Gate-scrambling Revisited - or: The TinyTable protocol for 2-Party Secure Computation
   + Ivan Damgård, Jesper Buus Nielsen, Michael Nielsen, and Samuel Ranellucci
   + [eprint](https://eprint.iacr.org/2016/695)
+  + 2016年，Damgård等人提出了一个新的预处理模型下的恶意安全两方计算协议，称为TinyTable。
 + [HIJ17]Non-Interactive Multiparty Computation without Correlated Randomness
   + Shai Halevi, Yuval Ishai, Abhishek Jain, Ilan Komargodski, Amit Sahai, and Eylon Yogev
   + [eprint](https://eprint.iacr.org/2017/871)
