@@ -62,6 +62,9 @@
 + [KSS13]An architecture for practical actively secure MPC with dishonest majority
   + Marcel Keller, Peter Scholl, and Nigel P. Smart
   + [eprint](https://eprint.iacr.org/2013/143)
++ [PUL13]Actively Secure Two-Party Computation: Efficient Beaver Triple Generation
+  + Pille Pullonen
+  + [website](https://sharemind.cyber.ee/files/papers/sharemind_active_security_pullonen_2013.pdf)
 + [LOS14]Dishonest Majority Multi-Party Computation for Binary Circuits
   + Enrique Larraia, Emmanuela Orsini, and Nigel P. Smart
   + [eprint](https://eprint.iacr.org/2014/101)
@@ -70,6 +73,8 @@
   + Ivan Damgård, Jesper Buus Nielsen, Antigoni Polychroniadou, and Michael Raskin
   + [eprint](https://eprint.iacr.org/2015/1097)
   + 帮助不大
++ [DSZ15]ABY - A framework for efficient mixedprotocol secure two-party computation
+  + Daniel Demmler, Thomas Schneider, Michael Zohner
 + [FKOS15]A Unified Approach to MPC with Preprocessing using OT
   + Tore Kasper Frederiksen, Marcel Keller, Emmanuela Orsini, and Peter Scholl
   + [eprint](https://eprint.iacr.org/2015/901)
