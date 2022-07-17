@@ -41,7 +41,7 @@
 + [NNO+12]A New Approach to Practical Active-Secure Two-Party Computation
   + Jesper Buus Nielsen, Peter Sebastian Nordholt, Claudio Orlandi, and Sai Sheshank Burra
   + [eprint](https://eprint.iacr.org/2011/091)
-  + Nielsen等人在2012年提出了一个基于OT协议的恶意安全两方计算协议。
+  + Nielsen等人在2012年提出了一个基于OT协议的恶意安全两方计算协议，称为TinyOT。
 + [SPDZ12]Multiparty Computation from Somewhat Homomorphic Encryption
   + I. Damgard, V. Pastro, N. P. Smart, and S. Zakarias
   + [eprint](https://eprint.iacr.org/2011/535)
@@ -56,6 +56,10 @@
 + [IKM+13]On the Power of Correlated Randomness in Secure Computation
   + Yuval Ishai, Eyal Kushilevitz, Sigurd Meldgaard, Claudio Orlandi & Anat Paskin-Cherniavsky 
   + [Springer](https://link.springer.com/chapter/10.1007/978-3-642-36594-2_34)
++ [LOS14]Dishonest Majority Multi-Party Computation for Binary Circuits
+  + Enrique Larraia, Emmanuela Orsini, and Nigel P. Smart
+  + [eprint](https://eprint.iacr.org/2014/101)
+  + TinyOT的多方版本
 + [DNPR15]On the Communication required for Unconditionally Secure Multiplication
   + Ivan Damgård, Jesper Buus Nielsen, Antigoni Polychroniadou, and Michael Raskin
   + [eprint](https://eprint.iacr.org/2015/1097)
