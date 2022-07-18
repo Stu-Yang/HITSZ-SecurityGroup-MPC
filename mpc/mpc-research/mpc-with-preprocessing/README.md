@@ -58,7 +58,7 @@
 + [IKM+13]On the Power of Correlated Randomness in Secure Computation
   + Yuval Ishai, Eyal Kushilevitz, Sigurd Meldgaard, Claudio Orlandi & Anat Paskin-Cherniavsky 
   + [Springer](https://link.springer.com/chapter/10.1007/978-3-642-36594-2_34)
-  + Ishai等人在2013年研究了相关随机性能在多大程度上帮助构造不诚实大多数的安全多方计算协议。
+  + Ishai等人在2013年研究了相关随机性能在多大程度上帮助构造不诚实大多数的安全多方计算协议，称为OTTT协议。
 + [KSS13]An architecture for practical actively secure MPC with dishonest majority
   + Marcel Keller, Peter Scholl, and Nigel P. Smart
   + [eprint](https://eprint.iacr.org/2013/143)
@@ -113,10 +113,6 @@
   + Ronald Cramer, Ivan Damgård, Daniel Escudero, Peter Scholl, and Chaoping Xing
   + [eprint](https://eprint.iacr.org/2018/482)
   + 2018年Cramer等人\cite提出了$\mathbb{F}_{2^k}$上的SPDZ类协议，称为$\texr{SPD}\mathbb{Z}_{2^k}$，该协议采用了SPDZ-1协议的预处理模型，但在预处理阶段使用MASCOT协议的OT技术来实现
-+ [Couteau18]A Note on the Communication Complexity of Multiparty Computation in the Correlated Randomness Model
-  + Geoffroy Couteau
-  + [slide](https://geoffroycouteau.github.io/assets/slides/presentation_corrmpc_ec2019.pdf)
-  + [eprint](https://eprint.iacr.org/2018/465)
 + [KPR18]Overdrive: Making SPDZ Great Again
   + Marcel Keller, Valerio Pastro, and Dragos Rotaru
   + [eprint](https://eprint.iacr.org/2017/1230)
@@ -133,6 +129,11 @@
 + [BGI19]Secure computation with preprocessing via function secret sharing
   + Elette Boyle, Niv Gilboa, and Yuval Ishai
   + [eprint](https://eprint.iacr.org/2019/1095)
++ [Couteau19]A Note on the Communication Complexity of Multiparty Computation in the Correlated Randomness Model
+  + Geoffroy Couteau
+  + [slide](https://geoffroycouteau.github.io/assets/slides/presentation_corrmpc_ec2019.pdf)
+  + [eprint](https://eprint.iacr.org/2018/465)
+  + 2019年，Couteau基于OTTT协议进一步提出了优化
 + [CRFG19]MonZa: Fast Maliciously Secure Two Party Computation on Z_{2^k}
   + Dario Catalano, Mario Di Raimondo, Dario Fiore, and Irene Giacomelli
   + [eprint](https://eprint.iacr.org/2019/211)
