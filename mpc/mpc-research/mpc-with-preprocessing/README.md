@@ -30,9 +30,10 @@
 + [Bea95]Precomputing Oblivious Transfer
   + Donald Beaver 
   + [springer](https://link.springer.com/chapter/10.1007/3-540-44750-4_8)
-+ [DGKN08]Asynchronous Multiparty Computation: Theory and Implementation
++ [DGKN09]Asynchronous Multiparty Computation: Theory and Implementation
   + Ivan Damgård, Martin Geisler, Mikkel Krøigaard, and Jesper Buus Nielsen
   + [eprint](https://eprint.iacr.org/2008/415)
+  + 2009年，Damgård等人提出了异步网络下的安全多方计算协议，该协议由预处理和输入阶段、计算阶段组成，其中预处理阶段生成乘法三元组，并提出了基于Hyperinvertible Matrices的乘法三元组生成协议和基于Pseudorandom Secret-Sharing的乘法三元组生成协议。
 + [DO10]Multiparty Computation for Dishonest Majority: from Passive to Active Security at Low Cost
   + Ivan Damgård and Claudio Orlandi
   + [eprint](https://eprint.iacr.org/2010/318)
