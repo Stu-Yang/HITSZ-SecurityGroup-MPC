@@ -30,6 +30,9 @@
 + [Bea95]Precomputing Oblivious Transfer
   + Donald Beaver 
   + [springer](https://link.springer.com/chapter/10.1007/3-540-44750-4_8)
++ [DN07]Scalable and Unconditionally Secure Multiparty Computation
+  + Ivan Damgård and Jesper Buus Nielsen
+  + [eprint](https://www.iacr.org/archive/crypto2007/46220565/46220565.pdf)
 + [DGKN09]Asynchronous Multiparty Computation: Theory and Implementation
   + Ivan Damgård, Martin Geisler, Mikkel Krøigaard, and Jesper Buus Nielsen
   + [eprint](https://eprint.iacr.org/2008/415)
@@ -66,9 +69,11 @@
 + [KSS13]An architecture for practical actively secure MPC with dishonest majority
   + Marcel Keller, Peter Scholl, and Nigel P. Smart
   + [eprint](https://eprint.iacr.org/2013/143)
+  + 帮助不大。
 + [PUL13]Actively Secure Two-Party Computation: Efficient Beaver Triple Generation
   + Pille Pullonen
   + [website](https://sharemind.cyber.ee/files/papers/sharemind_active_security_pullonen_2013.pdf)
+  + Pille Pullonen的博士毕业论文
 + [LOS14]Dishonest Majority Multi-Party Computation for Binary Circuits
   + Enrique Larraia, Emmanuela Orsini, and Nigel P. Smart
   + [eprint](https://eprint.iacr.org/2014/101)
