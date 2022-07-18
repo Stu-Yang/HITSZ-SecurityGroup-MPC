@@ -163,21 +163,26 @@
 + [BGIN21]Sublinear GMW-Style Compiler for MPC with Preprocessing
   + Elette Boyle, Niv Gilboa, Yuval Ishai, and Ariel Nof
   + [eprint](https://eprint.iacr.org/2022/261)
+  + 2021年，Boyle等人提供了一个编译器，该编译器可以将任何满足温和的安全和结构要求的预处理模型下的MPC协议（即大多数半诚实安全的标准协议），编译为恶意安全多方计算协议，其中额外的附加存储及在线通信成本和电路大小呈对数关系，从而平衡了在线阶段的通信成本和相关随机性存储代价。
 + [LZZ21]Correlated Randomness Teleportation via Semi-trusted Hardware – Enabling Silent Multi-party computation
   + 浙大隐私计算团队
   + Yibiao Lu, Bingsheng Zhang, Hong-Sheng Zou, Weiran Liu, Lei Zhang, Kui Ren
   + Proceedings of the 26th European Symposium on Research in Computer Security(ESORICS 2021)
   + [eprint](https://eprint.iacr.org/2020/1259)
+  + 2021年浙江大学隐私计算团队的Lu等人将可信执行环境（Trusted Execution Environment，TEE）引入到相关随机性的生成过程，该工作提出半可信硬件模型（Semi-Trusted Hardwares Model），利用半可信硬件（Semi-Trusted Hardwares）来生成混淆电路这种相关随机性，从而提高协议的效率。
 + [ORS21]On the Bottleneck Complexity of MPC with Correlated Randomness
   + Claudio Orlandi, Divya Ravi, and Peter Scholl
   + [eprint](https://eprint.iacr.org/2021/1594)
+  + 2022年，Orlandi等人研究了预处理模型下的MPC协议的瓶颈复杂度（Bottleneck Complexity），该复杂度由Boyle等人提出，衡量了MPC协议中任何一方最大通信复杂度，以提高各方的负载均衡。
 + [BCG+22]Correlated Pseudorandomness from Expand-Accumulate Codes
   + Elette Boyle , IDC Herzliya and NTT Research Israel; Geoffroy Couteau , CNRS, IRIF, Université de Paris; Niv Gilboa , Ben-Gurion University; Yuval Ishai , Technion
 Lisa Kohl , CWI; Nicolas Resch , CWI; Peter Scholl , Aarhus University
   + [eprint](https://iacr.org/cryptodb/data/paper.php?pubkey=32265)
+  + 2022年，Boyle等人基于Expand-Accumulate Codes设计了新的PCG构造方案，通信代价更低。
 + [BGIN22]Secure Multiparty Computation with Sublinear Preprocessing
   + Elette Boyle, Niv Gilboa, Yuval Ishai & Ariel Nof 
   + [Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_15)
+  + 在2022年，Boyle等人基于工作[BGIN21]Sublinear GMW-Style Compiler for MPC with Preprocessing实现了预处理模型下的MPC协议的亚线性预处理阶段（Sublinear Preprocessing），其离线阶段的通信和电路大小呈亚线性关系。
 + []
   + 
   + [eprint]()
@@ -212,6 +217,7 @@ Lisa Kohl , CWI; Nicolas Resch , CWI; Peter Scholl , Aarhus University
 + [BD19]Optimal-Round Preprocessing-MPC via Polynomial Representation and Distributed Random Matrix
   + Dor Bitan and Shlomi Dolev
   + [eprint](https://eprint.iacr.org/2019/1024)
+  + 2022年，Bitan等人针对高阶多项式提出了第一个预处理模型MPC协议，其有最优的轮复杂度。
 + [SXL20]Privacy-Preserving Deep Learning with SPDZ
   + Shreya Sharma, Chaoping Xing, Yang Liu
   + [other](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_3.pdf)
