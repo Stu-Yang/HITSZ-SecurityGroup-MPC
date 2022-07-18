@@ -23,10 +23,13 @@
 
 ### 2.1 理论研究
 
-+ [Beaver91]Efficient Multiparty Protocols Using Circuit Randomization
++ [Bea91]Efficient Multiparty Protocols Using Circuit Randomization
   + Donald Beaver 
   + [Springer](https://link.springer.com/chapter/10.1007/3-540-46766-1_34)
   + 预处理模型最早源于Beaver的工作，Beaver针对BGW协议的复杂乘法运算，提出了乘法三元组的概念（后也称Beaver三元组），用一轮交互便可完成一次乘法运算，大大提高了乘法运算的效率。
++ [Bea95]Precomputing Oblivious Transfer
+  + Donald Beaver 
+  + [springer](https://link.springer.com/chapter/10.1007/3-540-44750-4_8)
 + [DGKN08]Asynchronous Multiparty Computation: Theory and Implementation
   + Ivan Damgård, Martin Geisler, Mikkel Krøigaard, and Jesper Buus Nielsen
   + [eprint](https://eprint.iacr.org/2008/415)
@@ -109,6 +112,10 @@
   + Peter Scholl, Nigel P. Smart, and Tim Wood
   + [eprint](https://eprint.iacr.org/2017/262)
   + 2017年，Scholl等人也提出优化预处理阶段，其将预处理阶段外包给其他参与方集合以提高预处理阶段的效率。
++ [BCGI18]Compressing Vector OLE
+  + Elette Boyle, Geoffroy Couteau, Niv Gilboa, and Yuval Ishai
+  + [eprint](https://eprint.iacr.org/2019/273)
+  + 2018年，Boyle等人从一种新的角度看待相关随机性，与BDOZ协议和SPDZ类协议将相关随机性看成乘法三元组，该工作利用伪随机相关生成器（Pseudorandom Correlation Generator）来获得一对相同的秘密随机串（Secret Random Strings），并构造了VOLE（Vector Oblivious Transfer Evaluation）相关生成器，从而获得更优的预处理模型。
 + [CDE+18]SPDZ2^k:efficient MPC mod 2^k for dishonest majority
   + Ronald Cramer, Ivan Damgård, Daniel Escudero, Peter Scholl, and Chaoping Xing
   + [eprint](https://eprint.iacr.org/2018/482)
@@ -118,17 +125,20 @@
   + [eprint](https://eprint.iacr.org/2017/1230)
   + 2018年，Keller等人提出SPDZ-Overdrive协议优化了基于SHE的预处理阶段，该协议采用的SHE技术是对加法同态是半同态加密（Semi-Homomorphic
 	Encryption），而不是支持深度为1的乘法的SHE。
++ [BCG+19]Efficient Pseudorandom Correlation Generators: Silent OT Extension and More
+  + Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, and Peter Scholl
+  + [eprint](https://eprint.iacr.org/2019/448)
+  + Boyle等人在2019年则对PCG进行了系统的研究，并提出了针对MPC相关性的构造协议。
 + [BCG+19]Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation
   + Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, Peter Rindal, and Peter Scholl
   + [slides](https://simons.berkeley.edu/sites/default/files/docs/15517/mpcwithsilentpreprocessing.pdf)
   + [slides](https://u.cs.biu.ac.il/~lindell/TPMPC2019/Peter_Scholl_TPMPC2019.pdf)
   + [eprint](https://eprint.iacr.org/2019/1159)
-+ [BCG+19]Efficient Pseudorandom Correlation Generators: Silent OT Extension and More
-  + Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl, and Peter Scholl
-  + [eprint](https://eprint.iacr.org/2019/448)
+  + 针对[BCGI18]Compressing Vector OLE和[BCG+19]Efficient Pseudorandom Correlation Generators: Silent OT Extension and More的需要较多的通信轮数，并且只能保证半诚实安全问题，该工作解决了这些问题。
 + [BGI19]Secure computation with preprocessing via function secret sharing
   + Elette Boyle, Niv Gilboa, and Yuval Ishai
   + [eprint](https://eprint.iacr.org/2019/1095)
+  + 2019年，Boyle等人进一步地优化了TinyTable协议，该工作基于函数秘密共享（Function Secret Sharing，FSS）实现了预处理模型下的半诚实安全两方计算协议。
 + [Couteau19]A Note on the Communication Complexity of Multiparty Computation in the Correlated Randomness Model
   + Geoffroy Couteau
   + [slide](https://geoffroycouteau.github.io/assets/slides/presentation_corrmpc_ec2019.pdf)
@@ -137,15 +147,19 @@
 + [CRFG19]MonZa: Fast Maliciously Secure Two Party Computation on Z_{2^k}
   + Dario Catalano, Mario Di Raimondo, Dario Fiore, and Irene Giacomelli
   + [eprint](https://eprint.iacr.org/2019/211)
+  + 2019年，Catalano等人提出了一个环$\mathbb{Z}_{2^k}$上的快速安全两方计算协议，该协议基于$\text{SPD}\mathbb{Z}_{2^k}$的认证机制，但使用同态加密来生成乘法三元组，其离线阶段和BDOZ协议十分相似。值得注意的是，像BDOZ协议、SPDZ类协议往往都基于域上的运算，而该协议则是基于环上的运算。
 + [DLN19]Communication Lower Bounds for Statistically Secure MPC, with or without Preprocessing
   + Ivan Damgård, Kasper Green Larsen, and Jesper Buus Nielsen
   + [eprint](https://eprint.iacr.org/2019/220)
+  + 2019年，Damgård等人在标准模型下的诚实大多数情况和预处理模型下的不诚实大多数情况证明了无条件安全多方计算的计算复杂性下界。
 + [BCG+20]Efficient Pseudorandom Correlation Generators from Ring-LPN
   + Elette Boyle, Geoffroy Couteau, Niv Gilboa, Yuval Ishai, Lisa Kohl & Peter Scholl 
   + [Springer](https://link.springer.com/chapter/10.1007/978-3-030-56880-1_14)
+  + 2020年，Boyle等人基于环上LPN（ring-LPN）假设设计了新的PCG方案，该PCG能够生成OLE相关性（OLE Correlations）、可认证乘法三元组（Authenticated Multiplication Triples）、矩阵乘法相关性（Matrix Product Correlations）等。
 + [Keller20] MP-SPDZ: A Versatile Framework for Multi-Party Computation
   + Marcel Keller
   + [eprint](https://eprint.iacr.org/2020/521)
+  + 2020年，Keller提出了MP-SPDZ框架，其讨论了众多的SPDZ类协议。
 + [BGIN21]Sublinear GMW-Style Compiler for MPC with Preprocessing
   + Elette Boyle, Niv Gilboa, Yuval Ishai, and Ariel Nof
   + [eprint](https://eprint.iacr.org/2022/261)
@@ -164,7 +178,6 @@ Lisa Kohl , CWI; Nicolas Resch , CWI; Peter Scholl , Aarhus University
 + [BGIN22]Secure Multiparty Computation with Sublinear Preprocessing
   + Elette Boyle, Niv Gilboa, Yuval Ishai & Ariel Nof 
   + [Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_15)
-
 + []
   + 
   + [eprint]()
