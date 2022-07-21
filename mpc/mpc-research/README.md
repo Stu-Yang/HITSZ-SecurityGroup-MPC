@@ -20,6 +20,7 @@
 
 + [paper-reading](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/paper-reading)：介绍如何查找、阅读论文
 + [collection&miscellaneous](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/collection%26miscellaneous)：包括了以下各个主题的论文，以及一些重要且有价值的论文
+  + [mpc-survery](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-survery)：安全多方计算领域的综述，带你了解安全多方计算的研究现状和趋势
   + [privacy-preserving-data-mining](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining)：介绍隐私保护数据挖掘应用
   + [malicious-mpc](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/malicious-mpc)：介绍恶意模型下的安全多方计算协议
   + [mpc-with-preprocessing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-with-preprocessing)：介绍预处理模型下的安全多方计算协议
