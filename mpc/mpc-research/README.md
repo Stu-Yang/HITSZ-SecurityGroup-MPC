@@ -10,6 +10,7 @@
   + [privacy-preserving-data-mining](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining)：介绍隐私保护数据挖掘应用
   + [malicious-mpc](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/malicious-mpc)：介绍恶意模型下的安全多方计算协议
   + [mpc-with-preprocessing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-with-preprocessing)：介绍预处理模型下的安全多方计算协议
+  + [function-secret-sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)：介绍函数秘密共享，以及基于函数秘密共享实现安全两方计算协议。
 + [conferences&journals](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals)：介绍三大密码学会、四大安全顶会等重要会议中MPC相关的论文
   + [Eurocrypt 2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals#eurocrypt-2022)
 
@@ -23,7 +24,7 @@
   + 如何发现科学问题：可以参考[如何提出科学问题?](https://news.sciencenet.cn/sbhtmlnews/2015/1/295864.shtm)
 + 如何开始做研究？
   + 找到自己的研究课题：看文献找到待解决的问题
-  + 针对这个问题（至少要有两个关键词，比如我想进行“**预处理模型下**MPC协议**相关随机性**研究”包括两个关键词）找到领域内所有相关的论文，分析这些论文的逻辑关系并进行分类，最后总结和分析找到这些论文的问题
+  + 针对这个问题（至少要有两个关键词，比如我想进行“预处理模型下MPC协议相关随机性研究”包括两个关键词**预处理模型下**、**相关随机性**）找到领域内所有相关的论文，分析这些论文的逻辑关系并进行分类，最后总结和分析找到这些论文的问题
   + 针对这些问题提出自己的研究内容和研究计划，形成自己的研究课题，主要包括以下几部分内容
     + 研究对象：你想解决什么问题？
     + 研究目的和意义：研究该问题的意义？
