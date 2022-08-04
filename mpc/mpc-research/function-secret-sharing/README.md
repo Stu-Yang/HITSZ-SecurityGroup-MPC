@@ -19,6 +19,7 @@
 + [BCG+21]Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation
   + BGI19的进一步优化，提出了针对更多非线性函数的FSS构造方案
   + 发表在EuroCrypto 2021，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-77886-6_30)、[ePrint](https://eprint.iacr.org/2020/1392)
+  + [Vedio: Mayank Rathee presented at Eurocrypt 2021](https://www.youtube.com/watch?v=22BfFkP_Hbk&t=280s)
 
 ## FSS-Online-Talk
 + [The 12th BIU Winter School on Cryptography: Advances in Secure Computation](https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography/)
@@ -26,7 +27,9 @@
     + Function Secret Sharing: Definition ([Video](https://www.youtube.com/watch?v=fAXlOOs2t88))
     + Function Secret Sharing: Core Constructions of DPF and DCF ([Video](https://www.youtube.com/watch?v=Zm-MUVve2_w))
     + Function Secret Sharing: Extensions & Applications ([Video](https://www.youtube.com/watch?v=ORBLeo3lB4U&t=9s))
-
++ Elette Boyle在[TPMPC 2019](https://www.multipartycomputation.com/tpmpc-2019)上的演讲
+  + 主要是基于[BGI19]Secure Computation with Preprocessing via Function Secret Sharing的讲述，介绍了基于函数秘密共享的预处理模型下安全两方计算协议
+  + [Slide](https://u.cs.biu.ac.il/~lindell/TPMPC2019/Elette_Boyle_TPMPC2019.pdf)
 
 
 
