@@ -3,7 +3,7 @@
 函数秘密共享（Function Secret Sharing，FSS）是[Elette Boyle](https://cs.idc.ac.il/~elette/)等人在2015年提出的密码学原语，其将函数作为秘密分发的对象，使得参与方获得函数秘密份额，之后参与方便在本地函数秘密份额评估，获得结果的秘密份额。函数秘密共享是同态秘密共享的对偶过程，二者在不同的应用中均获得良好的性能。
 
 
-## FSS-Paper
+## 函数秘密共享相关论文
 + [GI14]Distributed Point Functions and Their Applications
   + 分布式点函数及其在PIR上的应用（函数秘密共享本质上是分布式点函数更泛化的表示）
   + 发表在EuroCrypto 2014，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-55220-5_35)、[ePrint](https://www.iacr.org/conferences/eurocrypt2014/37)
@@ -21,7 +21,7 @@
   + 发表在EuroCrypto 2021，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-77886-6_30)、[ePrint](https://eprint.iacr.org/2020/1392)
   + [Vedio: Mayank Rathee presented at Eurocrypt 2021](https://www.youtube.com/watch?v=22BfFkP_Hbk&t=280s)
 
-## FSS-Online-Talk
+## 函数秘密共享相关视频、阅读材料
 + [The 12th BIU Winter School on Cryptography: Advances in Secure Computation](https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography/)
   + 第12届BIU密码学冬令营中有Elette Boyle讲述的关于函数秘密共享的相关内容([Slide](http://cyber.biu.ac.il/wp-content/uploads/2021/11/FSS-2022-BIU-WinterSchool_Elette.pdf))
     + Function Secret Sharing: Definition ([Video](https://www.youtube.com/watch?v=fAXlOOs2t88))
@@ -30,6 +30,41 @@
 + Elette Boyle在[TPMPC 2019](https://www.multipartycomputation.com/tpmpc-2019)上的演讲
   + 主要是基于[BGI19]Secure Computation with Preprocessing via Function Secret Sharing的讲述，介绍了基于函数秘密共享的预处理模型下安全两方计算协议
   + [Slide](https://u.cs.biu.ac.il/~lindell/TPMPC2019/Elette_Boyle_TPMPC2019.pdf)
+
+## 函数秘密共享研究：函数秘密共享的构造和应用
+
+目前的研究主要关注于函数秘密共享的构造和应用：前者是指针对分布式点函数、分布式比较函数的函数秘密共享构造方案，及函数秘密共享相关随机性生成方案；后者是指基于函数秘密共享的实际应用，例如隐私数据访问、安全多方计算等。
+
+### 函数秘密共享的构造方案
+
+在函数秘密共享的发展过程中，出现了许多面向不同运算的函数秘密共享方案。已有的工作可总结如下：
++ **分布式点函数（Distributed Point Functions）**：GI14提出了（两方）分布式点函数的构造及其在隐私信息检索中的应用，BGI15提出了基于伪随机数生成器的分布式点函数构造，并引入函数秘密共享的概念，优化了GI14的构造。BGI16则进一步优化了BGI15的构造，这也是当前最好的结果。而对于多方的情况，最好的结果是BGI15提出的构造方案。
++ **比较函数（Comparison Functions）和区间函数（Interval Functions）**：
++ 
++ **决策树（Decision Tree）**：
++ **位分解函数（Bit Decomposition）**：
++ **算术移位和逻辑移位（Arithmetic and Logical Shift）**：
++
+
+
+
+
+
+
+### 函数秘密共享相关随机性生成方案
+
+
+### 函数秘密共享的应用
+
+
+
+
+
+
+
+
+
+
 
 
 
