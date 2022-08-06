@@ -39,9 +39,8 @@
 
 在函数秘密共享的发展过程中，出现了许多面向不同运算的函数秘密共享方案。已有的工作可总结如下：
 + **分布式点函数（Distributed Point Functions）**：GI14提出了（两方）分布式点函数的构造及其在隐私信息检索中的应用，BGI15提出了基于伪随机数生成器的分布式点函数构造，并引入函数秘密共享的概念，优化了GI14的构造。BGI16则进一步优化了BGI15的构造，这也是当前最好的结果。而对于多方的情况，最好的结果是BGI15提出的构造方案。
-+ **比较函数（Comparison Functions）和区间函数（Interval Functions）**：
-+ 
-+ **决策树（Decision Tree）**：
++ **比较函数（Comparison Functions）和区间函数（Interval Functions）**：BGI16和BCG+21都实现了比较函数和区间函数的函数秘密共享方案，通常来说区间函数的函数秘密共享方案可以通过调用两个比较函数的函数秘密共享方案来实现。比较函数和区间函数的函数秘密共享方案可以由
++ **决策树（Decision Tree）**：BGI16针对决策树提出了有效的基于伪随机数生成器的两方函数秘密共享方案。
 + **位分解函数（Bit Decomposition）**：
 + **算术移位和逻辑移位（Arithmetic and Logical Shift）**：
 +
