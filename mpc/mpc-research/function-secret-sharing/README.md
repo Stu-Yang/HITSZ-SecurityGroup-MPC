@@ -9,7 +9,7 @@
 + 第一阶段：首先需要阅读函数秘密共享的相关论文及其参考资料（所涉及的论文见“1. 函数秘密共享相关论文”）
   + 阅读论文BGI15
     + 了解和掌握函数秘密共享的定义和安全性定义，可以参考Boyle在BIU作的报告 ([Video](https://www.youtube.com/watch?v=fAXlOOs2t88)、[Slide](http://cyber.biu.ac.il/wp-content/uploads/2021/11/FSS-2022-BIU-WinterSchool_Elette.pdf)中Part1)
-    + 了解基于伪随机数生成器的分布式点函数的FSS构造，可以参考Boyle在EruoCrypto2015上的PPT材料（[Slide](https://www.iacr.org/conferences/eurocrypt2015/cosic.esat.kuleuven.be/eurocrypt_2015/presentations/SecretSharing.zip)-Function Secret Sharing），注意这部分看不懂很正常，掌握思想就好
+    + 了解基于伪随机数生成器的分布式点函数的FSS构造，可以参考Boyle在EruoCrypto2015上的PPT材料（[Slide](https://www.iacr.org/conferences/eurocrypt2015/cosic.esat.kuleuven.be/eurocrypt_2015/presentations/SecretSharing.zip)-Function Secret Sharing），注意这部分比较复杂，掌握思想就好
     + 了解函数秘密共享和安全多方计算的联系
   + 阅读论文BGI6
     + 了解和掌握函数秘密共享的定义和安全性定义
