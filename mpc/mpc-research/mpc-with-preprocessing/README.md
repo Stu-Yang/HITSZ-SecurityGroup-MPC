@@ -189,24 +189,6 @@ Lisa Kohl , CWI; Nicolas Resch , CWI; Peter Scholl , Aarhus University
   + Elette Boyle, Niv Gilboa, Yuval Ishai & Ariel Nof 
   + [Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_15)
   + 在2022年，Boyle等人基于工作[BGIN21]Sublinear GMW-Style Compiler for MPC with Preprocessing实现了预处理模型下的MPC协议的亚线性预处理阶段（Sublinear Preprocessing），其离线阶段的通信和电路大小呈亚线性关系。
-+ []
-  + 
-  + [eprint]()
-+ []
-  + 
-  + [eprint]()
-+ []
-  + 
-  + [eprint]()
-+ []
-  + 
-  + [eprint]()
-+ []
-  + 
-  + [eprint]()
-+ []
-  + 
-  + [eprint]()
 
 
 ### 2.2 应用研究
@@ -236,21 +218,4 @@ Lisa Kohl , CWI; Nicolas Resch , CWI; Peter Scholl , Aarhus University
 + [RRKK22]Arithmetic Tuples for MPC
   + Pascal Reisert, University of Stuttgart; Marc Rivinius, University of Stuttgart; Toomas Krips, University of Tartu; Ralf Kuesters, University of Stuttgart
   + [eprint](https://eprint.iacr.org/2022/667)
-+ []
-  + 
-  + [eprint]()
-+ []
-  + 
-  + [eprint]()
-+ []
-  + 
-  + [eprint]()
-+ []
-  + 
-  + [eprint]()
-+ []
-  + 
-  + [eprint]()
-+ []
-  + 
-  + [eprint]()
+
