@@ -50,7 +50,8 @@
 + Elette Boyle在[TPMPC 2019](https://www.multipartycomputation.com/tpmpc-2019)上的演讲
   + 主要是基于[BGI19]Secure Computation with Preprocessing via Function Secret Sharing的讲述，介绍了基于函数秘密共享的预处理模型下安全两方计算协议
   + [Slide](https://u.cs.biu.ac.il/~lindell/TPMPC2019/Elette_Boyle_TPMPC2019.pdf)
-+ Mayank Rathee在EuroCrypto 2021上关于论文Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation所作的报告，[Vedio](https://www.youtube.com/watch?v=22BfFkP_Hbk&list=PLeeS-3Ml-rprwuVrOTYyYWkXuJLSu4fbu&index=82)
++ Mayank Rathee在EuroCrypto 2021上关于论文Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation所作的报告
+  + [Vedio](https://www.youtube.com/watch?v=22BfFkP_Hbk&list=PLeeS-3Ml-rprwuVrOTYyYWkXuJLSu4fbu&index=82)
 
 
 ## 3. 函数秘密共享研究：函数秘密共享的构造和应用
