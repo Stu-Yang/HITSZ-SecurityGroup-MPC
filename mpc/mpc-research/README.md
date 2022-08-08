@@ -16,6 +16,11 @@
 
 ## 如何开始研究生涯？
 + 可以看看[如何开始研究生生涯?](http://muchong.com/t-14899063-1)体会一下
++ 研究生涯的几个阶段
+  + Assistance
+  + Dependence
+  + Independence
+  + Leadership
 
 
 ## 如何做研究？
