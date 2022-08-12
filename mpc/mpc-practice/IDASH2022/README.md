@@ -13,7 +13,7 @@
 
 **评估标准**：每个团队应提交一个解决方案。如果您计划提交使用截然不同的方法的多个解决方案，请联系组织者以获得批准。所有提交的解决方案都应满足安全要求；否则，提交将被取消资格。合格的解决方案将根据其准确性（即输出匹配记录的正确列表）进行排名。对于相同或非常接近（即差异在 0.1% 以内）的解，我们将评估算法的速度。有关数据的详细信息，请参阅常见问题解答。提交解决方案的指南稍后将在网站上提供。
 
-**数据和代码骨架（8 月 11 日更新，密码：iDash2022）**：[链接]（https://indiana-my.sharepoint.com/:f:/g/personal/zhu11_iu_edu/EkFJ17EHX59LsO1Ekfc0TPkBi7CipeIHccd4wjb0CRhjzQ?e=qlt6aH )
+**数据和代码骨架（8 月 11 日更新，密码：iDash2022）**：[链接](https://indiana-my.sharepoint.com/:f:/g/personal/zhu11_iu_edu/EkFJ17EHX59LsO1Ekfc0TPkBi7CipeIHccd4wjb0CRhjzQ?e=qlt6aH)
 
 常见问题解答：[链接](https://www.notion.so/huthvincent/All-you-need-to-know-in-the-Track-4-5f1948397ca246d197c9555a1663f80f)
 
