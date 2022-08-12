@@ -2,10 +2,12 @@
 
 ## 比赛介绍
 
+参见[IDASH PRIVACY & SECURITY WORKSHOP 2022 - secure genome analysis competition](http://www.humangenomeprivacy.org/2022/competition-tasks.html)
+
 ## 什么是安全记录链接？
 
 
-## 隐私保护记录链接
+## 隐私保护记录链接？
 
-
+隐私保护记录链接（privacy preserving record linkage）
 
