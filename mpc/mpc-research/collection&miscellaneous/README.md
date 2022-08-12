@@ -28,6 +28,11 @@
 
 详见[预处理模型下的安全多方计算协议](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-with-preprocessing)
 
+## 4. 函数秘密共享
+
+详见[函数秘密共享，以及基于函数秘密共享实现安全两方计算协议](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)
+
+
 ## X. 其他
 + [Scalable Secure Multiparty Computation](https://link.springer.com/chapter/10.1007/11818175_30)
   + 机构&作者：Ivan Damgård & Yuval Ishai
