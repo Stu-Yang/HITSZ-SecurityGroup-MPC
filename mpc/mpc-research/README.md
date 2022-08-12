@@ -21,7 +21,7 @@
   + Dependence
   + Independence
   + Leadership
-
++ 选择研究方向：MPC组目前的研究方向有[HITSZ安全组MPC团队研究方向](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/research-field)
 
 ## 如何做研究？
 + 科学问题：如何找到自己的研究方向
