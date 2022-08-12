@@ -23,7 +23,7 @@
 
 哈尔滨工业大学（深圳）对于硕士研究生开题、中期和答辩的要求详见[哈尔滨工业大学（深圳）硕士学位培养](http://due.hitsz.edu.cn/xwgl/ssxwpy/ktyzj.htm)。
 
-这里需要另外讲到的是，研究生的开题、中期和答辩是围绕一件事情：做科学研究，关于如何做科研，可以参考[如何做研究?](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/edit/main/mpc/mpc-research/README.md#%E5%A6%82%E4%BD%95%E5%81%9A%E7%A0%94%E7%A9%B6)。
+这里需要另外讲到的是，研究生的开题、中期和答辩是围绕一件事情：做科学研究，关于如何做科研，可以参考[如何做研究?](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/edit/main/mpc/mpc-research/)。
 
 ## 2. 基础学习
 
