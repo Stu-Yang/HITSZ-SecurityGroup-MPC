@@ -17,7 +17,7 @@ HITSZ安全组的MPC团队主要针对安全多方计算的理论与实践进行
 + **理论研究**：关注协议的效率和安全性，提出/引入新技术，或者进行技术优化，从而提高协议的**效率**，或者加强协议的**安全性**
 + **实践研究**：将通用的安全多方计算协议结合实际应用场景，在协议落地过程中解决协议实用化过程中的**效率**和**安全性**方面的矛盾
 
-[安全多方计算理论研究](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research)部分介绍一些研究的课题和可能的方向。[安全多方计算实践研究](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-practice]部分介绍了一些相关的实践项目。
+[安全多方计算理论研究](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research)部分介绍一些研究的课题和可能的方向。[安全多方计算实践研究](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-practice)部分介绍了一些实践项目。
 
 
 ## 研究生经验总结
