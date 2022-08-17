@@ -4,3 +4,5 @@
 
 + 时间地点：2022年11月19日于线上Zoom进行
 + 比赛任务：[IDASH2022](http://www.humangenomeprivacy.org/2022/competition-tasks.html)中Task 4: Secure Record Linkage
+
+## [2022-7th-Crypto](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-practice/2022-7th-Crypto)
