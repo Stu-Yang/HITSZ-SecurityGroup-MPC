@@ -16,6 +16,15 @@
     + 了解和掌握基于伪随机数生成器的分布式点函数的函数秘密共享构造，可以参考Boyle在BIU作的报告 ([Video](https://www.youtube.com/watch?v=Zm-MUVve2_w)中的前半部分、[Slide](http://cyber.biu.ac.il/wp-content/uploads/2021/11/FSS-2022-BIU-WinterSchool_Elette.pdf)中Part2)
     + 了解决策树的函数秘密共享构造方案
 
++ 第二阶段：了解和掌握基于函数秘密共享的安全计算（所涉及的论文见“1. 函数秘密共享相关论文”）
+  + 阅读论文BGI19
+    + 了解和掌握基于函数秘密共享如何实现安全两方计算
+  + 阅读论文BCG+21
+    + 了解和掌握DCF构造
+    + 了解其他函数的函数秘密共享构造
+
+
+
 ## 1. 函数秘密共享相关论文
 + [GI14]Distributed Point Functions and Their Applications
   + 分布式点函数及其在PIR上的应用（函数秘密共享本质上是分布式点函数更泛化的表示）
@@ -46,6 +55,10 @@
 + [GKCG22]LLAMA: A Low Latency Math Library for Secure Inference
   + 基于函数秘密共享的数学库，可用于安全隐私推理
   + 发表在PoPETs2022上，论文链接见[eprint](https://eprint.iacr.org/2022/793)
++ [CP22]Lightweight, Maliciously Secure Verifiable Function Secret Sharing
+  + 恶意安全的函数秘密共享
+  + 发表在EuroCrypto2022上，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_6)
+
 
 
 ## 2. 函数秘密共享相关视频、阅读材料
