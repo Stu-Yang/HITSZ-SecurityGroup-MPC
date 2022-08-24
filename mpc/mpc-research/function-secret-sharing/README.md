@@ -48,7 +48,7 @@
   + BCG+21提出了Zero Test、整数比较、ReLU、Spline、算术移位和逻辑移位、比特分解函数的函数秘密共享构造方案
 + [RTPB22]ARIANN: Low-Interaction Privacy-Preserving Deep Learning via Function Secret Sharing
   + 基于函数秘密共享的隐私保护深度学习，提出了针对于Equality Test、比较函数的函数秘密共享构造方案
-  + 发表在PoPETs2022上，论文链接见[arXiv](https://arxiv.org/abs/2006.04593)、[PETS](https://petsymposium.org/popets/2022/popets-2022-0015.php)，代码链接见[GitHub](https://github.com/LaRiffle/ariann)、[Youtube-vedio](https://www.youtube.com/watch?v=ztCptCgqZBs)
+  + 发表在PoPETs2022上，论文链接见[arXiv](https://arxiv.org/abs/2006.04593)、[PETS](https://petsymposium.org/popets/2022/popets-2022-0015.php)，代码链接见[GitHub](https://github.com/LaRiffle/ariann)、视频链接见[Youtube-vedio](https://www.youtube.com/watch?v=ztCptCgqZBs)
 + [Wagh2022]Pika: Secure Computation using Function Secret Sharing over Rings
   + 基于函数秘密共享的安全两方计算协议
   + 发表在PoPETs2022上，论文链接见[eprint](https://eprint.iacr.org/2022/826)
