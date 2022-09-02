@@ -12,3 +12,4 @@
 + 2019：SecureNN: 3-Party Secure Computation for Neural Network Training
 + 2022：[Privacy-Preserving Decision Trees Training and Prediction](https://dl.acm.org/doi/pdf/10.1145/3517197)
 + 2022：[MOTION - A Framework for Mixed-Protocol Multi-Party Computation](https://eprint.iacr.org/2020/1137.pdf)
++ 2020：[Effectiveness of MPC-friendly Softmax Replacement](https://arxiv.org/abs/2011.11202)
