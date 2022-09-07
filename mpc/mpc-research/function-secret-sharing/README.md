@@ -31,6 +31,9 @@
 
 
 ## 1. 函数秘密共享相关论文
++ [SDFY94]How to share a function securely
+  + 首次提出函数秘密共享概念，并构造了函数分发和重构方案
+  + 发表在STOC94，论文链接见[ACM](https://dl.acm.org/doi/abs/10.1145/195058.195405)
 + [GI14]Distributed Point Functions and Their Applications
   + 分布式点函数及其在PIR上的应用（函数秘密共享本质上是分布式点函数更泛化的表示）
   + 发表在EuroCrypto 2014，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-55220-5_35)、[ePrint](https://www.iacr.org/conferences/eurocrypt2014/37)
@@ -63,8 +66,9 @@
 + [CP22]Lightweight, Maliciously Secure Verifiable Function Secret Sharing
   + 恶意安全的函数秘密共享
   + 发表在EuroCrypto2022上，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_6)
-
-
++ [BKO22]CNF-FSS and Its Applications
+  + 多方函数秘密共享构造方案
+  + 发表在PKC 2022上，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-97121-2_11)
 
 ## 2. 函数秘密共享相关视频、阅读材料
 + [The 12th BIU Winter School on Cryptography: Advances in Secure Computation](https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography/)
