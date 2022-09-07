@@ -6,7 +6,7 @@
 
 以下是学习函数秘密共享的相关学习路线，需要的前置知识有：加性秘密共享、完全二叉树、伪随机数生成器的基本概念。
 
-+ 第一阶段：首先需要阅读函数秘密共享的相关论文及其参考资料（所涉及的论文见“1. 函数秘密共享相关论文”）
++ 第一阶段：首先需要阅读函数秘密共享的相关论文及其参考资料，掌握相关理论（所涉及的论文见“1. 函数秘密共享相关论文”）
   + 阅读论文BGI15
     + 了解和掌握函数秘密共享的定义和安全性定义，可以参考Boyle在BIU作的报告 ([Video](https://www.youtube.com/watch?v=fAXlOOs2t88)、[Slide](http://cyber.biu.ac.il/wp-content/uploads/2021/11/FSS-2022-BIU-WinterSchool_Elette.pdf)中Part1)
     + 了解基于伪随机数生成器的分布式点函数的FSS构造，可以参考Boyle在EruoCrypto2015上的PPT材料（[Slide](https://www.iacr.org/conferences/eurocrypt2015/cosic.esat.kuleuven.be/eurocrypt_2015/presentations/SecretSharing.zip)-Function Secret Sharing），注意这部分比较复杂，掌握思想就好
@@ -15,13 +15,18 @@
     + 了解和掌握函数秘密共享的定义和安全性定义
     + 了解和掌握基于伪随机数生成器的分布式点函数的函数秘密共享构造，可以参考Boyle在BIU作的报告 ([Video](https://www.youtube.com/watch?v=Zm-MUVve2_w)中的前半部分、[Slide](http://cyber.biu.ac.il/wp-content/uploads/2021/11/FSS-2022-BIU-WinterSchool_Elette.pdf)中Part2)
     + 了解决策树的函数秘密共享构造方案
-
-+ 第二阶段：了解和掌握基于函数秘密共享的安全计算（所涉及的论文见“1. 函数秘密共享相关论文”）
   + 阅读论文BGI19
     + 了解和掌握基于函数秘密共享如何实现安全两方计算
   + 阅读论文BCG+21
     + 了解和掌握DCF构造
     + 了解其他函数的函数秘密共享构造
++ 第二阶段：了解和掌握基于函数秘密共享的安全计算，及其在实际场景中的应用（所涉及的论文见“1. 函数秘密共享相关论文”）
+  + 阅读论文[RTPB22]
+    + 了解和掌握基于函数秘密共享的隐私保护机器学习
+  + 阅读论文[GKCG22]
+    + 了解和掌握基于函数秘密共享的数学库
++ 第三阶段：开始函数秘密共享的相关研究
+  + 确立自己的目标任务，将该任务分解成一个一个子任务，子任务可以不断往下细分，直到你自己可以直接解决
 
 
 
