@@ -9,3 +9,4 @@
 ## Q&A in [crypto.stackexchange](https://crypto.stackexchange.com/)
 + [How to do division in secure multi-party computation (mpc)?](https://crypto.stackexchange.com/questions/100584/how-to-do-division-in-secure-multi-party-computation-mpc/100590#100590)
 + [Overview of relations between cryptographic primitives?](https://crypto.stackexchange.com/questions/52325/overview-of-relations-between-cryptographic-primitives/52345#52345), or [this](https://cryptorelations.appspot.com/static/index.html)
++ [How to share a function securely?](https://crypto.stackexchange.com/questions/101787/how-to-share-a-function-securely?)
