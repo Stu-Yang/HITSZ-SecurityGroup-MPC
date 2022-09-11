@@ -70,6 +70,17 @@
   + 多方函数秘密共享构造方案
   + 发表在PKC 2022上，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-97121-2_11)
 
+## 相关阅读材料
++ [DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited
+  + 利用真值表来实现所有函数的预处理模型下安全计算，该方法针对布尔电路
+  + 发表在Crypto 2017
++ [DKS17]Pushing the Communication Barrier in Secure Computation using Lookup Tables
+  + 利用查找表来实现安全计算
+  + 发表在NDSS 2017上，NDSS页面[Pushing the Communication Barrier in Secure Computation using Lookup Tables](https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/pushing-communication-barrier-secure-computation-using-lookup-tables/)
+  + 论文链接见[eprint](https://eprint.iacr.org/2018/486)
+
+
+
 ## 2. 函数秘密共享相关视频、阅读材料
 + [The 12th BIU Winter School on Cryptography: Advances in Secure Computation](https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography/)
   + 第12届BIU密码学冬令营中有Elette Boyle讲述的关于函数秘密共享的相关内容([Slide](http://cyber.biu.ac.il/wp-content/uploads/2021/11/FSS-2022-BIU-WinterSchool_Elette.pdf))
