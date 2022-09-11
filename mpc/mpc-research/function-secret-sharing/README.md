@@ -69,6 +69,11 @@
 + [BKO22]CNF-FSS and Its Applications
   + 多方函数秘密共享构造方案
   + 发表在PKC 2022上，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-97121-2_11)
++ [APR+22]Communication Efficient Secure Logistic Regression
+  + 结合基于函数秘密共享的MPC协议和基于非函数秘密共享的MPC协议，设计了安全逻辑回归协议
+  + 论文链接见[eprint](https://eprint.iacr.org/2022/866)，视频链接见[youtube](https://www.youtube.com/watch?v=HkFML4TJqYc&list=PLEn8f3ymo4LDqD_m9pVgkpFBvTrDKnBmF&index=16)
+
+
 
 ## 相关阅读材料
 + [DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited
@@ -78,10 +83,8 @@
   + 利用查找表来实现安全计算
   + 发表在NDSS 2017上，NDSS页面[Pushing the Communication Barrier in Secure Computation using Lookup Tables](https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/pushing-communication-barrier-secure-computation-using-lookup-tables/)
   + 论文链接见[eprint](https://eprint.iacr.org/2018/486)
-+ [APR+22]Communication Efficient Secure Logistic Regression
-  + 结合基于函数秘密共享的MPC协议和基于非函数秘密共享的MPC协议，设计了安全逻辑回归协议
-  + 论文链接见[eprint](https://eprint.iacr.org/2022/866)，视频链接见[youtube](https://www.youtube.com/watch?v=HkFML4TJqYc&list=PLEn8f3ymo4LDqD_m9pVgkpFBvTrDKnBmF&index=16)
-
++ [CZ22]Non-Interactive Secure Computation of Inner-Product from LPN and LWE
+  + 详见[eprint](https://iacr.org/cryptodb/data/paper.php?pubkey=32405)
 
 
 ## 2. 函数秘密共享相关视频、阅读材料
