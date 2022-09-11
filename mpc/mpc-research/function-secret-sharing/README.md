@@ -92,6 +92,10 @@
   + [Slide](https://u.cs.biu.ac.il/~lindell/TPMPC2019/Elette_Boyle_TPMPC2019.pdf)
 + Mayank Rathee在EuroCrypto 2021上关于论文Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation所作的报告
   + [Vedio](https://www.youtube.com/watch?v=22BfFkP_Hbk&list=PLeeS-3Ml-rprwuVrOTYyYWkXuJLSu4fbu&index=82)
++ TPMPC 2022上的一些报告
+  + [Concretely efficient secure comparison](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=28)
+  + [New MPC Techniques for Secure Machine Learning](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=2)
+
 
 
 ## 3. 函数秘密共享研究：函数秘密共享的构造和应用
