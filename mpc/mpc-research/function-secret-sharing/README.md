@@ -62,7 +62,7 @@
   + 发表在PoPETs2022上，论文链接见[eprint](https://eprint.iacr.org/2022/826)
 + [GKCG22]LLAMA: A Low Latency Math Library for Secure Inference
   + 基于函数秘密共享的数学库，可用于安全隐私推理
-  + 发表在PoPETs2022上，论文链接见[eprint](https://eprint.iacr.org/2022/793)
+  + 发表在PoPETs2022上，论文链接见[eprint](https://eprint.iacr.org/2022/793)，视频链接见[bilibili](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=2&vd_source=45400e58cd0ed58d7605745553c0f81e)(其中，FSS的内容在视频18:00)
 + [CP22]Lightweight, Maliciously Secure Verifiable Function Secret Sharing
   + 恶意安全的函数秘密共享
   + 发表在EuroCrypto2022上，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_6)
