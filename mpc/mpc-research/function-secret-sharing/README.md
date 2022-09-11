@@ -78,6 +78,9 @@
   + 利用查找表来实现安全计算
   + 发表在NDSS 2017上，NDSS页面[Pushing the Communication Barrier in Secure Computation using Lookup Tables](https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/pushing-communication-barrier-secure-computation-using-lookup-tables/)
   + 论文链接见[eprint](https://eprint.iacr.org/2018/486)
++ [APR+22]Communication Efficient Secure Logistic Regression
+  + 结合基于函数秘密共享的MPC协议和基于非函数秘密共享的MPC协议，设计了安全逻辑回归协议
+  + 论文链接见[eprint](https://eprint.iacr.org/2022/866)，视频链接见[youtube](https://www.youtube.com/watch?v=HkFML4TJqYc&list=PLEn8f3ymo4LDqD_m9pVgkpFBvTrDKnBmF&index=16)
 
 
 
@@ -92,9 +95,9 @@
   + [Slide](https://u.cs.biu.ac.il/~lindell/TPMPC2019/Elette_Boyle_TPMPC2019.pdf)
 + Mayank Rathee在EuroCrypto 2021上关于论文Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation所作的报告
   + [Vedio](https://www.youtube.com/watch?v=22BfFkP_Hbk&list=PLeeS-3Ml-rprwuVrOTYyYWkXuJLSu4fbu&index=82)
-+ TPMPC 2022上的一些报告
++ [TPMPC 2022](https://www.multipartycomputation.com/tpmpc-2022)上的一些报告，完整视频链接见[bilibili](https://www.bilibili.com/video/BV1hU4y1Q7w2)和[youtube](https://www.youtube.com/playlist?list=PLEn8f3ymo4LDqD_m9pVgkpFBvTrDKnBmF)
   + [Concretely efficient secure comparison](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=28)
-  + [New MPC Techniques for Secure Machine Learning](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=2)
+  + [New MPC Techniques for Secure Machine Learning](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=2)，该报告对应上述论文[APR+22]Communication Efficient Secure Logistic Regression
 
 
 
