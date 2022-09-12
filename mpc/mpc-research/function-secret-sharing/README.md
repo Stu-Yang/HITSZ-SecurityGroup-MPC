@@ -28,9 +28,16 @@
 + 第三阶段：开始函数秘密共享的相关研究
   + 确立自己的目标任务，将该任务分解成一个一个子任务，子任务可以不断往下细分，直到你自己可以直接解决
 
+## 1. 函数秘密共享领域的相关大牛
 
++ [Elette Boyle](https://cs.idc.ac.il/~elette/)：函数秘密共享学派开创人
++ [Niv Gilboa](https://www.bgu.ac.il/~gilboan/publications.html)：系统研究分布式点函数，为函数秘密共享的创立打下基础
++ [Yuval Ishai](https://www.cs.technion.ac.il/~yuvali/)：Boyle的老师，其和Niv Gilboa一起系统研究分布式点函数，为函数秘密共享的创立打下基础
++ [Nishanth Chandran](https://www.microsoft.com/en-us/research/people/nichandr/publications/)：[BCG21+]中的C
++ [Geoffroy Couteau](https://geoffroycouteau.github.io/publications/)：近几年和Boyle多有合作
++ [Mayank Rathee](https://mayank0403.github.io/)：近几年多有研究函数秘密共享及其应用
 
-## 1. 函数秘密共享相关论文
+## 2. 函数秘密共享相关论文
 + [SDFY94]How to share a function securely
   + 首次提出函数秘密共享概念，并构造了函数分发和重构方案
   + 发表在STOC94，论文链接见[ACM](https://dl.acm.org/doi/abs/10.1145/195058.195405)
