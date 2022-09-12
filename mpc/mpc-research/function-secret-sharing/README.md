@@ -82,7 +82,7 @@
 
 
 
-## 相关阅读材料
+## 2+. 相关阅读材料
 + [DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited
   + 利用真值表来实现所有函数的预处理模型下安全计算，该方法针对布尔电路
   + 发表在Crypto 2017
@@ -92,6 +92,9 @@
   + 论文链接见[eprint](https://eprint.iacr.org/2018/486)
 + [CZ22]Non-Interactive Secure Computation of Inner-Product from LPN and LWE
   + 详见[eprint](https://iacr.org/cryptodb/data/paper.php?pubkey=32405)
++ [CZW+21]When Homomorphic Encryption Marries Secret Sharing: Secure Large-Scale Sparse Logistic Regression and Applications in Risk Control
+  + 结合秘密共享和同态加密实现稀疏数据的逻辑回归
+  + 发表在KDD 2021，文章链接见[ACM](https://dl.acm.org/doi/10.1145/3447548.3467210)，[arXiv](https://arxiv.org/pdf/2008.08753.pdf)
 
 
 ## 2. 函数秘密共享相关视频、阅读材料
