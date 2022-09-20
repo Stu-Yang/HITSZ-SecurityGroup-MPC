@@ -82,7 +82,7 @@
 
 
 
-## 2+. 相关阅读材料
+## 2.1 相关阅读材料
 + [DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited
   + 利用真值表来实现所有函数的预处理模型下安全计算，该方法针对布尔电路
   + 发表在Crypto 2017
@@ -97,7 +97,7 @@
   + 发表在KDD 2021，文章链接见[ACM](https://dl.acm.org/doi/10.1145/3447548.3467210)，[arXiv](https://arxiv.org/pdf/2008.08753.pdf)
 
 
-## 2. 函数秘密共享相关视频、阅读材料
+## 2.2 函数秘密共享相关视频、阅读材料
 + [The 12th BIU Winter School on Cryptography: Advances in Secure Computation](https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography/)
   + 第12届BIU密码学冬令营中有Elette Boyle讲述的关于函数秘密共享的相关内容([Slide](http://cyber.biu.ac.il/wp-content/uploads/2021/11/FSS-2022-BIU-WinterSchool_Elette.pdf))
     + Function Secret Sharing: Definition ([Video](https://www.youtube.com/watch?v=fAXlOOs2t88))
