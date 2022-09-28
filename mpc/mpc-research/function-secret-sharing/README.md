@@ -79,8 +79,9 @@
 + [APR+22]Communication Efficient Secure Logistic Regression
   + 结合基于函数秘密共享的MPC协议和基于非函数秘密共享的MPC协议，设计了安全逻辑回归协议
   + 论文链接见[eprint](https://eprint.iacr.org/2022/866)，视频链接见[youtube](https://www.youtube.com/watch?v=HkFML4TJqYc&list=PLEn8f3ymo4LDqD_m9pVgkpFBvTrDKnBmF&index=16)
-
-
++ [AMO+22]Memory and Round-Efficient MPC Primitives in the Pre-Processing Model from Unit Vectorization
+  + BGI19和BCG+21的优化
+  + 论文发表在ASiaCCS 2022，论文链接见[ACM](https://dl.acm.org/doi/pdf/10.1145/3488932.3517407)
 
 ## 2.1 相关阅读材料
 + [DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited
