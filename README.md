@@ -33,3 +33,12 @@ HITSZ安全组的MPC团队主要针对安全多方计算的理论与实践进行
 + 2021级硕士生杨鹏：主要研究基于函数秘密共享的高效安全两方计算协议，及其在隐私保护数据挖掘中的应用
 + 2022级硕士生庄杰航
 + 2020级本科生高世祺
+
+## 常用索引
++ [安全多方计算理论研究](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research)
+  + [conferences&journals](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/collection%26miscellaneous)：介绍三大密码学会、四大安全顶会等重要会议中MPC相关的论文
+  + [function-secret-sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)：介绍函数秘密共享，以及基于函数秘密共享实现安全两方计算协议。
+  + [homomorphic-secret-sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/homomorphic-secret-sharing)：介绍同态秘密共享，以及基于同态秘密共享的安全计算协议
++ [安全多方计算实践研究](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-practice)
+
+
