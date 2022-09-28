@@ -12,9 +12,12 @@
   + [malicious-mpc](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/malicious-mpc)：介绍恶意模型下的安全多方计算协议
   + [mpc-with-preprocessing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-with-preprocessing)：介绍预处理模型下的安全多方计算协议
   + [function-secret-sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)：介绍函数秘密共享，以及基于函数秘密共享实现安全两方计算协议。
-  + [homomorphic](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/homomorphic-secret-sharing)：介绍同态秘密共享，以及基于同态秘密共享的安全计算协议
-+ [conferences&journals](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals)：介绍三大密码学会、四大安全顶会等重要会议中MPC相关的论文
-  + [Eurocrypt 2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals#eurocrypt-2022)
+  + [homomorphic-secret-sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/homomorphic-secret-sharing)：介绍同态秘密共享，以及基于同态秘密共享的安全计算协议
++ [conferences&journals](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals)：介绍三大密码学会、四大安全顶会等重要会议和期刊中MPC相关的论文
+  + [Eurocrypt 2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/Eurocrypt-2022)
+  + [S&P 2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/S&P-2022)
+  + [NDSS 2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/NDSS-2022)
+  + [AsicaCCS 2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/AsiaCCS-2022)
 
 ## 如何开始研究生涯？
 + 可以看看[如何开始研究生生涯?](http://muchong.com/t-14899063-1)体会一下
