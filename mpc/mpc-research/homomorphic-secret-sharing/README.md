@@ -13,4 +13,5 @@
   + 同态秘密共享的系统研究
 + [BGIL18]Foundations of Homomorphic Secret Sharing
   + 发表在ITCS 2018，论文链接见[ePrint](https://eprint.iacr.org/2017/1248)
- 
++ [BKS19]Homomorphic Secret Sharing from Lattices Without FHE
+  + 发表在EuroCrypto 2019，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-17656-3_1)、[ePrint](https://eprint.iacr.org/2019/129)
