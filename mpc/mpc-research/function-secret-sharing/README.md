@@ -39,7 +39,7 @@
 
 ## 2. 函数秘密共享相关论文
 <details>
-<summary>相关论文，请点击展开</summary>
+<summary>**相关论文，请点击展开**</summary>
 
 + **[SDFY94]How to share a function securely**
   + 首次提出函数秘密共享概念，并构造了函数分发和重构方案
@@ -85,7 +85,7 @@
 + **[AMO+22]Memory and Round-Efficient MPC Primitives in the Pre-Processing Model from Unit Vectorization**
   + BGI19和BCG+21的优化
   + 论文发表在ASiaCCS 2022，论文链接见[ACM](https://dl.acm.org/doi/pdf/10.1145/3488932.3517407)
-+ **[BGIK22]Programmable Distributed Point Functions
++ **[BGIK22]Programmable Distributed Point Functions**
   + 提出了一种新方法来构造DPF（之前构造DPF的方法是基于树的）
   + 论文发表在Crypto 2022，论文链接见[eprint](https://eprint.iacr.org/2022/1060)
 
