@@ -39,7 +39,7 @@
 
 ## 2. 函数秘密共享相关论文
 <details>
-<summary>**相关论文，请点击展开**</summary>
+<summary>函数秘密共享相关论文和阅读材料，请点击展开</summary>
 
 + **[SDFY94]How to share a function securely**
   + 首次提出函数秘密共享概念，并构造了函数分发和重构方案
