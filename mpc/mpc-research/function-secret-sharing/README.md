@@ -38,7 +38,7 @@
 + [Mayank Rathee](https://mayank0403.github.io/)：近几年多有研究函数秘密共享及其应用
 
 ## 2. 函数秘密共享相关论文
-
+<detail>
   <summary>相关论文，请点击展开</summary>
   
 + **[SDFY94]How to share a function securely**
@@ -129,7 +129,7 @@
   + [Concretely efficient secure comparison](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=28)
   + [New MPC Techniques for Secure Machine Learning](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=2)，该报告对应上述论文[APR+22]Communication Efficient Secure Logistic Regression
 
-
+</detail>
 
 ## 3. 函数秘密共享研究：函数秘密共享的构造和应用
 
