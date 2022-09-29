@@ -96,9 +96,15 @@
 + **[CZW+21]When Homomorphic Encryption Marries Secret Sharing: Secure Large-Scale Sparse Logistic Regression and Applications in Risk Control**
   + 结合秘密共享和同态加密实现稀疏数据的逻辑回归
   + 发表在KDD 2021，文章链接见[ACM](https://dl.acm.org/doi/10.1145/3447548.3467210)，[arXiv](https://arxiv.org/pdf/2008.08753.pdf)
-+ [DGH+21](MPC-Friendly Symmetric Cryptography from Alternating Moduli: Candidates, Protocols, and Applications)
++ **[DGH+21](MPC-Friendly Symmetric Cryptography from Alternating Moduli: Candidates, Protocols, and Applications)**
   + 介绍了许多密码学协议，其中包括一些对FSS的讨论
   + 发表在Crypto 2021，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-84259-8_18)
++ **[ACH20](The Usefulness of Sparsifiable Inputs: How to Avoid Subexponential iO)**
+  + 基于iO实现了许多密码学协议，其中就包括利用iO实现一种用于所有电路的加性函数秘密共享方案
+  + 发表在PKC 2020，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-45374-9_7)、[eprint](https://eprint.iacr.org/2018/470)
+
+
+
 
 ## 2.2 函数秘密共享相关视频、阅读材料
 + [The 12th BIU Winter School on Cryptography: Advances in Secure Computation](https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography/)
