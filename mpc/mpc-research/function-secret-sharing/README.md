@@ -38,7 +38,7 @@
 + [Mayank Rathee](https://mayank0403.github.io/)：近几年多有研究函数秘密共享及其应用
 
 <details>
-<summary>2. 函数秘密共享相关论文材料</summary>
+<summary>## 2. 函数秘密共享相关论文材料</summary>
 
 ## 2. 函数秘密共享相关论文
 + **[SDFY94]How to share a function securely**
