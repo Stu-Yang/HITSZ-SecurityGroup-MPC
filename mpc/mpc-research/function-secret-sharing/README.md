@@ -38,9 +38,9 @@
 + [Mayank Rathee](https://mayank0403.github.io/)：近几年多有研究函数秘密共享及其应用
 
 ## 2. 函数秘密共享相关论文
-<detail>
-  <summary>相关论文，请点击展开</summary>
-  
+<details>
+<summary>相关论文，请点击展开</summary>
+
 + **[SDFY94]How to share a function securely**
   + 首次提出函数秘密共享概念，并构造了函数分发和重构方案
   + 发表在STOC94，论文链接见[ACM](https://dl.acm.org/doi/abs/10.1145/195058.195405)
