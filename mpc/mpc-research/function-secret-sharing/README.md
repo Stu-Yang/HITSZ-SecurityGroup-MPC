@@ -103,7 +103,7 @@
   + 基于iO实现了许多密码学协议，其中就包括利用iO实现一种用于所有电路的加性函数秘密共享方案(但是在该论文中未找到相关构造)
   + 发表在PKC 2020，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-45374-9_7)、[eprint](https://eprint.iacr.org/2018/470)
 + **[DHRW]Spooky Encryption and Its Applications**
-  + 提出了Spooky Encryption的概念，并提出了它的应用，其中一个应用就是函数秘密共享(见6.3 Function Secret Sharing)
+  + 提出了Spooky Encryption的概念，并提出了它的应用，其中一个应用就是函数秘密共享(见6.3 Function Secret Sharing)，不过该论文没有提出有效表示函数f的方案
   + 发表在Crypto 2016，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-662-53015-3_4)、[eprint](https://eprint.iacr.org/2016/272)
 
 
