@@ -38,48 +38,48 @@
 + [Mayank Rathee](https://mayank0403.github.io/)：近几年多有研究函数秘密共享及其应用
 
 ## 2. 函数秘密共享相关论文
-+ [SDFY94]How to share a function securely
++ **[SDFY94]How to share a function securely**
   + 首次提出函数秘密共享概念，并构造了函数分发和重构方案
   + 发表在STOC94，论文链接见[ACM](https://dl.acm.org/doi/abs/10.1145/195058.195405)
-+ [GI14]Distributed Point Functions and Their Applications
++ **[GI14]Distributed Point Functions and Their Applications**
   + 分布式点函数及其在PIR上的应用（函数秘密共享本质上是分布式点函数更泛化的表示）
   + 发表在EuroCrypto 2014，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-55220-5_35)、[ePrint](https://www.iacr.org/conferences/eurocrypt2014/37)
-+ [BGI15]Function Secret Sharing
++ **[BGI15]Function Secret Sharing**
   + 函数秘密共享的开山之作，首次提出了DPF的FSS构造
   + 发表在EuroCrypto 2015，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-662-46803-6_12)
   + BGI15提出了分布式点函数、区间函数的函数秘密共享构造方案
-+ [BGI16]Function Secret Sharing: Improvements and Extensions
++ **[BGI16]Function Secret Sharing: Improvements and Extensions**
   + 函数秘密共享的进一步研究，优化了DPF的FSS构造，并首次提出针对决策树的FSS构造
   + 发表在CCS 2016，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/2976749.2978429)、[ePrint](https://eprint.iacr.org/2018/707)
   + BGI16提出了分布式点函数、决策树的函数秘密共享构造方案
-+ [BGI19]Secure Computation with Preprocessing via Function Secret Sharing
++ **[BGI19]Secure Computation with Preprocessing via Function Secret Sharing**
   + 利用函数秘密共享实现了预处理模型下的安全计算协议
   + 发表在TCC 2019，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-36030-6_14)、[ePrint](https://eprint.iacr.org/2019/1095)
   + BGI19提出了Zero Test、Equality、整数比较、Interval Membership和Spline函数的函数秘密共享构造方案
-+ [BCG+21]Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation
++ **[BCG+21]Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation**
   + BGI19的进一步优化，提出了针对更多非线性函数的FSS构造方案
   + 发表在EuroCrypto 2021，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-77886-6_30)、[ePrint](https://eprint.iacr.org/2020/1392)
   + [Vedio: Mayank Rathee presented at Eurocrypt 2021](https://www.youtube.com/watch?v=22BfFkP_Hbk&t=280s)
   + BCG+21提出了Zero Test、整数比较、ReLU、Spline、算术移位和逻辑移位、比特分解函数的函数秘密共享构造方案
-+ [RTPB22]ARIANN: Low-Interaction Privacy-Preserving Deep Learning via Function Secret Sharing
++ **[RTPB22]ARIANN: Low-Interaction Privacy-Preserving Deep Learning via Function Secret Sharing**
   + 基于函数秘密共享的隐私保护深度学习，提出了针对于Equality Test、比较函数的函数秘密共享构造方案
   + 发表在PoPETs2022上，论文链接见[arXiv](https://arxiv.org/abs/2006.04593)、[PETS](https://petsymposium.org/popets/2022/popets-2022-0015.php)，代码链接见[GitHub](https://github.com/LaRiffle/ariann)、视频链接见[Youtube-vedio](https://www.youtube.com/watch?v=ztCptCgqZBs)
-+ [Wagh2022]Pika: Secure Computation using Function Secret Sharing over Rings
++ **[Wagh2022]Pika: Secure Computation using Function Secret Sharing over Rings**
   + 基于函数秘密共享的安全两方计算协议
   + 发表在PoPETs2022上，论文链接见[eprint](https://eprint.iacr.org/2022/826)
-+ [GKCG22]LLAMA: A Low Latency Math Library for Secure Inference
++ **[GKCG22]LLAMA: A Low Latency Math Library for Secure Inference**
   + 基于函数秘密共享的数学库，可用于安全隐私推理
   + 发表在PoPETs2022上，论文链接见[eprint](https://eprint.iacr.org/2022/793)，视频链接见[bilibili](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=2&vd_source=45400e58cd0ed58d7605745553c0f81e)(其中，FSS的内容在视频18:00)
-+ [CP22]Lightweight, Maliciously Secure Verifiable Function Secret Sharing
++ **[CP22]Lightweight, Maliciously Secure Verifiable Function Secret Sharing**
   + 恶意安全的函数秘密共享
   + 发表在EuroCrypto2022上，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_6)
-+ [BKO22]CNF-FSS and Its Applications
++ **[BKO22]CNF-FSS and Its Applications**
   + 多方函数秘密共享构造方案
   + 发表在PKC 2022上，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-97121-2_11)
-+ [APR+22]Communication Efficient Secure Logistic Regression
++ **[APR+22]Communication Efficient Secure Logistic Regression**
   + 结合基于函数秘密共享的MPC协议和基于非函数秘密共享的MPC协议，设计了安全逻辑回归协议
   + 论文链接见[eprint](https://eprint.iacr.org/2022/866)，视频链接见[youtube](https://www.youtube.com/watch?v=HkFML4TJqYc&list=PLEn8f3ymo4LDqD_m9pVgkpFBvTrDKnBmF&index=16)
-+ [AMO+22]Memory and Round-Efficient MPC Primitives in the Pre-Processing Model from Unit Vectorization
++ **[AMO+22]Memory and Round-Efficient MPC Primitives in the Pre-Processing Model from Unit Vectorization**
   + BGI19和BCG+21的优化
   + 论文发表在ASiaCCS 2022，论文链接见[ACM](https://dl.acm.org/doi/pdf/10.1145/3488932.3517407)
 
