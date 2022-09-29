@@ -37,6 +37,9 @@
 + [Geoffroy Couteau](https://geoffroycouteau.github.io/publications/)：近几年和Boyle多有合作
 + [Mayank Rathee](https://mayank0403.github.io/)：近几年多有研究函数秘密共享及其应用
 
+<details>
+<summary>2. 函数秘密共享相关论文材料</summary>
+
 ## 2. 函数秘密共享相关论文
 + **[SDFY94]How to share a function securely**
   + 首次提出函数秘密共享概念，并构造了函数分发和重构方案
@@ -82,7 +85,9 @@
 + **[AMO+22]Memory and Round-Efficient MPC Primitives in the Pre-Processing Model from Unit Vectorization**
   + BGI19和BCG+21的优化
   + 论文发表在ASiaCCS 2022，论文链接见[ACM](https://dl.acm.org/doi/pdf/10.1145/3488932.3517407)
-
++ **[BGIK22]Programmable Distributed Point Functions
+  + 提出了一种新方法来构造DPF（之前构造DPF的方法是基于树的）
+  + 论文发表在Crypto 2022，论文链接见[eprint](https://eprint.iacr.org/2022/1060)
 ## 2.1 相关阅读材料
 + **[DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited**
   + 利用真值表来实现所有函数的预处理模型下安全计算，该方法针对布尔电路
@@ -122,7 +127,7 @@
   + [Concretely efficient secure comparison](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=28)
   + [New MPC Techniques for Secure Machine Learning](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=2)，该报告对应上述论文[APR+22]Communication Efficient Secure Logistic Regression
 
-
+</details>
 
 ## 3. 函数秘密共享研究：函数秘密共享的构造和应用
 
@@ -154,3 +159,5 @@
 ### 3.3 函数秘密共享的应用
 
 
+
+[回到顶部](#readme)
