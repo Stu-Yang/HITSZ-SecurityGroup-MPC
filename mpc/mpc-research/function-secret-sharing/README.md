@@ -84,19 +84,21 @@
   + 论文发表在ASiaCCS 2022，论文链接见[ACM](https://dl.acm.org/doi/pdf/10.1145/3488932.3517407)
 
 ## 2.1 相关阅读材料
-+ [DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited
++ **[DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited**
   + 利用真值表来实现所有函数的预处理模型下安全计算，该方法针对布尔电路
   + 发表在Crypto 2017
-+ [DKS17]Pushing the Communication Barrier in Secure Computation using Lookup Tables
++ **[DKS17]Pushing the Communication Barrier in Secure Computation using Lookup Tables**
   + 利用查找表来实现安全计算
   + 发表在NDSS 2017上，NDSS页面[Pushing the Communication Barrier in Secure Computation using Lookup Tables](https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/pushing-communication-barrier-secure-computation-using-lookup-tables/)
   + 论文链接见[eprint](https://eprint.iacr.org/2018/486)
-+ [CZ22]Non-Interactive Secure Computation of Inner-Product from LPN and LWE
++ **[CZ22]Non-Interactive Secure Computation of Inner-Product from LPN and LWE**
   + 详见[eprint](https://iacr.org/cryptodb/data/paper.php?pubkey=32405)
-+ [CZW+21]When Homomorphic Encryption Marries Secret Sharing: Secure Large-Scale Sparse Logistic Regression and Applications in Risk Control
++ **[CZW+21]When Homomorphic Encryption Marries Secret Sharing: Secure Large-Scale Sparse Logistic Regression and Applications in Risk Control**
   + 结合秘密共享和同态加密实现稀疏数据的逻辑回归
   + 发表在KDD 2021，文章链接见[ACM](https://dl.acm.org/doi/10.1145/3447548.3467210)，[arXiv](https://arxiv.org/pdf/2008.08753.pdf)
-
++ [DGH+21](MPC-Friendly Symmetric Cryptography from Alternating Moduli: Candidates, Protocols, and Applications)
+  + 介绍了许多密码学协议，其中包括一些对FSS的讨论
+  + 发表在Crypto 2021，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-84259-8_18)
 
 ## 2.2 函数秘密共享相关视频、阅读材料
 + [The 12th BIU Winter School on Cryptography: Advances in Secure Computation](https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography/)
