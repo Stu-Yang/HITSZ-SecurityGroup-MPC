@@ -55,10 +55,19 @@
   + 函数秘密共享的进一步研究，优化了DPF的FSS构造，并首次提出针对决策树的FSS构造
   + 发表在CCS 2016，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/2976749.2978429)、[ePrint](https://eprint.iacr.org/2018/707)
   + BGI16提出了分布式点函数、决策树的函数秘密共享构造方案
++ **[WYG+17]Splinter: Practical Private Queries on Public Data**
+  + 利用函数秘密共享实现隐私数据库查询
+  + 发表在USENIX 2017，论文链接见[USENIX 2017](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/wang-frank)、[ePrint](https://eprint.iacr.org/2016/1148)
++ **[BCGI18]Compressing Vector OLE**
+  + 发表在CCS 2018，论文链接见[ACM CCS](https://dl.acm.org/doi/abs/10.1145/3243734.3243868)、[eprint](https://eprint.iacr.org/2019/273)
 + **[BGI19]Secure Computation with Preprocessing via Function Secret Sharing**
   + 利用函数秘密共享实现了预处理模型下的安全计算协议
   + 发表在TCC 2019，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-36030-6_14)、[ePrint](https://eprint.iacr.org/2019/1095)
   + BGI19提出了Zero Test、Equality、整数比较、Interval Membership和Spline函数的函数秘密共享构造方案
++ **[SGRR2019]Distributed Vector-OLE-Improved Constructions and Implementation**
+  + [BCGI18]的优化
+  + 发表在CCS 2019，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/3319535.3363228)、[eprint](https://eprint.iacr.org/2019/1084)
+  + 该论文的第三作者Leonie Reichert的硕士毕业论文[Multi-Point Function Secret Sharing using Cuckoo Hashing](https://github.com/ReichertL/Masterthesis)用布谷鸟哈希实现了分布式多点函数
 + **[BCG+21]Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation**
   + BGI19的进一步优化，提出了针对更多非线性函数的FSS构造方案
   + 发表在EuroCrypto 2021，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-77886-6_30)、[ePrint](https://eprint.iacr.org/2020/1392)
