@@ -4,7 +4,9 @@
 
 ## 0. 函数秘密共享学习路线
 
-以下是学习函数秘密共享的相关学习路线，需要的前置知识有：加性秘密共享、完全二叉树、伪随机数生成器的基本概念。
+<details>
+<summary>以下是学习函数秘密共享的相关学习路线，请点击展开</summary>
+（预备知识：加性秘密共享、完全二叉树、伪随机数生成器）
 
 + 第一阶段：首先需要阅读函数秘密共享的相关论文及其参考资料，掌握相关理论（所涉及的论文见“1. 函数秘密共享相关论文”）
   + 阅读论文BGI15
@@ -59,6 +61,7 @@
   + 利用函数秘密共享实现隐私数据库查询
   + 发表在USENIX 2017，论文链接见[USENIX 2017](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/wang-frank)、[ePrint](https://eprint.iacr.org/2016/1148)
 + **[BCGI18]Compressing Vector OLE**
+  + 利用函数秘密共享实现Oblivious linear-function evaluation
   + 发表在CCS 2018，论文链接见[ACM CCS](https://dl.acm.org/doi/abs/10.1145/3243734.3243868)、[eprint](https://eprint.iacr.org/2019/273)
 + **[BGI19]Secure Computation with Preprocessing via Function Secret Sharing**
   + 利用函数秘密共享实现了预处理模型下的安全计算协议
