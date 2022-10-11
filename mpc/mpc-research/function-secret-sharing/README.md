@@ -67,6 +67,7 @@
 + **[RTPB22]ARIANN: Low-Interaction Privacy-Preserving Deep Learning via Function Secret Sharing**
   + 基于函数秘密共享的隐私保护深度学习，提出了针对于Equality Test、比较函数的函数秘密共享构造方案
   + 发表在PoPETs2022上，论文链接见[arXiv](https://arxiv.org/abs/2006.04593)、[PETS](https://petsymposium.org/popets/2022/popets-2022-0015.php)，代码链接见[GitHub](https://github.com/LaRiffle/ariann)、视频链接见[Youtube-vedio](https://www.youtube.com/watch?v=ztCptCgqZBs)
+  + 该论文中所设计的协议还被用于隐私保护医学图像分析，[End-to-end privacy preserving deep learning on multi-institutional medical imaging](https://www.nature.com/articles/s42256-021-00337-8)基于AriaNN提出了将差分隐私的联邦模型训练与模型更新的加密聚合以及加密的远程推理结合起来的PriMIA框架，并应用在深度CNN对儿科胸部X光片进行分类（医学图像分类）中。
 + **[Wagh22]Pika: Secure Computation using Function Secret Sharing over Rings**
   + 基于函数秘密共享的安全两方计算协议
   + 发表在PoPETs2022上，论文链接见[eprint](https://eprint.iacr.org/2022/826)
