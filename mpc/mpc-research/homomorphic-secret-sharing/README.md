@@ -15,3 +15,6 @@
   + 发表在ITCS 2018，论文链接见[ePrint](https://eprint.iacr.org/2017/1248)
 + [BKS19]Homomorphic Secret Sharing from Lattices Without FHE
   + 发表在EuroCrypto 2019，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-17656-3_1)、[ePrint](https://eprint.iacr.org/2019/129)
++ [Boyle22]Function Secret Sharing and Homomorphic Secret Sharing
+  + Boyle关于函数秘密共享（Function Secret Sharing）和同态秘密共享（Homomorphic Secret Sharing）综述
+  + 暂未发表，文章链接见[Boyle-Survey](https://cs.idc.ac.il/~elette/HSS_FSS-Survey.pdf)
