@@ -1,5 +1,6 @@
 # 同态秘密共享（Homomorphic Secret Sharing）
 
+同态秘密共享是Boyle在2016年提出的密码学原语，是全同态加密（Fully Homomorphic Encryption，FHE）的放松版本，基于同态秘密共享可以实现安全计算，相较于全同态加密能够获得较大的性能提升。
 
 ## 相关论文
 + [BGI16]Breaking the Circuit Size Barrier for Secure Computation Under DDH
