@@ -3,7 +3,9 @@
 在这里，我们按主题列出一些优秀的MPC相关的论文：
 
 ## 0. MPC综述
-+ [Secure Multiparty Computation (MPC)](https://eprint.iacr.org/2020/300.pdf)
++ [FY22]Concretely efficient secure multi-party computation protocols: survey and more
+  + 论文链接见[online](https://sands.edpsciences.org/articles/sands/full_html/2022/01/sands20210001/sands20210001.html)
++ [[Lindell20]Secure Multiparty Computation (MPC)](https://eprint.iacr.org/2020/300.pdf)
   + 机构&作者：以色列BIU大学Yehuda Lindell
   + 会议/期刊&年份：Communications of the ACM, 2020
   + 主要内容：详细介绍了目前安全多方计算领域的基本概念和发展趋势，该文章不涉及复杂的公式，只有一些基本的概念
