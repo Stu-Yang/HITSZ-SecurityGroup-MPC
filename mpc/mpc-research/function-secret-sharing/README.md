@@ -51,11 +51,11 @@
 + **[GI14]Distributed Point Functions and Their Applications**
   + 分布式点函数及其在PIR上的应用（函数秘密共享本质上是分布式点函数更泛化的表示）
   + 发表在EuroCrypto 2014，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-55220-5_35)、[ePrint](https://www.iacr.org/conferences/eurocrypt2014/37)
-+ **[BGI15]Function Secret Sharing**
++ **[BGI15]Function Secret Sharing** :red_circle:
   + 函数秘密共享的开山之作，首次提出了DPF的FSS构造
   + 发表在EuroCrypto 2015，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-662-46803-6_12)
   + BGI15提出了分布式点函数、区间函数的函数秘密共享构造方案
-+ **[BGI16]Function Secret Sharing: Improvements and Extensions**
++ **[BGI16]Function Secret Sharing: Improvements and Extensions** :red_circle:
   + 函数秘密共享的进一步研究，优化了DPF的FSS构造，并首次提出针对决策树的FSS构造
   + 发表在CCS 2016，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/2976749.2978429)、[ePrint](https://eprint.iacr.org/2018/707)
   + BGI16提出了分布式点函数、决策树的函数秘密共享构造方案
@@ -65,7 +65,7 @@
 + **[BCGI18]Compressing Vector OLE**
   + 利用函数秘密共享实现Oblivious linear-function evaluation
   + 发表在CCS 2018，论文链接见[ACM CCS](https://dl.acm.org/doi/abs/10.1145/3243734.3243868)、[eprint](https://eprint.iacr.org/2019/273)
-+ **[BGI19]Secure Computation with Preprocessing via Function Secret Sharing**
++ **[BGI19]Secure Computation with Preprocessing via Function Secret Sharing** :red_circle:
   + 利用函数秘密共享实现了预处理模型下的安全计算协议
   + 发表在TCC 2019，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-36030-6_14)、[ePrint](https://eprint.iacr.org/2019/1095)
   + BGI19提出了Zero Test、Equality、整数比较、Interval Membership和Spline函数的函数秘密共享构造方案
@@ -73,15 +73,15 @@
   + [BCGI18]的优化
   + 发表在CCS 2019，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/3319535.3363228)、[eprint](https://eprint.iacr.org/2019/1084)
   + 该论文的第三作者Leonie Reichert的硕士毕业论文[Multi-Point Function Secret Sharing using Cuckoo Hashing](https://github.com/ReichertL/Masterthesis)用布谷鸟哈希实现了分布式多点函数
-+ **[BBG+21]Lightweight Techniques for Private Heavy Hitters**
++ **[BBG+21]Lightweight Techniques for Private Heavy Hitters** :yellow_circle:
   + 基于BGI16的DPF构造提出了iDPF构造（DPF的拓展），并利用iDPF构造解决了Private Heavy Hitters（隐私频繁项）
   + 发表在S&P 2021，论文链接见[eprint](https://eprint.iacr.org/2021/017)
-+ **[BCG+21]Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation**
++ **[BCG+21]Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation** :red_circle:
   + BGI19的进一步优化，提出了针对更多非线性函数的FSS构造方案
   + 发表在EuroCrypto 2021，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-77886-6_30)、[ePrint](https://eprint.iacr.org/2020/1392)
   + [Vedio: Mayank Rathee presented at Eurocrypt 2021](https://www.youtube.com/watch?v=22BfFkP_Hbk&t=280s)
   + BCG+21提出了Zero Test、整数比较、ReLU、Spline、算术移位和逻辑移位、比特分解函数的函数秘密共享构造方案
-+ **[RTPB22]ARIANN: Low-Interaction Privacy-Preserving Deep Learning via Function Secret Sharing**
++ **[RTPB22]ARIANN: Low-Interaction Privacy-Preserving Deep Learning via Function Secret Sharing** :yellow_circle:
   + 基于函数秘密共享的隐私保护深度学习，提出了针对于Equality Test、比较函数的函数秘密共享构造方案
   + 发表在PoPETs2022上，论文链接见[arXiv](https://arxiv.org/abs/2006.04593)、[PETS](https://petsymposium.org/popets/2022/popets-2022-0015.php)，代码链接见[GitHub](https://github.com/LaRiffle/ariann)、视频链接见[Youtube-vedio](https://www.youtube.com/watch?v=ztCptCgqZBs)
   + 该论文中所设计的协议还被用于隐私保护医学图像分析，[End-to-end privacy preserving deep learning on multi-institutional medical imaging](https://www.nature.com/articles/s42256-021-00337-8)基于AriaNN提出了将差分隐私的联邦模型训练与模型更新的加密聚合以及加密的远程推理结合起来的PriMIA框架，并应用在深度CNN对儿科胸部X光片进行分类（医学图像分类）中。
@@ -103,7 +103,7 @@
 + **[AMO+22]Memory and Round-Efficient MPC Primitives in the Pre-Processing Model from Unit Vectorization**
   + BGI19和BCG+21的优化
   + 论文发表在ASiaCCS 2022，论文链接见[ACM](https://dl.acm.org/doi/pdf/10.1145/3488932.3517407)
-+ **[BGIK22]Programmable Distributed Point Functions**
++ **[BGIK22]Programmable Distributed Point Functions** 
   + 提出了一种新方法来构造DPF（之前构造DPF的方法是基于树的）
   + 论文发表在Crypto 2022，论文链接见[eprint](https://eprint.iacr.org/2022/1060)
 
