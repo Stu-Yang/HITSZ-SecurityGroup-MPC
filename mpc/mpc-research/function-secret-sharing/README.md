@@ -73,6 +73,9 @@
   + [BCGI18]的优化
   + 发表在CCS 2019，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/3319535.3363228)、[eprint](https://eprint.iacr.org/2019/1084)
   + 该论文的第三作者Leonie Reichert的硕士毕业论文[Multi-Point Function Secret Sharing using Cuckoo Hashing](https://github.com/ReichertL/Masterthesis)用布谷鸟哈希实现了分布式多点函数
++ **[BBG+21]Lightweight Techniques for Private Heavy Hitters**
+  + 基于BGI16的DPF构造提出了iDPF构造（DPF的拓展），并利用iDPF构造解决了Private Heavy Hitters（隐私频繁项）
+  + 发表在S&P 2021，论文链接见[eprint](https://eprint.iacr.org/2021/017)
 + **[BCG+21]Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation**
   + BGI19的进一步优化，提出了针对更多非线性函数的FSS构造方案
   + 发表在EuroCrypto 2021，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-77886-6_30)、[ePrint](https://eprint.iacr.org/2020/1392)
