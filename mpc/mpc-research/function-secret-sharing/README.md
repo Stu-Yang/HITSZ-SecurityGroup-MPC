@@ -141,8 +141,8 @@
 + Mayank Rathee在EuroCrypto 2021上关于论文Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation所作的报告
   + [Vedio](https://www.youtube.com/watch?v=22BfFkP_Hbk&list=PLeeS-3Ml-rprwuVrOTYyYWkXuJLSu4fbu&index=82)
 + [TPMPC 2022](https://www.multipartycomputation.com/tpmpc-2022)上的一些报告，完整视频链接见[bilibili](https://www.bilibili.com/video/BV1hU4y1Q7w2)和[youtube](https://www.youtube.com/playlist?list=PLEn8f3ymo4LDqD_m9pVgkpFBvTrDKnBmF)
-  + [Concretely efficient secure comparison](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=28)
-  + [New MPC Techniques for Secure Machine Learning](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=2)，该报告对应上述论文[APR+22]Communication Efficient Secure Logistic Regression
+  + [Concretely efficient secure comparison](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=28)，该报告对应上述论文[APR+22]Communication Efficient Secure Logistic Regression
+  + [New MPC Techniques for Secure Machine Learning](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=2)
 
 </detail>
 
@@ -163,8 +163,8 @@
 + **比较函数（Comparison Functions）和区间函数（Interval Functions）**：BGI16和BCG+21都实现了比较函数和区间函数的函数秘密共享方案，通常来说区间函数的函数秘密共享方案可以通过调用两个比较函数的函数秘密共享方案来实现。在BGI19和BCG+21中，还基于比较函数和区间函数的函数秘密共享方案实现了RELU函数和Spline函数（即分段函数）的函数秘密共享构造方案
 + **决策树（Decision Tree）**：BGI16针对决策树提出了有效的基于伪随机数生成器的两方函数秘密共享方案。
 + **Zero Test/Equality**：
-+ **比特分解（Bit Decomposition）**：
-+ **算术移位和逻辑移位（Arithmetic and Logical Shift）**：
++ **比特分解（Bit Decomposition）**：BGI19首次提出比特分解协议，BCG+21对其进行优化
++ **算术移位和逻辑移位（Arithmetic and Logical Shift）**：BCG+21首次提出移位协议实现算术运算
 
 
 
