@@ -1,5 +1,6 @@
 ## 安全多方计算相关库（Library about MPC）
 
+> MPC代码实现可参考[隐私保护机器学习中，应用MPC进行实验碰到的常见问题与解答](https://mp.weixin.qq.com/s/ynnKuPoh2RC4tP_oWHN5Tg)，和[基于安全多方计算的隐私保护机器学习有哪些比较好入门学习的代码？](https://www.zhihu.com/question/559735424)
 
 + **安全多方计算通用库**
   + [PySyft](https://github.com/OpenMined/PySyft)：Syft是OpenMined的开源库，可在Python中提供安全、隐私的数据技术
