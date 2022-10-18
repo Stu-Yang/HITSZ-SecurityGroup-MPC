@@ -12,5 +12,5 @@
 + 函数秘密共享库
   + [AriaNN](https://github.com/LaRiffle/ariann)：论文[AriaNN](https://petsymposium.org/popets/2022/popets-2022-0015.php)的开源代码，同时其利用了[PySyft分支](https://github.com/OpenMined/PySyft/tree/a73b13aa84a8a9ad0923d87ff1b6c8c2facdeaa6)
   + [Sycret](https://github.com/OpenMined/sycret)：用于函数秘密共享的Python库，具有使用AES-NI硬件加速的高效Rust后端。它在PySyft中用于AriaNN
-    + 文档[Sycret documentation](https://openmined.github.io/sycret/)
+    + 文档：[Sycret documentation](https://openmined.github.io/sycret/)
     + 说明：同该开源库是和PySyft集成的，Python包是从PySyft调用的，见[PySyft分支](https://github.com/OpenMined/PySyft/blob/49b1d03de1ba82c4043dc63772ed0ebba7aad6c7)
