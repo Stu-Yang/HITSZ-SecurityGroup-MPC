@@ -3,6 +3,8 @@
 
 + 安全多方计算通用库
   + [PySyft](https://github.com/OpenMined/PySyft)：Syft是OpenMined的开源库，可在Python中提供安全、隐私的数据技术
+    + (2022年10月18日)最新版是v0.6.0
+    + 文档见[PySyft’s documentation](https://openmined.github.io/PySyft/)
   + [SyMPC](https://github.com/OpenMined/SyMPC)：SyMPC是一个扩展 PySyft ≥0.3 并支持 SMPC 的库。它允许对加密数据进行计算，并训练和评估神经网络
     + 支持ABY3、Falcon、FSS和SPDZ等协议
   + [SecretFlow隐语](https://github.com/secretflow/secretflow)：SecretFlow 是用于隐私保护数据智能和机器学习的统一框架
