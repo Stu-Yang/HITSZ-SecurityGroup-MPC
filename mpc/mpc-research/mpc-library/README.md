@@ -1,4 +1,4 @@
-## 安全多方计算相关库（Library about MPC）
+## 安全多方计算开源框架（Library about MPC）
 
 > MPC代码实现可参考[隐私保护机器学习中，应用MPC进行实验碰到的常见问题与解答](https://mp.weixin.qq.com/s/ynnKuPoh2RC4tP_oWHN5Tg)，和[基于安全多方计算的隐私保护机器学习有哪些比较好入门学习的代码？](https://www.zhihu.com/question/559735424)
 
@@ -14,6 +14,7 @@
   + [Piranha](https://github.com/ucbrise/piranha)：Piranha 是一个基于 C++ 的平台，用于以独立于协议的方式在 GPU 上加速安全多方计算 (MPC) 协议参见USENIX 2022论文[Piranha: A GPU Platform for Secure Computation](https://eprint.iacr.org/2022/892)
 + **函数秘密共享库**
   + [AriaNN](https://github.com/LaRiffle/ariann)：论文[AriaNN](https://petsymposium.org/popets/2022/popets-2022-0015.php)的开源代码，同时其利用了[PySyft分支](https://github.com/OpenMined/PySyft/tree/a73b13aa84a8a9ad0923d87ff1b6c8c2facdeaa6)
+    + AriaNN使用了PySyft 0.2.0版本，这一点从AiraNN的[main.py](https://github.com/LaRiffle/ariann/blob/main/main.py)文件就可以看出，其中`hook = sy.TorchHook(torch)`（line 35）使用了`TorchHook()`方法，该方法在v0.3.0及以上版本不再出现。
   + [Sycret](https://github.com/OpenMined/sycret)：用于函数秘密共享的Python库，具有使用AES-NI硬件加速的高效Rust后端。它在PySyft中用于AriaNN
     + 文档：[Sycret documentation](https://openmined.github.io/sycret/)
     + 说明：同该开源库是和PySyft集成的，Python包是从PySyft调用的，见[PySyft分支](https://github.com/OpenMined/PySyft/blob/49b1d03de1ba82c4043dc63772ed0ebba7aad6c7)
