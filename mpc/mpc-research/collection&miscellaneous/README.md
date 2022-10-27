@@ -3,6 +3,10 @@
 在这里，我们按主题列出一些优秀的MPC相关的论文：
 
 ## 0. MPC综述
+
+<details>
+<summary>以下是MPC综述，请点击展开</summary>
+
 + [FY22]Concretely efficient secure multi-party computation protocols: survey and more
   + 论文链接见[online](https://sands.edpsciences.org/articles/sands/full_html/2022/01/sands20210001/sands20210001.html)
 + [[Lindell20]Secure Multiparty Computation (MPC)](https://eprint.iacr.org/2020/300.pdf)
@@ -18,9 +22,11 @@
   + 会议/期刊&年份：ACM Computating Survey，2018
   + 主要内容：主要介绍了安全外包计算的基本技术，并对比了各种技术，同时也介绍了安全外包计算的一些应用
 
+</details>
+
 ## 1. 隐私保护数据挖掘
 
-详见[隐私保护数据挖掘](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining)：
+详见[隐私保护数据挖掘](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining)，主要包括以下内容：
   + [隐私保护机器学习](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#1-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)
 
 ## 2. 恶意模型下的安全多方计算
