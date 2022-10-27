@@ -29,15 +29,18 @@
 <details>
 <summary>以下是MPC综述，请点击展开</summary>
 
-## 1.1. 恶意模型下的安全多方计算
+#### 1.1. 恶意模型下的安全多方计算
 
 详见[恶意模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/malicious-mpc)
 
-## 1.2. 预处理模型下的安全多方计算协议
+#### 1.2. 预处理模型下的安全多方计算协议
 
 详见[预处理模型下的安全多方计算协议](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-with-preprocessing)  
 
-## 1.3 其他分类
+#### 1.3 其他分类
+
+<details>
+<summary>以下是MPC相关论文，请点击展开</summary>
 
 + [SecFloat: Accurate Floating-Point meets Secure 2-Party Computation](https://eprint.iacr.org/2022/322.pdf)
   + 作者：Deevashwer Rathee等
@@ -90,6 +93,8 @@
 + [Global-Scale Secure Multiparty Computation](https://eprint.iacr.org/2017/189.pdf)
   + 作者&机构：Xiao Wang, Samuel Ranellucci, and Jonathan Katz
   + 主要内容：We propose a new, constant-round protocol for multi-party computation of boolean circuits that is secure against an arbitrary number of malicious corruptions.
+</details>
+  
 </details>
 
 ## 2. 隐私保护数据挖掘
