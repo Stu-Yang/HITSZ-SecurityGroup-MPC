@@ -19,13 +19,15 @@
 + XONN: XNOR-based Oblivious Deep Neural Network Inference
 + [WGC+19]SecureNN-3-Party Secure Computation for Neural Network Training
   + 安全三方隐私保护神经网络训练，发表在PoPETS2019
-  + 论文链接见(PoPETS 2019](https://petsymposium.org/popets/2019/popets-2019-0035.php)
+  + 论文链接见[PoPETS 2019](https://petsymposium.org/popets/2019/popets-2019-0035.php)
 + 2020：[Effectiveness of MPC-friendly Softmax Replacement](https://arxiv.org/abs/2011.11202)
 + [RRK+20]CrypTFlow2: Practical 2-Party Secure Inference
   + 安全两方神经网络推理
   + 发表在CCS 2022，论文链接见[eprint](https://eprint.iacr.org/2020/1002)
 + 2022：[Privacy-Preserving Decision Trees Training and Prediction](https://dl.acm.org/doi/pdf/10.1145/3517197)
-+ 2022：[MOTION - A Framework for Mixed-Protocol Multi-Party Computation](https://eprint.iacr.org/2020/1137.pdf)
++ 2022：[BDST]MOTION - A Framework for Mixed-Protocol Multi-Party Computation
+  + ABY的多方版本
+  + 发表在TOPS 2022，论文链接见[eprint](https://eprint.iacr.org/2020/1137.pdf)
 + [CGOS22]SIMC: ML Inference Secure Against Malicious Clients at Semi-Honest Cost
   + 恶意模型下安全神经网络推理
   + 发表在USENIX 2022，论文链接见[USENIX 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/chandran)
