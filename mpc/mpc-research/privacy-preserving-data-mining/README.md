@@ -1,19 +1,19 @@
 # 隐私保护数据挖掘
 
-## 隐私保护机器学习
+## 1. 隐私保护机器学习
 
 基于安全多方计算、同态加密实现隐私保护机器学习的训练和推理，主要包括隐私保护线性回归、逻辑回归、神经网络和泊松回归。
 
-+ [DSZ15]ABY-A framework for efficient mixed-protocol secure two-party computation
++ :triangular_flag_on_post: **[DSZ15]ABY-A framework for efficient mixed-protocol secure two-party computation**
   + 混合协议开篇之作，ABY：算术秘密份额（A）、布尔秘密份额（B）和姚氏秘密份额（Y）
   + 发表在NDSS 2015，论文链接见[NDSS 2015](https://www.ndss-symposium.org/ndss2015/ndss-2015-programme/aby-framework-efficient-mixed-protocol-secure-two-party-computation/)
-+ [MZ17]SecureML: A system for scalable privacy-preserving machine learning
++ :triangular_flag_on_post: **[MZ17]SecureML: A system for scalable privacy-preserving machine learning**
   + 隐私保护机器学习（线性回归、逻辑回归和神经网络）
   + 发表在S&P 2017，论文链接见[eprint](https://eprint.iacr.org/2017/396.pdf)
 + 2018：ABY3: A mixed protocol framework for machine learning
 + Oblivious neural network predictions via minionn transformations
 + GAZELLE: A Low Latency Framework for Secure Neural Network Inference
-+ 2020：Trident: Efficient 4PC Framework for Privacy Preserving Machine Learning
++ Trident: Efficient 4PC Framework for Privacy Preserving Machine Learning
 + QUOTIENT: Two-Party Secure Neural Network Training and Prediction
 + New Primitives for Actively-Secure MPC over Rings with Applications to Private Machine Learning
 + XONN: XNOR-based Oblivious Deep Neural Network Inference
