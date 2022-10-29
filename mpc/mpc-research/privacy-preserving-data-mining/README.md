@@ -36,12 +36,15 @@
 + [CGOS22]SIMC: ML Inference Secure Against Malicious Clients at Semi-Honest Cost
   + 恶意模型下安全神经网络推理
   + 发表在USENIX 2022，论文链接见[USENIX 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/chandran)
-+ [KLRS22]Secure Poisson Regression
-  + 安全两方泊松回归
-  + 发表在USENIX 2022，论文链接见[USENIX 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/kelkar)，[eprint](https://eprint.iacr.org/2021/208)
 + [ZWLL22]SecureBiNN-3-Party Secure Computation for Binarized Neural Network Inference
   + 安全三方二值神经网络推理
   + 发表在ESORICS 2022，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-17143-7_14)
 + [APR+22]Communication Efficient Secure Logistic Regression
   + 基于函数秘密共享和秘密共享结合的安全两方逻辑回归
   + 论文链接见[eprint](https://eprint.iacr.org/2022/866)
+
+## 2. 联合统计分析
++ [KLRS22]Secure Poisson Regression
+  + 安全两方泊松回归
+  + 发表在USENIX 2022，论文链接见[USENIX 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/kelkar)，[eprint](https://eprint.iacr.org/2021/208)
+
