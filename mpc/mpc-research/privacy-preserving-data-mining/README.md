@@ -12,7 +12,7 @@
   + 发表在S&P 2017，论文链接见[eprint](https://eprint.iacr.org/2017/396.pdf)
 + [MR18]ABY3: A mixed protocol framework for machine learning
   + 利用复制秘密共享技术提出了恶意模型下基于混合协议的安全三方计算通用框架ABY3，但仅在半诚实模型下实现了线性回归、逻辑回归和神经网络的安全计算
-  + 论文发表在CCS 2018，
+  + 论文发表在CCS 2018，论文链接见[ACM CCS](https://dl.acm.org/doi/abs/10.1145/3243734.3243760)，[eprint](https://eprint.iacr.org/2018/403)
 + Oblivious neural network predictions via minionn transformations
 + GAZELLE: A Low Latency Framework for Secure Neural Network Inference
 + Trident: Efficient 4PC Framework for Privacy Preserving Machine Learning
@@ -25,8 +25,11 @@
 + 2020：[Effectiveness of MPC-friendly Softmax Replacement](https://arxiv.org/abs/2011.11202)
 + [RRK+20]CrypTFlow2: Practical 2-Party Secure Inference
   + 安全两方神经网络推理
-  + 发表在CCS 2022，论文链接见[eprint](https://eprint.iacr.org/2020/1002)
+  + 发表在CCS 2020，论文链接见[eprint](https://eprint.iacr.org/2020/1002)
 + [Privacy-Preserving Decision Trees Training and Prediction](https://dl.acm.org/doi/pdf/10.1145/3517197)
++ [PSSY21]ABY2.0: Improved Mixed-Protocol Secure Two-Party Computation
+  + 在ABY框架的基础上进一步减少了秘密份额转换的开销，降低了协议的通信开销
+  + 论文发表在USENIX 2021，论文链接见[USENIX](https://www.usenix.org/conference/usenixsecurity21/presentation/patra)，[eprint](https://eprint.iacr.org/2020/1225)
 + [BDST]MOTION - A Framework for Mixed-Protocol Multi-Party Computation
   + ABY的多方版本，文章中详细论述了ABY系列协议
   + 发表在TOPS 2022，论文链接见[eprint](https://eprint.iacr.org/2020/1137.pdf)
