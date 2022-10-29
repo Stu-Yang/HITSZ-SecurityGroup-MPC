@@ -32,7 +32,7 @@
   + 论文发表在USENIX 2021，论文链接见[USENIX](https://www.usenix.org/conference/usenixsecurity21/presentation/patra)，[eprint](https://eprint.iacr.org/2020/1225)
 + [BDST]MOTION - A Framework for Mixed-Protocol Multi-Party Computation
   + ABY的多方版本，文章中详细论述了ABY系列协议
-  + 发表在TOPS 2022，论文链接见[eprint](https://eprint.iacr.org/2020/1137.pdf)
+  + 发表在TOPS 2022，论文链接见[eprint](https://eprint.iacr.org/2020/1137)，[ACM](https://dl.acm.org/doi/abs/10.1145/3490390)
 + [CGOS22]SIMC: ML Inference Secure Against Malicious Clients at Semi-Honest Cost
   + 恶意模型下安全神经网络推理
   + 发表在USENIX 2022，论文链接见[USENIX 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/chandran)
