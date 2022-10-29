@@ -6,7 +6,7 @@
 
 + :triangular_flag_on_post: **[DSZ15]ABY-A framework for efficient mixed-protocol secure two-party computation**
   + 混合协议开篇之作，ABY：算术秘密份额（A）、布尔秘密份额（B）和姚氏秘密份额（Y）
-  + 发表在NDSS 2015，论文链接见[NDSS 2015](https://www.ndss-symposium.org/ndss2015/ndss-2015-programme/aby-framework-efficient-mixed-protocol-secure-two-party-computation/)
+  + 发表在NDSS 2015，论文链接见[NDSS 2015](https://www.ndss-symposium.org/ndss2015/ndss-2015-programme/aby-framework-efficient-mixed-protocol-secure-two-party-computation/)，[encryptogroup](http://thomaschneider.de/papers/DSZ15.pdf)
 + :triangular_flag_on_post: **[MZ17]SecureML: A system for scalable privacy-preserving machine learning**
   + 隐私保护机器学习（线性回归、逻辑回归和神经网络）
   + 发表在S&P 2017，论文链接见[eprint](https://eprint.iacr.org/2017/396.pdf)
