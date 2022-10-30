@@ -30,7 +30,10 @@
 + [PSSY21]ABY2.0: Improved Mixed-Protocol Secure Two-Party Computation
   + 在ABY框架的基础上进一步减少了秘密份额转换的开销，降低了协议的通信开销
   + 论文发表在USENIX 2021，论文链接见[USENIX](https://www.usenix.org/conference/usenixsecurity21/presentation/patra)，[eprint](https://eprint.iacr.org/2020/1225)
-+ [BDST]MOTION - A Framework for Mixed-Protocol Multi-Party Computation
++ **[CZW+21]When Homomorphic Encryption Marries Secret Sharing: Secure Large-Scale Sparse Logistic Regression and Applications in Risk Control**
+  + 结合秘密共享和同态加密实现稀疏数据的逻辑回归
+  + 发表在KDD 2021，文章链接见[ACM](https://dl.acm.org/doi/10.1145/3447548.3467210)，[arXiv](https://arxiv.org/pdf/2008.08753.pdf)
++ [BDST22]MOTION - A Framework for Mixed-Protocol Multi-Party Computation
   + ABY的多方版本，文章中详细论述了ABY系列协议
   + 发表在TOPS 2022，论文链接见[eprint](https://eprint.iacr.org/2020/1137)，[ACM](https://dl.acm.org/doi/abs/10.1145/3490390)
 + [CGOS22]SIMC: ML Inference Secure Against Malicious Clients at Semi-Honest Cost
