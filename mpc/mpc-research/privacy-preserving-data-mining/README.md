@@ -26,7 +26,7 @@
 + ***[RRK+20]CrypTFlow2: Practical 2-Party Secure Inference***
   + 安全两方神经网络推理
   + 发表在CCS 2020，论文链接见[eprint](https://eprint.iacr.org/2020/1002)
-+ **[Privacy-Preserving Decision Trees Training and Prediction](https://dl.acm.org/doi/pdf/10.1145/3517197)**
++ ***[Privacy-Preserving Decision Trees Training and Prediction](https://dl.acm.org/doi/pdf/10.1145/3517197)***
 + ***[PSSY21]ABY2.0: Improved Mixed-Protocol Secure Two-Party Computation***
   + 在ABY框架的基础上进一步减少了秘密份额转换的开销，降低了协议的通信开销
   + 论文发表在USENIX 2021，论文链接见[USENIX](https://www.usenix.org/conference/usenixsecurity21/presentation/patra)，[eprint](https://eprint.iacr.org/2020/1225)
