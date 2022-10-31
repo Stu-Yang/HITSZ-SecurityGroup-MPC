@@ -48,7 +48,7 @@
 + **[SDFY94]How to share a function securely**
   + 首次提出函数秘密共享概念，并构造了函数分发和重构方案
   + 发表在STOC94，论文链接见[ACM](https://dl.acm.org/doi/abs/10.1145/195058.195405)
-+ **[GI14]Distributed Point Functions and Their Applications**
++ ***[GI14]Distributed Point Functions and Their Applications***
   + 分布式点函数及其在PIR上的应用（函数秘密共享本质上是分布式点函数更泛化的表示）
   + 发表在EuroCrypto 2014，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-55220-5_35)、[ePrint](https://www.iacr.org/conferences/eurocrypt2014/37)
 + :triangular_flag_on_post: **[BGI15]Function Secret Sharing** 
