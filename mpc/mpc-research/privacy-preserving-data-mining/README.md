@@ -47,7 +47,7 @@
   + 论文链接见[eprint](https://eprint.iacr.org/2022/866)
 
 ## 2. 联合统计分析
-+ *[KLRS22]Secure Poisson Regression*
++ **[KLRS22]Secure Poisson Regression**
   + 安全两方泊松回归
   + 发表在USENIX 2022，论文链接见[USENIX 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/kelkar)，[eprint](https://eprint.iacr.org/2021/208)
 
