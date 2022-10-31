@@ -45,90 +45,90 @@
 <details>
 <summary>函数秘密共享相关论文和阅读材料，请点击展开</summary>
 
-+ **[SDFY94]How to share a function securely**
++ ***[SDFY94]How to share a function securely***
   + 首次提出函数秘密共享概念，并构造了函数分发和重构方案
   + 发表在STOC94，论文链接见[ACM](https://dl.acm.org/doi/abs/10.1145/195058.195405)
 + ***[GI14]Distributed Point Functions and Their Applications***
   + 分布式点函数及其在PIR上的应用（函数秘密共享本质上是分布式点函数更泛化的表示）
   + 发表在EuroCrypto 2014，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-55220-5_35)、[ePrint](https://www.iacr.org/conferences/eurocrypt2014/37)
-+ :triangular_flag_on_post: **[BGI15]Function Secret Sharing** 
++ :triangular_flag_on_post: ***[BGI15]Function Secret Sharing***
   + 函数秘密共享的开山之作，首次提出了DPF的FSS构造
   + 发表在EuroCrypto 2015，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-662-46803-6_12)
   + BGI15提出了分布式点函数、区间函数的函数秘密共享构造方案
-+ :triangular_flag_on_post: **[BGI16]Function Secret Sharing: Improvements and Extensions**
++ :triangular_flag_on_post: ***[BGI16]Function Secret Sharing: Improvements and Extensions***
   + 函数秘密共享的进一步研究，优化了DPF的FSS构造，并首次提出针对决策树的FSS构造
   + 发表在CCS 2016，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/2976749.2978429)、[ePrint](https://eprint.iacr.org/2018/707)
   + BGI16提出了分布式点函数、决策树的函数秘密共享构造方案
-+ **[WYG+17]Splinter: Practical Private Queries on Public Data**
++ ***[WYG+17]Splinter: Practical Private Queries on Public Data***
   + 利用函数秘密共享实现隐私数据库查询
   + 发表在USENIX 2017，论文链接见[USENIX 2017](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/wang-frank)、[ePrint](https://eprint.iacr.org/2016/1148)
-+ **[BCGI18]Compressing Vector OLE**
++ ***[BCGI18]Compressing Vector OLE***
   + 利用函数秘密共享实现Oblivious linear-function evaluation
   + 发表在CCS 2018，论文链接见[ACM CCS](https://dl.acm.org/doi/abs/10.1145/3243734.3243868)、[eprint](https://eprint.iacr.org/2019/273)
-+ :triangular_flag_on_post: **[BGI19]Secure Computation with Preprocessing via Function Secret Sharing**
++ :triangular_flag_on_post: ***[BGI19]Secure Computation with Preprocessing via Function Secret Sharing***
   + 利用函数秘密共享实现了预处理模型下的安全计算协议
   + 发表在TCC 2019，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-36030-6_14)、[ePrint](https://eprint.iacr.org/2019/1095)
   + BGI19提出了Zero Test、Equality、整数比较、Interval Membership和Spline函数的函数秘密共享构造方案
-+ **[SGRR2019]Distributed Vector-OLE-Improved Constructions and Implementation**
++ ***[SGRR2019]Distributed Vector-OLE-Improved Constructions and Implementation***
   + [BCGI18]的优化
   + 发表在CCS 2019，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/3319535.3363228)、[eprint](https://eprint.iacr.org/2019/1084)
   + 该论文的第三作者Leonie Reichert的硕士毕业论文[Multi-Point Function Secret Sharing using Cuckoo Hashing](https://github.com/ReichertL/Masterthesis)用布谷鸟哈希实现了分布式多点函数
-+ **[BBG+21]Lightweight Techniques for Private Heavy Hitters**
++ ***[BBG+21]Lightweight Techniques for Private Heavy Hitters***
   + 基于BGI16的DPF构造提出了iDPF构造（DPF的拓展），并利用iDPF构造解决了Private Heavy Hitters（隐私频繁项）
   + 发表在S&P 2021，论文链接见[eprint](https://eprint.iacr.org/2021/017)
-+ :triangular_flag_on_post: **[BCG+21]Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation**
++ :triangular_flag_on_post: ***[BCG+21]Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation***
   + BGI19的进一步优化，提出了针对更多非线性函数的FSS构造方案
   + 发表在EuroCrypto 2021，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-77886-6_30)、[ePrint](https://eprint.iacr.org/2020/1392)
   + [Vedio: Mayank Rathee presented at Eurocrypt 2021](https://www.youtube.com/watch?v=22BfFkP_Hbk&t=280s)
   + BCG+21提出了Zero Test、整数比较、ReLU、Spline、算术移位和逻辑移位、比特分解函数的函数秘密共享构造方案
-+ **[RTPB22]ARIANN: Low-Interaction Privacy-Preserving Deep Learning via Function Secret Sharing**
++ ***[RTPB22]ARIANN: Low-Interaction Privacy-Preserving Deep Learning via Function Secret Sharing***
   + 基于函数秘密共享的隐私保护深度学习，提出了针对于Equality Test、比较函数的函数秘密共享构造方案
   + 发表在PoPETs2022上，论文链接见[arXiv](https://arxiv.org/abs/2006.04593)、[PETS](https://petsymposium.org/popets/2022/popets-2022-0015.php)，代码链接见[GitHub](https://github.com/LaRiffle/ariann)、视频链接见[Youtube-vedio](https://www.youtube.com/watch?v=ztCptCgqZBs)
   + 该论文中所设计的协议还被用于隐私保护医学图像分析，[End-to-end privacy preserving deep learning on multi-institutional medical imaging](https://www.nature.com/articles/s42256-021-00337-8)基于AriaNN提出了将差分隐私的联邦模型训练与模型更新的加密聚合以及加密的远程推理结合起来的PriMIA框架，并应用在深度CNN对儿科胸部X光片进行分类（医学图像分类）中。
-+ **[Wagh22]Pika: Secure Computation using Function Secret Sharing over Rings**
++ ***[Wagh22]Pika: Secure Computation using Function Secret Sharing over Rings***
   + 基于函数秘密共享的安全两方计算协议
   + 发表在PoPETs2022上，论文链接见[eprint](https://eprint.iacr.org/2022/826)
-+ **[GKCG22]LLAMA: A Low Latency Math Library for Secure Inference**
++ ***[GKCG22]LLAMA: A Low Latency Math Library for Secure Inference***
   + 基于函数秘密共享的数学库，可用于安全隐私推理
   + 发表在PoPETs2022上，论文链接见[eprint](https://eprint.iacr.org/2022/793)，视频链接见[bilibili](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=2&vd_source=45400e58cd0ed58d7605745553c0f81e)(其中，FSS的内容在视频18:00)
-+ **[CP22]Lightweight, Maliciously Secure Verifiable Function Secret Sharing**
++ ***[CP22]Lightweight, Maliciously Secure Verifiable Function Secret Sharing***
   + 恶意安全的函数秘密共享
   + 发表在EuroCrypto2022上，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_6)
-+ **[BKO22]CNF-FSS and Its Applications**
++ ***[BKO22]CNF-FSS and Its Applications***
   + 多方函数秘密共享构造方案
   + 发表在PKC 2022上，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-97121-2_11)
-+ **[APR+22]Communication Efficient Secure Logistic Regression**
++ ***[APR+22]Communication Efficient Secure Logistic Regression***
   + 结合基于函数秘密共享的MPC协议和基于非函数秘密共享的MPC协议，设计了安全逻辑回归协议
   + 论文链接见[eprint](https://eprint.iacr.org/2022/866)，视频链接见[youtube](https://www.youtube.com/watch?v=HkFML4TJqYc&list=PLEn8f3ymo4LDqD_m9pVgkpFBvTrDKnBmF&index=16)
-+ **[AMO+22]Memory and Round-Efficient MPC Primitives in the Pre-Processing Model from Unit Vectorization**
++ ***[AMO+22]Memory and Round-Efficient MPC Primitives in the Pre-Processing Model from Unit Vectorization***
   + BGI19和BCG+21的优化
   + 论文发表在ASiaCCS 2022，论文链接见[ACM](https://dl.acm.org/doi/pdf/10.1145/3488932.3517407)
-+ **[DRPS22]Waldo- A Private Time-Series Database from Function Secret Sharing**
++ ***[DRPS22]Waldo- A Private Time-Series Database from Function Secret Sharing***
   + 利用函数秘密共享实现隐私数据库查询
   + 发表在S&P2022，论文链接见[eprint](https://eprint.iacr.org/2021/1661)，[IEEE](https://ieeexplore.ieee.org/document/9833611/)
-+ :triangular_flag_on_post: **[BGIK22]Programmable Distributed Point Functions**
++ :triangular_flag_on_post: ***[BGIK22]Programmable Distributed Point Functions***
   + 提出了一种新方法来构造DPF（之前构造DPF的方法是基于树的）
   + 论文发表在Crypto 2022，论文链接见[eprint](https://eprint.iacr.org/2022/1060)
 
   
   
 ## 2.1 相关阅读材料
-+ **[DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited**
++ ***[DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited***
   + 利用真值表来实现所有函数的预处理模型下安全计算，该方法针对布尔电路
   + 发表在Crypto 2017
-+ **[DKS17]Pushing the Communication Barrier in Secure Computation using Lookup Tables**
++ ***[DKS17]Pushing the Communication Barrier in Secure Computation using Lookup Tables***
   + 利用查找表来实现安全计算
   + 发表在NDSS 2017上，NDSS页面[Pushing the Communication Barrier in Secure Computation using Lookup Tables](https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/pushing-communication-barrier-secure-computation-using-lookup-tables/)
   + 论文链接见[eprint](https://eprint.iacr.org/2018/486)
-+ **[CZ22]Non-Interactive Secure Computation of Inner-Product from LPN and LWE**
++ ***[CZ22]Non-Interactive Secure Computation of Inner-Product from LPN and LWE***
   + 详见[eprint](https://iacr.org/cryptodb/data/paper.php?pubkey=32405)
-+ **[DGH+21]MPC-Friendly Symmetric Cryptography from Alternating Moduli: Candidates, Protocols, and Applications**
++ ***[DGH+21]MPC-Friendly Symmetric Cryptography from Alternating Moduli: Candidates, Protocols, and Applications***
   + 介绍了许多密码学协议，其中包括一些对FSS的讨论
   + 发表在Crypto 2021，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-84259-8_18)
-+ **[ACH20]The Usefulness of Sparsifiable Inputs: How to Avoid Subexponential iO**
++ ***[ACH20]The Usefulness of Sparsifiable Inputs: How to Avoid Subexponential iO***
   + 基于iO实现了许多密码学协议，其中就包括利用iO实现一种用于所有电路的加性函数秘密共享方案(但是在该论文中未找到相关构造)
   + 发表在PKC 2020，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-45374-9_7)、[eprint](https://eprint.iacr.org/2018/470)
-+ **[DHRW]Spooky Encryption and Its Applications**
++ ***[DHRW]Spooky Encryption and Its Applications***
   + 提出了Spooky Encryption的概念，并提出了它的应用，其中一个应用就是函数秘密共享(见6.3 Function Secret Sharing)，不过该论文没有提出有效表示函数f的方案
   + 发表在Crypto 2016，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-662-53015-3_4)、[eprint](https://eprint.iacr.org/2016/272)
 
