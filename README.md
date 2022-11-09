@@ -34,6 +34,8 @@ HITSZ安全组的MPC团队主要针对安全多方计算的理论与实践进行
 + 2022级硕士生庄杰航
 + 2020级本科生高世祺
 
+了解更多请点击[更多](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/edit/main/mpc/mpc-research/research-field/README.md)
+
 ## 常用索引
 + [安全多方计算理论研究](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research)
   + [conferences&journals](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals)：介绍三大密码学会、四大安全顶会等重要会议中MPC相关的论文
