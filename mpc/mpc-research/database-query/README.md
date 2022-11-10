@@ -21,15 +21,16 @@
   + 混合协议开篇之作，ABY：算术秘密份额（A）、布尔秘密份额（B）和姚氏秘密份额（Y）
   + 发表在NDSS 2015，论文链接见[NDSS 2015](https://www.ndss-symposium.org/ndss2015/ndss-2015-programme/aby-framework-efficient-mixed-protocol-secure-two-party-computation/)，[encryptogroup](http://thomaschneider.de/papers/DSZ15.pdf)
 + :triangular_flag_on_post: ***[MR18]ABY3: A Mixed Protocol Framework for Machine Learning***
-  + 利用复制秘密共享技术提出了恶意模型下基于混合协议的安全三方计算通用框架ABY3，但仅在半诚实模型下实现了线性回归、逻辑回归和神经网络的安全计算
+  + 利用**复制秘密共享**技术提出了恶意模型下基于混合协议的安全三方计算通用框架ABY3，但仅在半诚实模型下实现了线性回归、逻辑回归和神经网络的安全计算
   + 论文发表在CCS 2018，论文链接见[ACM CCS](https://dl.acm.org/doi/abs/10.1145/3243734.3243760)，[eprint](https://eprint.iacr.org/2018/403)
 + :triangular_flag_on_post: ***[MRR20]Fast Database Joins and PSI for Secret Shared Data***
-  + 谢永杰师兄主要参考的数据库查询论文
+  + 数据库查询论文（谢永杰师兄主要参考）
   + 论文发表在CCS 2020，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/3372297.3423358)，[eprint](https://eprint.iacr.org/2019/518)
 + ***[PSSY21]ABY2.0: Improved Mixed-Protocol Secure Two-Party Computation***
   + 在ABY框架的基础上进一步减少了秘密份额转换的开销，降低了协议的通信开销
   + 论文发表在USENIX 2021，论文链接见[USENIX](https://www.usenix.org/conference/usenixsecurity21/presentation/patra)，[eprint](https://eprint.iacr.org/2020/1225)
 + :triangular_flag_on_post: ***[LKF+21]Secrecy-Secure collaborative analytics on secret-shared data***
+  + 数据库查询论文（谢永杰师兄主要参考）
   + 论文在[Arxiv](https://arxiv.org/abs/2102.01048)
 
 
