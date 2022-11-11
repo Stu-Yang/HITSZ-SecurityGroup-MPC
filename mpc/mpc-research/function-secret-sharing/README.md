@@ -118,7 +118,7 @@
   + 发表在Crypto 2017
 + ***[DKS17]Pushing the Communication Barrier in Secure Computation using Lookup Tables***
   + 利用查找表来实现安全计算
-  + 发表在NDSS 2017上，NDSS页面[Pushing the Communication Barrier in Secure Computation using Lookup Tables](https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/pushing-communication-barrier-secure-computation-using-lookup-tables/)
+  + 发表在NDSS 2017上，论文链接见[NDSS](https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/pushing-communication-barrier-secure-computation-using-lookup-tables/)
   + 论文链接见[eprint](https://eprint.iacr.org/2018/486)
 + ***[CZ22]Non-Interactive Secure Computation of Inner-Product from LPN and LWE***
   + 详见[eprint](https://iacr.org/cryptodb/data/paper.php?pubkey=32405)
