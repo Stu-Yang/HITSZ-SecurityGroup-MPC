@@ -18,7 +18,9 @@
 + ***Trident: Efficient 4PC Framework for Privacy Preserving Machine Learning***
 + ***QUOTIENT: Two-Party Secure Neural Network Training and Prediction***
 + ***New Primitives for Actively-Secure MPC over Rings with Applications to Private Machine Learning***
-+ ***XONN: XNOR-based Oblivious Deep Neural Network Inference***
++ ***[RSC+19]XONN:XNOR-based Oblivious Deep Neural Network Inference***
+  + 安全两方二值神经网络推理
+  + 发表在USENIX 2019，论文链接见[USENIX](https://www.usenix.org/conference/usenixsecurity19/presentation/riazi)，[eprint](https://eprint.iacr.org/2019/171)
 + ***[WGC+19]SecureNN-3-Party Secure Computation for Neural Network Training***
   + 安全三方隐私保护神经网络训练，发表在PoPETS2019
   + 论文链接见[PoPETS 2019](https://petsymposium.org/popets/2019/popets-2019-0035.php)
