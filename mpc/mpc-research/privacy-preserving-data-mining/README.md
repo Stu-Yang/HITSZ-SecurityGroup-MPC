@@ -47,6 +47,10 @@
 + ***[APR+22]Communication Efficient Secure Logistic Regression***
   + 基于函数秘密共享和秘密共享结合的安全两方逻辑回归
   + 论文链接见[eprint](https://eprint.iacr.org/2022/866)
++ ***[HLHD22]Cheetah:Lean and Fast Secure Two-Party Deep Neural Network Inference***
+  + 安全两方神经网络推理，基于秘密共享和同态加密
+  + 阿里巴巴双子座实验室发表在USENIX 2022上的论文，论文链接见[USENIX](https://www.usenix.org/conference/usenixsecurity22/presentation/huang-zhicong)、[eprint](https://eprint.iacr.org/2022/207)
+
 
 ## 2. 联合统计分析
 + ***[KLRS22]Secure Poisson Regression***
