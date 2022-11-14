@@ -7,12 +7,12 @@
 + :triangular_flag_on_post: ***[DSZ15]ABY-A framework for efficient mixed-protocol secure two-party computation***
   + 混合协议开篇之作，ABY：算术秘密份额（A）、布尔秘密份额（B）和姚氏秘密份额（Y）
   + 发表在NDSS 2015，论文链接见[NDSS 2015](https://www.ndss-symposium.org/ndss2015/ndss-2015-programme/aby-framework-efficient-mixed-protocol-secure-two-party-computation/)，[encryptogroup](http://thomaschneider.de/papers/DSZ15.pdf)
++ ***[GSB+17]Privacy-Preserving Distributed Linear Regression on High-Dimensional Data***
+  + 高维数据的隐私保护线性回归
+  + 发表在PoPETS 2017，论文链接见[PoPETS](https://petsymposium.org/popets/2017/popets-2017-0053.php)，[eprint](https://eprint.iacr.org/2016/892.pdf)、对应的slides见[Slide](http://archive.dimacs.rutgers.edu/Workshops/RAM/Slides/raykova.pdf)
 + :triangular_flag_on_post: ***[MZ17]SecureML: A system for scalable privacy-preserving machine learning***
   + 隐私保护机器学习（线性回归、逻辑回归和神经网络）
   + 发表在S&P 2017，论文链接见[eprint](https://eprint.iacr.org/2017/396.pdf)
-+ ***[GSB+17]Privacy-Preserving Distributed Linear Regression on High-Dimensional Data***
-  + 高维数据的隐私保护线性回归
-  + 发表在PoPETS 2017，论文链接见[PoPETS](https://petsymposium.org/popets/2017/popets-2017-0053.php)，[eprint](https://eprint.iacr.org/2016/892.pdf)
 + ***[MR18]ABY3: A mixed protocol framework for machine learning***
   + 利用复制秘密共享技术提出了恶意模型下基于混合协议的安全三方计算通用框架ABY3，但仅在半诚实模型下实现了线性回归、逻辑回归和神经网络的安全计算
   + 论文发表在CCS 2018，论文链接见[ACM CCS](https://dl.acm.org/doi/abs/10.1145/3243734.3243760)，[eprint](https://eprint.iacr.org/2018/403)
