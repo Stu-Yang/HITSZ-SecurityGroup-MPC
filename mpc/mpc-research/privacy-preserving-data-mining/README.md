@@ -10,6 +10,9 @@
 + :triangular_flag_on_post: ***[MZ17]SecureML: A system for scalable privacy-preserving machine learning***
   + 隐私保护机器学习（线性回归、逻辑回归和神经网络）
   + 发表在S&P 2017，论文链接见[eprint](https://eprint.iacr.org/2017/396.pdf)
++ [GSB+17]Privacy-Preserving Distributed Linear Regression on High-Dimensional Data
+  + 高维数据的隐私保护线性回归
+  + 发表在PoPETS 2017，论文链接见[PoPETS](https://petsymposium.org/popets/2017/popets-2017-0053.php)，[eprint](https://eprint.iacr.org/2016/892.pdf)
 + ***[MR18]ABY3: A mixed protocol framework for machine learning***
   + 利用复制秘密共享技术提出了恶意模型下基于混合协议的安全三方计算通用框架ABY3，但仅在半诚实模型下实现了线性回归、逻辑回归和神经网络的安全计算
   + 论文发表在CCS 2018，论文链接见[ACM CCS](https://dl.acm.org/doi/abs/10.1145/3243734.3243760)，[eprint](https://eprint.iacr.org/2018/403)
