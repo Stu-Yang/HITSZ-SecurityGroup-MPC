@@ -23,14 +23,15 @@
 
 ### 2.1 理论研究
 
+![image](https://user-images.githubusercontent.com/66773755/201795749-4418f8f0-760a-467a-a5c7-31b1a8258342.png)
+
 + ***[Bea91]Efficient Multiparty Protocols Using Circuit Randomization***
   + 预处理模型最早源于Beaver的工作，Beaver针对BGW协议的复杂乘法运算，提出了乘法三元组的概念（后也称Beaver三元组），用一轮交互便可完成一次乘法运算，大大提高了乘法运算的效率。
   + 作者为Donald Beaver，论文链接见[Springer](https://link.springer.com/chapter/10.1007/3-540-46766-1_34)
 + ***[Bea95]Precomputing Oblivious Transfer***
   + 作者为Donald Beaver，论文链接见[springer](https://link.springer.com/chapter/10.1007/3-540-44750-4_8)
 + ***[DN07]Scalable and Unconditionally Secure Multiparty Computation***
-  + Ivan Damgård and Jesper Buus Nielsen
-  + [eprint](https://www.iacr.org/archive/crypto2007/46220565/46220565.pdf)
+  + 作者为Ivan Damgård and Jesper Buus Nielsen，论文链接见[eprint](https://www.iacr.org/archive/crypto2007/46220565/46220565.pdf)
 + ***[DGKN09]Asynchronous Multiparty Computation: Theory and Implementation***
   + 作者为Ivan Damgård, Martin Geisler, Mikkel Krøigaard, and Jesper Buus Nielsen，论文链接见[eprint](https://eprint.iacr.org/2008/415)
   + 2009年，Damgård等人提出了异步网络下的安全多方计算协议，该协议由预处理和输入阶段、计算阶段组成，其中预处理阶段生成乘法三元组，并提出了基于Hyperinvertible Matrices的乘法三元组生成协议和基于Pseudorandom Secret-Sharing的乘法三元组生成协议。
