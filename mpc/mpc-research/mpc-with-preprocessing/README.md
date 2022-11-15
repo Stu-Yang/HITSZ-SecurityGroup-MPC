@@ -72,8 +72,7 @@
   + 作者为Tore Kasper Frederiksen, Marcel Keller, Emmanuela Orsini, and Peter Scholl，论文链接见[eprint](https://eprint.iacr.org/2015/901)
   + Frederiksen等人在2015年基于相关OT扩展（Correlated OT Extension）协议，实现了预处理模型下的带MACs的MPC协议（MPC with MACs），该工作关注于有限域$\mathbb{F}_{2^k}$。
 + ***[HIJ+15]Secure Multiparty Computation with General Interaction Patterns***
-  + 作者为Shai Halevi, Yuval Ishai, Abhishek Jain, Eyal Kushilevitz, and Tal Rabin，论文链接见[Reusable Correlated Randomness in the CRS Model](https://1library.net/article/reusable-correlated-randomness-in-the-crs-model.zp2rn47y)
-  + [eprint](https://eprint.iacr.org/2015/1173)
+  + 作者为Shai Halevi, Yuval Ishai, Abhishek Jain, Eyal Kushilevitz, and Tal Rabin，slide链接见[Reusable Correlated Randomness in the CRS Model](https://1library.net/article/reusable-correlated-randomness-in-the-crs-model.zp2rn47y)，论文链接见[eprint](https://eprint.iacr.org/2015/1173)
 + ***[LPS15]Efficient Constant Round Multi-Party Computation Combining BMR and SPDZ***
   + 作者为Yehuda Lindell, Benny Pinkas, Nigel P. Smart, and Avishay Yanai，论文链接见[eprint](https://eprint.iacr.org/2015/523)
 + :triangular_flag_on_post:***[KOS16]MASCOT: Faster Malicious Arithmetic Secure Computation with Oblivious Transfer***
