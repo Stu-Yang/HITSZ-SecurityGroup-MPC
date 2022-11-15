@@ -24,20 +24,29 @@
 
 </details>
 
-## 1. 安全多方计算进展
-
-<details>
-<summary>以下是MPC综述，请点击展开</summary>
-
-#### 1.1. 恶意模型下的安全多方计算
+## 1. 恶意模型下的安全多方计算
 
 详见[恶意模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/malicious-mpc)
 
-#### 1.2. 预处理模型下的安全多方计算协议
+## 2. 预处理模型下的安全多方计算
 
-详见[预处理模型下的安全多方计算协议](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-with-preprocessing)  
+详见[预处理模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-with-preprocessing)  
 
-#### 1.3 其他分类
+## 3. 函数秘密共享
+
+详见[函数秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)
+
+## 4. 同态秘密共享
+
+详见[同态秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/homomorphic-secret-sharing)
+
+## 5. 隐私保护数据挖掘
+
+详见[隐私保护数据挖掘](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining)，主要包括以下内容：
+  + [隐私保护机器学习](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#1-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)
+
+
+## X. 其他
 
 <details>
 <summary>以下是MPC相关论文，请点击展开</summary>
@@ -94,17 +103,3 @@
   + 作者&机构：Xiao Wang, Samuel Ranellucci, and Jonathan Katz
   + 主要内容：We propose a new, constant-round protocol for multi-party computation of boolean circuits that is secure against an arbitrary number of malicious corruptions.
 </details>
-  
-</details>
-
-## 2. 隐私保护数据挖掘
-
-详见[隐私保护数据挖掘](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining)，主要包括以下内容：
-  + [隐私保护机器学习](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#1-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)
-
-## 3. 函数秘密共享
-
-详见[函数秘密共享，以及基于函数秘密共享实现安全两方计算协议](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)
-
-## 4. 同态秘密共享
-
