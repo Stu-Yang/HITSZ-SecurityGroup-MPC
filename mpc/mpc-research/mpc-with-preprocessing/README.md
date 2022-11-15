@@ -126,6 +126,9 @@
 + ***[Keller20] MP-SPDZ: A Versatile Framework for Multi-Party Computation***
   + 作者为Marcel Keller，论文链接见[eprint](https://eprint.iacr.org/2020/521)
   + 2020年，Keller提出了MP-SPDZ框架，其讨论了众多的SPDZ类协议。
++ ***[ON20]Communication-Efficient (Client-Aided) Secure Two-Party Protocols and Its Application***
+  + 提出预处理模型下安全两方计算协议，提供了许多通信高效的安全子协议，如多输入乘法等
+  + 发表在FC 20，论文链接见[SPringer](https://link.springer.com/chapter/10.1007/978-3-030-51280-4_20)
 + ***[BGIN21]Sublinear GMW-Style Compiler for MPC with Preprocessing***
   + 作者为Elette Boyle, Niv Gilboa, Yuval Ishai, and Ariel Nof，论文链接见[eprint](https://eprint.iacr.org/2022/261)
   + 2021年，Boyle等人提供了一个编译器，该编译器可以将任何满足温和的安全和结构要求的预处理模型下的MPC协议（即大多数半诚实安全的标准协议），编译为恶意安全多方计算协议，其中额外的附加存储及在线通信成本和电路大小呈对数关系，从而平衡了在线阶段的通信成本和相关随机性存储代价。
