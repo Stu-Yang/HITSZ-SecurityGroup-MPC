@@ -33,7 +33,7 @@ HITSZ安全组的MPC团队主要针对安全多方计算的理论与实践进行
   + 谢永杰：主要研究基于ABY3的数据库安全查询协议
 + 2021级硕士研究生杨鹏：主要研究基于[函数秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)的高效安全两方计算协议，及其在隐私保护数据挖掘中的应用
 + 2022级硕士研究生庄杰航
-+ 2020级本科生高世祺
++ 2020级本科生高世祺、伍文浩
 
 关于我们研究内容更多的信息请点击[More](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/edit/main/mpc/mpc-research/research-field)
 
