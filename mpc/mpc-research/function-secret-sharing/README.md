@@ -86,7 +86,7 @@
   + BCG+21提出了Zero Test、整数比较、ReLU、Spline、算术移位和逻辑移位、比特分解函数的函数秘密共享构造方案
 + ***[DGH+21]MPC-Friendly Symmetric Cryptography from Alternating Moduli:Candidates, Protocols, and Applications***
   + 提出了函数秘密共享的分布式密钥生成算法（但未直接给出算法），相比于与Doerner和shelat[DS17]的黑盒FSS密钥生成协议相比，其计算成本仅随域大小对数递增。
-  + 发表在Crypto 2021，论文链接见[eprint](https://eprint.iacr.org/2021/885)
+  + 发表在Crypto 2021，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-84259-8_18)、[eprint](https://eprint.iacr.org/2021/885)
 + ***[RTPB22]ARIANN: Low-Interaction Privacy-Preserving Deep Learning via Function Secret Sharing***
   + 基于函数秘密共享的隐私保护深度学习，提出了针对于Equality Test、比较函数的函数秘密共享构造方案
   + 发表在PoPETs2022上，论文链接见[arXiv](https://arxiv.org/abs/2006.04593)、[PETS](https://petsymposium.org/popets/2022/popets-2022-0015.php)，代码链接见[GitHub](https://github.com/LaRiffle/ariann)、视频链接见[Youtube-vedio](https://www.youtube.com/watch?v=ztCptCgqZBs)
@@ -137,9 +137,6 @@
 + [DIL+20]Function Secret Sharing for PSI-CA: With Applications to Private Contact Tracing
   + 基于函数秘密共享的PSI
   + 论文链接见[eprint](https://eprint.iacr.org/2020/1599)
-+ ***[DGH+21]MPC-Friendly Symmetric Cryptography from Alternating Moduli: Candidates, Protocols, and Applications***
-  + 介绍了许多密码学协议，其中包括一些对FSS的讨论
-  + 发表在Crypto 2021，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-84259-8_18)
 + ***[CZ22]Non-Interactive Secure Computation of Inner-Product from LPN and LWE***
   + 详见[eprint](https://iacr.org/cryptodb/data/paper.php?pubkey=32405)
 + ***[DIL+22]Streaming and Unbalanced PSI from Function Secret Sharing]***
@@ -172,7 +169,7 @@
 
 #### 3.1.1 构造方法
 
-目前大多数方案都是基于伪随机生成器的GGM-style树方法，其他方法有基于布谷鸟哈希生成DPF[SGRR19]，和其他技术生成DPF[BGIK22]。
+目前大多数方案都是**基于伪随机生成器的GGM-style树**方法，其他方法有基于布谷鸟哈希生成DPF[SGRR19]，和其他技术生成DPF[BGIK22]。
 
 #### 3.1.2 已有的函数秘密共享构造方案
 
@@ -187,10 +184,16 @@
 
 ### 3.2 函数秘密共享相关随机性生成方案
 
+DS17提出了函数秘密共享分布式密钥生成算法，但只适合较小域，APR+22利用了这一方式来提出了Gen^iDPF。DGH+21提出了函数秘密共享的分布式密钥生成算法（但未直接给出算法），相比于与Doerner和Shelat[DS17]的黑盒FSS密钥生成协议相比，其计算成本仅随域大小对数递增。BCG+22提出基于Expand-Accumulate Codes来生成相关随机性，文章提出了一种放松版本的DCF算法（RDCF），并为RDCF提出了分布式密钥生成算法。
 
+另外，Wagh22引入诚实第三方来辅助计算离线阶段的函数秘密共享相关随机性。
 
 ### 3.3 函数秘密共享的应用
-
-
++ **安全计算（MPC）**：如BGI19、BCG+21提出将函数秘密共享应用于安全计算，提出了基于函数秘密共享的安全两方计算框架。在此框架下，APR+22结合函数秘密共享和加性秘密共享实现逻辑回归，RTPB22基于函数秘密共享提出隐私保护神经网络系统Ariann
++ **隐私信息信息检索（PIR）**：
++ **隐私集合求交（PSI）**：DIL+20和DIL+22基于函数秘密共享提出隐私保护集合求交运算
++ **隐私频繁项查询（PHH）**：BBG+21提出基于iDPF（DPF变体）的隐私频繁项查询算法
++ **隐私数据库查询**：DRPS22提出基于函数秘密共享的隐私保护数据库查询算法
++ ...
 
 [回到顶部](#readme)
