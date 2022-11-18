@@ -59,6 +59,9 @@
   + 函数秘密共享的进一步研究，优化了DPF的FSS构造，并首次提出针对决策树的FSS构造
   + 发表在CCS 2016，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/2976749.2978429)、[ePrint](https://eprint.iacr.org/2018/707)
   + BGI16提出了分布式点函数、决策树的函数秘密共享构造方案
++ [DS17]Scaling ORAM for Secure Computation
+  + 文章中提出了函数秘密共享分布式密钥生成算法，适用于较小域
+  + 发表在CCS 2017，论文链接见[CCS](https://dl.acm.org/doi/10.1145/3133956.3133967)，[eprint](https://eprint.iacr.org/2017/827)
 + ***[WYG+17]Splinter: Practical Private Queries on Public Data***
   + 利用函数秘密共享实现隐私数据库查询
   + 发表在USENIX 2017，论文链接见[USENIX 2017](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/wang-frank)、[ePrint](https://eprint.iacr.org/2016/1148)
@@ -69,7 +72,7 @@
   + 利用函数秘密共享实现了预处理模型下的安全计算协议
   + 发表在TCC 2019，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-36030-6_14)、[ePrint](https://eprint.iacr.org/2019/1095)
   + BGI19提出了Zero Test、Equality、整数比较、Interval Membership和Spline函数的函数秘密共享构造方案
-+ ***[SGRR2019]Distributed Vector-OLE-Improved Constructions and Implementation***
++ ***[SGRR19]Distributed Vector-OLE-Improved Constructions and Implementation***
   + [BCGI18]的优化
   + 发表在CCS 2019，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/3319535.3363228)、[eprint](https://eprint.iacr.org/2019/1084)
   + 该论文的第三作者Leonie Reichert的硕士毕业论文[Multi-Point Function Secret Sharing using Cuckoo Hashing](https://github.com/ReichertL/Masterthesis)用布谷鸟哈希实现了分布式多点函数
@@ -81,6 +84,9 @@
   + 发表在EuroCrypto 2021，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-77886-6_30)、[ePrint](https://eprint.iacr.org/2020/1392)
   + [Vedio: Mayank Rathee presented at Eurocrypt 2021](https://www.youtube.com/watch?v=22BfFkP_Hbk&t=280s)
   + BCG+21提出了Zero Test、整数比较、ReLU、Spline、算术移位和逻辑移位、比特分解函数的函数秘密共享构造方案
++ ***[DGH+21]MPC-Friendly Symmetric Cryptography from Alternating Moduli:Candidates, Protocols, and Applications***
+  + 提出了函数秘密共享的分布式密钥生成算法（但未直接给出算法），相比于与Doerner和shelat[DS17]的黑盒FSS密钥生成协议相比，其计算成本仅随域大小对数递增。
+  + 发表在Crypto 2021，论文链接见[eprint](https://eprint.iacr.org/2021/885)
 + ***[RTPB22]ARIANN: Low-Interaction Privacy-Preserving Deep Learning via Function Secret Sharing***
   + 基于函数秘密共享的隐私保护深度学习，提出了针对于Equality Test、比较函数的函数秘密共享构造方案
   + 发表在PoPETs2022上，论文链接见[arXiv](https://arxiv.org/abs/2006.04593)、[PETS](https://petsymposium.org/popets/2022/popets-2022-0015.php)，代码链接见[GitHub](https://github.com/LaRiffle/ariann)、视频链接见[Youtube-vedio](https://www.youtube.com/watch?v=ztCptCgqZBs)
@@ -164,7 +170,7 @@
 
 #### 3.1.1 构造方法
 
-基于GGM-style树，利用伪随机生成器进行生成。
+目前大多数方案都是基于伪随机生成器的GGM-style树方法，其他方法有基于布谷鸟哈希生成DPF[SGRR19]，和其他技术生成DPF[BGIK22]。
 
 ### 3.1.2 已有的函数秘密共享构造方案
 
@@ -175,8 +181,6 @@
 + **Zero Test/Equality**：
 + **比特分解（Bit Decomposition）**：BGI19首次提出比特分解协议，BCG+21对其进行优化
 + **算术移位和逻辑移位（Arithmetic and Logical Shift）**：BCG+21首次提出移位协议实现算术运算
-
-
 
 
 ### 3.2 函数秘密共享相关随机性生成方案
