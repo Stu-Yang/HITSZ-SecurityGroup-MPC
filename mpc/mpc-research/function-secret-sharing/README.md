@@ -112,6 +112,8 @@
 + ***[DRPS22]Waldo- A Private Time-Series Database from Function Secret Sharing***
   + 利用函数秘密共享实现隐私数据库查询
   + 发表在S&P2022，论文链接见[eprint](https://eprint.iacr.org/2021/1661)，[IEEE](https://ieeexplore.ieee.org/document/9833611/)
++ [BCG+22]Correlated Pseudorandomness from Expand-Accumulate Codes
+  + 提出基于Expand-Accumulate Codes来生成相关随机性，文章提出了一种放松版本的DCF算法（RDCF），并为RDCF提出了分布式密钥生成算法
 + :triangular_flag_on_post: ***[BGIK22]Programmable Distributed Point Functions***
   + 提出了一种新方法来构造DPF（之前构造DPF的方法是基于树的）
   + 论文发表在Crypto 2022，论文链接见[eprint](https://eprint.iacr.org/2022/1060)
@@ -172,14 +174,14 @@
 
 目前大多数方案都是基于伪随机生成器的GGM-style树方法，其他方法有基于布谷鸟哈希生成DPF[SGRR19]，和其他技术生成DPF[BGIK22]。
 
-### 3.1.2 已有的函数秘密共享构造方案
+#### 3.1.2 已有的函数秘密共享构造方案
 
 在函数秘密共享的发展过程中，出现了许多面向不同运算的函数秘密共享方案。已有的工作可总结如下：
 + **分布式点函数（Distributed Point Functions）**：GI14提出了（两方）分布式点函数的构造及其在隐私信息检索中的应用，BGI15提出了基于伪随机数生成器的分布式点函数构造，并引入函数秘密共享的概念，优化了GI14的构造。BGI16则进一步优化了BGI15的构造，这也是当前最好的结果。而对于**多方**的情况，最好的结果是BGI15提出的构造方案。
-+ **比较函数（Comparison Functions）和区间函数（Interval Functions）**：BGI16和BCG+21都实现了比较函数和区间函数的函数秘密共享方案，通常来说区间函数的函数秘密共享方案可以通过调用两个比较函数的函数秘密共享方案来实现。在BGI19和BCG+21中，还基于比较函数和区间函数的函数秘密共享方案实现了RELU函数和Spline函数（即分段函数）的函数秘密共享构造方案
++ **比较函数（Comparison Functions）和区间函数（Interval Functions）**：BGI16和BCG+21都实现了比较函数和区间函数的函数秘密共享方案，通常来说区间函数的函数秘密共享方案可以通过调用两个比较函数的函数秘密共享方案来实现。在BGI19和BCG+21中，还基于比较函数和区间函数的函数秘密共享方案实现了RELU函数和Spline函数（即分段函数）的函数秘密共享构造方案。BCG+22提出了一种放松版本的分布式比较函数（RDCF），其比DCF更高效。
 + **决策树（Decision Tree）**：BGI16针对决策树提出了有效的基于伪随机数生成器的两方函数秘密共享方案。
-+ **Zero Test/Equality**：
-+ **比特分解（Bit Decomposition）**：BGI19首次提出比特分解协议，BCG+21对其进行优化
++ **Zero Test/Equality**：通过调用分布式点函数实现，BGI19描述了具体调用方式
++ **比特分解（Bit Decomposition）**：BGI19首次提出比特分解协议，BCG+21对其进行优化。
 + **算术移位和逻辑移位（Arithmetic and Logical Shift）**：BCG+21首次提出移位协议实现算术运算
 
 
