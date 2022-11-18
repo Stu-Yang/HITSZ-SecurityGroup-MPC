@@ -59,7 +59,7 @@
   + 函数秘密共享的进一步研究，优化了DPF的FSS构造，并首次提出针对决策树的FSS构造
   + 发表在CCS 2016，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/2976749.2978429)、[ePrint](https://eprint.iacr.org/2018/707)
   + BGI16提出了分布式点函数、决策树的函数秘密共享构造方案
-+ [DS17]Scaling ORAM for Secure Computation
++ ***[DS17]Scaling ORAM for Secure Computation***
   + 文章中提出了函数秘密共享分布式密钥生成算法，适用于较小域
   + 发表在CCS 2017，论文链接见[CCS](https://dl.acm.org/doi/10.1145/3133956.3133967)，[eprint](https://eprint.iacr.org/2017/827)
 + ***[WYG+17]Splinter: Practical Private Queries on Public Data***
