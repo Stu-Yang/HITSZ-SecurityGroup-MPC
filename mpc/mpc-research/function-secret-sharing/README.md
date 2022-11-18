@@ -76,6 +76,9 @@
   + [BCGI18]的优化
   + 发表在CCS 2019，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/3319535.3363228)、[eprint](https://eprint.iacr.org/2019/1084)
   + 该论文的第三作者Leonie Reichert的硕士毕业论文[Multi-Point Function Secret Sharing using Cuckoo Hashing](https://github.com/ReichertL/Masterthesis)用布谷鸟哈希实现了分布式多点函数
++ ***[BCG+20]Efficient Pseudorandom Correlation Generators from Ring-LPN***
+  + 基于LPN假设提出了相关随机性生成方案，文章为DPF密钥生成提出了分布式计算协议
+  + 发表在Crypto 2020，论文链接见[eprint](https://eprint.iacr.org/2022/1035.pdf)
 + ***[BBG+21]Lightweight Techniques for Private Heavy Hitters***
   + 基于BGI16的DPF构造提出了iDPF构造（DPF的拓展），并利用iDPF构造解决了Private Heavy Hitters（隐私频繁项）
   + 发表在S&P 2021，论文链接见[eprint](https://eprint.iacr.org/2021/017)
@@ -112,7 +115,7 @@
 + ***[DRPS22]Waldo- A Private Time-Series Database from Function Secret Sharing***
   + 利用函数秘密共享实现隐私数据库查询
   + 发表在S&P2022，论文链接见[eprint](https://eprint.iacr.org/2021/1661)，[IEEE](https://ieeexplore.ieee.org/document/9833611/)
-+ [BCG+22]Correlated Pseudorandomness from Expand-Accumulate Codes
++ ***[BCG+22]Correlated Pseudorandomness from Expand-Accumulate Codes***
   + 提出基于Expand-Accumulate Codes来生成相关随机性，文章提出了一种放松版本的DCF算法（RDCF），并为RDCF提出了分布式密钥生成算法
 + :triangular_flag_on_post: ***[BGIK22]Programmable Distributed Point Functions***
   + 提出了一种新方法来构造DPF（之前构造DPF的方法是基于树的）
