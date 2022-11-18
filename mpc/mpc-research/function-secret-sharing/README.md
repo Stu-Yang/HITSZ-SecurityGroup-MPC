@@ -113,25 +113,30 @@
   
   
 ## 2.1 相关阅读材料
-+ ***[DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited***
-  + 利用真值表来实现所有函数的预处理模型下安全计算，该方法针对布尔电路
-  + 发表在Crypto 2017
++ ***[DHRW16]Spooky Encryption and Its Applications***
+  + 提出了Spooky Encryption的概念，并提出了它的应用，其中一个应用就是函数秘密共享(见6.3 Function Secret Sharing)，不过该论文没有提出有效表示函数f的方案
+  + 发表在Crypto 2016，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-662-53015-3_4)、[eprint](https://eprint.iacr.org/2016/272)
 + ***[DKS17]Pushing the Communication Barrier in Secure Computation using Lookup Tables***
   + 利用查找表来实现安全计算
   + 发表在NDSS 2017上，论文链接见[NDSS](https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/pushing-communication-barrier-secure-computation-using-lookup-tables/)
   + 论文链接见[eprint](https://eprint.iacr.org/2018/486)
-+ ***[CZ22]Non-Interactive Secure Computation of Inner-Product from LPN and LWE***
-  + 详见[eprint](https://iacr.org/cryptodb/data/paper.php?pubkey=32405)
-+ ***[DGH+21]MPC-Friendly Symmetric Cryptography from Alternating Moduli: Candidates, Protocols, and Applications***
-  + 介绍了许多密码学协议，其中包括一些对FSS的讨论
-  + 发表在Crypto 2021，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-84259-8_18)
++ ***[DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited***
+  + 利用真值表来实现所有函数的预处理模型下安全计算，该方法针对布尔电路
+  + 发表在Crypto 2017
 + ***[ACH20]The Usefulness of Sparsifiable Inputs: How to Avoid Subexponential iO***
   + 基于iO实现了许多密码学协议，其中就包括利用iO实现一种用于所有电路的加性函数秘密共享方案(但是在该论文中未找到相关构造)
   + 发表在PKC 2020，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-45374-9_7)、[eprint](https://eprint.iacr.org/2018/470)
-+ ***[DHRW]Spooky Encryption and Its Applications***
-  + 提出了Spooky Encryption的概念，并提出了它的应用，其中一个应用就是函数秘密共享(见6.3 Function Secret Sharing)，不过该论文没有提出有效表示函数f的方案
-  + 发表在Crypto 2016，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-662-53015-3_4)、[eprint](https://eprint.iacr.org/2016/272)
-
++ [DIL+20]Function Secret Sharing for PSI-CA: With Applications to Private Contact Tracing
+  + 基于函数秘密共享的PSI
+  + 论文链接见[eprint](https://eprint.iacr.org/2020/1599)
++ ***[DGH+21]MPC-Friendly Symmetric Cryptography from Alternating Moduli: Candidates, Protocols, and Applications***
+  + 介绍了许多密码学协议，其中包括一些对FSS的讨论
+  + 发表在Crypto 2021，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-84259-8_18)
++ ***[CZ22]Non-Interactive Secure Computation of Inner-Product from LPN and LWE***
+  + 详见[eprint](https://iacr.org/cryptodb/data/paper.php?pubkey=32405)
++ ***[DIL+22]Streaming and Unbalanced PSI from Function Secret Sharing]***
+  + 基于函数秘密共享的非平衡PSI
+  + 发表在SCN 2022，文章链接见[Springer](https://link.springer.com/content/pdf/10.1007/978-3-031-14791-3_25.pdf)
 </details>
 
 ## 2.2 函数秘密共享相关视频、阅读材料
