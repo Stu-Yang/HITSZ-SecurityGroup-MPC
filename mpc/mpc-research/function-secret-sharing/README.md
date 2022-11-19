@@ -117,6 +117,7 @@
   + 发表在S&P2022，论文链接见[eprint](https://eprint.iacr.org/2021/1661)，[IEEE](https://ieeexplore.ieee.org/document/9833611/)
 + ***[BCG+22]Correlated Pseudorandomness from Expand-Accumulate Codes***
   + 提出基于Expand-Accumulate Codes来生成相关随机性，文章提出了一种放松版本的DCF算法（RDCF），并为RDCF提出了分布式密钥生成算法
+  + 发表在Crypto 2022，论文链接见[eprint](https://eprint.iacr.org/2022/1014.pdf)
 + :triangular_flag_on_post: ***[BGIK22]Programmable Distributed Point Functions***
   + 提出了一种新方法来构造DPF（之前构造DPF的方法是基于树的）
   + 论文发表在Crypto 2022，论文链接见[eprint](https://eprint.iacr.org/2022/1060)
@@ -137,7 +138,7 @@
 + ***[ACH20]The Usefulness of Sparsifiable Inputs: How to Avoid Subexponential iO***
   + 基于iO实现了许多密码学协议，其中就包括利用iO实现一种用于所有电路的加性函数秘密共享方案(但是在该论文中未找到相关构造)
   + 发表在PKC 2020，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-45374-9_7)、[eprint](https://eprint.iacr.org/2018/470)
-+ [DIL+20]Function Secret Sharing for PSI-CA: With Applications to Private Contact Tracing
++ ***[DIL+20]Function Secret Sharing for PSI-CA: With Applications to Private Contact Tracing***
   + 基于函数秘密共享的PSI
   + 论文链接见[eprint](https://eprint.iacr.org/2020/1599)
 + ***[CZ22]Non-Interactive Secure Computation of Inner-Product from LPN and LWE***
