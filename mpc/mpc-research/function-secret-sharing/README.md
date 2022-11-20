@@ -78,7 +78,7 @@
   + 该论文的第三作者Leonie Reichert的硕士毕业论文[Multi-Point Function Secret Sharing using Cuckoo Hashing](https://github.com/ReichertL/Masterthesis)用布谷鸟哈希实现了分布式多点函数
 + ***[BCG+20]Efficient Pseudorandom Correlation Generators from Ring-LPN***
   + 基于LPN假设提出了相关随机性生成方案，文章为DPF密钥生成提出了分布式计算协议
-  + 发表在Crypto 2020，论文链接见[eprint](https://eprint.iacr.org/2022/1035.pdf)
+  + 发表在Crypto 2020，论文链接见[eprint](https://eprint.iacr.org/2022/1035)
 + ***[BBG+21]Lightweight Techniques for Private Heavy Hitters***
   + 基于BGI16的DPF构造提出了iDPF构造（DPF的拓展），并利用iDPF构造解决了Private Heavy Hitters（隐私频繁项）
   + 发表在S&P 2021，论文链接见[eprint](https://eprint.iacr.org/2021/017)
@@ -188,9 +188,12 @@
 
 ### 3.2 函数秘密共享相关随机性生成方案
 
-**DS17**提出了为DPF函数秘密共享分布式密钥生成算法，但只适合较小输出群（原文只适用于{0,1}），**BCG+21**则在提出优化分布式点函数的同时，基于[DS17]给出了安全分布式DCF密钥生成算法（**BCG+21**也简单介绍了如何通过2PC协议来分布式生成DCF密钥），**APR+22**也利用了这一方式来提出了Gen^iDPF。**BCG+20**基于LPN假设为DPF密钥生成提出了分布式计算协议。**DGH+21**提出了函数秘密共享的分布式密钥生成算法（但未直接给出算法），相比于与Doerner和Shelat[DS17]的黑盒FSS密钥生成协议相比，其计算成本仅随域大小对数递增。**BCG+22**提出基于Expand-Accumulate Codes来生成相关随机性，文章提出了一种放松版本的DCF算法（RDCF），并为RDCF提出了分布式密钥生成算法。**BGIK22**提出了可编程分布式点函数，并为DPF提出了常数轮分布式DPF密钥生成算法。
+函数秘密共享过程中，算法Gen需要Dealer实现，目前有三种思路来实现实现Dealer：
++ **在离线阶段利用诚实大多数三方计算协议**：**Wagh22**引入诚实第三方来辅助计算离线阶段的函数秘密共享相关随机性。
++ **在离线阶段利用安全两方计算协议**
+  + Fast distributed FSS for small domains：**DS17**提出了为DPF函数秘密共享分布式密钥生成算法，但只适合较小输出群（原文只适用于{0,1}）。**BCG+20**基于LPN假设为DPF密钥生成提出了分布式计算协议。**BCG+21**则在提出优化分布式点函数的同时，基于[DS17]给出了安全分布式DCF密钥生成算法（**BCG+21**也简单介绍了如何通过2PC协议来分布式生成DCF密钥），**APR+22**也利用了这一方式来提出了Gen^iDPF。
+  + MPC-friendly PRG：**DGH+21**提出了函数秘密共享的分布式密钥生成算法（但未直接给出算法），相比于与Doerner和Shelat[DS17]的黑盒FSS密钥生成协议相比，其计算成本仅随域大小对数递增。**BCG+22**提出基于Expand-Accumulate Codes来生成相关随机性，文章提出了一种放松版本的DCF算法（RDCF），并为RDCF提出了分布式密钥生成算法。**BGIK22**提出了可编程分布式点函数，并为DPF提出了常数轮分布式DPF密钥生成算法。
 
-另外，Wagh22引入诚实第三方来辅助计算离线阶段的函数秘密共享相关随机性。
 
 ### 3.3 函数秘密共享的应用
 + **安全计算（MPC）**：如BGI19、BCG+21提出将函数秘密共享应用于安全计算，提出了基于函数秘密共享的安全两方计算框架。在此框架下，APR+22结合函数秘密共享和加性秘密共享实现逻辑回归，RTPB22基于函数秘密共享提出隐私保护神经网络系统Ariann
