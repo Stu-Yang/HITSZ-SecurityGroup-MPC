@@ -6,6 +6,8 @@
   + [Eurocrypt 2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/Eurocrypt-2022)
   + [S&P 2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/S&P-2022)
   + [NDSS 2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/NDSS-2022)
+  + USENIX 2022
+  + CCS 2022
   + [AsicaCCS 2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/AsiaCCS-2022)
 
 
