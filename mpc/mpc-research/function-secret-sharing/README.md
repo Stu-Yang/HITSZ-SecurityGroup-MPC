@@ -121,8 +121,9 @@
 + :triangular_flag_on_post: ***[BGIK22]Programmable Distributed Point Functions***
   + 提出了一种新方法来构造DPF（之前构造DPF的方法是基于树的）
   + 论文发表在Crypto 2022，论文链接见[eprint](https://eprint.iacr.org/2022/1060)
-
-  
++ [GYW+22]Half-Tree Halving the Cost of Tree Expansion in COT and DPF
+  + 基于伪随机相关GGM树提出了COT和DPF&DCF方面的优化
+  + 论文链接见[eprint](https://eprint.iacr.org/2022/1431)
   
 ## 2.1 相关阅读材料
 + ***[DHRW16]Spooky Encryption and Its Applications***
