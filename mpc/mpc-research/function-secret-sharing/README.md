@@ -73,7 +73,7 @@
   + 发表在TCC 2019，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-36030-6_14)、[ePrint](https://eprint.iacr.org/2019/1095)
   + BGI19提出了Zero Test、Equality、整数比较、Interval Membership和Spline函数的函数秘密共享构造方案
 + ***[SGRR19]Distributed Vector-OLE-Improved Constructions and Implementation***
-  + [BCGI18]的优化
+  + [BCGI18]的优化。文章提出了单点分布式点函数和多点分布式点函数的放松版本，并应用于分布式不经意向量线性评估(Vector-OLE)。文章还将其应用于安全稀疏矩阵计算。
   + 发表在CCS 2019，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/3319535.3363228)、[eprint](https://eprint.iacr.org/2019/1084)
   + 该论文的第三作者Leonie Reichert的硕士毕业论文[Multi-Point Function Secret Sharing using Cuckoo Hashing](https://github.com/ReichertL/Masterthesis)用布谷鸟哈希实现了分布式多点函数
 + ***[BCG+20]Efficient Pseudorandom Correlation Generators from Ring-LPN***
@@ -102,7 +102,7 @@
   + 发表在PoPETs2022上，论文链接见[eprint](https://eprint.iacr.org/2022/793)，视频链接见[bilibili](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=2&vd_source=45400e58cd0ed58d7605745553c0f81e)(其中，FSS的内容在视频18:00)
 + ***[CP22]Lightweight, Maliciously Secure Verifiable Function Secret Sharing***
   + 恶意安全的函数秘密共享
-  + 发表在EuroCrypto2022上，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_6)
+  + 发表在EuroCrypto2022上，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_6)、[eprint](https://eprint.iacr.org/2021/580)
 + ***[BKO22]CNF-FSS and Its Applications***
   + 多方函数秘密共享构造方案
   + 发表在PKC 2022上，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-97121-2_11)
@@ -121,7 +121,7 @@
 + :triangular_flag_on_post: ***[BGIK22]Programmable Distributed Point Functions***
   + 提出了一种新方法来构造DPF（之前构造DPF的方法是基于树的）
   + 论文发表在Crypto 2022，论文链接见[eprint](https://eprint.iacr.org/2022/1060)
-+ [GYW+22]Half-Tree Halving the Cost of Tree Expansion in COT and DPF
++ ***[GYW+22]Half-Tree Halving the Cost of Tree Expansion in COT and DPF***
   + 基于伪随机相关GGM树提出了COT和DPF&DCF方面的优化
   + 论文链接见[eprint](https://eprint.iacr.org/2022/1431)
   
@@ -136,9 +136,6 @@
 + ***[DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited***
   + 利用真值表来实现所有函数的预处理模型下安全计算，该方法针对布尔电路
   + 发表在Crypto 2017
-+ ***[SGRR19]Distributed Vector-OLE: Improved Constructions and Implementation***
-  + 提出了单点分布式点函数和多点分布式点函数的放松版本，并应用于分布式不经意向量线性评估(Vector-OLE)。论文中还将其应用于安全稀疏矩阵计算
-  + 发表在CCS 2019，论文链接见[eprint](https://dl.acm.org/doi/10.1145/3319535.3363228)
 + ***[ACH20]The Usefulness of Sparsifiable Inputs: How to Avoid Subexponential iO***
   + 基于iO实现了许多密码学协议，其中就包括利用iO实现一种用于所有电路的加性函数秘密共享方案(但是在该论文中未找到相关构造)
   + 发表在PKC 2020，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-45374-9_7)、[eprint](https://eprint.iacr.org/2018/470)
