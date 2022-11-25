@@ -96,7 +96,7 @@
   + 该论文中所设计的协议还被用于隐私保护医学图像分析，[End-to-end privacy preserving deep learning on multi-institutional medical imaging](https://www.nature.com/articles/s42256-021-00337-8)基于AriaNN提出了将差分隐私的联邦模型训练与模型更新的加密聚合以及加密的远程推理结合起来的PriMIA框架，并应用在深度CNN对儿科胸部X光片进行分类（医学图像分类）中。
 + ***[Wagh22]Pika: Secure Computation using Function Secret Sharing over Rings***
   + 基于函数秘密共享的安全两方计算协议
-  + 发表在PoPETs2022上，论文链接见[eprint](https://eprint.iacr.org/2022/826)
+  + 发表在PoPETs2022上，论文链接见[PoPETS](https://petsymposium.org/popets/2022/popets-2022-0113.php)、[eprint](https://eprint.iacr.org/2022/826)
 + ***[GKCG22]LLAMA: A Low Latency Math Library for Secure Inference***
   + 基于函数秘密共享的数学库，可用于安全隐私推理
   + 发表在PoPETs2022上，论文链接见[eprint](https://eprint.iacr.org/2022/793)，视频链接见[bilibili](https://www.bilibili.com/video/BV1hU4y1Q7w2?p=2&vd_source=45400e58cd0ed58d7605745553c0f81e)(其中，FSS的内容在视频18:00)
