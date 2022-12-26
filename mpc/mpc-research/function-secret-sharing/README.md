@@ -117,7 +117,7 @@
   + 发表在S&P2022，论文链接见[eprint](https://eprint.iacr.org/2021/1661)，[IEEE](https://ieeexplore.ieee.org/document/9833611/)
 + ***[BCG+22]Correlated Pseudorandomness from Expand-Accumulate Codes***
   + 提出基于Expand-Accumulate Codes来生成相关随机性，文章提出了一种放松版本的DCF算法（RDCF），并为RDCF提出了分布式密钥生成算法
-  + 发表在Crypto 2022，论文链接见[eprint](https://eprint.iacr.org/2022/1014.pdf)
+  + 发表在Crypto 2022，论文链接见[eprint](https://eprint.iacr.org/2022/1014.pdf)，Slide链接见[TPMPC 2022](https://www.multipartycomputation.com/tpmpc-2022/invited-talks#h.xbxasjbroj7j)
 + :triangular_flag_on_post: ***[BGIK22]Programmable Distributed Point Functions***
   + 提出了一种新方法来构造DPF（之前构造DPF的方法是基于树的）
   + 论文发表在Crypto 2022，论文链接见[eprint](https://eprint.iacr.org/2022/1060)
