@@ -6,12 +6,12 @@
 + 1.Introduction ⭐️⭐️
 + 2.Defining Multi-Party Computation ⭐️⭐️⭐️
 + 3.Fundamental MPC Protocols ⭐️⭐️⭐️⭐️
- + 3.1 Yao’s Garbled Circuits Protocol
- + 3.2 Goldreich-Micali-Wigderson (GMW) Protocol
- + 3.3 BGW protocol
- + 3.4 MPC From Preprocessed Multiplication Triples
- + 3.5 Constant-Round Multi-Party Computation: BMR
- + 3.7 Oblivious Transfer
+  + 3.1 Yao’s Garbled Circuits Protocol
+  + 3.2 Goldreich-Micali-Wigderson (GMW) Protocol
+  + 3.3 BGW protocol
+  + 3.4 MPC From Preprocessed Multiplication Triples
+  + 3.5 Constant-Round Multi-Party Computation: BMR
+  + 3.7 Oblivious Transfer
 + 6.Malicious Security ⭐️⭐️⭐️
   + 6.1 Cut-and-Choose
   + 6.5 Zero-Knowledge Proofs
