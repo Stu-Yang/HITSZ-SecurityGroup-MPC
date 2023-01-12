@@ -24,18 +24,6 @@ HITSZ安全组的MPC团队主要针对安全多方计算的理论与实践进行
 
 这部分，我们介绍了研究生学习期间关于课程学习、课题研究方面的一些经验，这部分会在[getting-started](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/getting-started)进行介绍。
 
-## 关于我们
-
-我们是HITSZ安全组MPC团队，致力于安全多方计算的理论研究和实践研究，目前我们的团队有以下成员
-+ 2019级硕士姜松岳：主要研究基于秘密共享的隐私保护线性回归和逻辑回归算法
-+ 2020级硕士研究生石松江、谢永杰
-  + 石松江：主要研究具有隐私鲁棒性的安全四方计算协议
-  + 谢永杰：主要研究基于ABY3的数据库安全查询协议
-+ 2021级硕士研究生杨鹏：主要研究基于[函数秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)的高效安全两方计算协议，及其在隐私保护数据挖掘中的应用
-+ 2022级硕士研究生庄杰航
-+ 2020级本科生高世祺、伍文浩
-
-关于我们研究内容更多的信息请点击[More](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/edit/main/mpc/mpc-research/research-field)
 
 ## 常用索引
 + [安全多方计算理论研究](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research)
