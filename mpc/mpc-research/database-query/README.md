@@ -53,7 +53,7 @@ TODO：增加一些简单的介绍
 
 ---
 
-**📜【BDGRR 2022】*Waldo: A Private Time-Series Database from Function Secret Sharing***
+**📜【DRP 2022】*Waldo: A Private Time-Series Database from Function Secret Sharing***
 
 - *Author(s)：*[Emma Dauterman](https://dl.acm.org/profile/99659027273)，[Mayank Rathee](https://mayank0403.github.io/)，[Raluca Ada Popa](https://people.eecs.berkeley.edu/~raluca/)，[Ion Stoica](http://people.eecs.berkeley.edu/~istoica/)
 - *Venue*：S&P
