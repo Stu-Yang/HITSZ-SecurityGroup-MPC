@@ -37,27 +37,18 @@ TODO：增加一些简单的介绍
   + 数据库查询论文
   + 论文在[Arxiv](https://arxiv.org/abs/2102.01048)
   
-**📜【MRR 2020】*Fast Database Joins and PSI for Secret Shared Data***
-
-- *Author(s)：*[Payman Mohassel](https://paymanmohassel.com/)，[Peter Rindal](https://ladnir.github.io/)，[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)
-- *Venue*：CCS
-- *Materials：*[PDF](https://eprint.iacr.org/2019/518.pdf)，[Video](https://dl.acm.org/doi/10.1145/3372297.3423358)，[Code](https://github.com/ladnir/aby3)
-
----
-
-**📜【BDGRR 2022】*Secret-Shared Joins with Multiplicity from Aggregation Trees***
-
-- *Author(s)：*[Saikrishna Badrinarayanan](https://dl.acm.org/profile/99659027273)，[Sourav Das ](https://sourav1547.github.io/)，[Gayathri Garimella](https://gayathrigarimella.github.io/)，Srinivasan Raghuramam，[Peter Rindal](https://ladnir.github.io/)
-- *Venue*：CCS
-- *Materials：*[PDF](https://eprint.iacr.org/2022/1600.pdf)
-
----
-
-**📜【DRP 2022】*Waldo: A Private Time-Series Database from Function Secret Sharing***
-
-- *Author(s)：*[Emma Dauterman](https://dl.acm.org/profile/99659027273)，[Mayank Rathee](https://mayank0403.github.io/)，[Raluca Ada Popa](https://people.eecs.berkeley.edu/~raluca/)，[Ion Stoica](http://people.eecs.berkeley.edu/~istoica/)
-- *Venue*：S&P
-- *Materials：*[PDF](https://eprint.iacr.org/2021/1661.pdf)，[Slides](https://people.eecs.berkeley.edu/~edauterman/sp22_slides_waldo.pdf)，[Video1](https://www.youtube.com/watch?v=ygUZ61JZEE4)，[Video2](https://soroco.com/waldo-a-private-time-series-database-from-function-secret-sharing/)，[Video3](https://www.youtube.com/watch?v=_X5tm_9pe8w)，[Code](https://github.com/ucbrise/waldo)
++ ***[MRR2020]Fast Database Joins and PSI for Secret Shared Data***
+  - *Author(s)：*[Payman Mohassel](https://paymanmohassel.com/)，[Peter Rindal](https://ladnir.github.io/)，[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)
+  - *Venue*：CCS
+  - *Materials：*[PDF](https://eprint.iacr.org/2019/518.pdf)，[Video](https://dl.acm.org/doi/10.1145/3372297.3423358)，[Code](https://github.com/ladnir/aby3)
++ ***[BDGRR2022]Secret-Shared Joins with Multiplicity from Aggregation Trees***
+  - *Author(s)：*[Saikrishna Badrinarayanan](https://dl.acm.org/profile/99659027273)，[Sourav Das ](https://sourav1547.github.io/)，[Gayathri Garimella](https://gayathrigarimella.github.io/)，Srinivasan Raghuramam，[Peter Rindal](https://ladnir.github.io/)
+  - *Venue*：CCS
+  - *Materials：*[PDF](https://eprint.iacr.org/2022/1600.pdf)
++ ***[DRP2022]Waldo: A Private Time-Series Database from Function Secret Sharing***
+  - *Author(s)：*[Emma Dauterman](https://dl.acm.org/profile/99659027273)，[Mayank Rathee](https://mayank0403.github.io/)，[Raluca Ada Popa](https://people.eecs.berkeley.edu/~raluca/)，[Ion Stoica](http://people.eecs.berkeley.edu/~istoica/)
+  - *Venue*：S&P
+  - *Materials：*[PDF](https://eprint.iacr.org/2021/1661.pdf)，[Slides](https://people.eecs.berkeley.edu/~edauterman/sp22_slides_waldo.pdf)，[Video1](https://www.youtube.com/watch?v=ygUZ61JZEE4)，[Video2](https://soroco.com/waldo-a-private-time-series-database-from-function-secret-sharing/)，[Video3](https://www.youtube.com/watch?v=_X5tm_9pe8w)，[Code](https://github.com/ucbrise/waldo)
 
 # 2. 隐私信息检索（Private Information Retrieval，PIR）
 
