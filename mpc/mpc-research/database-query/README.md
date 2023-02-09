@@ -24,23 +24,21 @@ TODO：增加一些简单的介绍
 + ***[DSZ15]ABY-A framework for efficient mixed-protocol secure two-party computation***
   + 混合协议开篇之作，ABY：算术秘密份额（A）、布尔秘密份额（B）和姚氏秘密份额（Y）
   + 发表在NDSS 2015，论文链接见[NDSS 2015](https://www.ndss-symposium.org/ndss2015/ndss-2015-programme/aby-framework-efficient-mixed-protocol-secure-two-party-computation/)，[encryptogroup](http://thomaschneider.de/papers/DSZ15.pdf)
++ ***[RT17]Privacy-Preserving Queries over Secret-Shared Graph-Structured Data***
+  + 文章研究了SPDZ多方计算平台的使用，以促进图结构数据的安全云存储，并报告了一个用于回答邻接、最近邻和第二跳查询的简单方案的实现。该解决方案从云服务器中隐藏数据、查询和答案，除非它们合谋恢复它们。
+  + 论文发表在TrustCom 2017， 论文链接见[IEEE TrustCom](https://ieeexplore.ieee.org/abstract/document/8029539)
 + :triangular_flag_on_post: ***[MR18]ABY3: A Mixed Protocol Framework for Machine Learning***
   + 利用**复制秘密共享**技术提出了恶意模型下基于混合协议的安全三方计算通用框架ABY3，但仅在半诚实模型下实现了线性回归、逻辑回归和神经网络的安全计算
   + 论文发表在CCS 2018，论文链接见[ACM CCS](https://dl.acm.org/doi/abs/10.1145/3243734.3243760)，[eprint](https://eprint.iacr.org/2018/403)
 + :triangular_flag_on_post: ***[MRR20]Fast Database Joins and PSI for Secret Shared Data***
-  + 数据库查询论文
-  + 论文发表在CCS 2020，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/3372297.3423358)，[eprint](https://eprint.iacr.org/2019/518)
+  + 数据库查询论文，作者为*[Payman Mohassel](https://paymanmohassel.com/)，[Peter Rindal](https://ladnir.github.io/)，[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)
+  + 论文发表在CCS 2020，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/3372297.3423358)，[eprint](https://eprint.iacr.org/2019/518)，[Video](https://dl.acm.org/doi/10.1145/3372297.3423358)，[Code](https://github.com/ladnir/aby3)
 + ***[PSSY21]ABY2.0: Improved Mixed-Protocol Secure Two-Party Computation***
   + 在ABY框架的基础上进一步减少了秘密份额转换的开销，降低了协议的通信开销
   + 论文发表在USENIX 2021，论文链接见[USENIX](https://www.usenix.org/conference/usenixsecurity21/presentation/patra)，[eprint](https://eprint.iacr.org/2020/1225)
 + :triangular_flag_on_post: ***[LKF+21]Secrecy-Secure collaborative analytics on secret-shared data***
   + 数据库查询论文
   + 论文在[Arxiv](https://arxiv.org/abs/2102.01048)
-  
-+ ***[MRR2020]Fast Database Joins and PSI for Secret Shared Data***
-  - *Author(s)：*[Payman Mohassel](https://paymanmohassel.com/)，[Peter Rindal](https://ladnir.github.io/)，[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)
-  - *Venue*：CCS
-  - *Materials：*[PDF](https://eprint.iacr.org/2019/518.pdf)，[Video](https://dl.acm.org/doi/10.1145/3372297.3423358)，[Code](https://github.com/ladnir/aby3)
 + ***[BDGRR2022]Secret-Shared Joins with Multiplicity from Aggregation Trees***
   - *Author(s)：*[Saikrishna Badrinarayanan](https://dl.acm.org/profile/99659027273)，[Sourav Das ](https://sourav1547.github.io/)，[Gayathri Garimella](https://gayathrigarimella.github.io/)，Srinivasan Raghuramam，[Peter Rindal](https://ladnir.github.io/)
   - *Venue*：CCS
