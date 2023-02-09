@@ -41,8 +41,8 @@ TODO：增加一些简单的介绍
   + 论文在[Arxiv](https://arxiv.org/abs/2102.01048)
 + ***[BDGRR2022]Secret-Shared Joins with Multiplicity from Aggregation Trees***
   - *Author(s)：*[Saikrishna Badrinarayanan](https://dl.acm.org/profile/99659027273)，[Sourav Das ](https://sourav1547.github.io/)，[Gayathri Garimella](https://gayathrigarimella.github.io/)，Srinivasan Raghuramam，[Peter Rindal](https://ladnir.github.io/)
-  - *Venue*：CCS
-  - *Materials：*[PDF](https://eprint.iacr.org/2022/1600.pdf)
+  - 本文提出了新的协议来计算具有非唯一连接键的秘密共享数据库表上的类SQL的连接操作。
+  - *Venue*：发表在CCS 2022，[ACM CCS](https://dl.acm.org/doi/pdf/10.1145/3548606.3560670)，[eprint](https://eprint.iacr.org/2022/1600.pdf)
 + ***[DRP2022]Waldo: A Private Time-Series Database from Function Secret Sharing***
   - *Author(s)：*[Emma Dauterman](https://dl.acm.org/profile/99659027273)，[Mayank Rathee](https://mayank0403.github.io/)，[Raluca Ada Popa](https://people.eecs.berkeley.edu/~raluca/)，[Ion Stoica](http://people.eecs.berkeley.edu/~istoica/)
   - *Venue*：S&P
