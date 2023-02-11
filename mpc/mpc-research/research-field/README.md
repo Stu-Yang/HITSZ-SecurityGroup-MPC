@@ -1,10 +1,10 @@
 # HITSZ安全组MPC团队研究课题
 
-自从2019年起，团队关注安全多方计算的理论和应用，并取得阶段性成果。首先，团队关注研究安全多方计算的理论研究，针对协议的效率和安全性进行研究，提出具有隐私鲁棒性的安全四方计算协议$^1$。其次，团队关注安全多方计算在隐私保护机器学习、数据库查询上的应用，提出了基于秘密共享的隐私保护线性回归和逻辑回归协议（安全两方计算）$^2$，基于复制秘密共享的密态数据库查询算法（安全三方计算）$^3$。
+自从2019年起，团队关注安全多方计算的理论和应用，并取得阶段性成果。首先，团队关注研究安全多方计算的理论研究，针对协议的效率和安全性进行研究，提出具有隐私鲁棒性的安全四方计算协议[1]。其次，团队关注安全多方计算在隐私保护机器学习、数据库查询上的应用，提出了基于秘密共享的隐私保护线性回归和逻辑回归协议（安全两方计算）[2]，基于复制秘密共享的密态数据库查询算法（安全三方计算）[3]。
 
-1. Efficient Mixed-Protocol Secure Four-Party Computation with Private Robustness, Zoe L. Jiang, Songjiang Shi, Hongxiao Wang, Peng Yang, Xuan Wang, Yulin Wu*, Yantao Zhong, the 4th International Conference on Data Intelligence and Security (ICDIS 2022).
-2. 基于秘密共享的多用户分布式隐私保护回归方法及装置. 蒋琳，姜松岳，杨鹏，吴宇琳，陈斌，王轩. 202211038350.8.
-3. 基于复制秘密共享的密态数据库查询方法、系统、设备及介质. 蒋琳，谢永杰，杨鹏，方俊彬，高翠芸，王轩，刘川意. 
++ [1]Efficient Mixed-Protocol Secure Four-Party Computation with Private Robustness, Zoe L. Jiang, Songjiang Shi, Hongxiao Wang, Peng Yang, Xuan Wang, Yulin Wu*, Yantao Zhong, the 4th International Conference on Data Intelligence and Security (ICDIS 2022).
++ [2]基于秘密共享的多用户分布式隐私保护回归方法及装置. 蒋琳，姜松岳，杨鹏，吴宇琳，陈斌，王轩. 202211038350.8.\n
++ [3]基于复制秘密共享的密态数据库查询方法、系统、设备及介质. 蒋琳，谢永杰，杨鹏，方俊彬，高翠芸，王轩，刘川意. 
 
 
 # HITSZ安全组MPC团队研究方向
