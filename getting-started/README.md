@@ -14,10 +14,10 @@
 
 > PS：课题组正在调研大家参与到课题组中的想法和需求，大家可以[填写问卷]()，或者咨询对应的师兄师姐～
 
-+ 处于大一，需要完成大一立项的同学：详见[first-year-student](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/getting-started/first-year-student)
++ 处于大一，需要完成大一立项的同学：详见[first-year-student](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/getting-started/first-year-student.md)
 + 处于大三，需要考研的同学：好好考研～
-+ 处于大三，能保研想做课题的同学：详见[third-year-student](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/getting-started/third-year-student)
-+ 处于大四，需要做毕业生设计的同学：详见[fourth-year-student](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/getting-started/fourth-year-student)
++ 处于大三，能保研想做课题的同学：详见[third-year-student](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/getting-started/third-year-student.md)
++ 处于大四，需要做毕业生设计的同学：详见[fourth-year-student](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/getting-started/fourth-year-student.md)
 
 
 ## 2. 研究生事务
