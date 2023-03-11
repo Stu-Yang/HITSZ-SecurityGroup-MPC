@@ -31,7 +31,7 @@
 
     + [【隐私计算笔谈】MPC系列专题（十五）：三方复制秘密分享](https://blog.csdn.net/Matrix_element/article/details/119190983)
 
-    + [【隐私计算笔谈】MPC系列专题（十六）：三方复制秘密共享（二](https://blog.csdn.net/Matrix_element/article/details/119332270)
+    + [【隐私计算笔谈】MPC系列专题（十六）：三方复制秘密共享（二）](https://blog.csdn.net/Matrix_element/article/details/119332270)
 
     + [【隐私计算笔谈】MPC系列专题（十七）：三方复制秘密共享（三）](https://blog.csdn.net/Matrix_element/article/details/119331429)
 
