@@ -12,7 +12,7 @@
 
 课题组有很多本科生正在进行本科期间的学习，同时也有可能进入研究生阶段的学习，针对不同的阶段，我们给出以下的建议：
 
-> PS：课题组正在调研大家参与到课题组中的想法和需求，大家可以[填写问卷]()，或者咨询对应的师兄师姐～
+> PS：课题组正在调研大家参与到课题组中的想法和需求，大家可以咨询对应的师兄师姐～
 
 + 处于大一，需要完成大一立项的同学：详见[first-year-student](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/getting-started/first-year-student.md)
 + 处于大三，需要考研的同学：好好考研～
