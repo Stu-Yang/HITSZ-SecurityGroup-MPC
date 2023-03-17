@@ -53,8 +53,13 @@
 + ***[HLHD22]Cheetah:Lean and Fast Secure Two-Party Deep Neural Network Inference***
   + 安全两方神经网络推理，基于秘密共享和同态加密
   + 阿里巴巴双子座实验室发表在USENIX 2022上的论文，论文链接见[USENIX](https://www.usenix.org/conference/usenixsecurity22/presentation/huang-zhicong)、[eprint](https://eprint.iacr.org/2022/207)
-
-
++ ***[CGOS22]SIMC: ML Inference Secure Against Malicious Clients at Semi-Honest Cost***
+  + 抵抗恶意服务器的恶意安全机器学习推理
+  + 发表在USENIX 2022，论文链接见[USENIX](https://www.usenix.org/conference/usenixsecurity22/presentation/chandran)
++ ***[DWL+23]Fusion: Efficient and Secure Inference Resilient to Malicious Server and Curious Clients***
+  + 抵抗恶意服务器的恶意安全机器学习推理
+  + 发表在NDSS 2023，论文链接在[Arxiv eprint](https://arxiv.org/abs/2205.03040)
+  
 ## 2. 联合统计分析
 + ***[KLRS22]Secure Poisson Regression***
   + 安全两方泊松回归
