@@ -59,9 +59,17 @@
 + ***[DWL+23]Fusion: Efficient and Secure Inference Resilient to Malicious Server and Curious Clients***
   + 抵抗恶意服务器的恶意安全机器学习推理
   + 发表在NDSS 2023，论文链接在[Arxiv eprint](https://arxiv.org/abs/2205.03040)
-  
-## 2. 联合统计分析
+
+
+## 2. 隐私保护特征工程
+
++ ***[LDC21]Privacy-preserving feature selection with secure multiparty computation***
+  + 基于安全多方计算的隐私保护特征选择
+  + 发表在PMLR 2021，论文链接见[PMLR](http://proceedings.mlr.press/v139/li21e/li21e.pdf)、[ICAR eprint](https://eprint.iacr.org/2021/132)、[Arxiv eprint](https://arxiv.org/abs/2102.03517)
++ ***[SDH21]Feature Engineering Framework based on Secure Multi-Party Computation in Federated Learning***
+  + 发表在IEEE HPCC/DSS/SmartCity/DependSys，论文链接见[IEEE](https://ieeexplore.ieee.org/abstract/document/9780936/)
+
+## 3. 联合统计分析
 + ***[KLRS22]Secure Poisson Regression***
   + 安全两方泊松回归
   + 发表在USENIX 2022，论文链接见[USENIX 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/kelkar)，[eprint](https://eprint.iacr.org/2021/208)
-
