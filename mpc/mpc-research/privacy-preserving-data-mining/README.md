@@ -59,6 +59,15 @@
 + ***[DWL+23]Fusion: Efficient and Secure Inference Resilient to Malicious Server and Curious Clients***
   + 抵抗恶意服务器的恶意安全机器学习推理
   + 发表在NDSS 2023，论文链接在[Arxiv eprint](https://arxiv.org/abs/2205.03040)
++ ***[BBY23]Multi-Party Replicated Secret Sharing over a Ring with Applications to Privacy-Preserving Machine Learning***
+  + 多方复制秘密共享技术及其在隐私保护机器学习上的应用
+  + 发表在PoPETS 2023，论文链接见[Arxiv eprint](https://eprint.iacr.org/2020/1577)
++ ***[RRHK23]Convolutions in Overdrive - Maliciously Secure Convolutions for MPC***
+  + 恶意安全卷积运算
+  + 发表在PoPETS 2023，论文链接见[Arxiv eprint](https://eprint.iacr.org/2023/359)
++ ***[TJB23]A Method for Securely Comparing Integers using Binary Trees***
+  + 安全整数比较算法
+  + 发表在PoPETS 2023，论文链接见[Arxiv eprint](https://eprint.iacr.org/2021/1646)
 
 
 ## 2. 隐私保护特征工程
