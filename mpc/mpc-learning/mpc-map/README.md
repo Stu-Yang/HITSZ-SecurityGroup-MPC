@@ -9,11 +9,22 @@ MPC的基本概念和构建协议的基础模块是MPC的基石，在此之上�
 
 ## 2. 安全多方计算学习路线
 安全多方计算(MPC)没有一本特别权威又特别易懂的书籍供大家参考，在上级页面的[如何学习安全多方计算？](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc#%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E5%AE%89%E5%85%A8%E5%A4%9A%E6%96%B9%E8%AE%A1%E7%AE%97)中，我们介绍了一些大牛的学习总结、经典课程和书籍给大家，在这里我们详细地介绍一些学习安全多方计算的基本路线，并且提供一些论文、Slides、书籍和课程等。
-### **2.0 安全多方计算学习路线的其他参考**
-+ 知乎的[安全多方计算学习路线](https://zhuanlan.zhihu.com/p/351492646)
-+ Yehuda Lindell教授的[Resources for Getting Started with MPC](https://u.cs.biu.ac.il/~lindell/MPC-resources.html)
-+ Mike Rosulek教授的[An Annotated Bibliography of Practical Secure Computation](https://web.engr.oregonstate.edu/~rosulekm/scbib/index.php?n=Main.GettingStarted)
-  
+> **安全多方计算学习路线的其他参考**
+> + 知乎的[安全多方计算学习路线](https://zhuanlan.zhihu.com/p/351492646)
+> + Yehuda Lindell教授的[Resources for Getting Started with MPC](https://u.cs.biu.ac.il/~lindell/MPC-resources.html)
+> + Mike Rosulek教授的[An Annotated Bibliography of Practical Secure Computation](https://web.engr.oregonstate.edu/~rosulekm/scbib/index.php?n=Main.GettingStarted)
+
+### **2.0 隐私计算概览**
+
+在学习安全多方计算之前，可以从宏观的角度来看一下安全多方计算所处在的隐私计算背景，下面是蚂蚁集团推出的隐私计算相关介绍，里面有一些和安全多方计算相关的知识：
++ 隐私计算MOOC（相关MOOC视频见[隐私计算MOOC系列课程](https://www.bilibili.com/video/BV1jY411d78Y/?)）
+  + 【熟悉】[第1讲《隐私计算全局概览》](https://www.yuque.com/secret-flow/admin/fak5z95s31u9ow8g)
+  + 【掌握】[第2讲《多方安全计算技术基础》](https://www.yuque.com/secret-flow/admin/th11ggw672doi4sd)
+  + 【了解】[第4讲《安全求交集和匿踪查询》](https://www.yuque.com/secret-flow/admin/ky5u6npml6lrxwg8)
+  + 【熟悉】[第8讲《多方安全计算机器学习》](https://www.yuque.com/secret-flow/admin/owpkkbf5q2eu5euk)
+  + 【了解】[第10讲 《高性能多方安全数据分析MPC SQL》](https://www.yuque.com/secret-flow/admin/umyl73d5h6hbosas)
+
+
 ### **2.1 基本概念**
 
 安全多方计算的基本概念主要包括MPC中诚实方、腐坏方和敌手的概念、计算模型和安全性模型的概念，还有关于MPC的形式化定义以及安全性的形式化定义
