@@ -6,8 +6,8 @@
 
 |        时间      |     任务         |          具体工作               | 负责人     |备注   |
 |       :--:       |     :--:        |        :--:                     |  :--:     |:--:  |
-|        3月       |    基础知识学习  |   多方安全计算技术基础            |  洪景羽    |      |
-|        3月       |    基础知识学习  |   多方安全数据分析MPC SQL         |   唐潇萌   |      |
+|        3月       |    基础知识学习  |   多方安全计算技术基础            |  洪景羽    |   [多方安全计算技术基础](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/%E5%A4%9A%E6%96%B9%E5%AE%89%E5%85%A8%E8%AE%A1%E7%AE%97%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80.pptx)   |
+|        3月       |    基础知识学习  |   高性能多方安全数据分析MPC SQL         |   唐潇萌   | [高性能多方安全数据分析 MPC SQL](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/%E9%AB%98%E6%80%A7%E8%83%BD%E5%A4%9A%E6%96%B9%E5%AE%89%E5%85%A8%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%20MPC%20%20SQL.pptx)    |
 |        3月       |    基础知识学习  |      复制秘密共享                |   王涵     |
  
 ## 2. 参考资料
