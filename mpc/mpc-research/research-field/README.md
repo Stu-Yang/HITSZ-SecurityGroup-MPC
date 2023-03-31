@@ -31,6 +31,9 @@
 
 综上所述，诚实大多数假设下，**如何设计更鲁棒、满足更多安全性要求的恶意安全多方计算协议**是主要的方向，要想解决这一问题，可以首先针对小数量参与方（小于7个）的情形进行研究，利用传统的零知识证明、Cut-and-Choose技术，并结合小数量参与方这一特性设计特定技术来实现安全性。
 
+可研究的方向：
++ 抗单一恶意参与方攻击的安全多方计算研究（Secure Multi-Party Computation against a Single Malicious Party）
+
 ## 2. 预处理模型下不诚实大多数的恶意安全多方计算研究
 
 目前的研究工作还关注不诚实大多数情况下的恶意安全多方计算研究，可以证明，不诚实大多数下的恶意安全协议不能保证输出交付、而且协议需要允许中止等，因此不诚实大多数下的安全多方计算希恶意主要关注带中止安全性（security with abort）。在不诚实大多数的假设下，协议的通信成本非常大，因此许多工作考虑预处理模型，来实现高效的在线阶段。SPDZ类协议是目前十分高效的不诚实大多数的恶意安全多方计算协议，这类协议基于预处理模型，将大量通信和计算移到预处理阶段，然后利用信息论安全的消息认证码来检测是否存在恶意行为，从而保证安全性。值得一提地是，SPDZ类协议即使在诚实参与方只有1个的情况下也能保证协议最基本的安全性。
@@ -58,6 +61,10 @@
 + 预处理模型下面向复杂运算的安全多方计算协议
 + 基于同态秘密共享和函数秘密共享的隐私保护数据挖掘
 + 基于函数秘密共享的多服务器隐私信息检索
++ 基于秘密共享的隐私集合求交及聚合分析研究（Private Set Intersection and Aggregate Analysis via Secret Sharing）
++ 基于函数秘密共享的安全神经网络推理研究（Secure Neural Network Inference via Function Secret Sharing）
++ 基于安全多方计算的隐私保护特征工程研究（Privacy-Preserving Feature Engineering via Secure Multi-Party Computation）
++ 面向社交媒体大数据的安全联合统计分析（Secure Collaborative Analytics for Social Media Big Data）
 
 
 ## 4. 总结
