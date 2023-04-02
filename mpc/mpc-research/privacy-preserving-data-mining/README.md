@@ -13,11 +13,15 @@
 + :triangular_flag_on_post: ***[MZ17]SecureML: A system for scalable privacy-preserving machine learning***
   + 隐私保护机器学习（线性回归、逻辑回归和神经网络）
   + 发表在S&P 2017，论文链接见[eprint](https://eprint.iacr.org/2017/396.pdf)
++ ***Oblivious neural network predictions via minionn transformations***
+  + 基于安全两方计算的安全二值神经网络推理，实现能将任何神经网络都转换为安全神经网络推理（即通用安全神经网络推理方案）
+  + 发表在CCS 2017，论文链接见[ACM CCS](https://dl.acm.org/doi/abs/10.1145/3133956.3134056)，[eprint](https://eprint.iacr.org/2017/452)
++ ***GAZELLE: A Low Latency Framework for Secure Neural Network Inference***
+  + 基于同态加密和安全多方计算（混淆电路）实现的安全两方神经网络推理，是第一份将同态加密和安全多方计算结合起来的工作
+  + 论文发表在USENIX 2018，论文链接见[USENIX](https://www.usenix.org/conference/usenixsecurity18/presentation/juvekar)，[ICAR eprint](https://eprint.iacr.org/2018/073)
 + ***[MR18]ABY3: A mixed protocol framework for machine learning***
   + 利用复制秘密共享技术提出了恶意模型下基于混合协议的安全三方计算通用框架ABY3，但仅在半诚实模型下实现了线性回归、逻辑回归和神经网络的安全计算
   + 论文发表在CCS 2018，论文链接见[ACM CCS](https://dl.acm.org/doi/abs/10.1145/3243734.3243760)，[eprint](https://eprint.iacr.org/2018/403)
-+ ***Oblivious neural network predictions via minionn transformations***
-+ ***GAZELLE: A Low Latency Framework for Secure Neural Network Inference***
 + ***Trident: Efficient 4PC Framework for Privacy Preserving Machine Learning***
 + ***QUOTIENT: Two-Party Secure Neural Network Training and Prediction***
 + ***New Primitives for Actively-Secure MPC over Rings with Applications to Private Machine Learning***
