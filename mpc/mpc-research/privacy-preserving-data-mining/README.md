@@ -4,6 +4,9 @@
 
 基于安全多方计算、同态加密实现隐私保护机器学习的训练和推理，主要包括隐私保护线性回归、逻辑回归、神经网络和泊松回归。
 
+<details>
+<summary>以下是隐私保护机器学习相关论文，请点击展开</summary>
+
 + :triangular_flag_on_post: ***[DSZ15]ABY-A framework for efficient mixed-protocol secure two-party computation***
   + 混合协议开篇之作，ABY：算术秘密份额（A）、布尔秘密份额（B）和姚氏秘密份额（Y）
   + 发表在NDSS 2015，论文链接见[NDSS 2015](https://www.ndss-symposium.org/ndss2015/ndss-2015-programme/aby-framework-efficient-mixed-protocol-secure-two-party-computation/)，[encryptogroup](http://thomaschneider.de/papers/DSZ15.pdf)
@@ -76,6 +79,7 @@
   + 安全整数比较算法
   + 发表在PoPETS 2023，论文链接见[ICAR eprint](https://eprint.iacr.org/2021/1646)
 
+</details>
 
 ## 2. 隐私保护特征工程
 
@@ -84,6 +88,8 @@
   + 发表在PMLR 2021，论文链接见[PMLR](http://proceedings.mlr.press/v139/li21e/li21e.pdf)、[ICAR eprint](https://eprint.iacr.org/2021/132)、[Arxiv eprint](https://arxiv.org/abs/2102.03517)
 + ***[SDH21]Feature Engineering Framework based on Secure Multi-Party Computation in Federated Learning***
   + 发表在IEEE HPCC/DSS/SmartCity/DependSys，论文链接见[IEEE](https://ieeexplore.ieee.org/abstract/document/9780936/)
+
+
 
 ## 3. 联合统计分析
 + ***[KLRS22]Secure Poisson Regression***
