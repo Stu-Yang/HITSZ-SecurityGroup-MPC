@@ -45,7 +45,7 @@ MPC的基础模块是构件MPC大厦的基础零件，主要包括不经意传�
   + IKNP03的论文[[IKNP03]Extending Oblivious Transfers Efficiently](https://link.springer.com/content/pdf/10.1007%2F978-3-540-45146-4_9.pdf)：了解IKNP03的基本思想和技术即可
 + **秘密共享(Secret Sharing, SS)**：掌握门限秘密共享和加性秘密共享
   + 关于门限秘密共享(Threshold Secret Sharing)，需要掌握Shamir的秘密共享方案[How to share a secret](https://dl.acm.org/doi/pdf/10.1145/359168.359176)及其拉格朗日插值法
-  + 关于加性秘密共享(Additive Secret Sharing)，掌握其基本原理即可，可参考一些博客[加法秘密共享(Additive Secret Sharing)](https://blog.csdn.net/qq_33154865/article/details/106271611)
+  + 关于加性秘密共享(Additive Secret Sharing)，掌握其基本原理即可，可参考一些博客[加法秘密共享(Additive Secret Sharing)](https://blog.csdn.net/qq_33154865/article/details/106271611)，更深入地可以参考论文[[DSZ15]ABY-A framework for efficient mixed-protocol secure two-party computation](https://www.ndss-symposium.org/ndss2015/ndss-2015-programme/aby-framework-efficient-mixed-protocol-secure-two-party-computation/)中【III. SHARING TYPES】的【A. Arithmetic Sharing】和【B. Boolean Sharing】即可
 + **混淆电路(Garbled Circuits, GC)**：掌握混淆电路的基本思想及其优化
   + 这部分结合混淆电路协议进行介绍，详见下面的【混淆电路协议[Yao86]】
 + **剪切-选择技术(Cut-and-Choose)**
