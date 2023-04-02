@@ -44,6 +44,7 @@
 
 详见[隐私保护数据挖掘](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining)，主要包括以下内容：
   + [隐私保护机器学习](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#1-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)
+  + [隐私保护特征工程](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#2-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B)
 
 
 ## X. 其他
