@@ -13,10 +13,10 @@
 + :triangular_flag_on_post: ***[MZ17]SecureML: A system for scalable privacy-preserving machine learning***
   + 隐私保护机器学习（线性回归、逻辑回归和神经网络）
   + 发表在S&P 2017，论文链接见[eprint](https://eprint.iacr.org/2017/396.pdf)
-+ ***Oblivious neural network predictions via minionn transformations***
++ ***[LJLA17]Oblivious Neural Network Predictions via MiniONN Transformations***
   + 基于安全两方计算的安全二值神经网络推理，实现能将任何神经网络都转换为安全神经网络推理（即通用安全神经网络推理方案）
   + 发表在CCS 2017，论文链接见[ACM CCS](https://dl.acm.org/doi/abs/10.1145/3133956.3134056)，[eprint](https://eprint.iacr.org/2017/452)
-+ ***GAZELLE: A Low Latency Framework for Secure Neural Network Inference***
++ ***[JVC18]GAZELLE: A Low Latency Framework for Secure Neural Network Inference***
   + 基于同态加密和安全多方计算（混淆电路）实现的安全两方神经网络推理，是第一份将同态加密和安全多方计算结合起来的工作
   + 论文发表在USENIX 2018，论文链接见[USENIX](https://www.usenix.org/conference/usenixsecurity18/presentation/juvekar)，[ICAR eprint](https://eprint.iacr.org/2018/073)
 + ***[MR18]ABY3: A mixed protocol framework for machine learning***
@@ -32,6 +32,9 @@
   + 安全三方隐私保护神经网络训练，发表在PoPETS2019
   + 论文链接见[PoPETS 2019](https://petsymposium.org/popets/2019/popets-2019-0035.php)
 + ***2020：[Effectiveness of MPC-friendly Softmax Replacement](https://arxiv.org/abs/2011.11202)***
++ ***[MLS+20]DELPHI:a cryptographic inference service for neural networks***
+  + 基于安全多方计算的神经网络推理，采用neural architecture search (NAS)来平衡效率和精度
+  + 论文发表在USENIX 2020上，论文链接见[IACR eprint](https://eprint.iacr.org/2020/050)
 + ***[RRK+20]CrypTFlow2: Practical 2-Party Secure Inference***
   + 安全两方神经网络推理
   + 发表在CCS 2020，论文链接见[eprint](https://eprint.iacr.org/2020/1002)
