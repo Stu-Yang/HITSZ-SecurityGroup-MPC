@@ -6,9 +6,10 @@
 
 |        时间      |     任务         |          具体工作               | 负责人     |备注   |
 |       :--:       |     :--:        |        :--:                     |  :--:     |:--:  |
-|        3月       |    基础知识学习  |   多方安全计算技术基础            |  洪景羽    |   [多方安全计算技术基础](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/%E5%A4%9A%E6%96%B9%E5%AE%89%E5%85%A8%E8%AE%A1%E7%AE%97%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80.pptx)   |
-|        3月       |    基础知识学习  |   高性能多方安全数据分析MPC SQL         |   唐潇萌   | [高性能多方安全数据分析 MPC SQL](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/%E9%AB%98%E6%80%A7%E8%83%BD%E5%A4%9A%E6%96%B9%E5%AE%89%E5%85%A8%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%20MPC%20%20SQL.pptx)    |
-|        3月       |    基础知识学习  |      复制秘密共享                |   王涵     |
+|        3月       |    基础知识学习  |   多方安全计算技术基础            |  洪景羽    |   [多方安全计算技术基础](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E5%A4%9A%E6%96%B9%E5%AE%89%E5%85%A8%E8%AE%A1%E7%AE%97%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80.pptx)   |
+|        3月       |    基础知识学习  |   高性能多方安全数据分析MPC SQL         |   唐潇萌   | [高性能多方安全数据分析 MPC SQL](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E9%AB%98%E6%80%A7%E8%83%BD%E5%A4%9A%E6%96%B9%E5%AE%89%E5%85%A8%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%20MPC%20%20SQL.pptx)    |
+|        3月       |    基础知识学习  |      复制秘密共享                |   王涵     |[多方复制秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E5%A4%9A%E6%96%B9%E5%A4%8D%E5%88%B6%E7%A7%98%E5%AF%86%E5%85%B1%E4%BA%AB.pdf)、[比特分解](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E6%AF%94%E7%89%B9%E5%88%86%E8%A7%A3.pdf)、[跨秘密表示形式计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E8%B7%A8%E7%A7%98%E5%AF%86%E8%A1%A8%E7%A4%BA%E5%BD%A2%E5%BC%8F%E8%AE%A1%E7%AE%97.pdf)、[多方复制秘密共享（截断操作）](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E5%A4%9A%E6%96%B9%E5%A4%8D%E5%88%B6%E7%A7%98%E5%AF%86%E5%85%B1%E4%BA%AB%EF%BC%88%E6%88%AA%E6%96%AD%E6%93%8D%E4%BD%9C%EF%BC%89.pdf)|
+|     4月            |后端学习              |             熟悉隐语scql框架    |  团队||
  
 ## 2. 参考资料
 
