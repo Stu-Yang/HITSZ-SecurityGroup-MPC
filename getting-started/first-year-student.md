@@ -30,9 +30,9 @@
     + [【隐私计算笔谈】MPC系列专题（十八）：三方复制秘密共享（四）](https://blog.csdn.net/Matrix_element/article/details/119613604)
     + [【隐私计算笔谈】MPC系列专题（十九）：三方复制秘密共享（五）](https://blog.csdn.net/Matrix_element/article/details/119909871)
 + 隐语scql学习
-  + 1. 通过[SCQL Introduction](https://www.secretflow.org.cn/docs/scql/en/getting_started/scql_intro.html)以及以下视频再熟悉下SCQL
+  + 通过[SCQL Introduction](https://www.secretflow.org.cn/docs/scql/en/getting_started/scql_intro.html)以及以下视频再熟悉下SCQL
     + [MOOC 第10讲 ：「技术应用」高性能多方安全数据分析MPC SQL](https://www.bilibili.com/video/BV1WR4y1C7bA/?spm_id_from=333.788&vd_source=e7621c4c2addfc5cf23ee5974a5d337a)
     + [从AI到BI：基于多方安全计算的隐语数据分析引擎SCQL](https://www.bilibili.com/video/BV18h41137Pg/?vd_source=e7621c4c2addfc5cf23ee5974a5d337a)
-  + 2. 开始动手实践，参照[Qucikstart](https://www.secretflow.org.cn/docs/scql/en/getting_started/quickstart.html)初步开始SCQL的使用
-  + 3. 参照[Reference](https://www.secretflow.org.cn/docs/scql/en/reference/index.html),了解更多细节，知道每个语句的作用
-  + 4. 阅读[Development](https://www.secretflow.org.cn/docs/scql/en/development/index.html)，尝试SCQL的开发
+  + 开始动手实践，参照[Qucikstart](https://www.secretflow.org.cn/docs/scql/en/getting_started/quickstart.html)初步开始[SCQL](https://github.com/secretflow/scql)的使用,
+  + 参照[Reference](https://www.secretflow.org.cn/docs/scql/en/reference/index.html),了解更多细节，知道每个语句的作用
+  + 阅读[Development](https://www.secretflow.org.cn/docs/scql/en/development/index.html)，尝试SCQL的开发
