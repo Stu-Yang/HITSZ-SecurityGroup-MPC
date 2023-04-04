@@ -8,9 +8,8 @@
 |       :--:       |     :--:        |        :--:                     |  :--:     |:--:  |
 |        3月       |    基础知识学习  |   多方安全计算技术基础            |  洪景羽    |   [多方安全计算技术基础](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E5%A4%9A%E6%96%B9%E5%AE%89%E5%85%A8%E8%AE%A1%E7%AE%97%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80.pptx)   |
 |        3月       |    基础知识学习  |   高性能多方安全数据分析MPC SQL         |   唐潇萌   | [高性能多方安全数据分析 MPC SQL](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E9%AB%98%E6%80%A7%E8%83%BD%E5%A4%9A%E6%96%B9%E5%AE%89%E5%85%A8%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%20MPC%20%20SQL.pptx)    |
-|        3月       |    基础知识学习  |      复制秘密共享                |   王涵     |[多方复制秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E5%A4%9A%E6%96%B9%E5%A4%8D%E5%88%B6%E7%A7%98%E5%AF%86%E5%85%B1%E4%BA%AB.pdf)、[比特分解](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E6%AF%94%E7%89%B9%E5%88%86%E8%A7%A3.pdf)、[跨秘密表示形式计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E8%B7%A8%E7%A7%98%E5%AF%86%E8%A1%A8%E7%A4%BA%E5%BD%A2%E5%BC%8F%E8%AE%A1%E7%AE%97.pdf)、[多方复制秘密共享（截断操作）](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E5%A4%9A%E6%96%B9%E5%A4%8D%E5%88%B6%E7%A7%98%E5%AF%86%E5%85%B1%E4%BA%AB%EF%BC%88%E6%88%AA%E6%96%AD%E6%93%8D%E4%BD%9C%EF%BC%89.pdf)|
-|     4月            |后端学习              |             熟悉隐语scql框架    |  团队||
- 
+|        3月       |    基础知识学习  |      复制秘密共享                |   王涵     |[多方复制秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E5%A4%9A%E6%96%B9%E5%A4%8D%E5%88%B6%E7%A7%98%E5%AF%86%E5%85%B1%E4%BA%AB.pdf)、[比特分解](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E6%AF%94%E7%89%B9%E5%88%86%E8%A7%A3.pdf) <br> [跨秘密表示形式计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E8%B7%A8%E7%A7%98%E5%AF%86%E8%A1%A8%E7%A4%BA%E5%BD%A2%E5%BC%8F%E8%AE%A1%E7%AE%97.pdf)、[多方复制秘密共享（截断操作）](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/getting-started/firest-year-student-materials/%E5%A4%9A%E6%96%B9%E5%A4%8D%E5%88%B6%E7%A7%98%E5%AF%86%E5%85%B1%E4%BA%AB%EF%BC%88%E6%88%AA%E6%96%AD%E6%93%8D%E4%BD%9C%EF%BC%89.pdf)|
+|     4月            |后端学习              |             熟悉隐语SCQL框架    |  团队||
 ## 2. 参考资料
 
 + 基础知识学习
@@ -30,3 +29,10 @@
     + [【隐私计算笔谈】MPC系列专题（十七）：三方复制秘密共享（三）](https://blog.csdn.net/Matrix_element/article/details/119331429)
     + [【隐私计算笔谈】MPC系列专题（十八）：三方复制秘密共享（四）](https://blog.csdn.net/Matrix_element/article/details/119613604)
     + [【隐私计算笔谈】MPC系列专题（十九）：三方复制秘密共享（五）](https://blog.csdn.net/Matrix_element/article/details/119909871)
++ 隐语scql学习
+  + 1. 通过[SCQL Introduction](https://www.secretflow.org.cn/docs/scql/en/getting_started/scql_intro.html)以及以下视频再熟悉下SCQL
+    + [MOOC 第10讲 ：「技术应用」高性能多方安全数据分析MPC SQL](https://www.bilibili.com/video/BV1WR4y1C7bA/?spm_id_from=333.788&vd_source=e7621c4c2addfc5cf23ee5974a5d337a)
+    + [从AI到BI：基于多方安全计算的隐语数据分析引擎SCQL](https://www.bilibili.com/video/BV18h41137Pg/?vd_source=e7621c4c2addfc5cf23ee5974a5d337a)
+  + 2. 开始动手实践，参照[Qucikstart](https://www.secretflow.org.cn/docs/scql/en/getting_started/quickstart.html)初步开始SCQL的使用
+  + 3. 参照[Reference](https://www.secretflow.org.cn/docs/scql/en/reference/index.html),了解更多细节，知道每个语句的作用
+  + 4. 阅读[Development](https://www.secretflow.org.cn/docs/scql/en/development/index.html)，尝试SCQL的开发
