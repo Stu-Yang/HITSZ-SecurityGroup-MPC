@@ -1,6 +1,6 @@
 # 安全多方计算
 
-在这里，我们按主题列出一些优秀的MPC相关的论文：
+在这里，我们按主题列出一些优秀的MPC相关的论文，另外按照会议/期刊记录的文章请参考[top conferences and journals](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals)。
 
 ## 0. MPC综述
 
