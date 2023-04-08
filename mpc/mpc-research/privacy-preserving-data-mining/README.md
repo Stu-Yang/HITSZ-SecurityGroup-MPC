@@ -48,12 +48,12 @@
 + ***[CZW+21]When Homomorphic Encryption Marries Secret Sharing: Secure Large-Scale Sparse Logistic Regression and Applications in Risk Control***
   + 结合秘密共享和同态加密实现稀疏数据的逻辑回归
   + 发表在KDD 2021，文章链接见[ACM](https://dl.acm.org/doi/10.1145/3447548.3467210)，[arXiv](https://arxiv.org/pdf/2008.08753.pdf)
++ ***[LMSP21]Muse:Secure Inference Resilient to Malicious Clients***
+  + 抵抗恶意客户端的恶意安全机器学习推理
+  + 发表在USENIX 2021，论文链接见[USENIX](https://www.usenix.org/conference/usenixsecurity21/presentation/lehmkuhl), [IACR-eprint](https://eprint.iacr.org/2021/1040)
 + ***[BDST22]MOTION - A Framework for Mixed-Protocol Multi-Party Computation***
   + ABY的多方版本，文章中详细论述了ABY系列协议
   + 发表在TOPS 2022，论文链接见[eprint](https://eprint.iacr.org/2020/1137)，[ACM](https://dl.acm.org/doi/abs/10.1145/3490390)
-+ ***[CGOS22]SIMC: ML Inference Secure Against Malicious Clients at Semi-Honest Cost***
-  + 恶意模型下安全神经网络推理
-  + 发表在USENIX 2022，论文链接见[USENIX 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/chandran)
 + ***[ZWLL22]SecureBiNN-3-Party Secure Computation for Binarized Neural Network Inference***
   + 安全三方二值神经网络推理
   + 发表在ESORICS 2022，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-17143-7_14)
