@@ -35,4 +35,10 @@
     + [从AI到BI：基于多方安全计算的隐语数据分析引擎SCQL](https://www.bilibili.com/video/BV18h41137Pg/?vd_source=e7621c4c2addfc5cf23ee5974a5d337a)
   + 开始动手实践，参照[Qucikstart](https://www.secretflow.org.cn/docs/scql/en/getting_started/quickstart.html)初步开始[SCQL](https://github.com/secretflow/scql)的使用,
   + 参照[Reference](https://www.secretflow.org.cn/docs/scql/en/reference/index.html),了解更多细节，知道每个语句的作用
+    + 了解和学习基础的sql语句
+    + 了解 GRM 以及 API
+    + 知道如何调用scql ccl的api  
   + 阅读[Development](https://www.secretflow.org.cn/docs/scql/en/development/index.html)，尝试SCQL的开发
+    + 实现数据源接入 SCQL 系统
+    + 通过 SCQL 的 HTTP API 接口提交多方分析任务，使用 SQL 描述。
+    + 如何直接编译得到 exe 文件在物理机上运行
