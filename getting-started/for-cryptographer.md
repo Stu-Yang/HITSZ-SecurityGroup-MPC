@@ -1,4 +1,4 @@
-## 一个cryptographer应该掌握的事情
+## 一个cryptographer应该掌握的知识
 
 + 数学
 + 英语
