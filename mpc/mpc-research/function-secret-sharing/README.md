@@ -124,7 +124,24 @@
 + ***[GYW+22]Half-Tree Halving the Cost of Tree Expansion in COT and DPF***
   + 基于伪随机相关GGM树提出了COT和DPF&DCF方面的优化
   + 论文链接见[eprint](https://eprint.iacr.org/2022/1431)
-  
++ ***[JGB+23]Orca: FSS-based Secure Training with GPUs***
+  + 基于函数秘密共享的安全训练，同时用GPU加速
+  + 论文链接见[eprint](https://eprint.iacr.org/2023/206)
++ ***[GJM+23]SIGMA: Secure GPT Inference with Function Secret Sharing***
+  + 基于函数秘密共享的安全GPT推理，主要针对大模型神经网络推理
+  + 论文链接见[eprint](https://eprint.iacr.org/2023/1269)
++ ***[SVLH]Grotto: Screaming fast (2+1)-PC for via (2, 2)-DPFs***
+  + 两方分布式点函数
+  + 论文链接见[eprint](https://eprint.iacr.org/2023/108)
++ ***[LCC23]Online Efficient Secure Logistic Regression based on Function Secret Sharing***
+  + 基于函数秘密共享的安全逻辑回归
+  + 发表在CIKM 2023，论文链接见[arxiv](https://arxiv.org/pdf/2309.09486.pdf)
++ ***[SBYP23]Private Access Control for Function Secret Sharing***
+  + 面向函数秘密共享的访问控制
+  + 发表在SP 2023，论文链接见[IEEE](https://ieeexplore.ieee.org/abstract/document/10179295)
+
+
+
 ## 2.1 相关阅读材料
 + ***[DHRW16]Spooky Encryption and Its Applications***
   + 提出了Spooky Encryption的概念，并提出了它的应用，其中一个应用就是函数秘密共享(见6.3 Function Secret Sharing)，不过该论文没有提出有效表示函数f的方案
