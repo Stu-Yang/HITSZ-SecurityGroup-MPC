@@ -130,6 +130,9 @@
 + ***[GJM+23]SIGMA: Secure GPT Inference with Function Secret Sharing***
   + 基于函数秘密共享的安全GPT推理，主要针对大模型神经网络推理
   + 论文链接见[eprint](https://eprint.iacr.org/2023/1269)
++ ***[LKZ23]Efficient Information-Theoretic Distributed Point Function with General Output Groups***
+  + 多方分布式点函数
+  + 论文链接见[eprint](https://eprint.iacr.org/2023/625)
 + ***[SVLH]Grotto: Screaming fast (2+1)-PC for via (2, 2)-DPFs***
   + 两方分布式点函数
   + 论文链接见[eprint](https://eprint.iacr.org/2023/108)
