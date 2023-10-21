@@ -1,5 +1,7 @@
 # The 12th BIU Winter School on Cryptography
 
+> 部分Slide资料可能无法现在，请前往[addingIce/12th-BIU](https://github.com/addingIce/The-12th-BIU-Winter-School-on-Cryptography)进行下载。
+
 ## Advances in Secure Computation
 
 ## January 23-26, 2022
