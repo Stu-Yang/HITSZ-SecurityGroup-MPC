@@ -20,6 +20,8 @@
     + [The 1st BIU Winter School: Secure Computation and Efficiency (01/30 - 02/01, 2011)](https://cyber.biu.ac.il/event/the-1st-biu-winter-school/)
   + 第五届BIU密码学冬令营：实用安全多方计算进展
     + [The 5th BIU Winter School: Advances in Practical Multiparty Computation (02/15 – 02/19, 2015)](https://cyber.biu.ac.il/event/the-5th-biu-winter-school/)
+  + 第十二届BIU密码学冬令营：安全计算进展
+    + [The 12th BIU Winter School: Advances in Secure Computation (01/23 – 01/26, 2022)](https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography)
   + [Arpita Patra](https://www.csa.iisc.ac.in/~arpita/index.html)关于安全多方计算的课程
     + [Secure Computation 2015](https://www.csa.iisc.ac.in/~arpita/SecureComputation15.html)
     + [Secure Computation 2017](https://www.csa.iisc.ac.in/~arpita/FoSC17.html)
