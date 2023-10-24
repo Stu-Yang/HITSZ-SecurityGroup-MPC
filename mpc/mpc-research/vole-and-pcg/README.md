@@ -34,9 +34,12 @@
   + 论文发表在TCC，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-36594-2_34)，[eprint](https://www.iacr.org/archive/tcc2013/77850598/77850598.pdf)
 + ***Function Secret Sharing***
   + Elette Boyle等人在2015年提出函数秘密共享（Function Secret Sharing, FSS），详见[Function Secret Sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)
-+ ***Homomorphic Secret Sharing***
++ :triangular_flag_on_post:***Homomorphic Secret Sharing***
   + Elette Boyle等人在2016年提出同态秘密共享（Homomorphic Secret Sharing, HSS），详见[Homomorphic Secret Sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/homomorphic-secret-sharing)。在研究同态秘密共享时，Boyle等人提出了伪随机相关生成器的概念。
-+ :triangular_flag_on_post:***[BCGI18]Compressing Vector OLE***
+  + [BGI16]Breaking the Circuit Size Barrier for Secure Computation Under DDH：同态秘密共享的开山之作，发表在Crypto 2016，论文链接见[eprint](https://eprint.iacr.org/2016/585)
+  + [BGI17]Group-Based Secure Computation: Optimizing Rounds, Communication, and Computation：同态秘密共享的开山续作，发表在EuroCrypto 2017，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-319-56614-6_6) 
+  + [BCG+17]Homomorphic Secret Sharing: Optimizations and Applications：同态秘密共享的系统研究，发表在CCS 2017，论文链接见[eprint](https://eprint.iacr.org/2018/419)
++ ***[BCGI18]Compressing Vector OLE***
   + 基于函数秘密共享和LPN假设提出了一种快速生成 VOLE 伪随机实例的新方法
   + 论文发表在CCS 2018，论文链接见[ACM](https://dl.acm.org/doi/10.1145/3243734.3243868)，[eprint](https://eprint.iacr.org/2019/273)
 + :triangular_flag_on_post:***[BCG+19]Efficient Pseudorandom Correlation Generators: Silent OT Extension and More***
