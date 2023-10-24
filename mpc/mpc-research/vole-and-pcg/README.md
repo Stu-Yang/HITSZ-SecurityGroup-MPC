@@ -2,6 +2,17 @@
 
 向量不经意线性函数计算（Vector Oblivious Linear Evaluation, VOLE）是一种十分有用的相关随机性（Correlated Randomness），这些相关随机性可以由一种称为伪随机相关生成器（Pseudorandom Correlation Generator, PCG）来生成，PCG的构造主要依赖于[函数秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)、[同态秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/homomorphic-secret-sharing)和LPN（Learning Parity with Noise）假设来构造。
 
+## 0. 如何学习VOLE和PCG
+
++ 2022年BIU冬令营：在2022年BIU冬令营中，有对VOLE和PCG的系统介绍（部分Slide资料可能无法现在，请前往[addingIce/12th-BIU](https://github.com/addingIce/The-12th-BIU-Winter-School-on-Cryptography)进行下载。），详见如下
+  + Peter Scholl: Vector Oblivious Linear Evaluation – part 1 ([Slides](http://cyber.biu.ac.il/wp-content/uploads/2021/11/Vector_Oblivious_Linear_Evaluation-1.pdf)) ([Video](https://www.youtube.com/watch?v=ZfdXY_oLhSo&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=9&t=9s))
+  + Peter Scholl: Vector Oblivious Linear Evaluation – part 2 ([Slides](http://cyber.biu.ac.il/wp-content/uploads/2021/11/Vector_Oblivious_Linear_Evaluation-2.pdf)) ([Video](https://www.youtube.com/watch?v=i0Y6wdOgRR8&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=10&t=4s))
+  + Yuval Ishai: Pseudorandom Correlation Generators – part 1 ([Slides parts 1-2](http://cyber.biu.ac.il/wp-content/uploads/2021/11/pcg-Yuval_Ishai.pdf)) ([Video](https://www.youtube.com/watch?v=A2jWB6mlUPE&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=11&t=5s))
+  + Yuval Ishai: Pseudorandom Correlation Generators – part 2 ([Video](https://www.youtube.com/watch?v=AkfRu0yYkGU&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=12&t=3s))
+  + Dima Kogan: Introduction to Private Information Retrieval  ([Slides Parts 1-2](http://cyber.biu.ac.il/wp-content/uploads/2021/11/PIR_Dima_Kogan.pdf)) ([Video](https://www.youtube.com/watch?v=JBVP3_PmbsI&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=13&t=1s))
+  + Peter Scholl: Silent OT and VOLE from LPN  ([Slides](http://cyber.biu.ac.il/wp-content/uploads/2021/11/pcg-3.pdf)) ([Video](https://www.youtube.com/watch?v=OxXBa-pUwa4&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=19))
+  + Peter Scholl: Pseudorandom Correlation Functions from Paillier ([Slides](http://cyber.biu.ac.il/wp-content/uploads/2021/11/pcg-4.pdf)) ([Video](https://www.youtube.com/watch?v=TbUQa-bJAHM&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=20&t=1s))
+
 ## 1. 伪随机相关生成器领域的相关大牛
 + [Elette Boyle](https://cs.idc.ac.il/~elette/)：提出伪随机相关生成器PCG，并针对VOLE相关随机性提出了基于PCG的高效方案
 + [Geoffroy Couteau](https://geoffroycouteau.github.io/)：和Boyle一起合作了伪随机相关生成器PCG的开创性论文
