@@ -124,6 +124,9 @@
 + ***[GYW+22]Half-Tree Halving the Cost of Tree Expansion in COT and DPF***
   + 基于伪随机相关GGM树提出了COT和DPF&DCF方面的优化
   + 论文链接见[eprint](https://eprint.iacr.org/2022/1431)
++ ***[AS22]Low-Communication Multiparty Triple Generation for SPDZ from Ring-LPN***
+  + 基于**3方DPF构造**，提出了面向SPDZ的多方元组生成，而现有工作支持两方的构造
+  + 论文发表在PKC 2022，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-97121-2_9)，[eprint](https://eprint.iacr.org/2022/315.pdf)
 + ***[JGB+23]Orca: FSS-based Secure Training with GPUs***
   + 基于函数秘密共享的安全训练，同时用GPU加速
   + 论文链接见[eprint](https://eprint.iacr.org/2023/206)
