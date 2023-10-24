@@ -24,6 +24,9 @@
 
 ## 2. 伪随机相关生成器相关论文
 
+<details>
+<summary>伪随机相关生成器相关论文和阅读材料，请点击展开</summary>
+
 ### 2.1 相关论文
 
 + ***[Bea91]Efficient Multiparty Protocols Using Circuit Randomization***
@@ -63,6 +66,9 @@
 + ***[BCM22]Sublinear Secure Computation from New Assumptions***
   + 通过利用新技术来扩展亚线性通信的计算假设集
   + 论文发表在TCC 2022，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-22365-5_5)，[eprint](https://eprint.iacr.org/2023/513)
++ ***[AS22]Low-Communication Multiparty Triple Generation for SPDZ from Ring-LPN***
+  + 基于3方DPF构造，提出了面向SPDZ的多方元组生成，而现有工作支持两方的构造
+  + 论文发表在PKC 2022，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-97121-2_9)，[eprint](https://eprint.iacr.org/2022/315.pdf)
 + ***[BCG+23]Oblivious Transfer with Constant Computational Overhead***
   + 基于用于bit-OT相关的恒定开销伪随机相关生成器PCG，提出了具有常数计算代价的不经意传输协议
   + 论文发表在EUROCRYPT 2023，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-30545-0_10)，[eprint](https://eprint.iacr.org/2023/817)
@@ -73,11 +79,13 @@
   + [BCG+20]Correlated Pseudorandom Functions from Variable-Density LPN的进一步工作
   + 发表在PKC 23，论文链接见[Springe](https://link.springer.com/chapter/10.1007/978-3-031-31371-4_8)，[eprint](https://eprint.iacr.org/2023/650)
 
-### 2.2 相关随机性
+### 2.2 相关随机性阅读材料
 
 这里列出一些相关随机性，以及对应的论文
 + 乘法三元组，以及认证乘法三元组
 + 二项式元组和算术元组
+  + ***[RRKK22]Arithmetic Tuples for MPC***
+    + 作者为Pascal Reisert, Marc Rivinius,Toomas Krips, Ralf Kuesters，论文链接见[eprint](https://eprint.iacr.org/2022/667)
 + OT相关随机性（ROT、COT和OT）
 + VOLE相关随机性（OLE、R-OLE和VOLE）
 + 查找表（Lookup Table）
@@ -92,3 +100,8 @@
   + ***[BHS+23]FLUTE: Fast and Secure Lookup Table Evaluations***
     + 发表在SP 2023，论文链接见[eprint]([https://eprint.iacr.org/2018/486.pdf](https://eprint.iacr.org/2023/499)https://eprint.iacr.org/2023/499)
 
+</details>
+
+## 3. VOLE、PCG和安全计算
+
+从结构上看，VOLE是一种相关性，PCG是生成相关性的生成器，预处理模型下的安全计算则依赖于相关性。
