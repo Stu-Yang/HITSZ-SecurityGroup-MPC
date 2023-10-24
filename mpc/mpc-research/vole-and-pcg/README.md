@@ -23,16 +23,19 @@
 + [Lisa Kohl](https://lisakohl.me/)：Yuval Ishai的学生
 
 ## 2. 伪随机相关生成器相关论文
+
+### 2.1 相关论文
+
 + ***[Bea91]Efficient Multiparty Protocols Using Circuit Randomization***
   + 预处理模型最早源于Beaver的工作，Beaver针对BGW协议的复杂乘法运算，提出了乘法三元组的概念（后也称Beaver三元组），用一轮交互便可完成一次乘法运算，大大提高了乘法运算的效率。
   + 论文发表在CRYPTO 1991，论文链接见[Springer](https://link.springer.com/chapter/10.1007/3-540-46766-1_34)
++ ***[IKM+13]On the Power of Correlated Randomness in Secure Computation***
+  + Ishai等人在2013年研究了相关随机性能在多大程度上帮助构造不诚实大多数的安全多方计算协议，称为OTTT协议
+  + 论文发表在TCC，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-36594-2_34)，[eprint](https://www.iacr.org/archive/tcc2013/77850598/77850598.pdf)
 + ***Function Secret Sharing***
   + Elette Boyle等人在2015年提出函数秘密共享（Function Secret Sharing, FSS），详见[Function Secret Sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)
 + ***Homomorphic Secret Sharing***
   + Elette Boyle等人在2016年提出同态秘密共享（Homomorphic Secret Sharing, HSS），详见[Homomorphic Secret Sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/homomorphic-secret-sharing)。在研究同态秘密共享时，Boyle等人提出了伪随机相关生成器的概念。
-+ ***[DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited***
-  + 利用真值表来实现所有函数的预处理模型下安全计算，该方法针对布尔电路
-  + 发表在Crypto 2017，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-319-63688-7_6)，[eprint](https://eprint.iacr.org/2016/695)
 + :triangular_flag_on_post:***[BCGI18]Compressing Vector OLE***
   + 基于函数秘密共享和LPN假设提出了一种快速生成 VOLE 伪随机实例的新方法
   + 论文发表在CCS 2018，论文链接见[ACM](https://dl.acm.org/doi/10.1145/3243734.3243868)，[eprint](https://eprint.iacr.org/2019/273)
@@ -66,3 +69,23 @@
 + ***[CD23]Pseudorandom Correlation Functions from Variable-Density LPN, Revisited***
   + [BCG+20]Correlated Pseudorandom Functions from Variable-Density LPN的进一步工作
   + 发表在PKC 23，论文链接见[Springe](https://link.springer.com/chapter/10.1007/978-3-031-31371-4_8)，[eprint](https://eprint.iacr.org/2023/650)
+
+### 2.2 相关随机性
+
+这里列出一些相关随机性，以及对应的论文
++ 乘法三元组，以及认证乘法三元组
++ 二项式元组和算术元组
++ OT相关随机性（ROT、COT和OT）
++ VOLE相关随机性（OLE、R-OLE和VOLE）
++ 查找表（Lookup Table）
+  + ***[IKM+13]On the Power of Correlated Randomness in Secure Computation***
+    + Ishai等人在2013年研究了相关随机性能在多大程度上帮助构造不诚实大多数的安全多方计算协议，称为OTTT协议
+    + 论文发表在TCC 2013，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-36594-2_34)，[eprint](https://www.iacr.org/archive/tcc2013/77850598/77850598.pdf)
+  + ***[DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited***
+    + 利用真值表来实现所有函数的预处理模型下安全计算，该方法针对布尔电路
+    + 发表在Crypto 2017，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-319-63688-7_6)，[eprint](https://eprint.iacr.org/2016/695)
+  + ***[DKS+17]Pushing the Communication Barrier in Secure Computation using Lookup Tables***
+    + 发表在NDSS 2017，论文链接见[eprint](https://eprint.iacr.org/2018/486.pdf)
+  + ***[BHS+23]FLUTE: Fast and Secure Lookup Table Evaluations***
+    + 发表在SP 2023，论文链接见[eprint]([https://eprint.iacr.org/2018/486.pdf](https://eprint.iacr.org/2023/499)https://eprint.iacr.org/2023/499)
+
