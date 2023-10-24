@@ -9,9 +9,9 @@
   + Peter Scholl: Vector Oblivious Linear Evaluation – part 2 ([Slides](http://cyber.biu.ac.il/wp-content/uploads/2021/11/Vector_Oblivious_Linear_Evaluation-2.pdf)) ([Video](https://www.youtube.com/watch?v=i0Y6wdOgRR8&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=10&t=4s))
   + Yuval Ishai: Pseudorandom Correlation Generators – part 1 ([Slides parts 1-2](http://cyber.biu.ac.il/wp-content/uploads/2021/11/pcg-Yuval_Ishai.pdf)) ([Video](https://www.youtube.com/watch?v=A2jWB6mlUPE&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=11&t=5s))
   + Yuval Ishai: Pseudorandom Correlation Generators – part 2 ([Video](https://www.youtube.com/watch?v=AkfRu0yYkGU&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=12&t=3s))
-  + Dima Kogan: Introduction to Private Information Retrieval  ([Slides Parts 1-2](http://cyber.biu.ac.il/wp-content/uploads/2021/11/PIR_Dima_Kogan.pdf)) ([Video](https://www.youtube.com/watch?v=JBVP3_PmbsI&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=13&t=1s))
   + Peter Scholl: Silent OT and VOLE from LPN  ([Slides](http://cyber.biu.ac.il/wp-content/uploads/2021/11/pcg-3.pdf)) ([Video](https://www.youtube.com/watch?v=OxXBa-pUwa4&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=19))
   + Peter Scholl: Pseudorandom Correlation Functions from Paillier ([Slides](http://cyber.biu.ac.il/wp-content/uploads/2021/11/pcg-4.pdf)) ([Video](https://www.youtube.com/watch?v=TbUQa-bJAHM&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=20&t=1s))
++ [伪随机相关生成器相关论文](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/edit/main/mpc/mpc-research/vole-and-pcg/README.md#2-%E4%BC%AA%E9%9A%8F%E6%9C%BA%E7%9B%B8%E5%85%B3%E7%94%9F%E6%88%90%E5%99%A8%E7%9B%B8%E5%85%B3%E8%AE%BA%E6%96%87)的论文汇报
 
 ## 1. 伪随机相关生成器领域的相关大牛
 + [Elette Boyle](https://cs.idc.ac.il/~elette/)：提出伪随机相关生成器PCG，并针对VOLE相关随机性提出了基于PCG的高效方案
