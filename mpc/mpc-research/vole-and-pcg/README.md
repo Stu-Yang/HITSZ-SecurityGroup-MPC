@@ -18,6 +18,7 @@
 + [Geoffroy Couteau](https://geoffroycouteau.github.io/)：和Boyle一起合作了伪随机相关生成器PCG的开创性论文
 + [Niv Gilboa](https://www.bgu.ac.il/~gilboan)：系统研究伪随机相关生成器PCG
 + [Yuval Ishai](https://www.cs.technion.ac.il/~yuvali/)：Boyle的老师，其和Niv Gilboa一起系统研究伪随机相关生成器PCG
++ [Ariel Nof](https://u.cs.biu.ac.il/~nofarie/)：近几年也在和Boyle合作研究伪随机相关生成器
 + [Peter Scholl](https://dblp.org/pid/00/10576.html)：对预处理模型下的安全多方计算很有研究
 + [Lisa Kohl](https://lisakohl.me/)：Yuval Ishai的学生
 
@@ -37,14 +38,31 @@
   + 论文发表在CCS 2018，论文链接见[ACM](https://dl.acm.org/doi/10.1145/3243734.3243868)，[eprint](https://eprint.iacr.org/2019/273)
 + :triangular_flag_on_post:***[BCG+19]Efficient Pseudorandom Correlation Generators: Silent OT Extension and More***
   + 正式提出伪随机相关生成器，并给出其定义和安全性定义，同时为OT相关性、两方相关性和多方相关性提出伪随机相关生成器构造
-  + 论文发表在CRYPTO 2019，论文链接见[SPringer](https://link.springer.com/chapter/10.1007/978-3-030-26954-8_16)，[eprint](https://eprint.iacr.org/2019/448)
+  + 论文发表在CRYPTO 2019，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-26954-8_16)，[eprint](https://eprint.iacr.org/2019/448)
 + ***[BCG+20]Efficient Pseudorandom Correlation Generators from Ring-LPN***
   + 基于环上LPN假设设计了高效的伪随机相关生成器构造
-  + 论文发表在CRYPTO 2020，论文链接见[SPringer](https://link.springer.com/chapter/10.1007/978-3-030-26954-8_16)，[eprint](https://eprint.iacr.org/2019/448)
-+ ***[BGIN]Sublinear GMW-Style Compiler for MPC with Preprocessing***
+  + 论文发表在CRYPTO 2020，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-26954-8_16)，[eprint](https://eprint.iacr.org/2019/448)
++ ***[BCG+20]Correlated Pseudorandom Functions from Variable-Density LPN***
+  + 基于Variable-Density LPN的伪随机相关函数，其是伪随机相关生成器的推广
+  + 论文发表在FOCS 2020，论文链接见[eprint](https://eprint.iacr.org/2020/1417)
++ ***[BGIN21]Sublinear GMW-Style Compiler for MPC with Preprocessing***
   + 提出了具有亚线性离线阶段的GMW范式安全多方计算
   + 论文发表在CRYPTO 2021，论文链接见[SPringer](https://link.springer.com/chapter/10.1007/978-3-030-84245-1_16)，[eprint](https://eprint.iacr.org/2022/261)
-+ ***[BCG+20]Efficient Pseudorandom Correlation Generators from Ring-LPN***
++ ***[BGIN22]Efficient Pseudorandom Correlation Generators from Ring-LPN***
   + 基于环上LPN假设设计了高效的伪随机相关生成器构造
-  + 论文发表在EUROCRYPT 2022，论文链接见[SPringer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_15)
-
+  + 论文发表在EUROCRYPT 2022，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_15)
++ ***[BCM22]Correlated Pseudorandomness from Expand-Accumulate Codes***
+  + 引入了一种基于所谓的扩展累积码的简单 PCG 新设计
+  + 论文发表在CRYPTO 2022，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-15979-4_21)，[eprint](https://eprint.iacr.org/2022/1014)
++ ***[BCM22]Sublinear Secure Computation from New Assumptions***
+  + 通过利用新技术来扩展亚线性通信的计算假设集
+  + 论文发表在TCC 2022，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-22365-5_5)，[eprint](https://eprint.iacr.org/2023/513)
++ ***[BCG+23]Oblivious Transfer with Constant Computational Overhead***
+  + 基于用于bit-OT相关的恒定开销伪随机相关生成器PCG，提出了具有常数计算代价的不经意传输协议
+  + 论文发表在EUROCRYPT 2023，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-30545-0_10)，[eprint](https://eprint.iacr.org/2023/817)
++ ***[BCM23]Sublinear-Communication Secure Multiparty Computation Does Not Require FHE***
+  + 基于N方函数秘密共享的特定形式构建了一个用于实现安全N+1方计算框架，且离线通信为亚线性复杂度
+  + 论文发表在EUROCRYPT 2023，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-30617-4_6)
++ ***[CD23]Pseudorandom Correlation Functions from Variable-Density LPN, Revisited***
+  + [BCG+20]Correlated Pseudorandom Functions from Variable-Density LPN的进一步工作
+  + 发表在PKC 23，论文链接见[Springe](https://link.springer.com/chapter/10.1007/978-3-031-31371-4_8)，[eprint](https://eprint.iacr.org/2023/650)
