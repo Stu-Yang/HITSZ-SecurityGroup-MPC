@@ -4,7 +4,7 @@
 
 ## 0. 安全多方计算综述
 
-关于安全多方计算的一些综述，详见[安全多方计算综述](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-survery)。
+关于安全多方计算的一些综述，详见[安全多方计算综述](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-survery)
 
 ## 1. 恶意模型下的安全多方计算（Malicious MPC）
 
@@ -18,7 +18,7 @@
 
 详见[预处理模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-with-preprocessing)，研究报告详见[correlated-randomness-in-the-preprocessing-model](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/mpc/mpc-research/mpc-with-preprocessing/correlated-randomness-in-the-preprocessing-model.pdf)
 
-### 2.2 函数秘密共享、同态秘密共享和伪随机相关随机性
+### 2.2 函数秘密共享、同态秘密共享和伪随机相关生成器
 
 函数秘密共享（Function secret sharing, FSS）和同态秘密共享（Homomorphic Secret Sharing, HSS）是[Elette Boyle](https://cs.idc.ac.il/~elette/)提出的密码学原语，详见
 + [函数秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)
