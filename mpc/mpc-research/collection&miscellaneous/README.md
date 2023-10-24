@@ -36,25 +36,25 @@
 
 详见[预处理模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-with-preprocessing)，研究报告详见[correlated-randomness-in-the-preprocessing-model](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/mpc/mpc-research/mpc-with-preprocessing/correlated-randomness-in-the-preprocessing-model.pdf)
 
-### 2.2 函数秘密共享和同态秘密共享
+### 2.2 函数秘密共享、同态秘密共享和伪随机相关随机性
 
-函数秘密共享（Function secret sharing，FSS）和同态秘密共享（Homomorphic Secret Sharing，HSS）是[Elette Boyle](https://cs.idc.ac.il/~elette/)提出的密码学原语，相关详见
+函数秘密共享（Function secret sharing, FSS）和同态秘密共享（Homomorphic Secret Sharing, HSS）是[Elette Boyle](https://cs.idc.ac.il/~elette/)提出的密码学原语，详见
 + [函数秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)
 + [同态秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/homomorphic-secret-sharing)
 
-向量不经意线性函数计算（Vector Oblivious Linear Evaluation，VOLE）是一种十分有用的相关随机性，这些相关随机性可以由一种称为伪随机相关生成器（Pseudorandom Correlation Generator，PCG）来生成，PCG的构造主要依赖于函数秘密共享、同态秘密共享和LPN（Learning Parity with Noise）假设来构造。详见
+向量不经意线性函数计算（Vector Oblivious Linear Evaluation, VOLE）是一种十分有用的相关随机性，这些相关随机性可以由一种称为伪随机相关生成器（Pseudorandom Correlation Generator, PCG）来生成，PCG的构造主要依赖于函数秘密共享、同态秘密共享和LPN（Learning Parity with Noise）假设来构造。详见
 
 + [VOLE和PCG](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/vole-and-pcg)
 
 Elette Boyle等人在2022年撰写了关于函数秘密共享、同态秘密共享和伪随机相关生成器的综述，详见[Survey-FSS-HSS-PCG](https://cs.idc.ac.il/~elette/HSS_FSS-Survey.pdf)
 
-## 3. 隐私保护数据挖掘
+## 3. 隐私保护数据挖掘（Privacy-Preserving Data Mining）
 
 详见[隐私保护数据挖掘](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining)，主要包括以下内容：
   + [隐私保护机器学习](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#1-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)
   + [隐私保护特征工程](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#2-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B)
 
-## 4. 支持动态参与方的安全多方计算协议
+## 4. 支持动态参与方的安全多方计算协议（Fluid MPC）
 
 + ***Fluid MPC: Secure Multiparty Computation with Dynamic Participants***
   + 论文发表在CRYPTO 2021，论文链接见[IACR eprint](https://eprint.iacr.org/2020/754)
