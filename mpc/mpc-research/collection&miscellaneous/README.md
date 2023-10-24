@@ -24,39 +24,47 @@
 
 </details>
 
-## 1. 恶意模型下的安全多方计算
+## 1. 恶意模型下的安全多方计算（Malicious MPC）
 
 详见[恶意模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/malicious-mpc)，研究报告详见[malicious-mpc](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/mpc/mpc-research/malicious-mpc/malicious-mpc.pdf)
 
-## 2. 预处理模型下的安全多方计算
+## 2. 预处理模型下的安全多方计算（MPC in the preprocessing modle）
+
+在预处理模型（Preprocessing Model）中，协议被分为离线阶段（Offline Phase）和在线阶段（Online Phase）。在离线阶段（也称为预处理阶段（Preprocessing Phase）和设置阶段（Setup Phase）），各个参与方共同运行一个与数据独立安全协议来产生相关随机性（correlated randomness），这些相关值可以辅助完成计算任务；在线阶段则利用预处理阶段提供的相关值，基于参与方的数据来计算功能函数。
+
+### 2.1 预处理模型下的安全多方计算进展
 
 详见[预处理模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-with-preprocessing)，研究报告详见[correlated-randomness-in-the-preprocessing-model](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/mpc/mpc-research/mpc-with-preprocessing/correlated-randomness-in-the-preprocessing-model.pdf)
 
-## 3. 函数秘密共享和同态秘密共享
+### 2.2 函数秘密共享和同态秘密共享
 
-详见
+函数秘密共享（Function secret sharing，FSS）和同态秘密共享（Homomorphic Secret Sharing，HSS）是[Elette Boyle](https://cs.idc.ac.il/~elette/)提出的密码学原语，相关详见
 + [函数秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)
 + [同态秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/homomorphic-secret-sharing)
 
-## 4. 隐私保护数据挖掘
+向量不经意线性函数计算（Vector Oblivious Linear Evaluation，VOLE）是一种十分有用的相关随机性，这些相关随机性可以由一种称为伪随机相关生成器（Pseudorandom Correlation Generator，PCG）来生成，PCG的构造主要依赖于函数秘密共享、同态秘密共享和LPN（Learning Parity with Noise）假设来构造。详见
+
++ [VOLE和PCG](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/vole-and-pcg)
+
+## 3. 隐私保护数据挖掘
 
 详见[隐私保护数据挖掘](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining)，主要包括以下内容：
   + [隐私保护机器学习](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#1-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)
   + [隐私保护特征工程](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#2-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B)
 
-## 5. 支持动态参与方的安全多方计算协议
+## 4. 支持动态参与方的安全多方计算协议
 
 + ***Fluid MPC: Secure Multiparty Computation with Dynamic Participants***
   + 论文发表在CRYPTO 2021，论文链接见[IACR eprint](https://eprint.iacr.org/2020/754)
 + ***Le Mans: Dynamic and Fluid MPC for Dishonest Majority***
   + 论文发表在CRYPTO 2022，论文链接见[IACR eprint](https://eprint.iacr.org/2021/1579)
 + ***Maximally-Fluid MPC with Guaranteed Output Delivery***
-  + 论文链接见[IACR eprint](https://eprint.iacr.org/2023/415)
+  + 论文发表在CRYPTO 2023，论文链接见[IACR eprint](https://eprint.iacr.org/2023/415)
 
 ## X. 其他
 
 <details>
-<summary>以下是MPC相关论文，请点击展开</summary>
+<summary>以下是MPC其他主题的论文，请点击展开</summary>
 
 + [SecFloat: Accurate Floating-Point meets Secure 2-Party Computation](https://eprint.iacr.org/2022/322.pdf)
   + 作者：Deevashwer Rathee等
@@ -81,7 +89,7 @@
 + [Secure Outsourced Matrix Computation and Application to Neural Networks](https://eprint.iacr.org/2018/1041.pdf)
   + 主要内容：结合MPC和HE实现安全矩阵运算和神经网络
 + [Secret-Sharing Schemes: A Survey](https://link.springer.com/content/pdf/10.1007/978-3-642-20901-7_2.pdf)
-  + 秘密共享综述，2011年
+  + 2011年的一篇关于秘密共享的综述
 + SPDZ系列论文：[MP-SPDZ: A Versatile Framework for Multi-Party Computation](https://eprint.iacr.org/2020/521.pdf)
 + [Two-Server Verifiable Homomorphic Secret Sharing for High-Degree Polynomials](https://link.springer.com/chapter/10.1007/978-3-030-62974-8_5)
 + [Two Round Multiparty Computation via Multi-Key FHE](https://eprint.iacr.org/2015/345.pdf)
