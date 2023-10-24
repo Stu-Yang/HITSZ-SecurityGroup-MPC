@@ -155,7 +155,7 @@
   + 论文链接见[eprint](https://eprint.iacr.org/2018/486)
 + ***[DNNR17]The TinyTable protocol for 2-Party Secure Computation, or: Gate-scrambling Revisited***
   + 利用真值表来实现所有函数的预处理模型下安全计算，该方法针对布尔电路
-  + 发表在Crypto 2017
+  + 发表在Crypto 2017，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-319-63688-7_6)，[eprint](https://eprint.iacr.org/2016/695)
 + ***[ACH20]The Usefulness of Sparsifiable Inputs: How to Avoid Subexponential iO***
   + 基于iO实现了许多密码学协议，其中就包括利用iO实现一种用于所有电路的加性函数秘密共享方案(但是在该论文中未找到相关构造)
   + 发表在PKC 2020，文章链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-45374-9_7)、[eprint](https://eprint.iacr.org/2018/470)
