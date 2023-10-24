@@ -46,6 +46,8 @@
 
 + [VOLE和PCG](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/vole-and-pcg)
 
+Elette Boyle等人在2022年撰写了关于函数秘密共享、同态秘密共享和伪随机相关生成器的综述，详见[Survey-FSS-HSS-PCG](https://cs.idc.ac.il/~elette/HSS_FSS-Survey.pdf)
+
 ## 3. 隐私保护数据挖掘
 
 详见[隐私保护数据挖掘](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining)，主要包括以下内容：
