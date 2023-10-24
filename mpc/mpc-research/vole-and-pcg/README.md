@@ -48,6 +48,9 @@
 + :triangular_flag_on_post:***[BCG+19]Efficient Pseudorandom Correlation Generators: Silent OT Extension and More***
   + 正式提出伪随机相关生成器，并给出其定义和安全性定义，同时为OT相关性、两方相关性和多方相关性提出伪随机相关生成器构造
   + 论文发表在CRYPTO 2019，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-26954-8_16)，[eprint](https://eprint.iacr.org/2019/448)
++ ***[BCG+19]Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation***
+  + 基于伪随机相关生成器构造了两轮的OT扩展
+  + 论文发表在CCS 2019，论文链接见[ACM](https://dl.acm.org/doi/10.1145/3319535.3354255)，[eprint](https://eprint.iacr.org/2019/1159)
 + ***[BCG+20]Efficient Pseudorandom Correlation Generators from Ring-LPN***
   + 基于环上LPN假设设计了高效的伪随机相关生成器构造
   + 论文发表在CRYPTO 2020，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-26954-8_16)，[eprint](https://eprint.iacr.org/2019/448)
