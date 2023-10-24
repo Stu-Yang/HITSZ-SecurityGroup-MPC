@@ -7,17 +7,17 @@
 <details>
 <summary>以下是MPC综述，请点击展开</summary>
 
-+ [FY22]Concretely efficient secure multi-party computation protocols: survey and more
-  + 论文链接见[online](https://sands.edpsciences.org/articles/sands/full_html/2022/01/sands20210001/sands20210001.html)
-+ [[Lindell20]Secure Multiparty Computation (MPC)](https://eprint.iacr.org/2020/300.pdf)
++ ***[[FY22]Concretely efficient secure multi-party computation protocols: survey and more](https://sands.edpsciences.org/articles/sands/full_html/2022/01/sands20210001/sands20210001.html)***
+  + 冯登国院士和杨糠老师关于安全多方计算的综述
++ ***[[Lindell20]Secure Multiparty Computation (MPC)](https://eprint.iacr.org/2020/300.pdf)***
   + 机构&作者：以色列BIU大学Yehuda Lindell
   + 会议/期刊&年份：Communications of the ACM, 2020
   + 主要内容：详细介绍了目前安全多方计算领域的基本概念和发展趋势，该文章不涉及复杂的公式，只有一些基本的概念
-+ [实用安全多方计算协议关键技术研究进展](https://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2015.20150763)
++ ***[实用安全多方计算协议关键技术研究进展](https://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2015.20150763)***
   + 机构&作者：山东大学计算机科学与技术学院[蒋瀚](https://www.sc.sdu.edu.cn/info/1043/2243.htm)、[徐秋亮](https://www.sc.sdu.edu.cn/info/1043/2238.htm)
   + 会议/期刊&年份：计算机研究与发展，2015
   + 主要内容：介绍了实用化安全多方计算协议研究的主要进展和成果，并重点介绍安全多方计算实用化的3个支撑性重要技术，包括混乱电路优化、剪切-选择技术及不经意传输扩展技术，这些技术在不同的方面显著提高了安全多方计算协议的效率。
-+ [Practical Secure Computation Outsourcing: A Survey](https://dl.acm.org/doi/pdf/10.1145/3158363)
++ ***[Practical Secure Computation Outsourcing: A Survey](https://dl.acm.org/doi/pdf/10.1145/3158363)***
   + 机构&作者：ZIHAO SHAN, KUI REN, and MARINA BLANTON(State University of New York at Buffalo) | CONG WANG(City University of Hong Kong)
   + 会议/期刊&年份：ACM Computating Survey，2018
   + 主要内容：主要介绍了安全外包计算的基本技术，并对比了各种技术，同时也介绍了安全外包计算的一些应用
@@ -28,7 +28,7 @@
 
 详见[恶意模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/malicious-mpc)，研究报告详见[malicious-mpc](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/mpc/mpc-research/malicious-mpc/malicious-mpc.pdf)
 
-## 2. 预处理模型下的安全多方计算（MPC in the preprocessing modle）
+## 2. 预处理模型下的安全多方计算（MPC in the preprocessing model）
 
 在预处理模型（Preprocessing Model）中，协议被分为离线阶段（Offline Phase）和在线阶段（Online Phase）。在离线阶段（也称为预处理阶段（Preprocessing Phase）和设置阶段（Setup Phase）），各个参与方共同运行一个与数据独立安全协议来产生相关随机性（correlated randomness），这些相关值可以辅助完成计算任务；在线阶段则利用预处理阶段提供的相关值，基于参与方的数据来计算功能函数。
 
@@ -46,13 +46,13 @@
 
 + [VOLE和PCG](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/vole-and-pcg)
 
-Elette Boyle等人在2022年撰写了关于函数秘密共享、同态秘密共享和伪随机相关生成器的综述，详见[Survey-FSS-HSS-PCG](https://cs.idc.ac.il/~elette/HSS_FSS-Survey.pdf)
+**Elette Boyle等人在2022年撰写了关于函数秘密共享、同态秘密共享和伪随机相关生成器的综述，详见[Survey-FSS-HSS-PCG](https://cs.idc.ac.il/~elette/HSS_FSS-Survey.pdf)**
 
 ## 3. 隐私保护数据挖掘（Privacy-Preserving Data Mining）
 
 详见[隐私保护数据挖掘](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining)，主要包括以下内容：
-  + [隐私保护机器学习](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#1-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)
-  + [隐私保护特征工程](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#2-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B)
+  + [隐私保护机器学习](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#1-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)：基于安全多方计算设计安全机器学习训练和推理，保护数据隐私和模型隐私
+  + [隐私保护特征工程](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#2-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B)：基于安全多方计算设计安全特征工程，结合隐私保护机器学习实现全过程安全多方保护机器学习
 
 ## 4. 支持动态参与方的安全多方计算协议（Fluid MPC）
 
