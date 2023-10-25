@@ -12,7 +12,8 @@
   + Peter Scholl: Silent OT and VOLE from LPN  ([Slides](http://cyber.biu.ac.il/wp-content/uploads/2021/11/pcg-3.pdf)) ([Video](https://www.youtube.com/watch?v=OxXBa-pUwa4&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=19))
   + Peter Scholl: Pseudorandom Correlation Functions from Paillier ([Slides](http://cyber.biu.ac.il/wp-content/uploads/2021/11/pcg-4.pdf)) ([Video](https://www.youtube.com/watch?v=TbUQa-bJAHM&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=20&t=1s))
 + 其他资料
-  + Lisa Kohl关于MPC with Silent Preprocessing via Pseudorandom Correlation Generators的汇报（[Slides](https://simons.berkeley.edu/sites/default/files/docs/15517/mpcwithsilentpreprocessing.pdf), [Video](https://www.youtube.com/watch?v=CVRZdUJwlqw)）
+  + Lisa Kohl关于MPC with Silent Preprocessing via Pseudorandom Correlation Generators的汇报（[Slides](https://simons.berkeley.edu/sites/default/files/docs/15517/mpcwithsilentpreprocessing.pdf), [Video](https://www.youtube.com/watch?v=CVRZdUJwlqw)
+  + Peter Scholl在TPMPC 2019中关于MPC with Silent Preprocessing or (or: Two-Round OT Extension from LPN)的汇报（[Slides](http://u.cs.biu.ac.il/~lindell/TPMPC2019/Peter_Scholl_TPMPC2019.pdf)）
 
 ## 1. 伪随机相关生成器领域的相关大牛
 + [Elette Boyle](https://cs.idc.ac.il/~elette/)：提出伪随机相关生成器PCG，并针对VOLE相关随机性提出了基于PCG的高效方案
@@ -62,8 +63,8 @@
   + 提出了具有亚线性离线阶段的GMW范式安全多方计算
   + 论文发表在CRYPTO 2021，论文链接见[SPringer](https://link.springer.com/chapter/10.1007/978-3-030-84245-1_16)，[eprint](https://eprint.iacr.org/2022/261)
 + ***[BGIN22]Secure Multiparty Computation with Sublinear Preprocessing***
-  + 基于环上LPN假设设计了高效的伪随机相关生成器构造
-  + 论文发表在EUROCRYPT 2022，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_15)
+  + 提出了第一个针对（恶意）MPC 进行预处理的具体有效方法，其中离线通信在电路大小上是次线性的
+  + 论文发表在EUROCRYPT 2022，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_15)，论文汇报见[Slides](https://iacr.org/submit/files/slides/2022/eurocrypt/eurocrypt2022/376/slides.pptx), [Video](https://www.youtube.com/watch?v=bmTcgj_dmsY&list=PLeeS-3Ml-rpo46w2onH4CGzlHZ8uwa1w5&index=23)
 + ***[BCM22]Correlated Pseudorandomness from Expand-Accumulate Codes***
   + 引入了一种基于所谓的扩展累积码的简单 PCG 新设计
   + 论文发表在CRYPTO 2022，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-15979-4_21)，[eprint](https://eprint.iacr.org/2022/1014)
