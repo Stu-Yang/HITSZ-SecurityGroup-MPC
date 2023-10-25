@@ -11,7 +11,8 @@
   + Yuval Ishai: Pseudorandom Correlation Generators – part 2 ([Video](https://www.youtube.com/watch?v=AkfRu0yYkGU&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=12&t=3s))
   + Peter Scholl: Silent OT and VOLE from LPN  ([Slides](http://cyber.biu.ac.il/wp-content/uploads/2021/11/pcg-3.pdf)) ([Video](https://www.youtube.com/watch?v=OxXBa-pUwa4&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=19))
   + Peter Scholl: Pseudorandom Correlation Functions from Paillier ([Slides](http://cyber.biu.ac.il/wp-content/uploads/2021/11/pcg-4.pdf)) ([Video](https://www.youtube.com/watch?v=TbUQa-bJAHM&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=20&t=1s))
-+ [伪随机相关生成器相关论文](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/edit/main/mpc/mpc-research/vole-and-pcg/README.md#2-%E4%BC%AA%E9%9A%8F%E6%9C%BA%E7%9B%B8%E5%85%B3%E7%94%9F%E6%88%90%E5%99%A8%E7%9B%B8%E5%85%B3%E8%AE%BA%E6%96%87)的论文汇报
++ 其他资料
+  + Lisa Kohl关于MPC with Silent Preprocessing via Pseudorandom Correlation Generators的汇报（[Slides](https://simons.berkeley.edu/sites/default/files/docs/15517/mpcwithsilentpreprocessing.pdf), [Video](https://www.youtube.com/watch?v=CVRZdUJwlqw)）
 
 ## 1. 伪随机相关生成器领域的相关大牛
 + [Elette Boyle](https://cs.idc.ac.il/~elette/)：提出伪随机相关生成器PCG，并针对VOLE相关随机性提出了基于PCG的高效方案
@@ -47,20 +48,20 @@
   + 论文发表在CCS 2018，论文链接见[ACM](https://dl.acm.org/doi/10.1145/3243734.3243868)，[eprint](https://eprint.iacr.org/2019/273)
 + :triangular_flag_on_post:***[BCG+19]Efficient Pseudorandom Correlation Generators: Silent OT Extension and More***
   + 正式提出伪随机相关生成器，并给出其定义和安全性定义，同时为OT相关性、两方相关性和多方相关性提出伪随机相关生成器构造
-  + 论文发表在CRYPTO 2019，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-26954-8_16)，[eprint](https://eprint.iacr.org/2019/448)
+  + 论文发表在CRYPTO 2019，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-26954-8_16)，[eprint](https://eprint.iacr.org/2019/448)，论文汇报见[Video](https://www.youtube.com/watch?v=6XQgFCVg6d4&list=PLeeS-3Ml-rppCQ2B6cqzZinF3352qVYF4&index=68)
 + ***[BCG+19]Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation***
   + 基于伪随机相关生成器构造了两轮的OT扩展
   + 论文发表在CCS 2019，论文链接见[ACM](https://dl.acm.org/doi/10.1145/3319535.3354255)，[eprint](https://eprint.iacr.org/2019/1159)
 + ***[BCG+20]Efficient Pseudorandom Correlation Generators from Ring-LPN***
   + 基于环上LPN假设设计了高效的伪随机相关生成器构造
-  + 论文发表在CRYPTO 2020，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-26954-8_16)，[eprint](https://eprint.iacr.org/2019/448)
+  + 论文发表在CRYPTO 2020，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-26954-8_16)，[eprint](https://eprint.iacr.org/2019/448)，论文汇报见[Slides](https://iacr.org/submit/files/slides/2020/crypto/crypto2020/401/slides.pdf)
 + ***[BCG+20]Correlated Pseudorandom Functions from Variable-Density LPN***
   + 基于Variable-Density LPN的伪随机相关函数，其是伪随机相关生成器的推广
   + 论文发表在FOCS 2020，论文链接见[eprint](https://eprint.iacr.org/2020/1417)
 + ***[BGIN21]Sublinear GMW-Style Compiler for MPC with Preprocessing***
   + 提出了具有亚线性离线阶段的GMW范式安全多方计算
   + 论文发表在CRYPTO 2021，论文链接见[SPringer](https://link.springer.com/chapter/10.1007/978-3-030-84245-1_16)，[eprint](https://eprint.iacr.org/2022/261)
-+ ***[BGIN22]Efficient Pseudorandom Correlation Generators from Ring-LPN***
++ ***[BGIN22]Secure Multiparty Computation with Sublinear Preprocessing***
   + 基于环上LPN假设设计了高效的伪随机相关生成器构造
   + 论文发表在EUROCRYPT 2022，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-031-06944-4_15)
 + ***[BCM22]Correlated Pseudorandomness from Expand-Accumulate Codes***
