@@ -12,7 +12,7 @@
   + Peter Scholl: Silent OT and VOLE from LPN  ([Slides](http://cyber.biu.ac.il/wp-content/uploads/2021/11/pcg-3.pdf)) ([Video](https://www.youtube.com/watch?v=OxXBa-pUwa4&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=19))
   + Peter Scholl: Pseudorandom Correlation Functions from Paillier ([Slides](http://cyber.biu.ac.il/wp-content/uploads/2021/11/pcg-4.pdf)) ([Video](https://www.youtube.com/watch?v=TbUQa-bJAHM&list=PL8Vt-7cSFnw1F7bBFws2kWA-7JVFkqKTy&index=20&t=1s))
 + 其他资料
-  + Lisa Kohl关于MPC with Silent Preprocessing via Pseudorandom Correlation Generators的汇报（[Slides](https://simons.berkeley.edu/sites/default/files/docs/15517/mpcwithsilentpreprocessing.pdf), [Video](https://www.youtube.com/watch?v=CVRZdUJwlqw)
+  + Lisa Kohl关于MPC with Silent Preprocessing via Pseudorandom Correlation Generators的汇报（[Slides](https://simons.berkeley.edu/sites/default/files/docs/15517/mpcwithsilentpreprocessing.pdf), [Video](https://www.youtube.com/watch?v=CVRZdUJwlqw)）
   + Peter Scholl在TPMPC 2019中关于MPC with Silent Preprocessing or (or: Two-Round OT Extension from LPN)的汇报（[Slides](http://u.cs.biu.ac.il/~lindell/TPMPC2019/Peter_Scholl_TPMPC2019.pdf)）
 
 ## 1. 伪随机相关生成器领域的相关大牛
