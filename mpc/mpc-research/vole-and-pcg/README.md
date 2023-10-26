@@ -112,3 +112,7 @@
 ## 3. VOLE、PCG和安全计算
 
 从结构上看，VOLE是一种相关性，PCG是生成相关性的生成器，预处理模型下的安全计算则依赖于相关性。
+
+
+![prg](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/assets/66773755/5e376bcf-f456-464e-9fb9-8a9d3851f76e)
+
