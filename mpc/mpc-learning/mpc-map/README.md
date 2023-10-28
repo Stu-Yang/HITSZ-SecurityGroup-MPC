@@ -42,6 +42,7 @@ MPC的基本概念和构建协议的基础模块是MPC的基石，在此之上�
   + Hazay和Lindell的著作[[Hazay&Lindell2010]Efficient Secure Two-Party Protocols](https://u.cs.biu.ac.il/~lindell/efficient-protocols.html)的第1章
 + **MPC定义及其安全性定义**：掌握MPC形式化定义，了解分析安全性的方法和形式化定义
   + Hazay和Lindell的著作[[Hazay&Lindell2010]Efficient Secure Two-Party Protocols](https://u.cs.biu.ac.il/~lindell/efficient-protocols.html)的第2章：介绍了MPC的定义、安全两方计算(2PC)的半诚实模型和恶意模型下的形式化安全性定义
+  + [完美(Perfect)、统计(Statistical)和计算(Computational)安全](https://zhuanlan.zhihu.com/p/463077897)：密码学中，定义安全性通过基于理想/现实模拟实验（ideal/real simulation）来定义，根据《An Introduction to secret sharing-based MPC》一书中章节 1.1.2，总结完美安全、统计安全和计算安全的从入门到放弃的理解。
 + **补充说明**：通过上面的学习便对MPC有了一个大致的理解，进一步地，有一些关于基本概念的较高层面的介绍，虽然这部分是关于基本概念，但其涉及内容深度较深，可以在学习一段时间作为总结和回顾比如Lindell的[Tutorial on Secure Multi-Party Computation](https://u.cs.biu.ac.il/~lindell/research-statements/tutorial-secure-computation.ppt)讲解，如果想看相关的视频可以参考[Introduction to Multiparty Computation (by Yehuda Lindell)](https://www.youtube.com/watch?v=aDL_KScy6hA)
 ### **2.2 基础模块**
 
