@@ -2,6 +2,8 @@
 
 > MPC代码实现可参考[隐私保护机器学习中，应用MPC进行实验碰到的常见问题与解答](https://mp.weixin.qq.com/s/ynnKuPoh2RC4tP_oWHN5Tg)，和[基于安全多方计算的隐私保护机器学习有哪些比较好入门学习的代码？](https://www.zhihu.com/question/559735424)，[多方计算实验中不同网络环境(LAN和WAN)的模拟方法](https://mp.weixin.qq.com/s/iV0wHKw7gDEr92CbeOwIZg)
 
++ **安全计算原理相关代码**
+  + Private Deep Learning with MPC: [A Simple Tutorial from Scratch](https://mortendahl.github.io/2017/04/17/private-deep-learning-with-mpc/)
 + **安全多方计算通用库**
   + [PySyft](https://github.com/OpenMined/PySyft)：Syft是OpenMined的开源库，可在Python中提供安全、隐私的数据技术
     + (2022年10月18日)最新版是v0.6.0
@@ -21,3 +23,4 @@
     + 说明：同该开源库是和PySyft集成的，Python包是从PySyft调用的，见[PySyft分支](https://github.com/OpenMined/PySyft/blob/49b1d03de1ba82c4043dc63772ed0ebba7aad6c7)
 + **联邦学习框架**
   + [FATE](https://github.com/FederatedAI/FATE)：FATE（Federated AI Technology Enabler）是全球首个工业级联邦学习开源框架，使企业和机构能够在数据上进行协作，同时保护数据安全和隐私。
+  + [CryptoFL](https://github.com/Ye-D/CryptoFL/tree/main)：联邦学习的加密安全聚合
