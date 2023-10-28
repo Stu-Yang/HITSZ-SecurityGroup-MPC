@@ -105,7 +105,7 @@
   + ***[DKS+17]Pushing the Communication Barrier in Secure Computation using Lookup Tables***
     + 发表在NDSS 2017，论文链接见[eprint](https://eprint.iacr.org/2018/486.pdf)
   + ***[BHS+23]FLUTE: Fast and Secure Lookup Table Evaluations***
-    + 发表在SP 2023，论文链接见[eprint]([https://eprint.iacr.org/2018/486.pdf](https://eprint.iacr.org/2023/499)https://eprint.iacr.org/2023/499)
+    + 发表在SP 2023，论文链接见[eprint](https://eprint.iacr.org/2023/499)
 
 </details>
 
