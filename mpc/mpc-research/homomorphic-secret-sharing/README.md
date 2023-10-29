@@ -19,3 +19,6 @@
 + [Boyle22]Function Secret Sharing and Homomorphic Secret Sharing
   + Boyle关于函数秘密共享（Function Secret Sharing）和同态秘密共享（Homomorphic Secret Sharing）综述
   + 暂未发表，文章链接见[Boyle-Survey](https://cs.idc.ac.il/~elette/HSS_FSS-Survey.pdf)
++ [DIJL23]Multi-Party Homomorphic Secret Sharing and Sublinear MPC from Sparse LPN
+  + 给出了第一个针对非平凡函数类的多方 HSS 方案的构造
+  + 论文发表在Crypto 2023，论文链接见[eprint](https://eprint.iacr.org/2023/1593)
