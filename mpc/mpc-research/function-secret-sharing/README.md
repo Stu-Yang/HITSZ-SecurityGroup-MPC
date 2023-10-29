@@ -118,14 +118,14 @@
 + ***[BCG+22]Correlated Pseudorandomness from Expand-Accumulate Codes***
   + 提出基于Expand-Accumulate Codes来生成相关随机性，文章提出了一种放松版本的DCF算法（RDCF），并为RDCF提出了分布式密钥生成算法
   + 发表在Crypto 2022，论文链接见[eprint](https://eprint.iacr.org/2022/1014.pdf)，Slide链接见[TPMPC 2022](https://www.multipartycomputation.com/tpmpc-2022/invited-talks#h.xbxasjbroj7j)
-+ :triangular_flag_on_post: ***[BGIK22]Programmable Distributed Point Functions***
++ ***[BGIK22]Programmable Distributed Point Functions***
   + 提出了一种新方法来构造DPF（之前构造DPF的方法是基于树的）
   + 论文发表在Crypto 2022，论文链接见[eprint](https://eprint.iacr.org/2022/1060)
 + ***[GYW+22]Half-Tree Halving the Cost of Tree Expansion in COT and DPF***
   + 基于伪随机相关GGM树提出了COT和DPF&DCF方面的优化
   + 论文链接见[eprint](https://eprint.iacr.org/2022/1431)
-+ ***[AS22]Low-Communication Multiparty Triple Generation for SPDZ from Ring-LPN***
-  + 基于**3方DPF构造**，提出了面向SPDZ的多方元组生成，而现有工作支持两方的构造
++ :triangular_flag_on_post: ***[AS22]Low-Communication Multiparty Triple Generation for SPDZ from Ring-LPN***
+  + 基于[[BKKO20]Efficient 3-Party Distributed ORAM](https://eprint.iacr.org/2018/706)的**3方DPF构造**，提出新的3方DPF构造（调用两方DPF构造），并基于此提出了面向SPDZ的多方元组生成，而现有工作支持两方的构造
   + 论文发表在PKC 2022，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-97121-2_9)，[eprint](https://eprint.iacr.org/2022/315.pdf)
 + ***[JGB+23]Orca: FSS-based Secure Training with GPUs***
   + 基于函数秘密共享的安全训练，同时用GPU加速
