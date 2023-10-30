@@ -1,4 +1,14 @@
-# [S&P 2022](https://www.ieee-security.org/TC/SP2022/program-papers.html)
+# S&P中MPC相关论文
+
+## S&P 2023
+
+## S&P 2022
+
+> 详见[S&P 2022 accepted-papers](https://www.ieee-security.org/TC/SP2022/program-papers.html)
+
+<details>
+<summary>以下是S&P 2022中MPC相关论文，请点击展开</summary>
+
 + [Multi-Server Verifiable Computation of Low-Degree Polynomials](https://www.computer.org/csdl/proceedings-article/sp/2022/131600b499/1A4Q4ozkJbi)
   + 作者&机构：Liang Feng Zhang (ShanghaiTech University), Huaxiong Wang (Nanyang Technological University)
   + 主要研究内容：可验证计算允许计算能力较弱的用户将复杂计算任务委托（外包）给计算资源密集的云服务器并对云服务器计算过程的正确性进行验证。更多介绍见[信息学院张良峰课题组在多服务器非交互式可验证计算研究方面取得重要进展](https://sist.shanghaitech.edu.cn/2021/1129/c2858a166288/page.htm)
@@ -19,5 +29,7 @@
 + [Spiral: Fast, High-Rate Single-Server PIR via FHE Composition](https://eprint.iacr.org/2022/368.pdf)
   + 作者&机构：Samir Jordan Menon (None), David J. Wu (UT Austin)
   + 主要研究内容：针对单服务器隐私信息检索问题，利用同态加密技术，在不泄露用户隐私的情况下完成隐私检索任务
-+ [Waldo: A Private Time-Series Database from Function Secret Sharing]()
++ [Waldo: A Private Time-Series Database from Function Secret Sharing](https://eprint.iacr.org/2021/1661)
   + 作者&机构：Emma Dauterman (UC Berkeley), Mayank Rathee (UC Berkeley), Raluca Popa (UC Berkeley), Ion Stoica (UC Berkeley)
+
+</details>
