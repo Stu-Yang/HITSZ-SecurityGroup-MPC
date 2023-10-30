@@ -1,6 +1,7 @@
 # AsiaCCS中MPC相关论文
 
-## [AsicaCCS 2022](https://www.ndss-symposium.org/ndss2022/accepted-papers/)
+## AsiaCCS 2023
+> 详见[AsicaCCS 2022 accepted-papers](https://www.ndss-symposium.org/ndss2022/accepted-papers/)
 + [Secure-Computation-Friendly Private Set Intersection from Oblivious Compact Graph Evaluation](https://dl.acm.org/doi/10.1145/3488932.3501278)
   + 作者&机构：J. Ma; S. Chow
   + 主要内容：隐私集合求交
