@@ -2,7 +2,7 @@
 
 ## AsiaCrypt 2023
 
-> 详见[xxx 2022 accepted-papers]
+> 详见[AsiaCrypt 2023 accepted-papers](xxx)
 
 
 <details>
