@@ -1,13 +1,13 @@
 
-# Eurocrypt中MPC相关论文
+# EuroCrypt中MPC相关论文
 
-## Eurocrypt 2023
+## EuroCrypt 2023
 
-## Eurocrypt 2022
+## EuroCrypt 2022
 
-> 详见[Eurocrypt 2022 accepted-papers](https://eurocrypt.iacr.org/2022/acceptedpapers.php)
+> 详见[EuroCrypt 2022 accepted-papers](https://eurocrypt.iacr.org/2022/acceptedpapers.php)
 <details>
-<summary>以下是Eurocrypt 2022中MPC相关论文，请点击展开</summary>
+<summary>以下是EuroCrypt 2022中MPC相关论文，请点击展开</summary>
 
 + [Single-Server Private Information Retrieval with Sublinear Amortized Time](https://eprint.iacr.org/2022/081.pdf)
   + 作者&机构：Henry Corrigan-Gibbs, Alexandra Henzinger, Dmitry Kogan(MIT)
