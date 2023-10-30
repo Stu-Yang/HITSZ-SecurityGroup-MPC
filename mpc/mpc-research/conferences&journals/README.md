@@ -6,7 +6,7 @@
 | 网络安全会议论文 | 年份 | 备注 |
 | :--------------: | :--: | :--: |
 |      Crypto      |  2021, [2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/Crypto#crypto-2022), 2023    |      |
-|    EuroCrypt    |  2021, [2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/edit/main/mpc/mpc-research/conferences%26journals/EuroCrypt/README.md#eurocrypt-2022), 2023    |      |
+|    EuroCrypt    |  2021, [2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/EuroCrypt#eurocrypt-2022), 2023    |      |
 |    AsiaCrypt    |  2021, 2022, 2023    |      |
 |       CCS        |  2021, 2022, 2023   |      |
 |      USENIX      |  2021, 2022, 2023   |      |
