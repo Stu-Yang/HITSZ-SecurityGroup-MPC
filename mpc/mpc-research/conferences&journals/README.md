@@ -1,4 +1,7 @@
-# 网络与信息安全会议中安全多方计算（MPC）相关论文
+
+# 网络与信息安全会议和期刊安全多方计算（MPC）相关论文
+
+## 网络与信息安全会议MPC相关论文
 + 2021年网络与信息安全会议
   + [USENIX 2021](https://www.usenix.org/conference/usenixsecurity21)
 + 2022年网络与信息安全会议
@@ -11,5 +14,7 @@
   + 其他安全类会议：[ESORICS 2023](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/ESORICS-2023), [WWW-2023-Security](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/WWW-2023-Security)
 
 
-
-# 重要期刊中MPC相关论文
+## 网络与信息安全期刊MPC相关论文
++ 2023年网络与信息安全期刊
+ + TDSC 2023
+ + TIFS 2023
