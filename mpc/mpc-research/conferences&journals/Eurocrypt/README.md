@@ -1,4 +1,14 @@
-# [Eurocrypt 2022](https://eurocrypt.iacr.org/2022/acceptedpapers.php)
+
+# Eurocrypt中MPC相关论文
+
+## Eurocrypt 2023
+
+## Eurocrypt 2022
+
+> 详见[Eurocrypt 2022 accepted-papers](https://eurocrypt.iacr.org/2022/acceptedpapers.php)
+<details>
+<summary>以下是Eurocrypt 2022中MPC相关论文，请点击展开</summary>
+
 + [Single-Server Private Information Retrieval with Sublinear Amortized Time](https://eprint.iacr.org/2022/081.pdf)
   + 作者&机构：Henry Corrigan-Gibbs, Alexandra Henzinger, Dmitry Kogan(MIT)
   + 主要内容：隐私信息检索
@@ -24,3 +34,5 @@
   + Aarushi Goel, Mathias Hall-Andersen, Aditya Hegde, Abhishek Jain
 + [Secure Multiparty Computation with Sublinear Preprocessing](ttps://link.springer.com/chapter/10.1007/978-3-031-06944-4_15)
   + 作者&机构：Elette Boyle, Niv Gilboa, Yuval Ishai, Ariel Nof
+
+</details>
