@@ -1,6 +1,11 @@
-## WWW 2023 Research Tracks (Security, Privacy, and Trust)
+# WWW Research Tracks (Security, Privacy, and Trust) 中MPC相关论文
 
-下面是WWW 2023安全领域的文章，挑选了一些关于安全多方计算、人工智能安全等相关论文。
+## WWW 2023
+
+> 详见[WWW Research Tracks accepted-papers](xxx)
+
+<details>
+<summary>以下是WWW 2023安全领域的论文，请点击展开</summary>
 
 + ***Provenance of Training without Training Data: Towards Privacy-Preserving DNN Model Ownership Verification***
   + **作者**：Yunpeng Liu, Kexin Li, Zhuotao Liu, Bihan Wen, Ke Xu, Weiqiang Wang, Wenbiao Zhao and Qi Li
@@ -12,3 +17,5 @@
   + **作者**：Xinyue Wang, Hafiz Asif and Jaideep Vaidya
   + **主要内容**：
   + **备注**：[什么是合成数据？](https://www.appen.com.cn/blog/synthetic-data/)
+
+</details>
