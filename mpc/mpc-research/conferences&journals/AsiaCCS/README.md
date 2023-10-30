@@ -1,7 +1,14 @@
 # AsiaCCS中MPC相关论文
 
 ## AsiaCCS 2023
+
+## AsiaCCS 2022
+
 > 详见[AsicaCCS 2022 accepted-papers](https://www.ndss-symposium.org/ndss2022/accepted-papers/)
+
+<details>
+<summary>以下是AsiaCCS 2022中MPC相关论文，请点击展开</summary>
+
 + [Secure-Computation-Friendly Private Set Intersection from Oblivious Compact Graph Evaluation](https://dl.acm.org/doi/10.1145/3488932.3501278)
   + 作者&机构：J. Ma; S. Chow
   + 主要内容：隐私集合求交
@@ -32,3 +39,5 @@
 + [Scalable Private Decision Tree Evaluation with Sublinear Communication](https://arxiv.org/pdf/2205.01284)
   + 作者&机构：J. Bai; X. Song; S. Cui; E. Chang; G. Russello
   + 主要内容：隐私保护决策树算法
+
+</details>
