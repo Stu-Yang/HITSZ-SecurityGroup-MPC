@@ -1,11 +1,26 @@
 # S&P中MPC相关论文
 
+
+## S&P 2024
+
+> 详见[IEEE S&P 2023-Accepted Papers](xxx)。
+
+<details>
+<summary>以下是S&P 2024中MPC相关论文，请点击展开</summary>
+
++ ***Orca: FSS-based Secure Training and Inference with GPUs***
+  + 基于函数秘密共享的安全神经网络训练，并用GPU进行加速
+  + 论文链接见[IEEE](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a063/1RjEaAAmAAE), [eprint](https://eprint.iacr.org/2023/206)
+
+</details>
+
+
 ## S&P 2023
 
 > 详见[IEEE S&P 2023-Accepted Papers](https://www.ieee-security.org/TC/SP2023/program-papers.html)和[IEEE S&P 2023-Online Papers](https://ieeexplore.ieee.org/xpl/conhome/10179215/proceeding)。
 
 <details>
-<summary>以下是S&P 2022中MPC相关论文，请点击展开</summary>
+<summary>以下是S&P 2023中MPC相关论文，请点击展开</summary>
 
 + ***Vectorized Batch Private Information Retrieval***
   + 利用vectorized homomorpohic encryption改进batch PIR
