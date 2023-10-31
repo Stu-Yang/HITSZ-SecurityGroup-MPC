@@ -3,7 +3,7 @@
 
 ## S&P 2024
 
-> 详见[IEEE S&P 2023-Accepted Papers](xxx)。
+> 详见[IEEE S&P 2024-Accepted Papers](xxx)。
 
 <details>
 <summary>以下是S&P 2024中MPC相关论文，请点击展开</summary>
