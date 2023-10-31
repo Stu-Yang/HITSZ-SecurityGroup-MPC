@@ -54,7 +54,7 @@
   + 论文发表在CRYPTO 2019，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-26954-8_16)，[eprint](https://eprint.iacr.org/2019/448)，论文汇报见[Video](https://www.youtube.com/watch?v=6XQgFCVg6d4&list=PLeeS-3Ml-rppCQ2B6cqzZinF3352qVYF4&index=68)
 + ***[BCG+19]Efficient Two-Round OT Extension and Silent Non-Interactive Secure Computation***
   + 基于伪随机相关生成器构造了两轮的OT扩展
-  + 论文发表在CCS 2019，论文链接见[ACM](https://dl.acm.org/doi/10.1145/3319535.3354255)，[eprint](https://eprint.iacr.org/2019/1159)
+  + 论文发表在CCS 2019，论文链接见[ACM](https://dl.acm.org/doi/10.1145/3319535.3354255)，[eprint](https://eprint.iacr.org/2019/1159)，论文汇报见[video](https://dl.acm.org/doi/10.1145/3319535.3354255#), [slide](https://geoffroycouteau.github.io/assets/slides/presentation_makaut_september_2020.pdf)
 + ***[BCG+20]Efficient Pseudorandom Correlation Generators from Ring-LPN***
   + 基于环上LPN假设设计了高效的伪随机相关生成器构造
   + 论文发表在CRYPTO 2020，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-26954-8_16)，[eprint](https://eprint.iacr.org/2019/448)，论文汇报见[Slides](https://iacr.org/submit/files/slides/2020/crypto/crypto2020/401/slides.pdf)
