@@ -1,6 +1,8 @@
-# 1. 密态数据库查询(Encrypted database Query)
+# 1. 隐私保护数据库使用
 
-## 1.1 简单介绍
+## 1.1 密态数据库查询(Encrypted database Query)
+
+### 1.1.1 简单介绍
 
 基于安全多方计算的密态数据库查询算法考虑这样的场景：有若干个云数据库$S_1,S_2,...,S_n$，数据拥有者将其数据放在数据库中，为了不让单一数据库知晓自己数据（数据中存在隐私），数据拥有者将自己的数据通过**加性秘密共享**技术分发给云数据库$S_1,S_2,...,S_n$，例如下面的一种方式：
 
@@ -14,12 +16,10 @@
 
 目前，两方云数据库和三方云数据库被广泛考虑，MPC团队的谢永杰师兄就考虑三方云数据库，其并没有使用上述**加性秘密共享**技术，而是使用**复制秘密共享**技术。
 
-## 1.2 基于复制秘密共享的密态数据库查询
+### 1.1.2 基于复制秘密共享的密态数据库查询
 
-TODO：增加一些简单的介绍
-
-
-## 1.3 相关论文
+<details>
+<summary>以下是密态数据库查询主题的论文，请点击展开</summary>
 
 + ***[DSZ15]ABY-A framework for efficient mixed-protocol secure two-party computation***
   + 混合协议开篇之作，ABY：算术秘密份额（A）、布尔秘密份额（B）和姚氏秘密份额（Y）
@@ -50,6 +50,27 @@ TODO：增加一些简单的介绍
   - *Author(s)：*[Emma Dauterman](https://dl.acm.org/profile/99659027273)，[Mayank Rathee](https://mayank0403.github.io/)，[Raluca Ada Popa](https://people.eecs.berkeley.edu/~raluca/)，[Ion Stoica](http://people.eecs.berkeley.edu/~istoica/)
   - *Venue*：S&P
   - *Materials：*[PDF](https://eprint.iacr.org/2021/1661.pdf)，[Slides](https://people.eecs.berkeley.edu/~edauterman/sp22_slides_waldo.pdf)，[Video1](https://www.youtube.com/watch?v=ygUZ61JZEE4)，[Video2](https://soroco.com/waldo-a-private-time-series-database-from-function-secret-sharing/)，[Video3](https://www.youtube.com/watch?v=_X5tm_9pe8w)，[Code](https://github.com/ucbrise/waldo)
+
+</details>
+
+## 1.2 秘密份额形式的隐私集合求交（PSI over secret-shared data）
+
+<details>
+<summary>以下是密态数据库查询主题的论文，请点击展开</summary>
+
++ :triangular_flag_on_post: ***[LKF+21]Secrecy-Secure collaborative analytics on secret-shared data***
+  + 数据库查询论文
+  + 论文在[Arxiv](https://arxiv.org/abs/2102.01048)
++ ***[BDGRR2022]Secret-Shared Joins with Multiplicity from Aggregation Trees***
+  - *Author(s)：*[Saikrishna Badrinarayanan](https://dl.acm.org/profile/99659027273)，[Sourav Das ](https://sourav1547.github.io/)，[Gayathri Garimella](https://gayathrigarimella.github.io/)，Srinivasan Raghuramam，[Peter Rindal](https://ladnir.github.io/)
+  - 本文提出了新的协议来计算具有非唯一连接键的秘密共享数据库表上的类SQL的连接操作。
+  - *Venue*：发表在CCS 2022，[ACM CCS](https://dl.acm.org/doi/pdf/10.1145/3548606.3560670)，[eprint](https://eprint.iacr.org/2022/1600.pdf)
++ ***[DRP2022]Waldo: A Private Time-Series Database from Function Secret Sharing***
+  - *Author(s)：*[Emma Dauterman](https://dl.acm.org/profile/99659027273)，[Mayank Rathee](https://mayank0403.github.io/)，[Raluca Ada Popa](https://people.eecs.berkeley.edu/~raluca/)，[Ion Stoica](http://people.eecs.berkeley.edu/~istoica/)
+  - *Venue*：S&P
+  - *Materials：*[PDF](https://eprint.iacr.org/2021/1661.pdf)，[Slides](https://people.eecs.berkeley.edu/~edauterman/sp22_slides_waldo.pdf)，[Video1](https://www.youtube.com/watch?v=ygUZ61JZEE4)，[Video2](https://soroco.com/waldo-a-private-time-series-database-from-function-secret-sharing/)，[Video3](https://www.youtube.com/watch?v=_X5tm_9pe8w)，[Code](https://github.com/ucbrise/waldo)
+
+</details>
 
 # 2. 隐私信息检索（Private Information Retrieval，PIR）
 
