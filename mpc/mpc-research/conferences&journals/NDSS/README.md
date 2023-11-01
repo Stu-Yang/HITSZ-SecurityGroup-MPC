@@ -2,9 +2,22 @@
 
 ## NDSS 2023
 
+> 详见[NDSS 2023 accepted-papers](https://www.ndss-symposium.org/ndss2023/accepted-papers/)
+
+<details>
+<summary>以下是NDSS 2023中MPC相关论文，请点击展开</summary>
+
++ ***[KBM23]Faster Secure Comparisons with Offline Phase for Efficient Private Set Intersection***
+  + 在隐私集合求交（PSI）协议中，Alice和Bob计算他们各自集合的交集，而不公开任何不在交集中的元素。PSI协议在文献中得到了广泛的研究，并在工业中得到了部署。随着最先进的协议实现最佳渐近复杂度，性能改进很少，只能提高复杂度常数。在本文中，我们提出了一种新的私有的、非常有效的比较协议，该协议导致了具有低常数的PSI协议。我们的比较协议的一个有用特性是，它可以分为在线和离线阶段。所有昂贵的加密操作都是在离线阶段执行的，而在线阶段每次比较只执行四个快速字段操作。这导致了令人难以置信的快速在线阶段，我们的评估表明，它优于相关工作，包括KKRT（CCS’16）、VOLE-PSI（EuroCrypt’21）和OKVS（Crypto’21）。我们还评估了使用不同信任假设实现离线阶段的标准方法：加密、硬件和第三方（“经销商模型”）。
+  + 论文链接见[NDSS 2023](https://www.ndss-symposium.org/ndss-paper/faster-secure-comparisons-with-offline-phase-for-efficient-private-set-intersection/), [arxiv](https://arxiv.org/abs/2209.13913)
++ ***[DWL+23]Fusion: Efficient and Secure Inference Resilient to Malicious Servers***
+  + 基于Mix-and-Check技术实现的恶意安全两方计算学习推理，能够抵御恶意服务器
+  + 论文链接见[NDSS 2023](https://www.ndss-symposium.org/ndss-paper/fusion-efficient-and-secure-inference-resilient-to-malicious-servers/), [arxiv](https://arxiv.org/abs/2205.03040)
+</details>
+
 ## NDSS 2022
 
-> 详见[NDSS 2022 accepted-papers](https://crypto.iacr.org/2022/acceptedpapers.php)
+> 详见[NDSS 2022 accepted-papers](https://www.ndss-symposium.org/ndss2022/accepted-papers/)
 
 <details>
 <summary>以下是NDSS 2022中MPC相关论文，请点击展开</summary>
