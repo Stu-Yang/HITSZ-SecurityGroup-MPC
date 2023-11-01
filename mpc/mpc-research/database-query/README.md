@@ -53,10 +53,12 @@
 
 </details>
 
-## 1.2 秘密份额形式的隐私集合求交（PSI over secret-shared data）
+## 1.2 秘密份额数据的隐私集合求交（PSI over secret-shared data）
+
+秘密份额数据的隐私集合求交是xxx
 
 <details>
-<summary>以下是密态数据库查询主题的论文，请点击展开</summary>
+<summary>以下是秘密份额数据的隐私集合求交主题的论文，请点击展开</summary>
 
 + :triangular_flag_on_post: ***[LKF+21]Secrecy-Secure collaborative analytics on secret-shared data***
   + 数据库查询论文
