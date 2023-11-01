@@ -6,19 +6,21 @@
 
 关于安全多方计算的一些综述，详见[安全多方计算综述](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-survery)
 
-## 1. 恶意模型下的安全多方计算（Malicious MPC）
+## 1. 安全多方计算理论研究
+
+### 1.1 恶意模型下的安全多方计算（Malicious MPC）
 
 详见[恶意模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/malicious-mpc)，研究报告详见[malicious-mpc](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/mpc/mpc-research/malicious-mpc/malicious-mpc.pdf)
 
-## 2. 预处理模型下的安全多方计算（MPC in the preprocessing model）
+### 1.2 预处理模型下的安全多方计算（MPC in the preprocessing model）
 
 在预处理模型（Preprocessing Model）中，协议被分为离线阶段（Offline Phase）和在线阶段（Online Phase）。在离线阶段（也称为预处理阶段（Preprocessing Phase）和设置阶段（Setup Phase）），各个参与方共同运行一个与数据独立安全协议来产生相关随机性（correlated randomness），这些相关值可以辅助完成计算任务；在线阶段则利用预处理阶段提供的相关值，基于参与方的数据来计算功能函数。
 
-### 2.1 预处理模型下的安全多方计算进展
+#### 1.2.1 预处理模型下的安全多方计算进展
 
 详见[预处理模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-with-preprocessing)，研究报告详见[correlated-randomness-in-the-preprocessing-model](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/mpc/mpc-research/mpc-with-preprocessing/correlated-randomness-in-the-preprocessing-model.pdf)
 
-### 2.2 函数秘密共享、同态秘密共享和伪随机相关生成器
+#### 1.2.2 函数秘密共享、同态秘密共享和伪随机相关生成器
 
 函数秘密共享（Function secret sharing, FSS）和同态秘密共享（Homomorphic Secret Sharing, HSS）是[Elette Boyle](https://cs.idc.ac.il/~elette/)提出的密码学原语，详见
 + [函数秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)
@@ -30,13 +32,7 @@
 
 **Elette Boyle等人在2022年撰写了关于函数秘密共享、同态秘密共享和伪随机相关生成器的综述，详见[Survey-FSS-HSS-PCG](https://cs.idc.ac.il/~elette/HSS_FSS-Survey.pdf)**
 
-## 3. 隐私保护数据挖掘（Privacy-Preserving Data Mining）
-
-详见[隐私保护数据挖掘](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining)，主要包括以下内容：
-  + [隐私保护机器学习](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#1-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)：基于安全多方计算设计安全机器学习训练和推理，保护数据隐私和模型隐私
-  + [隐私保护特征工程](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#2-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B)：基于安全多方计算设计安全特征工程，结合隐私保护机器学习实现全过程安全多方保护机器学习
-
-## 4. 支持动态参与方的安全多方计算协议（Fluid MPC）
+### 1.3 支持动态参与方的安全多方计算协议（Fluid MPC）
 
 + ***Fluid MPC: Secure Multiparty Computation with Dynamic Participants***
   + 论文发表在CRYPTO 2021，论文链接见[IACR eprint](https://eprint.iacr.org/2020/754)
@@ -44,6 +40,24 @@
   + 论文发表在CRYPTO 2022，论文链接见[IACR eprint](https://eprint.iacr.org/2021/1579)
 + ***Maximally-Fluid MPC with Guaranteed Output Delivery***
   + 论文发表在CRYPTO 2023，论文链接见[IACR eprint](https://eprint.iacr.org/2023/415)
+
+
+## 2. 安全多方计算应用研究
+
+### 2.1 隐私保护数据挖掘（Privacy-Preserving Data Mining）
+
+详见[隐私保护数据挖掘](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining)，主要包括以下内容：
+  + [隐私保护机器学习](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#1-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)：基于安全多方计算设计安全机器学习训练和推理，保护数据隐私和模型隐私
+  + [隐私保护特征工程](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#2-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B)：基于安全多方计算设计安全特征工程，结合隐私保护机器学习实现全过程安全多方保护机器学习
+
+### 2.2 隐私保护数据库使用
+
+基于安全多方计算实现安全数据库查询、秘密分享数据的隐私集合求交、隐私信息检索和隐私频繁项查询等，详见[database-query](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/database-query)
++ [密态数据库查询（Encrypted database Query）](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/database-query#11-%E5%AF%86%E6%80%81%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9F%A5%E8%AF%A2encrypted-database-query)
++ [秘密分享数据的隐私集合求交（PSI over secret-shared data）](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/database-query#12-%E7%A7%98%E5%AF%86%E4%BB%BD%E9%A2%9D%E6%95%B0%E6%8D%AE%E7%9A%84%E9%9A%90%E7%A7%81%E9%9B%86%E5%90%88%E6%B1%82%E4%BA%A4psi-over-secret-shared-data)
++ [隐私信息检索（Private Information Retrieval，PIR）](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/database-query#2-%E9%9A%90%E7%A7%81%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2private-information-retrievalpir)
++ [隐私频繁项查询（Private Heavy Hitters）](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/database-query#3-%E9%9A%90%E7%A7%81%E9%A2%91%E7%B9%81%E9%A1%B9%E6%9F%A5%E8%AF%A2)
+
 
 ## X. 其他
 
