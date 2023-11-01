@@ -7,6 +7,7 @@
 + [paper-reading](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/paper-reading)：介绍如何查找、阅读论文
 + [research-field](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/research-field)：安全组目前的研究方向
 + [mpc-library](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-library)：介绍安全多方计算相关的开源代码库
++ [conferences&journals](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals)：介绍三大密码学会（CRYPTO, EUROCRYPT and AsiaCRYPTO）、四大安全顶会（CCS, SP, USENIX and NDSS）等重要会议和期刊中MPC相关的论文
 + [collection&miscellaneous](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/collection%26miscellaneous)：包括了以下各个主题的论文，以及一些重要且有价值的论文
   + [mpc-survery](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-survery)：安全多方计算领域的综述，带你了解安全多方计算的研究现状和趋势
   + [malicious-mpc](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/malicious-mpc)：介绍恶意模型下的安全多方计算协议
@@ -15,8 +16,15 @@
     + [homomorphic-secret-sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/homomorphic-secret-sharing)：介绍同态秘密共享，以及基于同态秘密共享的安全计算协议
     + [vole and pcg](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/vole-and-pcg)：介绍向量不经意线性函数计算和伪随机性相关生成器
   + [privacy-preserving-data-mining](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining)：介绍隐私保护数据挖掘应用
-  + [database-query](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/database-query)：基于安全多方计算的数据库查询
-+ [conferences&journals](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals)：介绍三大密码学会（CRYPTO, EUROCRYPT and AsiaCRYPTO）、四大安全顶会（CCS, SP, USENIX and NDSS）等重要会议和期刊中MPC相关的论文
+    + [PPML](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#1-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)：介绍隐私保护机器学习
+    + [SecureFE](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#2-%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B)：介绍隐私保护特征工程
+    + [SecureDA](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/privacy-preserving-data-mining#3-%E8%81%94%E5%90%88%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90)：介绍联合统计分析
+  + [Secure Database](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/database-query)：介绍隐私保护数据库使用
+    + [Encrypted database Query](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/database-query#11-%E5%AF%86%E6%80%81%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9F%A5%E8%AF%A2encrypted-database-query)：介绍密态数据库查询
+    + [PSI over secret-shared data](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/database-query#12-%E7%A7%98%E5%AF%86%E4%BB%BD%E9%A2%9D%E6%95%B0%E6%8D%AE%E7%9A%84%E9%9A%90%E7%A7%81%E9%9B%86%E5%90%88%E6%B1%82%E4%BA%A4psi-over-secret-shared-data)：介绍秘密份额形式数据对隐私集合求交
+    + [Private Information Retrieval, PIR](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/database-query#2-%E9%9A%90%E7%A7%81%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2private-information-retrievalpir)：介绍隐私信息检索
+    + [Private Heavy Hitters](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/database-query#3-%E9%9A%90%E7%A7%81%E9%A2%91%E7%B9%81%E9%A1%B9%E6%9F%A5%E8%AF%A2)：介绍隐私频繁项查询
+
 
 ## 如何开始研究生涯？
 + 可以看看[如何开始研究生生涯?](http://muchong.com/t-14899063-1)体会一下
