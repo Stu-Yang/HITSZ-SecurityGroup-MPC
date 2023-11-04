@@ -11,7 +11,9 @@
 + ***Orca: FSS-based Secure Training and Inference with GPUs***
   + 基于函数秘密共享的安全神经网络训练，并用GPU进行加速
   + 论文链接见[IEEE](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a063/1RjEaAAmAAE), [eprint](https://eprint.iacr.org/2023/206)
-
++ ***Scalable Mixed-Mode MPC***
+  + 基于多方表查找协议的安全多方计算，能够支持数百个参与方（实验中有32个参与方，性能提高几千倍）
+  + 论文链接见[eprint](https://eprint.iacr.org/2023/1700)
 </details>
 
 
