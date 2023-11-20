@@ -123,7 +123,7 @@
   + 论文发表在Crypto 2022，论文链接见[eprint](https://eprint.iacr.org/2022/1060)
 + ***[GYW+22]Half-Tree Halving the Cost of Tree Expansion in COT and DPF***
   + 基于伪随机相关GGM树提出了COT和DPF&DCF方面的优化
-  + 论文链接见[eprint](https://eprint.iacr.org/2022/1431)
+  + 论文发表在EuroCrypt 2023，论文链接见[ICAR](https://www.iacr.org/cryptodb/data/paper.php?pubkey=32863)，论文链接见[eprint](https://eprint.iacr.org/2022/1431)
 + :triangular_flag_on_post: ***[AS22]Low-Communication Multiparty Triple Generation for SPDZ from Ring-LPN***
   + 基于[[BKKO20]Efficient 3-Party Distributed ORAM](https://eprint.iacr.org/2018/706)的**3方DPF构造**，提出新的3方DPF构造（调用两方DPF构造），并基于此提出了面向SPDZ的多方元组生成，而现有工作支持两方的构造
   + 论文发表在PKC 2022，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-030-97121-2_9)，[eprint](https://eprint.iacr.org/2022/315.pdf)
