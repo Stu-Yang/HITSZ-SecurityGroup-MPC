@@ -6,6 +6,7 @@
 
 <details>
 <summary>以下是AsiaCrypt 2023中MPC相关论文，请点击展开</summary>
+  
 + ***On Quantum Secure Compressing Pseudorandom Functions***
   + 关于量子安全的压缩伪随机函数
   + 论文链接见[eprint](https://eprint.iacr.org/2023/207)
@@ -36,6 +37,7 @@
 + ***Threshold Linear Secret Sharing to the Rescue of MPC-in-the-Head***
   + 阈值线性秘密共享拯救 MPC-in-the-Head
   + 论文链接见[eprint](https://eprint.iacr.org/2022/1407)
+
 </details>
 
 ## AsiaCrypt 2022
