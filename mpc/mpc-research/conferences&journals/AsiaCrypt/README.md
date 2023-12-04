@@ -9,7 +9,7 @@
 
 + ***Short Concurrent Covert Authenticated Key Exchange***
   + 短并发隐蔽认证密钥交换，其中提到了**隐蔽计算**
-  + 论文链接见[eprint](https://eprint.iacr.org/2023/1418)
+  + 论文链接见[eprint](https://eprint.iacr.org/2023/1418)，关于隐蔽计算可以参考Eurocrypt 2019上的论文[Covert Security with Public Verifiability: Faster, Leaner, and Simpler](https://eprint.iacr.org/2018/1108)
 + ***On Quantum Secure Compressing Pseudorandom Functions***
   + 关于量子安全的压缩伪随机函数
   + 论文链接见[eprint](https://eprint.iacr.org/2023/207)
