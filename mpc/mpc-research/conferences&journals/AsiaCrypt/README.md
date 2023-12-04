@@ -6,7 +6,10 @@
 
 <details>
 <summary>以下是AsiaCrypt 2023中MPC相关论文，请点击展开</summary>
-  
+
++ ***Short Concurrent Covert Authenticated Key Exchange***
+  + 短并发隐蔽认证密钥交换，其中提到了**隐蔽计算**
+  + 论文链接见[eprint](https://eprint.iacr.org/2023/1418)
 + ***On Quantum Secure Compressing Pseudorandom Functions***
   + 关于量子安全的压缩伪随机函数
   + 论文链接见[eprint](https://eprint.iacr.org/2023/207)
