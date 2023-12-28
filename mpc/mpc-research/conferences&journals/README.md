@@ -8,7 +8,7 @@
 |      Crypto      |  2021, [2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/Crypto#crypto-2022), 2023, 2024    |      |
 |    EuroCrypt    |  2021, [2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/EuroCrypt#eurocrypt-2022), 2023, 2024    |      |
 |    AsiaCrypt    |  2021, 2022, [2023](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/AsiaCrypt#asiacrypt-2023), 2024    |      |
-|       CCS        |  2021, 2022, 2023, 2024   |      |
+|       CCS        |  2021, 2022, [2023](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/CCS#ccs-2023), 2024   |      |
 |      USENIX      |  2021, 2022, 2023, 2024   |      |
 |       S&P        |  2021, [2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/S%26P#sp-2022), [2023](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/S%26P#sp-2023), [2024](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/S%26P#sp-2024)    |      |
 |       NDSS       |  2021, [2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/NDSS#ndss-2022), [2023](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/mpc/mpc-research/conferences&journals/NDSS/README.md#ndss-2023), 2024    |      |
