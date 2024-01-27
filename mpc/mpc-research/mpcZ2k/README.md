@@ -13,6 +13,9 @@
 + ***[OSV19]Overdrive2k: Efficient Secure MPC over Z2𝑘 from Somewhat Homomorphic Encryption***
   + 实现环Z2k上的不诚实大多数的恶意安全多方计算协议，离线阶段采用部分同态加密来实现
   + 论文发表在CT-RSA 2020，论文链接见[eprint](https://eprint.iacr.org/2019/153)
++ ***Efficient information-theoretic multi-party computation over non-commutative rings***
+  + 非交换环上的信息论安全多方计算(诚实大多数)
+  + 论文发表在CRYPTO 2021，论文链接见[eprint](https://eprint.iacr.org/2021/1025)
 + ***[HKK+23]Overdrive LowGear 2.0: Reduced-Bandwidth MPC without Sacrifice***
   + 在交换环R上的不诚实大多数MPC
   + 论文发表在AsiaCCS 2023，论文链接见[eprint](https://eprint.iacr.org/2023/462)
