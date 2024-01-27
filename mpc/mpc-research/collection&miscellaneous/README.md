@@ -12,6 +12,10 @@
 
 详见[恶意模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/malicious-mpc)，研究报告详见[malicious-mpc](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/mpc/mpc-research/malicious-mpc/malicious-mpc.pdf)
 
+#### 1.1.2 Z2k上的不诚实大多数恶意MPC
+
+详见[Z2k上的不诚实大多数恶意MPC](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpcZ2k)，和下面的[预处理模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-with-preprocessing)有交叉
+
 ### 1.2 预处理模型下的安全多方计算（MPC in the preprocessing model）
 
 在预处理模型（Preprocessing Model）中，协议被分为离线阶段（Offline Phase）和在线阶段（Online Phase）。在离线阶段（也称为预处理阶段（Preprocessing Phase）和设置阶段（Setup Phase）），各个参与方共同运行一个与数据独立安全协议来产生相关随机性（correlated randomness），这些相关值可以辅助完成计算任务；在线阶段则利用预处理阶段提供的相关值，基于参与方的数据来计算功能函数。
@@ -20,21 +24,19 @@
 
 详见[预处理模型下的安全多方计算](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-with-preprocessing)，研究报告详见[correlated-randomness-in-the-preprocessing-model](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/mpc/mpc-research/mpc-with-preprocessing/correlated-randomness-in-the-preprocessing-model.pdf)
 
-#### 1.2.2 Z2k上的不诚实大多数恶意MPC
-
-详见[Z2k上的不诚实大多数恶意MPC](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/MPCZ2k)
-
-#### 1.2.3 函数秘密共享、同态秘密共享和伪随机相关生成器
+#### 1.2.2 函数秘密共享、同态秘密共享
 
 函数秘密共享（Function secret sharing, FSS）和同态秘密共享（Homomorphic Secret Sharing, HSS）是[Elette Boyle](https://cs.idc.ac.il/~elette/)提出的密码学原语，详见
 + [函数秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)
 + [同态秘密共享](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/homomorphic-secret-sharing)
 
+#### 1.2.3 伪随机相关生成器
+
 向量不经意线性函数计算（Vector Oblivious Linear Evaluation, VOLE）是一种十分有用的相关随机性，这些相关随机性可以由一种称为伪随机相关生成器（Pseudorandom Correlation Generator, PCG）来生成，PCG的构造主要依赖于函数秘密共享、同态秘密共享和LPN（Learning Parity with Noise）假设来构造。详见
 
 + [VOLE和PCG](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/vole-and-pcg)
 
-**Elette Boyle等人在2022年撰写了关于函数秘密共享、同态秘密共享和伪随机相关生成器的综述，详见[Survey-FSS-HSS-PCG](https://cs.idc.ac.il/~elette/HSS_FSS-Survey.pdf)**
+> **Elette Boyle等人在2022年撰写了关于函数秘密共享、同态秘密共享和伪随机相关生成器的综述，详见[Survey-FSS-HSS-PCG](https://cs.idc.ac.il/~elette/HSS_FSS-Survey.pdf)**
 
 ### 1.3 支持动态参与方的安全多方计算协议（Fluid MPC）
 
