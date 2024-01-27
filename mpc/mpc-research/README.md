@@ -11,7 +11,8 @@
 + [collection&miscellaneous](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/collection%26miscellaneous)：包括了以下各个主题的论文，以及一些重要且有价值的论文
   + [mpc-survery](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-survery)：安全多方计算领域的综述，带你了解安全多方计算的研究现状和趋势
   + [malicious-mpc](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/malicious-mpc)：介绍恶意模型下的安全多方计算协议
-  + [mpc-with-preprocessing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-with-preprocessing)：介绍预处理模型下的安全多方计算协议
+    + [mpcZ2k](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpcZ2k)：介绍Z2k上的不诚实大多数恶意MPC协议
+  + [mpc-with-preprocessing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-with-preprocessing)：介绍预处理模型下的安全多方计算协议 
     + [function-secret-sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)：介绍函数秘密共享，以及基于函数秘密共享实现安全两方计算协议。
     + [homomorphic-secret-sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/homomorphic-secret-sharing)：介绍同态秘密共享，以及基于同态秘密共享的安全计算协议
     + [vole and pcg](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/vole-and-pcg)：介绍向量不经意线性函数计算和伪随机性相关生成器
