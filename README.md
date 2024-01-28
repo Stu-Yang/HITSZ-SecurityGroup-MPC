@@ -29,8 +29,6 @@ HITSZ安全组的MPC团队主要针对安全多方计算的理论与实践进行
 + [安全多方计算理论研究](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research)
   + [conferences&journals](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals)：介绍三大密码学会、四大安全顶会等重要会议中MPC相关的论文
   + [collection&miscellaneous](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/collection%26miscellaneous)：按主题汇总了安全多方计算相关论文（点击[这里](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/collection%26miscellaneous)记录看到的有用论文~）
-    + [function-secret-sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/function-secret-sharing)：介绍函数秘密共享，以及基于函数秘密共享实现安全两方计算协议。
-    + [database-query](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/database-query)：介绍基于(复制)秘密共享的密态数据库查询研究
 + [安全多方计算实践研究](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-practice)
 + [安全多方计算代码库](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/mpc-library/)
 
