@@ -16,6 +16,9 @@
 + ***[CKR+20]Maliciously Secure Matrix Multiplication with Applications to Private Deep Learning***
   + 恶意安全矩阵乘法，预处理阶段使用BFV同态加密，适合整数环和大素数域
   + 发表在AsiaCrypt 2020，论文链接见[eprint](https://eprint.iacr.org/2020/451)
++ ***[ACD+20]Asymptotically Good Multiplicative LSSS over Galois Rings and Applications to MPC over Z2k***
+  + 环上的信息论安全多方计算协议（诚实大多数）
+  + 发表在AsiaCrypt 2020，论文链接见[eprint](https://eprint.iacr.org/2020/1256)
 + ***[ES21]Efficient information-theoretic multi-party computation over non-commutative rings***
   + 非交换环上的信息论安全多方计算(诚实大多数)
   + 论文发表在CRYPTO 2021，论文链接见[eprint](https://eprint.iacr.org/2021/1025)
