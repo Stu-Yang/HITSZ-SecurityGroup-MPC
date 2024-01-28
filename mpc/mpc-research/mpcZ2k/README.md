@@ -10,10 +10,13 @@
 + ***[CRFG20]MonZa: Fast Maliciously Secure Two Party Computation on Z2k***
   + Catalano等人提出了一个环Z2k上的快速安全两方计算协议，该协议离线阶段类似于BDOZ协议，但采用 Joye-Libert作为底层同态密码系统，值得注意的是，它可以被证明是安全的，而无需采取昂贵的牺牲步骤。
   + 论文发表在PKC 2020，论文链接见[eprint](https://eprint.iacr.org/2019/211)
-+ ***[OSV19]Overdrive2k: Efficient Secure MPC over Z2𝑘 from Somewhat Homomorphic Encryption***
++ ***[OSV20]Overdrive2k: Efficient Secure MPC over Z2𝑘 from Somewhat Homomorphic Encryption***
   + 实现环Z2k上的不诚实大多数的恶意安全多方计算协议，离线阶段采用部分同态加密来实现
   + 论文发表在CT-RSA 2020，论文链接见[eprint](https://eprint.iacr.org/2019/153)
-+ ***Efficient information-theoretic multi-party computation over non-commutative rings***
++ ***[CKR+20]Maliciously Secure Matrix Multiplication with Applications to Private Deep Learning***
+  + 恶意安全矩阵乘法，预处理阶段使用BFV同态加密，适合整数环和大素数域
+  + 发表在AsiaCrypt 2020，论文链接见[eprint](https://eprint.iacr.org/2020/451)
++ ***[ES21]Efficient information-theoretic multi-party computation over non-commutative rings***
   + 非交换环上的信息论安全多方计算(诚实大多数)
   + 论文发表在CRYPTO 2021，论文链接见[eprint](https://eprint.iacr.org/2021/1025)
 + ***[HKK+23]Overdrive LowGear 2.0: Reduced-Bandwidth MPC without Sacrifice***
