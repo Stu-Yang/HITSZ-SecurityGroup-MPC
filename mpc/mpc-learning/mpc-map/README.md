@@ -38,6 +38,10 @@ MPC的基本概念和构建协议的基础模块是MPC的基石，在此之上�
 安全多方计算的基本概念主要包括MPC中诚实方、腐坏方和敌手的概念、计算模型和安全性模型的概念，还有关于MPC的形式化定义以及安全性的形式化定义
 
 + **MPC基本概念**：掌握基本概念，如诚实方、腐坏方和敌手、半诚实模型和恶意模型等
+  + 冯登国院士关于安全多方计算的报告: [video](https://www.bilibili.com/video/BV16j411q7pf)
+    + Lecture 1: 安全多方计算（MPC）的基本概念及基础组件
+    + Lecture 2: 基于秘密分享方法的MPC协议
+    + Lecture 3: 基于混淆电路方法的MPC协议
   + Lindell教授的最新MPC综述:[Secure Multiparty Computation (MPC)](https://eprint.iacr.org/2020/300.pdf)：介绍了MPC的基本内容，学习之后可以梳理出基本概念
   + Hazay和Lindell的著作[[Hazay&Lindell2010]Efficient Secure Two-Party Protocols](https://u.cs.biu.ac.il/~lindell/efficient-protocols.html)的第1章
 + **MPC定义及其安全性定义**：掌握MPC形式化定义，了解分析安全性的方法和形式化定义
