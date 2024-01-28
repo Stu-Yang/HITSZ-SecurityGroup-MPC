@@ -5,6 +5,8 @@
 
 ## 1. 相关材料
 
++ Geoffroy Couteau在ITC 2023关于相关随机性的报告
+  + [Correlated Pseudorandomness](https://geoffroycouteau.github.io/assets/slides/itc_2023.pdf): Achieving faster secure computation through pseudorandom correlation generators
 + [Explanation of correlated randomness](https://crypto.stackexchange.com/questions/58259/explanation-of-correlated-randomness-for-garbled-circuits)
   + 从high-level的角度来介绍相关随机性
 + [The TinyOT Protocol Part 1 - Prof. Claudio Orlandi](https://www.youtube.com/watch?v=jJ5d-EUq-DY)
