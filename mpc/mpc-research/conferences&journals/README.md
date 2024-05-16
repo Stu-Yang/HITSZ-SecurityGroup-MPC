@@ -16,7 +16,7 @@
 |     ESORICS      |  2021, [2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/ESORICS#esorics-2022), 2023, 2024   |      |
 |     AsiaCCS      |  2021, [2022](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/AsiaCCS#asiaccs-2022), 2023, 2024   |      |
 |  WWW-Security    |  2021, 2022, [2023](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/WWW-Security#www-2023), 2024   |      |
-
+|  EuroS&P    |  2021, 2022, 2023, [2024](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/conferences%26journals/EuroSP#EuroSP-2023)  |      |
 
 
 ## 网络与信息安全期刊MPC相关论文
