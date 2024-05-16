@@ -3,7 +3,7 @@
 
 ## EuroSP 2024
 
-> 详见[IEEE S&P 2024-Accepted Papers](xxx)。
+> 详见[Euro S&P 2024-Accepted Papers](https://eurosp2024.ieee-security.org/accepted_and_awards.html)。
 
 <details>
 <summary>以下是S&P 2024中MPC相关论文，请点击展开</summary>
