@@ -4,10 +4,18 @@
 
 ## 1. 机器学习
 
-### 1.1 量化神经网络
+### 1.1 深度神经网络
+
+> pictures from [Deep Neural Network optimization: Binary Neural Networks](https://slideplayer.com/slide/17585887/)
+<img width="615" alt="image" src="https://github.com/user-attachments/assets/d7daa063-60f2-4eea-8ff3-b57a26e1c595">
+
+
+
+
+### 1.2 量化神经网络
 
 + **Intro to Binarized Neural Networks**
-  + [Video](https://www.youtube.com/watch?v=d9AeVyRzU5Q)
+  + [Video](https://www.youtube.com/watch?v=d9AeVyRzU5Q)，[Slide](https://slideplayer.com/slide/17585887/)，[Binary Neural Networks: A Survey](https://arxiv.org/abs/2004.03333)，[A comprehensive review of Binary Neural Network](https://arxiv.org/abs/2110.06804)
 
 
 ## 2. 秘密共享
