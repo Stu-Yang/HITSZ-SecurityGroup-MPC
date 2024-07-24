@@ -1,4 +1,4 @@
-<img width="563" alt="image" src="https://github.com/user-attachments/assets/b60f8cbc-03db-4e31-b092-25e3805a4430"># MPC组2024年暑期学习：安全多方计算基础
+# MPC组2024年暑期学习：安全多方计算基础
 
 > 点击 [README.md](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/edit/main/mpc/mpc-school/mpc-summer-2024/README.md) 修改内容。
 
