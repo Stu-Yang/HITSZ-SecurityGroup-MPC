@@ -33,6 +33,8 @@
 
 ### 2.3 Packed Secret Sharing
 
++ **打包秘密共享**
+  + [TPMPC video-Communication Efficient MPC using Packed Secret Sharing](https://www.youtube.com/watch?v=xoxUbz-_S4w), [paper-CRYPTO 2022-Sharing Transformation and Dishonest Majority MPC with Packed Secret Sharing](https://eprint.iacr.org/2022/831)
 
 
 
