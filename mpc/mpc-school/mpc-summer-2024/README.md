@@ -31,8 +31,13 @@
 <img width="563" alt="image" src="https://github.com/user-attachments/assets/85774df9-869e-4143-a13e-b42fdd1a4d49">
 
 
-### 2.3 Packed Secret Sharing
+### 2.3 Sharim Secret Sharing and Packed Secret Sharing
 
++ **多项式插值**
+
+
+
++ **Sharim秘密共享**
 + **打包秘密共享**
   + [TPMPC video-Communication Efficient MPC using Packed Secret Sharing](https://www.youtube.com/watch?v=xoxUbz-_S4w), [paper-CRYPTO 2022-Sharing Transformation and Dishonest Majority MPC with Packed Secret Sharing](https://eprint.iacr.org/2022/831)
 
