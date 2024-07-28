@@ -26,17 +26,19 @@
   + [Video](https://www.bilibili.com/video/BV1KA4y1Z74V/?spm_id_from=333.999.0.0&vd_source=45400e58cd0ed58d7605745553c0f81e), [Note](https://zhuanlan.zhihu.com/p/476627132), and [Slides](https://users.encs.concordia.ca/~asim/COEN_6501/Lecture_Notes/Parallel%20prefix%20adders%20presentation.pdf)
 
 ### 2.2 Sharim Secret Sharing and Packed Secret Sharing
-> refer to [Efficient Secret Sharing for Large-Scale Applications](https://eprint.iacr.org/2024/1045.pdf)
-<img width="563" alt="image" src="https://github.com/user-attachments/assets/85774df9-869e-4143-a13e-b42fdd1a4d49">
-
-### 2.3 BDOZ and SPDZ
-
-
 
 + **多项式插值**
 + **Sharim秘密共享**
 + **打包秘密共享**
   + [TPMPC video-Communication Efficient MPC using Packed Secret Sharing](https://www.youtube.com/watch?v=xoxUbz-_S4w), [paper-CRYPTO 2022-Sharing Transformation and Dishonest Majority MPC with Packed Secret Sharing](https://eprint.iacr.org/2022/831)
+
+### 2.3 Ramp Secret Sharing
+
+> refer to [Efficient Secret Sharing for Large-Scale Applications](https://eprint.iacr.org/2024/1045.pdf)
+<img width="563" alt="image" src="https://github.com/user-attachments/assets/85774df9-869e-4143-a13e-b42fdd1a4d49">
+
+
+### 2.4 BDOZ and SPDZ
 
 ## 3. 混淆电路
 
