@@ -34,12 +34,16 @@
 ### 2.3 Sharim Secret Sharing and Packed Secret Sharing
 
 + **多项式插值**
-
-
-
 + **Sharim秘密共享**
 + **打包秘密共享**
   + [TPMPC video-Communication Efficient MPC using Packed Secret Sharing](https://www.youtube.com/watch?v=xoxUbz-_S4w), [paper-CRYPTO 2022-Sharing Transformation and Dishonest Majority MPC with Packed Secret Sharing](https://eprint.iacr.org/2022/831)
 
+## 3. 混淆电路
 
++ **Overview of secure computation and textbook Yao's protocol**
+  + Main Idea: [Slides](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/1-overview.pdf) from [Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)
+  + Formal Definition: [JoC 2009-A Proof of Security of Yao’s Protocol for Two-Party Computation](https://eprint.iacr.org/2004/175)
++ **Optimizations to Garbled Circuits (point-permute, free-XOR, half-gates, arithmetic garbling)**
+  + Main Idea: [Slides](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/2-gc.pdf), [Video](https://www.bilibili.com/video/BV1hK4y197gW/?spm_id_from=333.337.search-card.all.click)
+  + Formal Definition: [Half-Gates](https://eprint.iacr.org/2014/756), [CRYPTO 2021-Beating the Half-Gates](https://eprint.iacr.org/2021/749)
 
