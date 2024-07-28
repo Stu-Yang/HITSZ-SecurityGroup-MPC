@@ -42,7 +42,7 @@
 
 + **Overview of secure computation and textbook Yao's protocol**
   + Main Idea: [Slides](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/1-overview.pdf) and [Video](https://www.bilibili.com/video/BV1e64y1C7Te/?spm_id_from=333.999.0.0) from [Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)
-  + Formal Definition: [JoC 2009-A Proof of Security of Yao’s Protocol for Two-Party Computation](https://eprint.iacr.org/2004/175)
+  + Formal Definition: [JoC 2009-A Proof of Security of Yao’s Protocol for Two-Party Computation](https://eprint.iacr.org/2004/175), [Foundations of Garbled Circuits](https://eprint.iacr.org/2012/265.pdf)
 + **Optimizations to Garbled Circuits (point-permute, free-XOR, half-gates, arithmetic garbling)**
   + Main Idea: [Slides](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/2-gc.pdf) and [Video](https://www.bilibili.com/video/BV1hK4y197gW/?spm_id_from=333.999.0.0) from [Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)
   + Formal Definition: [Half-Gates](https://eprint.iacr.org/2014/756), [CRYPTO 2021-Beating the Half-Gates](https://eprint.iacr.org/2021/749)
