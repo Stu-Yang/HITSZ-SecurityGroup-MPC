@@ -38,7 +38,11 @@
 
 > **Elette Boyle等人在2022年撰写了关于函数秘密共享、同态秘密共享和伪随机相关生成器的综述，详见[Survey-FSS-HSS-PCG](https://cs.idc.ac.il/~elette/HSS_FSS-Survey.pdf)**
 
-### 1.3 支持动态参与方的安全多方计算协议（Fluid MPC）
+### 1.3 基于混淆电路的安全多方计算协议
+
+详见[基于混淆电路的安全多方计算协议](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/gc)
+
+### 1.4 支持动态参与方的安全多方计算协议（Fluid MPC）
 
 + ***Fluid MPC: Secure Multiparty Computation with Dynamic Participants***
   + 论文发表在CRYPTO 2021，论文链接见[IACR eprint](https://eprint.iacr.org/2020/754)
