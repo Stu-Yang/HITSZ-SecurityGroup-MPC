@@ -40,9 +40,15 @@
 
 ### 1.3 基于混淆电路的安全多方计算协议
 
-详见[基于混淆电路的安全多方计算协议](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/gc)
+详见[基于混淆电路的安全多方计算协议](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/gc-based-mpc)
 
-### 1.4 支持动态参与方的安全多方计算协议（Fluid MPC）
+### 1.4 基于ORAM程序的安全多方计算协议
+
+参考[slides](https://web.engr.oregonstate.edu/~rosulekm/pubs/malram-talk.pdf)
+
+### 1.5 其他模型下的安全多方计算协议
+
+#### 1.5.1 支持动态参与方的安全多方计算协议（Fluid MPC）
 
 + ***Fluid MPC: Secure Multiparty Computation with Dynamic Participants***
   + 论文发表在CRYPTO 2021，论文链接见[IACR eprint](https://eprint.iacr.org/2020/754)
