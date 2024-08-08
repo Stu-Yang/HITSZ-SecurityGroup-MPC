@@ -28,7 +28,7 @@
 + :triangular_flag_on_post: ***[MF06] Efficiency Tradeoffs for Malicious Two-Party Computation***
   + 第一个提出Dual Execution的概念，并提出基于Dual Execution的恶意安全两方计算协议，该协议存在one-bit leakage
   + 发表在PKC 2006，论文链接见[PKC 2006](https://www.iacr.org/archive/pkc2006/39580468/39580468.pdf), [Springer](https://link.springer.com/chapter/10.1007/11745853_30)
-+ ***[LP07]An efficient protocol for secure two-party computation in the presence of malicious adversaries***
++ :triangular_flag_on_post: ***[LP07]An efficient protocol for secure two-party computation in the presence of malicious adversaries***
   + cut-and-choose技术的形式化定义和证明
   + 发表在EUROCRYPT 2007，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-540-72540-4_4)，[ePrint](https://eprint.iacr.org/2008/049)
 + ***[HEKM11]Faster Secure Two-Party Computation Using Garbled Circuits***
@@ -43,9 +43,9 @@
 + ***[HKE13]Efficient Secure Two-Party Computation Using Symmetric Cut-and-Choose***
   + 研究了对称Cut-and-Choose技术，即双方都执行Cut-and-Choose，从而能将混淆电路副本数量减小3倍
   + 论文发表在CRYPTO 13，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-40084-1_2)，[ePrint](https://eprint.iacr.org/2013/081)
-+ ******
-  + 123
-  + 论文发表在[]()，论文链接见[]()
++ ***[Lin13]Fast Cut-and-Choose Based Protocols for Malicious and Covert Adversaries***
+  + 面向恶意和隐蔽敌手提出了高效的Cut-and-Choose协议，可以实现利用κ个混淆电路实现2^-κ的安全性
+  + 论文发表在CRYPTO 2013，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-40084-1_1)，[ePrint](https://eprint.iacr.org/2013/079)
 + ******
   + 123
   + 论文发表在[]()，论文链接见[]()
