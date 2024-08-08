@@ -28,6 +28,9 @@
 + :triangular_flag_on_post: ***[MF06] Efficiency Tradeoffs for Malicious Two-Party Computation***
   + 第一个提出Dual Execution的概念，并提出基于Dual Execution的恶意安全两方计算协议，该协议存在one-bit leakage
   + 发表在PKC 2006，论文链接见[PKC 2006](https://www.iacr.org/archive/pkc2006/39580468/39580468.pdf), [Springer](https://link.springer.com/chapter/10.1007/11745853_30)
++ ***[LP07]An efficient protocol for secure two-party computation in the presence of malicious adversaries***
+  + cut-and-choose技术的形式化定义和证明
+  + 发表在EUROCRYPT 2007，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-540-72540-4_4)，[ePrint](https://eprint.iacr.org/2008/049)
 + ***[HEKM11]Faster Secure Two-Party Computation Using Garbled Circuits***
   + 优化了基于混淆电路的半诚实安全两方系统FairPlay的实现，并面向Hamming distance、Smith-Waterman genome alignment, and AES等任务设计了隐私保护计算协议
   + 发表在[USENIX 2011]([https://www.usenix.org/legacy/events/sec11/tech/full_papers/Huang.pdf](https://www.usenix.org/conference/usenix-security-11/faster-secure-two-party-computation-using-garbled-circuits))，论文链接见[usenix](https://www.usenix.org/legacy/events/sec11/tech/full_papers/Huang.pdf), [video](https://www.usenix.org/conference/usenix-security-11/faster-secure-two-party-computation-using-garbled-circuits), [slides](https://www.usenix.org/legacy/events/sec11/tech/slides/huang.pdf)，[source code](https://mightbeevil.org/)
@@ -37,9 +40,9 @@
 + :triangular_flag_on_post: ***Quid-Pro-Quo-tocols: Strengthening Semi-Honest Protocols with Dual Execution***
   + Quid-Pro-Quo-tocols意为等价交换，该论文是针对基于Dual Execution的恶意安全两方计算协议的优化
   + 论文发表在[SP 2012](https://ieeexplore.ieee.org/document/6234418)，论文链接见[IEEE SP 2012](https://ieeexplore.ieee.org/document/6234418)，[Huang](https://homes.luddy.indiana.edu/yh33/mypub/mal-sec-two-party-comp.pdf)
-+ ******
-  + 123
-  + 论文发表在[]()，论文链接见[]()
++ ***[HKE13]Efficient Secure Two-Party Computation Using Symmetric Cut-and-Choose***
+  + 研究了对称Cut-and-Choose技术，即双方都执行Cut-and-Choose，从而能将混淆电路副本数量减小3倍
+  + 论文发表在CRYPTO 13，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-40084-1_2)，[ePrint](https://eprint.iacr.org/2013/081)
 + ******
   + 123
   + 论文发表在[]()，论文链接见[]()
