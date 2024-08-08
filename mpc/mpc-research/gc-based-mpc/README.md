@@ -25,7 +25,7 @@
 + ***[MNPS04]Fairplay—A Secure Two-Party Computation System***
   + 第一个安全两方计算系统实现，基于混淆电路技术
   + 发表在[USENIX 2004](https://www.usenix.org/conference/13th-usenix-security-symposium/fairplay%E2%80%94-secure-two-party-computation-system)，论文链接见[usenix](https://www.usenix.org/conference/13th-usenix-security-symposium/fairplay%E2%80%94-secure-two-party-computation-system)
-+ ***[MF06] Efficiency Tradeoffs for Malicious Two-Party Computation***
++ :triangular_flag_on_post: ***[MF06] Efficiency Tradeoffs for Malicious Two-Party Computation***
   + 第一个提出Dual Execution的概念，并提出基于Dual Execution的恶意安全两方计算协议，该协议存在one-bit leakage
   + 发表在PKC 2006，论文链接见[PKC 2006](https://www.iacr.org/archive/pkc2006/39580468/39580468.pdf), [Springer](https://link.springer.com/chapter/10.1007/11745853_30)
 + ***[HEKM11]Faster Secure Two-Party Computation Using Garbled Circuits***
@@ -34,7 +34,7 @@
 + :triangular_flag_on_post: ***[BHR12]Foundations of garbled circuits***
   + 系统介绍了混淆电路，阐述了现行混淆电路协议的主要框架
   + 论文发表在[CCS 2012](https://dl.acm.org/doi/10.1145/2382196.2382279)，论文链接见[CCS](https://dl.acm.org/doi/10.1145/2382196.2382279), [IACR-ePrint](https://eprint.iacr.org/2012/265)
-+ ***Quid-Pro-Quo-tocols: Strengthening Semi-Honest Protocols with Dual Execution***
++ :triangular_flag_on_post: ***Quid-Pro-Quo-tocols: Strengthening Semi-Honest Protocols with Dual Execution***
   + Quid-Pro-Quo-tocols意为等价交换，该论文是针对基于Dual Execution的恶意安全两方计算协议的优化
   + 论文发表在[SP 2012](https://ieeexplore.ieee.org/document/6234418)，论文链接见[IEEE SP 2012](https://ieeexplore.ieee.org/document/6234418)，[Huang](https://homes.luddy.indiana.edu/yh33/mypub/mal-sec-two-party-comp.pdf)
 + ******
