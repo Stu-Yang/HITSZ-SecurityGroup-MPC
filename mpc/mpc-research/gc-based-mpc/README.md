@@ -19,7 +19,46 @@
 
 ### 1.2 混淆电路相关论文
 
-+ ***Faster Secure Two-Party Computation Using Garbled Circuits***
-  + Yan Huang, David Evans, Jonathan Katz, Lior Malka.
++ ***[Yao86]How to generate and exchange secrets***
+  + 混淆电路的开山之作（建议瞻仰，不建议阅读，因为没有阐述现行混淆电路协议的主要框架）
+  + 发表在[FOCS86](https://ieeexplore.ieee.org/abstract/document/4568207)，论文链接见[github](https://mit6875.github.io/FA23HANDOUTS/yao-garbled-circuits.pdf)
++ ***[HEKM11]Faster Secure Two-Party Computation Using Garbled Circuits***
   + 介绍了基于混淆电路的安全两方计算协议
   + 发表在[USENIX 2011]([https://www.usenix.org/legacy/events/sec11/tech/full_papers/Huang.pdf](https://www.usenix.org/conference/usenix-security-11/faster-secure-two-party-computation-using-garbled-circuits))，论文链接见[usenix](https://www.usenix.org/legacy/events/sec11/tech/full_papers/Huang.pdf)
++ :triangular_flag_on_post: ***[BHR12]Foundations of garbled circuits***
+  + 系统介绍了混淆电路，阐述了现行混淆电路协议的主要框架
+  + 论文发表在[CCS 2012](https://dl.acm.org/doi/10.1145/2382196.2382279)，论文链接见[CCS](https://dl.acm.org/doi/10.1145/2382196.2382279), [IACR-ePrint](https://eprint.iacr.org/2012/265)
++ ******
+  + 123
+  + 论文发表在[]()，论文链接见[]()
++ ******
+  + 123
+  + 论文发表在[]()，论文链接见[]()
++ ******
+  + 123
+  + 论文发表在[]()，论文链接见[]()
++ ******
+  + 123
+  + 论文发表在[]()，论文链接见[]()
++ ******
+  + 123
+  + 论文发表在[]()，论文链接见[]()
++ ******
+  + 123
+  + 论文发表在[]()，论文链接见[]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
