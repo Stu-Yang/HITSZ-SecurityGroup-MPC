@@ -62,7 +62,7 @@
 + ***[HKK+14]Amortizing Garbled Circuits***
   + 提出了基于Cut-and-Choose的多次执行(multiple execution)的安全两方计算协议，之前[HKE13]和[Lin13]都只面向单次执行(single execution)，该协议依赖于cheating-punishment机制
   + 论文发表在CRYPTO 2014，论文链接见[ePrint](https://eprint.iacr.org/2015/081.pdf)
-+ ***Cut-and-Choose Yao-Based Secure Computation in the Online/Offline and Batch Settings（没看完）***
++ ***[LR14]Cut-and-Choose Yao-Based Secure Computation in the Online/Offline and Batch Settings***
   + 提出了基于Cut-and-Choose的多次执行(multiple execution)的安全两方计算协议，和HKK+14不同的是，HKK+14总是让评估者挑选一半的电路进行检查，但改论文表明改变检查电路的数量可以带来额外的性能提升。
   + 论文发表在CRYPTO 2014，论文链接见[springer](https://link.springer.com/chapter/10.1007/978-3-662-44381-1_27)，[ePrint](https://eprint.iacr.org/2014/667)
 + ******
