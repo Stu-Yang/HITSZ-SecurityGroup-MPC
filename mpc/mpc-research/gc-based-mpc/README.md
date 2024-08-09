@@ -65,15 +65,12 @@
 + ***[LR14]Cut-and-Choose Yao-Based Secure Computation in the Online/Offline and Batch Settings***
   + 提出了基于Cut-and-Choose的多次执行(multiple execution)的安全两方计算协议，和HKK+14不同的是，HKK+14总是让评估者挑选一半的电路进行检查，但改论文表明改变检查电路的数量可以带来额外的性能提升。
   + 论文发表在CRYPTO 2014，论文链接见[springer](https://link.springer.com/chapter/10.1007/978-3-662-44381-1_27)，[ePrint](https://eprint.iacr.org/2014/667)
-+ ******
-  + 123
-  + 论文发表在，论文链接见[]()
-+ ******
-  + 123
-  + 论文发表在，论文链接见[]()
-+ ******
-  + 123
-  + 论文发表在，论文链接见[]()
++ ***[ZHKS16]The Cut-and-Choose Game and Its Application to Cryptographic Protocols***
+  + 分析了Cut-and-Choose的三种情况：SingleCut、MajorityCut和BatchedCut，通过参数分析和算法求解得到最优情况
+  + 论文发表在USENIX 2016，论文链接见[usenix](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/zhu)，[slides](https://www.usenix.org/sites/default/files/conference/protected-files/security16_slides_zhu.pdf)
++ ***[ZH17]JIMU: Faster LEGO-based Secure Computation using Additive Homomorphic Hashes***
+  + 基于优化LEGO-style cut-and-choose的安全两方计算协议，是LEGO的优化（避免使用homomorphic commitments）
+  + 论文发表在ASIACRYPT 2017，论文链接见[ePrint](https://eprint.iacr.org/2017/226)
 + ******
   + 123
   + 论文发表在，论文链接见[]()
