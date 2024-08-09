@@ -34,6 +34,9 @@
 + ***[HEKM11]Faster Secure Two-Party Computation Using Garbled Circuits***
   + 优化了基于混淆电路的半诚实安全两方系统FairPlay的实现，并面向Hamming distance、Smith-Waterman genome alignment, and AES等任务设计了隐私保护计算协议
   + 发表在[USENIX 2011]([https://www.usenix.org/legacy/events/sec11/tech/full_papers/Huang.pdf](https://www.usenix.org/conference/usenix-security-11/faster-secure-two-party-computation-using-garbled-circuits))，论文链接见[usenix](https://www.usenix.org/legacy/events/sec11/tech/full_papers/Huang.pdf), [video](https://www.usenix.org/conference/usenix-security-11/faster-secure-two-party-computation-using-garbled-circuits), [slides](https://www.usenix.org/legacy/events/sec11/tech/slides/huang.pdf)，[source code](https://mightbeevil.org/)
++ ***[SS11] Two-Output Secure Computation with Malicious Adversaries***
+  + 提出了基于Cut-and-Choose优化的安全两方计算，打开并检查 60% 的电路（而不是 50%），则误差变为 2−0.32s（s为Cut-and-Choose所需生成的电路，称为复制因子
+  + 论文发表在EUROCRYPTO 2011，论文链接见[ePrint](https://eprint.iacr.org/2011/533)
 + ***[LP11]Secure Two-Party Computation via Cut-and-Choose Oblivious Transfer***
   + 提出了基于Cut-and-Choose优化的安全两方计算，对于复制因子s，敌手成功作弊的概率为2^−0.311s
   + 论文发表在TCC 2011，论文链接见[ePrint](https://eprint.iacr.org/2010/284.pdf)
