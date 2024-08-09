@@ -29,7 +29,7 @@
   + 第一个提出Dual Execution的概念，并提出基于Dual Execution的恶意安全两方计算协议，该协议存在one-bit leakage
   + 发表在PKC 2006，论文链接见[PKC 2006](https://www.iacr.org/archive/pkc2006/39580468/39580468.pdf), [Springer](https://link.springer.com/chapter/10.1007/11745853_30)
 + :triangular_flag_on_post: ***[LP07]An efficient protocol for secure two-party computation in the presence of malicious adversaries***
-  + cut-and-choose技术的形式化定义和证明
+  + 首次定义和证明cut-and-choose技术，Pinkas[Pin03](https://link.springer.com/content/pdf/10.1007/3-540-39200-9_6.pdf)和 Malkhi 等人[MNPS04](https://www.usenix.org/conference/13th-usenix-security-symposium/fairplay%E2%80%94-secure-two-party-computation-system)之前曾采用过该技术，但后来证明这些方法存在缺陷[KS06](https://www.win.tue.nl/~berry/papers/wic06.pdf), [MF06](https://link.springer.com/chapter/10.1007/11745853_30)。
   + 发表在EUROCRYPT 2007，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-540-72540-4_4)，[ePrint](https://eprint.iacr.org/2008/049)
 + ***[NO09]LEGO for Two Party Secure Computation***
   + 提出了基于门级Cut-and-Choose的安全两方计算协议
@@ -53,23 +53,38 @@
   + 研究了对称Cut-and-Choose技术，即双方都执行Cut-and-Choose，从而能将混淆电路副本数量减小3倍
   + 论文发表在CRYPTO 2013，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-40084-1_2)，[ePrint](https://eprint.iacr.org/2013/081)
 + ***[Lin13]Fast Cut-and-Choose Based Protocols for Malicious and Covert Adversaries***
-  + 面向恶意和隐蔽敌手提出了高效的Cut-and-Choose协议，可以实现利用κ个混淆电路实现2^-κ的安全性
+  + 提出了cheating-punishment机制，面向恶意和隐蔽敌手设计了高效的Cut-and-Choose协议，可以实现利用κ个混淆电路实现2^-κ的安全性
   + 论文发表在CRYPTO 2013，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-40084-1_1)，[ePrint](https://eprint.iacr.org/2013/079)
 + ***[FJN+13]MiniLEGO: Efficient Secure Two-Party Computation From General Assumptions*** 
   + 门级Cut-and-Choose技术LEGO的优化
   + 发表在EUROCRYPT 2013，论文链接见[ePrint](https://eprint.iacr.org/2013/155)
 + ***[HKK+14]Amortizing Garbled Circuits***
-  + 提出了基于Cut-and-Choose的多次执行（multiple-execution）的安全两方计算协议，之前[HKE13]和[Lin13]都只面向单次执行
+  + 提出了基于Cut-and-Choose的多次执行(multiple execution)的安全两方计算协议，之前[HKE13]和[Lin13]都只面向单次执行(single execution)，该协议依赖于cheating-punishment机制
   + 论文发表在CRYPTO 2014，论文链接见[ePrint](https://eprint.iacr.org/2015/081.pdf)
 + ******
   + 123
-  + 论文发表在[]()，论文链接见[]()
+  + 论文发表在，论文链接见[]()
 + ******
   + 123
-  + 论文发表在[]()，论文链接见[]()
-
-
-
+  + 论文发表在，论文链接见[]()
++ ******
+  + 123
+  + 论文发表在，论文链接见[]()
++ ******
+  + 123
+  + 论文发表在，论文链接见[]()
++ ******
+  + 123
+  + 论文发表在，论文链接见[]()
++ ******
+  + 123
+  + 论文发表在，论文链接见[]()
++ ******
+  + 123
+  + 论文发表在，论文链接见[]()
++ ******
+  + 123
+  + 论文发表在，论文链接见[]()
 
 
 
