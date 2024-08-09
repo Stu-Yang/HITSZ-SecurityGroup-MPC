@@ -7,14 +7,15 @@
   + 参考[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)2PC Course，[video-gc](https://www.bilibili.com/video/BV1e64y1C7Te/?spm_id_from=333.999.0.0), [slides-textbook Yao's protocol](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/1-overview.pdf)
   + 相关书籍参考[book-Pragmatic MPC](https://securecomputation.org/)-3.1 Yao’s Garbled Circuits Protocol
 + 混淆电路优化协议学习
-  + 参考[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)2PC Course，[video-gc optimation](https://www.bilibili.com/video/BV1hK4y197gW/?spm_id_from=333.999.0.0), [slides-Optimizations to garbled circuits (point-permute, free-XOR, half-gates, arithmetic garbling)](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/2-gc.pdf)
+  + 参考[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)的2PC Course，[video-gc optimation](https://www.bilibili.com/video/BV1hK4y197gW/?spm_id_from=333.999.0.0), [slides-Optimizations to garbled circuits (point-permute, free-XOR, half-gates, arithmetic garbling)](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/2-gc.pdf)
   + 相关书籍参考[book-Pragmatic MPC](https://securecomputation.org/)-4.1 Less Expensive Garbling
   + 针对一些关键优化进行，通过阅读下面的论文来学习其具体协议
 + 恶意混淆电路协议学习
-  + 参考参考[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)2PC Course，[slides-Protecting Yao's protocol from malicious attacks](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/4-malicious.pdf)
+  + 参考[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)的2PC Course，[slides-Protecting Yao's protocol from malicious attacks](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/4-malicious.pdf)
   + 相关书籍参考[book-Pragmatic MPC](https://securecomputation.org/)-6.1-6.4 Cut-and-Choose
 + 实用混淆电路协议学习
   + 针对一些混淆电路设计和实现，通过阅读下面的论文进行学习
+  + [Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)整理了一系列论文，见[An Annotated Bibliography of Practical Secure Computation](https://web.engr.oregonstate.edu/~rosulekm/scbib/index.php)
 
 
 ### 1.2 混淆电路相关论文
@@ -61,9 +62,9 @@
 + ***[HKK+14]Amortizing Garbled Circuits***
   + 提出了基于Cut-and-Choose的多次执行(multiple execution)的安全两方计算协议，之前[HKE13]和[Lin13]都只面向单次执行(single execution)，该协议依赖于cheating-punishment机制
   + 论文发表在CRYPTO 2014，论文链接见[ePrint](https://eprint.iacr.org/2015/081.pdf)
-+ ******
-  + 123
-  + 论文发表在，论文链接见[]()
++ ***Cut-and-Choose Yao-Based Secure Computation in the Online/Offline and Batch Settings（没看完）***
+  + 提出了基于Cut-and-Choose的多次执行(multiple execution)的安全两方计算协议，和HKK+14不同的是，HKK+14总是让评估者挑选一半的电路进行检查，但改论文表明改变检查电路的数量可以带来额外的性能提升。
+  + 论文发表在CRYPTO 2014，论文链接见[springer](https://link.springer.com/chapter/10.1007/978-3-662-44381-1_27)，[ePrint](https://eprint.iacr.org/2014/667)
 + ******
   + 123
   + 论文发表在，论文链接见[]()
