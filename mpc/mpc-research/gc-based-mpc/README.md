@@ -31,6 +31,9 @@
 + :triangular_flag_on_post: ***[LP07]An efficient protocol for secure two-party computation in the presence of malicious adversaries***
   + cut-and-choose技术的形式化定义和证明
   + 发表在EUROCRYPT 2007，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-540-72540-4_4)，[ePrint](https://eprint.iacr.org/2008/049)
++ ***[NO09]LEGO for Two Party Secure Computation***
+  + 提出了基于门级Cut-and-Choose的安全两方计算协议
+  + 发表在TCC 09，论文链接见[ePrint](https://eprint.iacr.org/2008/427)
 + ***[HEKM11]Faster Secure Two-Party Computation Using Garbled Circuits***
   + 优化了基于混淆电路的半诚实安全两方系统FairPlay的实现，并面向Hamming distance、Smith-Waterman genome alignment, and AES等任务设计了隐私保护计算协议
   + 发表在[USENIX 2011]([https://www.usenix.org/legacy/events/sec11/tech/full_papers/Huang.pdf](https://www.usenix.org/conference/usenix-security-11/faster-secure-two-party-computation-using-garbled-circuits))，论文链接见[usenix](https://www.usenix.org/legacy/events/sec11/tech/full_papers/Huang.pdf), [video](https://www.usenix.org/conference/usenix-security-11/faster-secure-two-party-computation-using-garbled-circuits), [slides](https://www.usenix.org/legacy/events/sec11/tech/slides/huang.pdf)，[source code](https://mightbeevil.org/)
@@ -43,18 +46,21 @@
 + :triangular_flag_on_post: ***[BHR12]Foundations of garbled circuits***
   + 系统介绍了混淆电路，阐述了现行混淆电路协议的主要框架
   + 论文发表在[CCS 2012](https://dl.acm.org/doi/10.1145/2382196.2382279)，论文链接见[CCS](https://dl.acm.org/doi/10.1145/2382196.2382279), [IACR-ePrint](https://eprint.iacr.org/2012/265)
-+ :triangular_flag_on_post: ***Quid-Pro-Quo-tocols: Strengthening Semi-Honest Protocols with Dual Execution***
++ :triangular_flag_on_post: ***[HKE12]Quid-Pro-Quo-tocols: Strengthening Semi-Honest Protocols with Dual Execution***
   + Quid-Pro-Quo-tocols意为等价交换，该论文是针对基于Dual Execution的恶意安全两方计算协议的优化
   + 论文发表在[SP 2012](https://ieeexplore.ieee.org/document/6234418)，论文链接见[IEEE SP 2012](https://ieeexplore.ieee.org/document/6234418)，[Huang](https://homes.luddy.indiana.edu/yh33/mypub/mal-sec-two-party-comp.pdf)
 + ***[HKE13]Efficient Secure Two-Party Computation Using Symmetric Cut-and-Choose***
   + 研究了对称Cut-and-Choose技术，即双方都执行Cut-and-Choose，从而能将混淆电路副本数量减小3倍
-  + 论文发表在CRYPTO 13，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-40084-1_2)，[ePrint](https://eprint.iacr.org/2013/081)
+  + 论文发表在CRYPTO 2013，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-40084-1_2)，[ePrint](https://eprint.iacr.org/2013/081)
 + ***[Lin13]Fast Cut-and-Choose Based Protocols for Malicious and Covert Adversaries***
   + 面向恶意和隐蔽敌手提出了高效的Cut-and-Choose协议，可以实现利用κ个混淆电路实现2^-κ的安全性
   + 论文发表在CRYPTO 2013，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-40084-1_1)，[ePrint](https://eprint.iacr.org/2013/079)
-+ ******
-  + 123
-  + 论文发表在[]()，论文链接见[]()
++ ***[FJN+13]MiniLEGO: Efficient Secure Two-Party Computation From General Assumptions*** 
+  + 门级Cut-and-Choose技术LEGO的优化
+  + 发表在EUROCRYPT 2013，论文链接见[ePrint](https://eprint.iacr.org/2013/155)
++ ***[HKK+14]Amortizing Garbled Circuits***
+  + 提出了基于Cut-and-Choose的多次执行（multiple-execution）的安全两方计算协议，之前[HKE13]和[Lin13]都只面向单次执行
+  + 论文发表在CRYPTO 2014，论文链接见[ePrint](https://eprint.iacr.org/2015/081.pdf)
 + ******
   + 123
   + 论文发表在[]()，论文链接见[]()
