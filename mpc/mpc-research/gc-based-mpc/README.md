@@ -22,16 +22,19 @@
 
 + ***[Yao86]How to generate and exchange secrets***
   + 混淆电路的开山之作（建议瞻仰，不建议阅读，因为没有阐述现行混淆电路协议的主要框架）
-  + 发表在[FOCS86](https://ieeexplore.ieee.org/abstract/document/4568207)，论文链接见[github](https://mit6875.github.io/FA23HANDOUTS/yao-garbled-circuits.pdf)
+  + 发表在FOCS 1986，论文链接见[IEEE](https://ieeexplore.ieee.org/abstract/document/4568207)，[github](https://mit6875.github.io/FA23HANDOUTS/yao-garbled-circuits.pdf)
 + ***[MNPS04]Fairplay—A Secure Two-Party Computation System***
   + 第一个安全两方计算系统实现，基于混淆电路技术
-  + 发表在[USENIX 2004](https://www.usenix.org/conference/13th-usenix-security-symposium/fairplay%E2%80%94-secure-two-party-computation-system)，论文链接见[usenix](https://www.usenix.org/conference/13th-usenix-security-symposium/fairplay%E2%80%94-secure-two-party-computation-system)
+  + 发表在USENIX 2004，论文链接见[usenix](https://www.usenix.org/conference/13th-usenix-security-symposium/fairplay%E2%80%94-secure-two-party-computation-system)
 + :triangular_flag_on_post: ***[MF06] Efficiency Tradeoffs for Malicious Two-Party Computation***
   + 第一个提出Dual Execution的概念，并提出基于Dual Execution的恶意安全两方计算协议，该协议存在one-bit leakage
   + 发表在PKC 2006，论文链接见[PKC 2006](https://www.iacr.org/archive/pkc2006/39580468/39580468.pdf), [Springer](https://link.springer.com/chapter/10.1007/11745853_30)
 + :triangular_flag_on_post: ***[LP07]An efficient protocol for secure two-party computation in the presence of malicious adversaries***
   + 首次定义和证明cut-and-choose技术，Pinkas[Pin03](https://link.springer.com/content/pdf/10.1007/3-540-39200-9_6.pdf)和 Malkhi 等人[MNPS04](https://www.usenix.org/conference/13th-usenix-security-symposium/fairplay%E2%80%94-secure-two-party-computation-system)之前曾采用过该技术，但后来证明这些方法存在缺陷[KS06](https://www.win.tue.nl/~berry/papers/wic06.pdf), [MF06](https://link.springer.com/chapter/10.1007/11745853_30)。
   + 发表在EUROCRYPT 2007，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-540-72540-4_4)，[ePrint](https://eprint.iacr.org/2008/049)
++ ***Efficient Two Party and Multi Party Computation Against Covert Adversaries***
+  + 针对Covert敌手提出了基于Cut-and-Choose技术的安全两方和多方计算技术
+  + 发表在EUROCRYPT 2008，论文链接见[ICAR](https://iacr.org/archive/eurocrypt2008/49650287/49650287.pdf)，[Slides](https://www.iacr.org/conferences/eurocrypt2008/sessions/paymanMohosell_20080416.pdf)
 + ***[NO09]LEGO for Two Party Secure Computation***
   + 提出了基于门级Cut-and-Choose的安全两方计算协议
   + 发表在TCC 09，论文链接见[ePrint](https://eprint.iacr.org/2008/427)
