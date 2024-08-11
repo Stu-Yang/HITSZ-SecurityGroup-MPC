@@ -1,8 +1,8 @@
-## 基于混淆电路的安全多方计算协议
+# 基于混淆电路的安全多方计算协议
 
 混淆电路（Garbled Circuits）是一种用于安全多方计算（Secure Multi-Party Computation, MPC）中的加密技术，由Andrew Yao在1986年提出。其基本思想是通过对电路的各个逻辑门进行加密，使得参与方能够在不知道输入和中间计算结果的情况下执行计算。混淆电路技术的发展包括优化电路大小和效率、减少通信开销和提高安全性等方面。
 
-### 1.1 混淆电路学习路线
+## 1. 混淆电路学习路线
 + 混淆电路基础协议学习
   + 参考[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)2PC Course，[video-gc](https://www.bilibili.com/video/BV1e64y1C7Te/?spm_id_from=333.999.0.0), [slides-textbook Yao's protocol](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/1-overview.pdf)
   + 相关书籍参考[book-Pragmatic MPC](https://securecomputation.org/)-3.1 Yao’s Garbled Circuits Protocol
@@ -18,7 +18,7 @@
   + [Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)整理了一系列论文，见[An Annotated Bibliography of Practical Secure Computation](https://web.engr.oregonstate.edu/~rosulekm/scbib/index.php)
 
 
-### 1.2 混淆电路相关论文
+## 2. 混淆电路相关论文
 
 + ***[Yao86]How to generate and exchange secrets***
   + 混淆电路的开山之作（建议瞻仰，不建议阅读，因为没有阐述现行混淆电路协议的主要框架）
