@@ -33,7 +33,7 @@
   + 首次定义和证明cut-and-choose技术，Pinkas[Pin03](https://link.springer.com/content/pdf/10.1007/3-540-39200-9_6.pdf)和 Malkhi 等人[MNPS04](https://www.usenix.org/conference/13th-usenix-security-symposium/fairplay%E2%80%94-secure-two-party-computation-system)之前曾采用过该技术，但后来证明这些方法存在缺陷[KS06](https://www.win.tue.nl/~berry/papers/wic06.pdf), [MF06](https://link.springer.com/chapter/10.1007/11745853_30)。
   + 发表在EUROCRYPT 2007，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-540-72540-4_4)，[eprint](https://eprint.iacr.org/2008/049)
 + ***[GMS08]Efficient Two Party and Multi Party Computation Against Covert Adversaries***
-  + 针对Covert敌手提出了基于Cut-and-Choose技术的安全两方和多方计算技术
+  + 针对Covert敌手提出了基于Cut-and-Choose技术的安全两方和多方计算技术，该论文用随机种子来表示混淆电路，因此混淆电路打开的过程可以通过发送随机种子来实现
   + 发表在EUROCRYPT 2008，论文链接见[ICAR](https://iacr.org/archive/eurocrypt2008/49650287/49650287.pdf)，[Slides](https://www.iacr.org/conferences/eurocrypt2008/sessions/paymanMohosell_20080416.pdf)
 + ***[NO09]LEGO for Two Party Secure Computation***
   + 提出了基于门级Cut-and-Choose的安全两方计算协议
