@@ -54,6 +54,9 @@
 + ***[MS13]How to Hide Circuits in MPC: An Efficient Framework for Private Function Evaluation***
   + 提出了基于oblivious switching network evaluation (OSN)的半诚实安全多方和两方PFE
   + 论文发表在EUROCRYPT 2013，论文链接见[eprint](https://eprint.iacr.org/2013/137)
++ ***[MSS14]Actively Secure Private Function Evaluation***
+  + 在KM11和MS13的基础上基于零知识证明提出了恶意PFE，且具有线性复杂度
+  + 论文发表在ASIACRYPT 2014，论文链接见[eprint](https://eprint.iacr.org/2014/102)
 + ***[BBKL18]An Efficient 2-Party Private Function Evaluation Protocol Based on Half Gates***
   + 基于Half-Gates技术将MS13中的安全两方PFE中OT数量减少到原来的一半
   + 发表在The Computer Journal 2018，论文链接见[eprint](https://eprint.iacr.org/2017/415)
@@ -82,7 +85,7 @@
   + 提出用同态加密来隐藏电路拓扑结构，基于混淆电路来实现常数轮的具有线性复杂度的PFE
   + 论文发表在ASIACRYPT 2011，论文链接见[eprint](https://eprint.iacr.org/2010/528)
 + ***[MSS14]Actively Secure Private Function Evaluation***
-  + 在KM11的基础上基于零知识证明提出了恶意PFE，且具有线性复杂度
+  + 在KM11和MS13的基础上基于零知识证明提出了恶意PFE，且具有线性复杂度
   + 论文发表在ASIACRYPT 2014，论文链接见[eprint](https://eprint.iacr.org/2014/102)
 + ***[BBKL18]Highly-Efficient and Reusable Private Function Evaluation with Linear Complexity***
   + 基于KM11提出了可重用的线性复杂度的两方PFE，该PFE构造具有可重用的属性。相比于KMM，其在第一次执行时总通信量略低，但在线计算量比KM11高出约四倍。后续运行具有相同函数的协议在通信和计算方面都比KM11更高效。
