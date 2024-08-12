@@ -2,7 +2,7 @@
 
 私有函数评估（Private Function Evaluation，PFE）是一种密码学技术，旨在允许参与方在不泄露输入数据和函数内容的前提下，安全地评估一个函数。PFE的典型场景是多个参与方分别持有自己的私有数据和一个需要评估的函数，其中函数的内容对于输入方也是保密的。PFE确保在计算过程中，输入方无法得知函数的具体形式，而函数持有方也无法获取输入数据的详细信息。
 
-<img width="994" alt="image" src="https://github.com/user-attachments/assets/2466aeee-ea00-4c63-89cb-466157b1feff">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/2466aeee-ea00-4c63-89cb-466157b1feff">
 
 另外，Semi-Private Function Evaluation (SPFE)被提出，与 PFE 不同，SPFE 不会隐藏整个函数，而是会泄露某些子函数的拓扑。SPFE 可应用于特定函数组件已公开的 PFE 场景，这种方法在某些函数细节已公开的情况下特别有用，通常用于促销目的。汽车保险公司为经验丰富的驾驶员提供折扣就是一个例子。
 
@@ -15,7 +15,7 @@
 + **HE-based PFE**：基于HE的PFE利用同态加密（但不是全同态加密）来隐藏布尔电路的拓扑结构，尽管看起来比较笨重，但是现有结果表明该构造是实用的
 + **TEE-based PFE**：基于TEE的PFE需要依赖特定的硬件，例如 Intel SGX，而且适合电路较小的情况（目前正在研究的TDX能够在一定程度上能支持较大电路的计算）
 
-<img width="1215" alt="image" src="https://github.com/user-attachments/assets/be7f328c-2a41-49f6-be25-264335cef3b5">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/be7f328c-2a41-49f6-be25-264335cef3b5">
 
 * Table 1来自于 [[DGS+23]Breaking the Size Barrier: Universal Circuits meet Lookup Tables](https://eprint.iacr.org/2022/1652.pdf)
 * 上述总结的结论来自于[[HKRS20]Linear-Complexity Private Function Evaluation is Practical](https://eprint.iacr.org/2020/853)
@@ -57,13 +57,22 @@
 + ***[BBKL18]An Efficient 2-Party Private Function Evaluation Protocol Based on Half Gates***
   + 基于Half-Gates技术将MS13中的安全两方PFE中OT数量减少到原来的一半
   + 发表在The Computer Journal 2018，论文链接见[eprint](https://eprint.iacr.org/2017/415)
+
+注：根据AGKS20的实现，实验显示MS13和BBKL18的通信效率都比基于UC的PFE差。而且，基于UC的PFE和基于OSN的PFE方案不可避免地会产生对数开销。见AGKS20图17和18（如下）
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/86087c99-d94e-4d4a-9dfe-1a6b346d8869">
+
 + ***[ZXZ22]Topology-hiding garbled circuits without universal circuits**
   + 通过提出拓扑隐藏的GC协议，设计了两轮的PFE协议
   + 发表在International Journal of Information Security，论文链接见[springer](https://link.springer.com/article/10.1007/s10207-021-00556-5)
-
-注：根据AGKS20的实现，实验显示MS13和BBKL18的通信效率都比基于UC的PFE差。而且，基于UC的PFE和基于OSN的PFE方案不可避免地会产生对数开销。见AGKS20图17和18（如下）
-
-<img width="1061" alt="image" src="https://github.com/user-attachments/assets/86087c99-d94e-4d4a-9dfe-1a6b346d8869">
++ ***[LWY22]Making Private Function Evaluation Safer, Faster, and Simpler***
+  + 基于OSN和ZK实现了恶意安全和公开可验证隐蔽安全两方计算协议，同时保持常数轮和线性复杂度
+  + 论文发表在PKC 2022，论文链接见[eprint](https://eprint.iacr.org/2021/1682)
++ ***[JLL+22]Generic 2-Party PFE with Constant Rounds and Linear Active Security, and Efficient Instantiation***
+  + LWY22的优化，去掉了可重用属性，但使得第一次执行很高效
+  + 发表在SecureComm 2022，论文链接见[springer](https://link.springer.com/chapter/10.1007/978-3-031-25538-0_21)
++ ***[XJL+23]Constant-Round Multiparty Private Function Evaluation with (Quasi-)Linear Complexities***
+  + 基于OSN和HE实现了常数轮的多方半诚实PFE协议
+  + 发表在ACNS 2023，论文链接见[springer](https://link.springer.com/chapter/10.1007/978-3-031-33491-7_5)
 
 
 ## 2.3 基于HE的PFE
@@ -77,14 +86,9 @@
 + ***[BBKL18]Highly-Efficient and Reusable Private Function Evaluation with Linear Complexity***
   + 基于KM11提出了可重用的线性复杂度的两方PFE，该PFE构造具有可重用的属性。相比于KMM，其在第一次执行时总通信量略低，但在线计算量比KM11高出约四倍。后续运行具有相同函数的协议在通信和计算方面都比KM11更高效。
   + 论文发表在TDSC 2020，论文链接见[IEEE](https://ieeexplore.ieee.org/document/9141372), [eprint](https://eprint.iacr.org/2018/515)
-+ ***[LWY22]Making Private Function Evaluation Safer, Faster, and Simpler***
-  + 基于OSN和ZK实现了恶意安全和公开可验证隐蔽安全两方计算协议，同时保持常数轮和线性复杂度
-  + 论文发表在PKC 2022，论文链接见[eprint](https://eprint.iacr.org/2021/1682)
 + ******
   + 123
   + 论文发表在，论文链接见[]()
-
-
 
 
 
@@ -99,6 +103,8 @@
 
 
 ## 2.5 Semi-PFE
+
+注：这部分工作主要关注电路隐藏
 
 + ***[PSS09]Practical Secure Evaluation of Semi-Private Functions***
   + 首次提出Semi-PFE，其提供了几个构建块，这些构建块可以用一类函数中的一个函数进行编程（例如，ADD/SUB 的电路具有相同的拓扑结构）
