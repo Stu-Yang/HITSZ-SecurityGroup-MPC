@@ -10,10 +10,10 @@
 
 相比于安全函数评估（Secure Function Evaluation， SFE），私有函数评估（Private Function Evaluation，PFE）研究较少，主要通过论文进行学习，在下面的相关论文中，对现有的PFE技术路线进行了分类，下面用表格的形式进行总结。
 
-+ UC-based PFE：基于Universal Circuit的PFE，该方法将PFE归约到SFE，但是电路大小为$O(n \log n)$，$n$是原电路大小，而且现有构造已经达到了最常见UC构造方式的下限，因此预计不会有显著的改进。（如Table 1所示）
-+ OT-based PFE：基于OT的PFE采用 oblivious evaluation of a switching network技术来隐藏布尔电路的拓扑结构，然而现有基于OT的构造通信量会比基于UC的构造大
-+ HE-based PFE：基于HE的PFE利用同态加密（但不是全同态加密）来隐藏布尔电路的拓扑结构，尽管看起来比较笨重，但是现有结果表明该构造是实用的
-+ TEE-based PFE：基于TEE的PFE需要依赖特定的硬件，例如 Intel SGX，而且适合电路较小的情况（目前正在研究的TDX能够在一定程度上能支持较大电路的计算）
++ **UC-based PFE**：基于Universal Circuit的PFE，该方法将PFE归约到SFE，但是电路大小为$O(n \log n)$，$n$是原电路大小，而且现有构造已经达到了最常见UC构造方式的下限，因此预计不会有显著的改进。（如Table 1所示）
++ **OT-based PFE**：基于OT的PFE采用oblivious evaluation of a switching network技术来隐藏布尔电路的拓扑结构，然而现有基于OT的构造通信量会比基于UC的构造大
++ **HE-based PFE**：基于HE的PFE利用同态加密（但不是全同态加密）来隐藏布尔电路的拓扑结构，尽管看起来比较笨重，但是现有结果表明该构造是实用的
++ **TEE-based PFE**：基于TEE的PFE需要依赖特定的硬件，例如 Intel SGX，而且适合电路较小的情况（目前正在研究的TDX能够在一定程度上能支持较大电路的计算）
 
 <img width="1215" alt="image" src="https://github.com/user-attachments/assets/be7f328c-2a41-49f6-be25-264335cef3b5">
 
