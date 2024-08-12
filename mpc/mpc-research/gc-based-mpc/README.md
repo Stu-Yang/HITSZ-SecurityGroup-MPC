@@ -164,21 +164,9 @@
 + ***[HEKM11]Faster Secure Two-Party Computation Using Garbled Circuits***
   + 优化了基于混淆电路的半诚实安全两方系统FairPlay的实现，并面向Hamming distance、Smith-Waterman genome alignment, and AES等任务设计了隐私保护计算协议
   + 发表在[USENIX 2011]([https://www.usenix.org/legacy/events/sec11/tech/full_papers/Huang.pdf](https://www.usenix.org/conference/usenix-security-11/faster-secure-two-party-computation-using-garbled-circuits))，论文链接见[usenix](https://www.usenix.org/legacy/events/sec11/tech/full_papers/Huang.pdf), [video](https://www.usenix.org/conference/usenix-security-11/faster-secure-two-party-computation-using-garbled-circuits), [slides](https://www.usenix.org/legacy/events/sec11/tech/slides/huang.pdf)，[source code](https://mightbeevil.org/)
-+ ***[SS11] Two-Output Secure Computation with Malicious Adversaries***
-  + 提出了基于Cut-and-Choose优化的安全两方计算，打开并检查 60% 的电路（而不是 50%），则误差变为 2−0.32s（s为Cut-and-Choose所需生成的电路，称为复制因子
-  + 论文发表在EUROCRYPTO 2011，论文链接见[eprint](https://eprint.iacr.org/2011/533)
-+ ***[LP11]Secure Two-Party Computation via Cut-and-Choose Oblivious Transfer***
-  + 提出了基于Cut-and-Choose优化的安全两方计算，对于复制因子s，敌手成功作弊的概率为2^−0.311s
-  + 论文发表在TCC 2011，论文链接见[eprint](https://eprint.iacr.org/2010/284.pdf)
 + :triangular_flag_on_post: ***[BHR12]Foundations of garbled circuits***
   + 系统介绍了混淆电路，阐述了现行混淆电路协议的主要框架
   + 论文发表在[CCS 2012](https://dl.acm.org/doi/10.1145/2382196.2382279)，论文链接见[CCS](https://dl.acm.org/doi/10.1145/2382196.2382279), [IACR-eprint](https://eprint.iacr.org/2012/265)
-+ ***[HKK+14]Amortizing Garbled Circuits***
-  + 提出了基于Cut-and-Choose的多次执行(multiple execution)的安全两方计算协议，之前[HKE13]和[Lin13]都只面向单次执行(single execution)，该协议依赖于cheating-punishment机制
-  + 论文发表在CRYPTO 2014，论文链接见[eprint](https://eprint.iacr.org/2015/081.pdf)
-+ :triangular_flag_on_post: ***[LR14]Cut-and-Choose Yao-Based Secure Computation in the Online/Offline and Batch Settings***
-  + 提出了基于Cut-and-Choose的多次执行(multiple execution)的安全两方计算协议，和HKK+14不同的是，HKK+14总是让评估者挑选一半的电路进行检查，但改论文表明改变检查电路的数量可以带来额外的性能提升。
-  + 论文发表在CRYPTO 2014，论文链接见[springer](https://link.springer.com/chapter/10.1007/978-3-662-44381-1_27)，[eprint](https://eprint.iacr.org/2014/667)
 + :triangular_flag_on_post:***[KMR14]FleXOR: Flexible garbling for XOR gates that beats free-XOR***
   + 提出了混淆电路优化技术FleXOR
   + 论文发表在CRYPTO 2014，论文链接见[eprint](https://eprint.iacr.org/2014/460)
@@ -188,9 +176,6 @@
 + ***[GLNP15]Fast Garbling of Circuits Under Standard Assumptions***
   + 混淆电路的Free-XOR、Fle-XOR和Half-Gates优化技术都基于CCR假设，该论文考虑了标准假设（PRF）下的混淆电路优化技术
   + 论文发表在CCS 2015，论文链接见[eprint](https://eprint.iacr.org/2015/751)
-+ ***[LR15]Blazing Fast 2PC in the Offline/Online Setting with Security for Malicious Adversaries***
-  + LR14的优化和实现
-  + 论文发表在CCS 2020，论文链接见[eprint](https://eprint.iacr.org/2015/987)
 + ***[GKW+20]Better Concrete Security for Half-Gates Garbling (in the Multi-Instance Setting)***
   + 提出了多次执行设置下的Half-Gates Garbling方案，之前的方案在多次执行中存在漏洞
   + 论文发表在CRYPTO 2020，论文链接见[eprint](http://eprint.iacr.org/2019/1168)，[code](https://github.com/emp-toolkit/emp-tool/blob/master/emp-tool/utils/mitccrh.h)
@@ -216,6 +201,18 @@
 + :triangular_flag_on_post: ***[HKE12]Quid-Pro-Quo-tocols: Strengthening Semi-Honest Protocols with Dual Execution***
   + Quid-Pro-Quo-tocols意为等价交换，该论文是针对基于Dual Execution的恶意安全两方计算协议的优化
   + 论文发表在[SP 2012](https://ieeexplore.ieee.org/document/6234418)，论文链接见[IEEE SP 2012](https://ieeexplore.ieee.org/document/6234418)，[Huang](https://homes.luddy.indiana.edu/yh33/mypub/mal-sec-two-party-comp.pdf)
++ ***[SS11] Two-Output Secure Computation with Malicious Adversaries***
+  + 提出了基于Cut-and-Choose优化的安全两方计算，打开并检查 60% 的电路（而不是 50%），则误差变为 2−0.32s（s为Cut-and-Choose所需生成的电路，称为复制因子
+  + 论文发表在EUROCRYPTO 2011，论文链接见[eprint](https://eprint.iacr.org/2011/533)
++ ***[LP11]Secure Two-Party Computation via Cut-and-Choose Oblivious Transfer***
+  + 提出了基于Cut-and-Choose优化的安全两方计算，对于复制因子s，敌手成功作弊的概率为2^−0.311s
+  + 论文发表在TCC 2011，论文链接见[eprint](https://eprint.iacr.org/2010/284.pdf)
++ ***[HKK+14]Amortizing Garbled Circuits***
+  + 提出了基于Cut-and-Choose的多次执行(multiple execution)的安全两方计算协议，之前[HKE13]和[Lin13]都只面向单次执行(single execution)，该协议依赖于cheating-punishment机制
+  + 论文发表在CRYPTO 2014，论文链接见[eprint](https://eprint.iacr.org/2015/081.pdf)
++ :triangular_flag_on_post: ***[LR14]Cut-and-Choose Yao-Based Secure Computation in the Online/Offline and Batch Settings***
+  + 提出了基于Cut-and-Choose的多次执行(multiple execution)的安全两方计算协议，和HKK+14不同的是，HKK+14总是让评估者挑选一半的电路进行检查，但改论文表明改变检查电路的数量可以带来额外的性能提升。
+  + 论文发表在CRYPTO 2014，论文链接见[springer](https://link.springer.com/chapter/10.1007/978-3-662-44381-1_27)，[eprint](https://eprint.iacr.org/2014/667)
 + ***[HKE13]Efficient Secure Two-Party Computation Using Symmetric Cut-and-Choose***
   + 研究了对称Cut-and-Choose技术，即双方都执行Cut-and-Choose，从而能将混淆电路副本数量减小3倍
   + 论文发表在CRYPTO 2013，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-40084-1_2)，[eprint](https://eprint.iacr.org/2013/081)
@@ -228,6 +225,9 @@
 + ***[FJN+13]MiniLEGO: Efficient Secure Two-Party Computation From General Assumptions*** 
   + 门级Cut-and-Choose技术LEGO的优化
   + 发表在EUROCRYPT 2013，论文链接见[eprint](https://eprint.iacr.org/2013/155)
++ ***[LR15]Blazing Fast 2PC in the Offline/Online Setting with Security for Malicious Adversaries***
+  + LR14的优化和实现
+  + 论文发表在CCS 2020，论文链接见[eprint](https://eprint.iacr.org/2015/987)
 + ***[ZHKS16]The Cut-and-Choose Game and Its Application to Cryptographic Protocols***
   + 分析了Cut-and-Choose的三种情况：SingleCut、MajorityCut和BatchedCut，通过参数分析和算法求解得到最优情况
   + 论文发表在USENIX 2016，论文链接见[usenix](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/zhu)，[slides](https://www.usenix.org/sites/default/files/conference/protected-files/security16_slides_zhu.pdf)
