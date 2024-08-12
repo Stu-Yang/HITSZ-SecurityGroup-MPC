@@ -59,9 +59,10 @@
   + 发表在The Computer Journal 2018，论文链接见[eprint](https://eprint.iacr.org/2017/415)
 
 注：根据AGKS20的实现，实验显示MS13和BBKL18的通信效率都比基于UC的PFE差。而且，基于UC的PFE和基于OSN的PFE方案不可避免地会产生对数开销。见AGKS20图17和18（如下）
+
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/86087c99-d94e-4d4a-9dfe-1a6b346d8869">
 
-+ ***[ZXZ22]Topology-hiding garbled circuits without universal circuits**
++ ***[ZXZ22]Topology-hiding garbled circuits without universal circuits***
   + 通过提出拓扑隐藏的GC协议，设计了两轮的PFE协议
   + 发表在International Journal of Information Security，论文链接见[springer](https://link.springer.com/article/10.1007/s10207-021-00556-5)
 + ***[LWY22]Making Private Function Evaluation Safer, Faster, and Simpler***
@@ -86,10 +87,9 @@
 + ***[BBKL18]Highly-Efficient and Reusable Private Function Evaluation with Linear Complexity***
   + 基于KM11提出了可重用的线性复杂度的两方PFE，该PFE构造具有可重用的属性。相比于KMM，其在第一次执行时总通信量略低，但在线计算量比KM11高出约四倍。后续运行具有相同函数的协议在通信和计算方面都比KM11更高效。
   + 论文发表在TDSC 2020，论文链接见[IEEE](https://ieeexplore.ieee.org/document/9141372), [eprint](https://eprint.iacr.org/2018/515)
-+ ******
-  + 123
-  + 论文发表在，论文链接见[]()
-
++ ***[XJL+23]Constant-Round Multiparty Private Function Evaluation with (Quasi-)Linear Complexities***
+  + 基于OSN和HE实现了常数轮的多方半诚实PFE协议
+  + 发表在ACNS 2023，论文链接见[springer](https://link.springer.com/chapter/10.1007/978-3-031-33491-7_5)
 
 
 ## 2.4 基于TEE的PFE
