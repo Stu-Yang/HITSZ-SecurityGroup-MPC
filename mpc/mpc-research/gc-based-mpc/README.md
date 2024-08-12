@@ -17,6 +17,125 @@
   + 针对一些混淆电路设计和实现，通过阅读下面的论文进行学习
   + [Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)整理了一系列论文，见[An Annotated Bibliography of Practical Secure Computation](https://web.engr.oregonstate.edu/~rosulekm/scbib/index.php)
 
+下面对混淆电路协议进行一个分类和总结
+
+### 1.1 半诚实混淆电路协议
+
+<table>
+  <tr>
+    <th rowspan="2">scheme</th>
+    <th colspan="2">GC size (κ bits / gate)</th>
+    <th colspan="2">Calls to H per gate (Garbler)</th>
+    <th colspan="2">Calls to H per gate (Evaluator)</th>
+    <th rowspan="2">assump.</th>
+  </tr>
+  <tr>
+    <th>AND</th>
+    <th>XOR</th>
+    <th>AND</th>
+    <th>XOR</th>
+    <th>AND</th>
+    <th>XOR</th>
+  </tr>
+  <tr>
+    <td>Textbook Yao [Yao86]</td>
+    <td>8</td>
+    <td>8</td>
+    <td>4</td>
+    <td>4</td>
+    <td>2.5</td>
+    <td>2.5</td>
+    <td>PRF</td>
+  </tr>
+  <tr>
+    <td>Yao + point-permute [BMR90]</td>
+    <td>4</td>
+    <td>4</td>
+    <td>4</td>
+    <td>4</td>
+    <td>1</td>
+    <td>1</td>
+    <td>PRF</td>
+  </tr>
+  <tr>
+    <td>4 → 3 row reduction [NPS99]</td>
+    <td>3</td>
+    <td>3</td>
+    <td>4</td>
+    <td>4</td>
+    <td>1</td>
+    <td>1</td>
+    <td>PRF</td>
+  </tr>
+  <tr>
+    <td>4 → 2 row reduction [PSSW09]</td>
+    <td>2</td>
+    <td>2</td>
+    <td>4</td>
+    <td>4</td>
+    <td>1</td>
+    <td>1</td>
+    <td>PRF</td>
+  </tr>
+  <tr>
+    <td>Free-XOR [KS08]</td>
+    <td>3</td>
+    <td>0</td>
+    <td>4</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>CCR</td>
+  </tr>
+  <tr>
+    <td>FleXOR [KMR14]</td>
+    <td>2</td>
+    <td>{0,1,2}</td>
+    <td>4</td>
+    <td>{0,2,4}</td>
+    <td>1</td>
+    <td>{0,1,2}</td>
+    <td>CCR</td>
+  </tr>
+  <tr>
+    <td>Half-Gates [ZRE15]</td>
+    <td>2</td>
+    <td>0</td>
+    <td>4</td>
+    <td>0</td>
+    <td>2</td>
+    <td>0</td>
+    <td>CCR</td>
+  </tr>
+  <tr>
+    <td>[GLNP15]</td>
+    <td>2</td>
+    <td>1</td>
+    <td>4</td>
+    <td>3</td>
+    <td>2</td>
+    <td>1.5</td>
+    <td>PRF</td>
+  </tr>
+  <tr>
+    <td>Three Halves [RR21]</td>
+    <td>1.5</td>
+    <td>0</td>
+    <td>≤6</td>
+    <td>0</td>
+    <td>≤3</td>
+    <td>0</td>
+    <td>CCR</td>
+  </tr>
+</table>
+
+* Table is from [[RR21]Three Halves Make a Whole? Beating the Half-Gates Lower Bound for Garbled Circuits](https://eprint.iacr.org/2021/749)
+* H: Hash; PRF: Pseudo Random Function; CCR: Circular Correlation Robust Hash Function
+
+### 1.2 恶意混淆电路协议
+
+
+
 
 ## 2. 混淆电路相关论文
 
@@ -89,9 +208,9 @@
 + ******
   + 123
   + 论文发表在，论文链接见[]()
-+ ******
-  + 123
-  + 论文发表在，论文链接见[]()
++ ***[RR21]Three Halves Make a Whole? Beating the Half-Gates Lower Bound for Garbled Circuits***
+  + Half Gate技术的优化，可以将混淆表的大小降低至1.5个
+  + 论文发表在CRYPTO 2021，论文链接见[eprint](https://eprint.iacr.org/2021/749)
 
 
 
