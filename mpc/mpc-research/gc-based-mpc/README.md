@@ -135,7 +135,7 @@
 ### 1.2 恶意混淆电路协议
 
 + Cut-and-Choose-based 2PC：基于Cut-and-Choose的恶意安全两方计算协议
-+ Dual Excution-based 2PC：基于Dual Excution的恶意安全两方计算协议，也有扩展到四方的不诚实大多数安全四方计算协议
++ Dual Excution-based 2PC：基于Dual Excution的恶意安全两方计算协议，也有扩展到四方的不诚实大多数安全四方计算协议，该方法存在一比特的泄露
 + Authenticated Garbling-based 2PC/MPC：基于Authenticated Garbling可认证混淆电路的安全两方和多方计算协议
 
 
@@ -186,9 +186,7 @@
 
 ### 2.2 恶意混淆电路技术
 
-+ :triangular_flag_on_post: ***[MF06] Efficiency Tradeoffs for Malicious Two-Party Computation***
-  + 第一个提出Dual Execution的概念，并提出基于Dual Execution的恶意安全两方计算协议，该协议存在one-bit leakage
-  + 发表在PKC 2006，论文链接见[PKC 2006](https://www.iacr.org/archive/pkc2006/39580468/39580468.pdf), [Springer](https://link.springer.com/chapter/10.1007/11745853_30)
+#### 2.2.1 基于Cut-and-Choose的恶意安全两方计算协议
 + :triangular_flag_on_post: ***[LP07]An efficient protocol for secure two-party computation in the presence of malicious adversaries***
   + 首次定义和证明cut-and-choose技术，Pinkas[Pin03](https://link.springer.com/content/pdf/10.1007/3-540-39200-9_6.pdf)和 Malkhi 等人[MNPS04](https://www.usenix.org/conference/13th-usenix-security-symposium/fairplay%E2%80%94-secure-two-party-computation-system)之前曾采用过该技术，但后来证明这些方法存在缺陷[KS06](https://www.win.tue.nl/~berry/papers/wic06.pdf), [MF06](https://link.springer.com/chapter/10.1007/11745853_30)。
   + 发表在EUROCRYPT 2007，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-540-72540-4_4)，[eprint](https://eprint.iacr.org/2008/049)
@@ -198,9 +196,6 @@
 + ***[NO09]LEGO for Two Party Secure Computation***
   + 提出了基于门级Cut-and-Choose的安全两方计算协议
   + 发表在TCC 09，论文链接见[eprint](https://eprint.iacr.org/2008/427)
-+ :triangular_flag_on_post: ***[HKE12]Quid-Pro-Quo-tocols: Strengthening Semi-Honest Protocols with Dual Execution***
-  + Quid-Pro-Quo-tocols意为等价交换，该论文是针对基于Dual Execution的恶意安全两方计算协议的优化
-  + 论文发表在[SP 2012](https://ieeexplore.ieee.org/document/6234418)，论文链接见[IEEE SP 2012](https://ieeexplore.ieee.org/document/6234418)，[Huang](https://homes.luddy.indiana.edu/yh33/mypub/mal-sec-two-party-comp.pdf)
 + ***[SS11] Two-Output Secure Computation with Malicious Adversaries***
   + 提出了基于Cut-and-Choose优化的安全两方计算，打开并检查 60% 的电路（而不是 50%），则误差变为 2−0.32s（s为Cut-and-Choose所需生成的电路，称为复制因子
   + 论文发表在EUROCRYPTO 2011，论文链接见[eprint](https://eprint.iacr.org/2011/533)
@@ -231,21 +226,34 @@
 + ***[ZHKS16]The Cut-and-Choose Game and Its Application to Cryptographic Protocols***
   + 分析了Cut-and-Choose的三种情况：SingleCut、MajorityCut和BatchedCut，通过参数分析和算法求解得到最优情况
   + 论文发表在USENIX 2016，论文链接见[usenix](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/zhu)，[slides](https://www.usenix.org/sites/default/files/conference/protected-files/security16_slides_zhu.pdf)
++ ***[ZH17]JIMU: Faster LEGO-based Secure Computation using Additive Homomorphic Hashes***
+  + 基于优化LEGO-style cut-and-choose的安全两方计算协议，是LEGO的优化（避免使用homomorphic commitments）
+  + 论文发表在ASIACRYPT 2017，论文链接见[eprint](https://eprint.iacr.org/2017/226)
+
+#### 2.2.2 基于Dual Excution的恶意安全两方计算协议
+
++ :triangular_flag_on_post: ***[MF06] Efficiency Tradeoffs for Malicious Two-Party Computation***
+  + 第一个提出Dual Execution的概念，并提出基于Dual Execution的恶意安全两方计算协议，该协议存在one-bit leakage
+  + 发表在PKC 2006，论文链接见[PKC 2006](https://www.iacr.org/archive/pkc2006/39580468/39580468.pdf), [Springer](https://link.springer.com/chapter/10.1007/11745853_30)
++ :triangular_flag_on_post: ***[HKE12]Quid-Pro-Quo-tocols: Strengthening Semi-Honest Protocols with Dual Execution***
+  + Quid-Pro-Quo-tocols意为等价交换，该论文是针对基于Dual Execution的恶意安全两方计算协议的优化
+  + 论文发表在[SP 2012](https://ieeexplore.ieee.org/document/6234418)，论文链接见[IEEE SP 2012](https://ieeexplore.ieee.org/document/6234418)，[Huang](https://homes.luddy.indiana.edu/yh33/mypub/mal-sec-two-party-comp.pdf)
++ ***[GRW18]Secure Computation with Low Communication from Cross-checking***
+  + 诚实大多数设置下的恶意安全四方计算，提出了四方的Dual Execution技术
+  + 论文发表在ASIACRYPT 2018，论文链接见[eprint](https://eprint.iacr.org/2018/216)
+
+
+#### 2.2.3 基于Authenticated Garbling可认证混淆电路的安全两方和多方计算协议
+
 + ***[WRK17]Authenticated Garbling and Efficient Maliciously Secure Two-Party Computation***
   + 提出可认证混淆电路技术，并基于该技术设计了恶意安全两方计算技术
   + 论文发表在CCS 2017，论文链接见[eprint](https://eprint.iacr.org/2017/030), [code](https://github.com/emp-toolkit/emp-ag2pc)
 + ***[WRK17]Global-Scale Secure Multi-Party Computation***
   + 基于可认证混淆电路的恶意安全多方计算技术
   + 论文发表在CCS 2017，论文链接见[eprint](http://eprint.iacr.org/2017/189), [code](https://github.com/emp-toolkit/emp-agmpc)
-+ ***[ZH17]JIMU: Faster LEGO-based Secure Computation using Additive Homomorphic Hashes***
-  + 基于优化LEGO-style cut-and-choose的安全两方计算协议，是LEGO的优化（避免使用homomorphic commitments）
-  + 论文发表在ASIACRYPT 2017，论文链接见[eprint](https://eprint.iacr.org/2017/226)
 + ***[KRRW18]Optimizing Authenticated Garbling for Faster Secure Two-Party Computation***
   + 基于优化可认证混淆电路的安全两方计算协议
   + 论文发表在CRYPTO 2018，论文链接见[eprint](https://eprint.iacr.org/2018/578)
-+ ***[GRW18]Secure Computation with Low Communication from Cross-checking***
-  + 诚实大多数设置下的恶意安全四方计算，提出了四方的Dual Execution技术
-  + 论文发表在ASIACRYPT 2018，论文链接见[eprint](https://eprint.iacr.org/2018/216)
 + ***[CWYY23]Actively Secure Half-Gates with Minimum Overhead under Duplex Networks***
   + 提出恶意安全的Half-Gates安全两方计算
   + 论文发表在EUROCRYPT 2023，论文链接见[eprint](https://eprint.iacr.org/2023/278)
