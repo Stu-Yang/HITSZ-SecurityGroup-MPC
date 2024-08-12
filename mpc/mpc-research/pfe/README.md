@@ -20,14 +20,12 @@
 * Table 1来自于 [[DGS+23]Breaking the Size Barrier: Universal Circuits meet Lookup Tables](https://eprint.iacr.org/2022/1652.pdf)
 * 上述总结的结论来自于[[HKRS20]Linear-Complexity Private Function Evaluation is Practical](https://eprint.iacr.org/2020/853)
 
-| Methodology |  Num. of Parties | Security Model | Constant-Round | Linear Complexity |
-|:--------:|:----------------:|:--------------:|:--------------:|:-----------------:|
-|  UC-based PFE | 
+|  Protocol   | Methodology |  Num. of Parties | Security Model |     Round     | Circuits Complexity |
+|:-----------:|:-----------:|:----------------:|:--------------:|:--------------:|:-----------------:|
+|    [LWY22]  |      OT     |         2        | Mal. and PVC   | Constant      |         O(n)       |
 
+* SH stands for Semi-Honest, Mal. stands for Malicious, and PVC stands for Publicly Verifiable Covertly
 
-| **Semi-Honest** | Row 1, Col 2 | Row 1, Col 3 |
-| **Malicious** | Row 2, Col 2 | Row 2, Col 3 |
-| **Publicly Verifiable Covertly** | Row 3, Col 2 | Row 3, Col 3 |
 
   
 
