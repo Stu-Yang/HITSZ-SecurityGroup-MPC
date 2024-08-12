@@ -142,6 +142,12 @@
 + ***[Yao86]How to generate and exchange secrets***
   + 混淆电路的开山之作（建议瞻仰，不建议阅读，因为没有阐述现行混淆电路协议的主要框架）
   + 发表在FOCS 1986，论文链接见[IEEE](https://ieeexplore.ieee.org/abstract/document/4568207)，[github](https://mit6875.github.io/FA23HANDOUTS/yao-garbled-circuits.pdf)
++ ***[BMR90]The round complexity of secure protocols (extended abstract)***
+  + Yao86的多方版本，提出了point-permute技术
+  + 发表在STOC 1990，论文链接见[ACM STOC](https://dl.acm.org/doi/abs/10.1145/100216.100287)
++ ***[NPS09]Privacy Preserving Auctions and Mechanism Design***
+  + 基于GC的应用，提出了4 → 3 row reduction优化技术
+  + 发表在EC 1999，论文链接见[ACM EC](https://dl.acm.org/doi/10.1145/336992.337028), [web-Moni Naor](https://www.wisdom.weizmann.ac.il/~naor/PAPERS/nps.pdf)
 + ***[MNPS04]Fairplay—A Secure Two-Party Computation System***
   + 第一个安全两方计算系统实现，基于混淆电路技术
   + 发表在USENIX 2004，论文链接见[usenix](https://www.usenix.org/conference/13th-usenix-security-symposium/fairplay%E2%80%94-secure-two-party-computation-system)
@@ -154,9 +160,15 @@
 + ***[GMS08]Efficient Two Party and Multi Party Computation Against Covert Adversaries***
   + 针对Covert敌手提出了基于Cut-and-Choose技术的安全两方和多方计算技术，该论文用随机种子来表示混淆电路，因此混淆电路打开的过程可以通过发送随机种子来实现
   + 发表在EUROCRYPT 2008，论文链接见[ICAR](https://iacr.org/archive/eurocrypt2008/49650287/49650287.pdf)，[Slides](https://www.iacr.org/conferences/eurocrypt2008/sessions/paymanMohosell_20080416.pdf)
++ ***[KS08]Improved Garbled Circuit: Free XOR Gates and Applications***
+  + 针对混淆电路提出了优化技术Free-XOR
+  + 发表在ICALP 2008，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-540-70583-3_40)
 + ***[NO09]LEGO for Two Party Secure Computation***
   + 提出了基于门级Cut-and-Choose的安全两方计算协议
   + 发表在TCC 09，论文链接见[eprint](https://eprint.iacr.org/2008/427)
++ ***[PSSW09]Secure Two-Party Computation is Practical***
+  + 提出了基于GC的实用安全两方计算协议设计和实现，提出了4 → 2 row reduction优化技术
+  + 论文发表在ASIACRYPT 2009，论文链接见[eprint](https://eprint.iacr.org/2009/314)
 + ***[HEKM11]Faster Secure Two-Party Computation Using Garbled Circuits***
   + 优化了基于混淆电路的半诚实安全两方系统FairPlay的实现，并面向Hamming distance、Smith-Waterman genome alignment, and AES等任务设计了隐私保护计算协议
   + 发表在[USENIX 2011]([https://www.usenix.org/legacy/events/sec11/tech/full_papers/Huang.pdf](https://www.usenix.org/conference/usenix-security-11/faster-secure-two-party-computation-using-garbled-circuits))，论文链接见[usenix](https://www.usenix.org/legacy/events/sec11/tech/full_papers/Huang.pdf), [video](https://www.usenix.org/conference/usenix-security-11/faster-secure-two-party-computation-using-garbled-circuits), [slides](https://www.usenix.org/legacy/events/sec11/tech/slides/huang.pdf)，[source code](https://mightbeevil.org/)
@@ -190,6 +202,15 @@
 + :triangular_flag_on_post: ***[LR14]Cut-and-Choose Yao-Based Secure Computation in the Online/Offline and Batch Settings***
   + 提出了基于Cut-and-Choose的多次执行(multiple execution)的安全两方计算协议，和HKK+14不同的是，HKK+14总是让评估者挑选一半的电路进行检查，但改论文表明改变检查电路的数量可以带来额外的性能提升。
   + 论文发表在CRYPTO 2014，论文链接见[springer](https://link.springer.com/chapter/10.1007/978-3-662-44381-1_27)，[eprint](https://eprint.iacr.org/2014/667)
++ ***[KMR14]FleXOR: Flexible garbling for XOR gates that beats free-XOR***
+  + 提出了混淆电路优化技术FleXOR
+  + 论文发表在CRYPTO 2014，论文链接见[eprint](https://eprint.iacr.org/2014/460)
++ ***[ZRE15]Two Halves Make a Whole: Reducing Data Transfer in Garbled Circuits using Half Gates***
+  + 提出了混淆电路优化技术Half-Gates
+  + 论文发表在EUROCRYPTO 2015，论文链接见[eprint](https://eprint.iacr.org/2014/756.pdf)
++ ***[GLNP15]Fast Garbling of Circuits Under Standard Assumptions***
+  + 混淆电路的Free-XOR、Fle-XOR和Half-Gates优化技术都基于CCR假设，该论文考虑了标准假设（PRF）下的混淆电路优化技术
+  + 论文发表在CCS 2015，论文链接见[eprint](https://eprint.iacr.org/2015/751)
 + ***[LR15]Blazing Fast 2PC in the Offline/Online Setting with Security for Malicious Adversaries***
   + LR14的优化和实现
   + 论文发表在CCS 2020，论文链接见[eprint](https://eprint.iacr.org/2015/987)
