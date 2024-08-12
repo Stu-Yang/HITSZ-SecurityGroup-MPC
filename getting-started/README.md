@@ -51,3 +51,9 @@ MPC课题方面的编程语言主要是C++，研究生课程的课程项目使�
 + [C++语言程序设计基础](https://www.xuetangx.com/course/THU08091000247/10322314)
 + [C++语言程序设计进阶](https://www.xuetangx.com/course/THU08091000248/10318294)
 + [Python语言程序设计](https://www.icourse163.org/course/BIT-268001?tid=1467117627)
+
+### 3.3 密码学基础
++ [密码学 I](https://www.coursera.org/learn/cryptography)
++ [密码学 II](https://www.coursera.org/learn/crypto)
++ [MIT 6.875 (Cryptography), Spring 2018](https://www.youtube.com/playlist?list=PL6ogFv-ieghe8MOIcpD6UDtdK-UMHG8oH)
+
