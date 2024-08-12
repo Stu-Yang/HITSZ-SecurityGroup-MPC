@@ -134,7 +134,11 @@
 
 ### 1.2 恶意混淆电路协议
 
-
+|           技术路线        |          1       |      2      |  Remark    |
+|:------------------------:|:----------------:|:------------:|:------------:|
+| Cut-and-Choose-based 2PC |                   |              |              |
+| Dual Excution-based 2PC |                    |              |              |
+| Authenticated Garbling-based 2PC/MPC |                    |              |              |
 
 
 ## 2. 混淆电路相关论文
@@ -217,22 +221,30 @@
 + ***[ZHKS16]The Cut-and-Choose Game and Its Application to Cryptographic Protocols***
   + 分析了Cut-and-Choose的三种情况：SingleCut、MajorityCut和BatchedCut，通过参数分析和算法求解得到最优情况
   + 论文发表在USENIX 2016，论文链接见[usenix](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/zhu)，[slides](https://www.usenix.org/sites/default/files/conference/protected-files/security16_slides_zhu.pdf)
++ ***[WRK17]Authenticated Garbling and Efficient Maliciously Secure Two-Party Computation***
+  + 提出可认证混淆电路技术，并基于该技术设计了恶意安全两方计算技术
+  + 论文发表在CCS 2017，论文链接见[eprint](https://eprint.iacr.org/2017/030), [code](https://github.com/emp-toolkit/emp-ag2pc)
++ ***[WRK17]Global-Scale Secure Multi-Party Computation***
+  + 基于可认证混淆电路的恶意安全多方计算技术
+  + 论文发表在CCS 2017，论文链接见[eprint](http://eprint.iacr.org/2017/189), [code](https://github.com/emp-toolkit/emp-agmpc)
 + ***[ZH17]JIMU: Faster LEGO-based Secure Computation using Additive Homomorphic Hashes***
   + 基于优化LEGO-style cut-and-choose的安全两方计算协议，是LEGO的优化（避免使用homomorphic commitments）
   + 论文发表在ASIACRYPT 2017，论文链接见[eprint](https://eprint.iacr.org/2017/226)
-+ ******
-  + 123
-  + 论文发表在，论文链接见[]()
-+ ******
-  + 123
-  + 论文发表在，论文链接见[]()
-+ ******
-  + 123
-  + 论文发表在，论文链接见[]()
++ ***[KRRW18]Optimizing Authenticated Garbling for Faster Secure Two-Party Computation***
+  + 基于优化可认证混淆电路的安全两方计算协议
+  + 论文发表在CRYPTO 2018，论文链接见[eprint](https://eprint.iacr.org/2018/578)
++ ***[GRW18]Secure Computation with Low Communication from Cross-checking***
+  + 诚实大多数设置下的恶意安全四方计算，提出了四方的Dual Execution技术
+  + 论文发表在ASIACRYPT 2018，论文链接见[eprint](https://eprint.iacr.org/2018/216)
++ ***[GKW+20]Better Concrete Security for Half-Gates Garbling (in the Multi-Instance Setting)***
+  + 提出了多次执行设置下的Half-Gates Garbling方案，之前的方案在多次执行中存在漏洞
+  + 论文发表在CRYPTO 2020，论文链接见[eprint](http://eprint.iacr.org/2019/1168)，[code](https://github.com/emp-toolkit/emp-tool/blob/master/emp-tool/utils/mitccrh.h)
 + ***[RR21]Three Halves Make a Whole? Beating the Half-Gates Lower Bound for Garbled Circuits***
   + Half Gate技术的优化，可以将混淆表的大小降低至1.5个
   + 论文发表在CRYPTO 2021，论文链接见[eprint](https://eprint.iacr.org/2021/749)
-
++ ***[CWYY23]Actively Secure Half-Gates with Minimum Overhead under Duplex Networks***
+  + 提出恶意安全的Half-Gates安全两方计算
+  + 论文发表在EUROCRYPT 2023，论文链接见[eprint](https://eprint.iacr.org/2023/278)
 
 
 
