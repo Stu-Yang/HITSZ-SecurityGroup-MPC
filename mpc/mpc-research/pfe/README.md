@@ -20,26 +20,98 @@
 * Table 1来自于 [[DGS+23]Breaking the Size Barrier: Universal Circuits meet Lookup Tables](https://eprint.iacr.org/2022/1652.pdf)
 * 上述总结的结论来自于[[HKRS20]Linear-Complexity Private Function Evaluation is Practical](https://eprint.iacr.org/2020/853)
 
+
+# 2. PFE相关论文
+
 |  Protocol   | Methodology |  Num. of Parties | Security Model |     Round     | Circuits Complexity |
 |:-----------:|:-----------:|:----------------:|:--------------:|:--------------:|:-----------------:|
+
+
+
+
 |    [LWY22]  |      OT     |         2        | Mal. and PVC   | Constant      |         O(n)       |
 
 * SH stands for Semi-Honest, Mal. stands for Malicious, and PVC stands for Publicly Verifiable Covertly
 
+## 2.1 基于UC的PFE
 
-  
++ ***[ZYZL19]Valiant’s Universal Circuits Revisited: an Overall Improvement and a Lower Bound***
+  + 提出了电路大小为4.5n log n的UC构造，其中n是原模拟电路大小
+  + 论文发表在ASIACRYPT 2019，论文链接见[eprint](https://eprint.iacr.org/2018/943)
++ ***[AGKS20]Effcient and Scalable Universal Circuits***
+  + ZYZL19的优化和实现
+  + 论文发表在JOC 2020，论文链接见[eprint](https://eprint.iacr.org/2019/348)
++ ***[LYZ+20]Pushing the Limits of Valiant's Universal Circuits: Simpler, Tighter and More Compact***
+  + 提出了电路大小为∼3n log n的UC构造
+  + 论文发表在CRYPTO 2020，论文链接见[eprint](https://eprint.iacr.org/2020/161.pdf)
++ ***[DGS+23]Breaking the Size Barrier: Universal Circuits meet Lookup Tables***
+  + 提出了电路大小为1.5ρn log n的UC构造，其中ρ是查找表的输入个数
+  + 论文发表在ASIACRYPT 2023，论文链接见[eprint](https://eprint.iacr.org/2022/1652)
 
-# 2. PFE相关论文
 
+## 2.2 基于OT的PFE
+
++ ***[MS13]How to Hide Circuits in MPC: An Efficient Framework for Private Function Evaluation***
+  + 提出了基于oblivious switching network evaluation (OSN)的半诚实安全多方和两方PFE
+  + 论文发表在EUROCRYPT 2013，论文链接见[eprint](https://eprint.iacr.org/2013/137)
++ ***[BBKL18]An Efficient 2-Party Private Function Evaluation Protocol Based on Half Gates***
+  + 基于Half-Gates技术将MS13中的安全两方PFE中OT数量减少到原来的一半
+  + 发表在The Computer Journal 2018，论文链接见[eprint](https://eprint.iacr.org/2017/415)
++ ***[ZXZ22]Topology-hiding garbled circuits without universal circuits**
+  + 通过提出拓扑隐藏的GC协议，设计了两轮的PFE协议
+  + 发表在International Journal of Information Security，论文链接见[springer](https://link.springer.com/article/10.1007/s10207-021-00556-5)
+
+注：根据AGKS20的实现，实验显示MS13和BBKL18的通信效率都比基于UC的PFE差。而且，基于UC的PFE和基于OSN的PFE方案不可避免地会产生对数开销。见AGKS20图17和18（如下）
+
+<img width="1061" alt="image" src="https://github.com/user-attachments/assets/86087c99-d94e-4d4a-9dfe-1a6b346d8869">
+
+
+## 2.3 基于HE的PFE
+
++ ***[KM11]Constant-Round Private Function Evaluation with Linear Complexity***
+  + 提出用同态加密来隐藏电路拓扑结构，基于混淆电路来实现常数轮的具有线性复杂度的PFE
+  + 论文发表在ASIACRYPT 2011，论文链接见[eprint](https://eprint.iacr.org/2010/528)
++ ***[MSS14]Actively Secure Private Function Evaluation***
+  + 在KM11的基础上基于零知识证明提出了恶意PFE，且具有线性复杂度
+  + 论文发表在ASIACRYPT 2014，论文链接见[eprint](https://eprint.iacr.org/2014/102)
++ ***[BBKL18]Highly-Efficient and Reusable Private Function Evaluation with Linear Complexity***
+  + 基于KM11提出了可重用的线性复杂度的两方PFE，该PFE构造具有可重用的属性。相比于KMM，其在第一次执行时总通信量略低，但在线计算量比KM11高出约四倍。后续运行具有相同函数的协议在通信和计算方面都比KM11更高效。
+  + 论文发表在TDSC 2020，论文链接见[IEEE](https://ieeexplore.ieee.org/document/9141372), [eprint](https://eprint.iacr.org/2018/515)
++ ***[LWY22]Making Private Function Evaluation Safer, Faster, and Simpler***
+  + 基于OSN和ZK实现了恶意安全和公开可验证隐蔽安全两方计算协议，同时保持常数轮和线性复杂度
+  + 论文发表在PKC 2022，论文链接见[eprint](https://eprint.iacr.org/2021/1682)
 + ******
   + 123
   + 论文发表在，论文链接见[]()
-+ ******
-  + 123
-  + 论文发表在，论文链接见[]()
-+ ******
-  + 123
-  + 论文发表在，论文链接见[]()
-+ ******
-  + 123
-  + 论文发表在，论文链接见[]()
+
+
+
+
+
+## 2.4 基于TEE的PFE
+
++ ***[FKSW19]Secure and Private Function Evaluation with Intel SGX***
+  + 将Intel SGX作为可信执行环境，利用基于UC的构造实现PFE
+  + 论文发表在CCSW 2019，论文链接见[ACM CCSW](https://dl.acm.org/doi/10.1145/3338466.3358919)
++ ***[SRS+20]Private Function Evaluation Using Intel’s SGX***
+  + 在Intel SGX中实现了基于UC和GC的PFE
+  + 论文发表在SCN 2020，论文链接见[ACM](https://dl.acm.org/doi/abs/10.1155/2020/3042642)，[WILEY](https://onlinelibrary.wiley.com/doi/10.1155/2020/3042642，[code](https://github.com/maanrachid/PFE-SGX)
+
+
+## 2.5 Semi-PFE
+
++ ***[PSS09]Practical Secure Evaluation of Semi-Private Functions***
+  + 首次提出Semi-PFE，其提供了几个构建块，这些构建块可以用一类函数中的一个函数进行编程（例如，ADD/SUB 的电路具有相同的拓扑结构）
+  + 论文发表于ACNS 2009，论文链接见[eprint](https://eprint.iacr.org/2009/124)
++ ***[GKSS19]Framework for Semi-Private Function Evaluation with Application to Secure Insurance Rate Calculation***
+  + 提出SPFE 框架，该框架允许将函数拆分为公共和私有组件，将私有组件嵌入到 UC 中，并将它们合并为一个布尔电路，通过 MPC 进行评估。
+  + 论文发表于CCS 2019（作为Poster进行展示），论文链接见[Encrypto-web](https://encrypto.de/papers/GKSS19.pdf)，[ACM CCS](https://dl.acm.org/doi/10.1145/3319535.3363251)，[code](https://github.com/danguenther/spfe-framework)
+
+
+## 2.z 基于PFE的应用
++ ***OPFE: Outsourcing Computation for Private Function Evaluation***
+  + 面向PFE的外包计算，协议分别可以抵御半诚实、隐蔽和恶意敌手
+  + 论文发表在IJICS 2019（CCF C期刊），论文链接见[eprint](https://eprint.iacr.org/2016/067)
++ ***[JZLR22]Multi-party Private Function Evaluation for RAM***
+  + 基于安全四方PFE的安全ORAM应用
+  + 论文发表在TIFS 2023，论文链接见[IEEE TIF](https://ieeexplore.ieee.org/document/10015843)，[eprint](https://eprint.iacr.org/2022/939)
