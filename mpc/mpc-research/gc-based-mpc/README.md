@@ -7,7 +7,7 @@
   + 参考[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)2PC Course，[video-gc](https://www.bilibili.com/video/BV1e64y1C7Te/?spm_id_from=333.999.0.0), [slides-textbook Yao's protocol](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/1-overview.pdf)
   + 相关书籍参考[book-Pragmatic MPC](https://securecomputation.org/)-3.1 Yao’s Garbled Circuits Protocol
 + 混淆电路优化协议学习
-  + 参考[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)的2PC Course，[video-gc optimation](https://www.bilibili.com/video/BV1hK4y197gW/?spm_id_from=333.999.0.0), [slides-Optimizations to garbled circuits (point-permute, free-XOR, half-gates, arithmetic garbling)](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/2-gc.pdf)
+  + 参考[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)的2PC Course，[video-gc optimation-2018](https://www.bilibili.com/video/BV1hK4y197gW/?spm_id_from=333.999.0.0), [slides-Optimizations to garbled circuits (point-permute, free-XOR, half-gates, arithmetic garbling)](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/2-gc.pdf), [video-A Brief History of Practical Garbled Circuit Optimizations-2015](https://www.youtube.com/watch?v=FTxh908u9y8)
   + 相关书籍参考[book-Pragmatic MPC](https://securecomputation.org/)-4.1 Less Expensive Garbling
   + 针对一些关键优化进行，通过阅读下面的论文来学习其具体协议
 + 恶意混淆电路协议学习
