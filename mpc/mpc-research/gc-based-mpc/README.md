@@ -270,10 +270,10 @@
 
 + ***[WRK17-a]Authenticated Garbling and Efficient Maliciously Secure Two-Party Computation***
   + 提出可认证混淆电路技术，并基于该技术设计了恶意安全两方计算技术
-  + 论文发表在CCS 2017，论文链接见[eprint](https://eprint.iacr.org/2017/030), [code](https://github.com/emp-toolkit/emp-ag2pc)
+  + 论文发表在CCS 2017，论文链接见[eprint](https://eprint.iacr.org/2017/030), [code](https://github.com/emp-toolkit/emp-ag2pc), [video](https://www.youtube.com/watch?v=8zCqki-ilZM)
 + ***[WRK17-b]Global-Scale Secure Multi-Party Computation***
   + 基于可认证混淆电路的恶意安全多方计算技术
-  + 论文发表在CCS 2017，论文链接见[eprint](http://eprint.iacr.org/2017/189), [code](https://github.com/emp-toolkit/emp-agmpc)
+  + 论文发表在CCS 2017，论文链接见[eprint](http://eprint.iacr.org/2017/189), [code](https://github.com/emp-toolkit/emp-agmpc), [video](https://www.youtube.com/watch?v=8zCqki-ilZM)
 + ***[ZCSH18]nanoPI: Extreme-Scale Actively-Secure Multi-Party Computation***
   + 基于WRK17-a和WRK17-b进行协议优化，提出了恶意安全四方逻辑回归计算协议
   + 论文发表在CCS 2018，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/3243734.3243850), [web-huang](https://homes.luddy.indiana.edu/yh33/mypub/scalableMPC.pdf),[code](https://github.com/nanoPIMPC/nanoPI)
