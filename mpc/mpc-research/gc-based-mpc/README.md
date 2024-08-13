@@ -202,12 +202,6 @@
 + ***[LP11]Secure Two-Party Computation via Cut-and-Choose Oblivious Transfer***
   + 提出了基于Cut-and-Choose优化的安全两方计算，对于复制因子s，敌手成功作弊的概率为2^−0.311s
   + 论文发表在TCC 2011，论文链接见[eprint](https://eprint.iacr.org/2010/284.pdf)
-+ ***[HKK+14]Amortizing Garbled Circuits***
-  + 提出了基于Cut-and-Choose的多次执行(multiple execution)的安全两方计算协议，之前[HKE13]和[Lin13]都只面向单次执行(single execution)，该协议依赖于cheating-punishment机制
-  + 论文发表在CRYPTO 2014，论文链接见[eprint](https://eprint.iacr.org/2015/081.pdf)
-+ :triangular_flag_on_post: ***[LR14]Cut-and-Choose Yao-Based Secure Computation in the Online/Offline and Batch Settings***
-  + 提出了基于Cut-and-Choose的多次执行(multiple execution)的安全两方计算协议，和HKK+14不同的是，HKK+14总是让评估者挑选一半的电路进行检查，但改论文表明改变检查电路的数量可以带来额外的性能提升。
-  + 论文发表在CRYPTO 2014，论文链接见[springer](https://link.springer.com/chapter/10.1007/978-3-662-44381-1_27)，[eprint](https://eprint.iacr.org/2014/667)
 + ***[HKE13]Efficient Secure Two-Party Computation Using Symmetric Cut-and-Choose***
   + 研究了对称Cut-and-Choose技术，即双方都执行Cut-and-Choose，从而能将混淆电路副本数量减小3倍
   + 论文发表在CRYPTO 2013，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-40084-1_2)，[eprint](https://eprint.iacr.org/2013/081)
@@ -220,15 +214,30 @@
 + ***[FJN+13]MiniLEGO: Efficient Secure Two-Party Computation From General Assumptions*** 
   + 门级Cut-and-Choose技术LEGO的优化
   + 发表在EUROCRYPT 2013，论文链接见[eprint](https://eprint.iacr.org/2013/155)
++ ***[HKK+14]Amortizing Garbled Circuits***
+  + 提出了基于Cut-and-Choose的多次执行(multiple execution)的安全两方计算协议，之前[HKE13]和[Lin13]都只面向单次执行(single execution)，该协议依赖于cheating-punishment机制
+  + 论文发表在CRYPTO 2014，论文链接见[eprint](https://eprint.iacr.org/2015/081.pdf)
++ :triangular_flag_on_post: ***[LR14]Cut-and-Choose Yao-Based Secure Computation in the Online/Offline and Batch Settings***
+  + 提出了基于Cut-and-Choose的多次执行(multiple execution)的安全两方计算协议，和HKK+14不同的是，HKK+14总是让评估者挑选一半的电路进行检查，但改论文表明改变检查电路的数量可以带来额外的性能提升。
+  + 论文发表在CRYPTO 2014，论文链接见[springer](https://link.springer.com/chapter/10.1007/978-3-662-44381-1_27)，[eprint](https://eprint.iacr.org/2014/667)
 + ***[LR15]Blazing Fast 2PC in the Offline/Online Setting with Security for Malicious Adversaries***
   + LR14的优化和实现
   + 论文发表在CCS 2020，论文链接见[eprint](https://eprint.iacr.org/2015/987)
++ ***[AMPR15]Non-Interactive Secure Computation Based on Cut-and-Choose***
+  + 基于Cut-and-Choose的NISC
+  + 论文发表在EUROCRYPT 2014，论文链接见[eprint](https://eprint.iacr.org/2015/282)
 + ***[ZHKS16]The Cut-and-Choose Game and Its Application to Cryptographic Protocols***
   + 分析了Cut-and-Choose的三种情况：SingleCut、MajorityCut和BatchedCut，通过参数分析和算法求解得到最优情况
   + 论文发表在USENIX 2016，论文链接见[usenix](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/zhu)，[slides](https://www.usenix.org/sites/default/files/conference/protected-files/security16_slides_zhu.pdf)
 + ***[ZH17]JIMU: Faster LEGO-based Secure Computation using Additive Homomorphic Hashes***
   + 基于优化LEGO-style cut-and-choose的安全两方计算协议，是LEGO的优化（避免使用homomorphic commitments）
-  + 论文发表在ASIACRYPT 2017，论文链接见[eprint](https://eprint.iacr.org/2017/226)
+  + 论文发表在ASIACRYPT 2017，论文链接见[eprint](https://eprint.iacr.org/2017/226)，[code](https://github.com/jimu-pool/JIMU)
++ ***[ZHC17]Pool: Scalable On-Demand Secure Computation Service Against Malicious Adversaries***
+  + 提出了pool-based cut-and-choose，相比于Batch Cut-and-Choose，pool-based cut-and-choose不会总是从为预定义函数 f 混淆“足够”多个门开始，然后在最后耗尽所有混淆门，而是选择始终维护一个混淆条目池，并始终在池中进行剪切和选择。
+  + 论文发表在CCS 2017，论文链接见[ACM CCS](https://dl.acm.org/doi/abs/10.1145/3133956.3134070), [web-huang](https://homes.luddy.indiana.edu/yh33/mypub/pool.pdf), [code](https://github.com/jimu-pool)
++ ***[ZDH19]Efficient Publicly Verifiable 2PC over a Blockchain with Applications to Financially-Secure Computations***
+  + 基于GC和Cut-and-Choose技术实现了PVC安全两方计算，并应用于金融安全计算应用
+  + 论文发表在CCS 2019，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/3319535.3363215), [web-huang](https://homes.luddy.indiana.edu/yh33/mypub/pvc.pdf)
 
 #### 2.2.2 基于Dual Excution的恶意安全两方计算协议
 
@@ -245,12 +254,15 @@
 
 #### 2.2.3 基于Authenticated Garbling可认证混淆电路的安全两方和多方计算协议
 
-+ ***[WRK17]Authenticated Garbling and Efficient Maliciously Secure Two-Party Computation***
++ ***[WRK17-a]Authenticated Garbling and Efficient Maliciously Secure Two-Party Computation***
   + 提出可认证混淆电路技术，并基于该技术设计了恶意安全两方计算技术
   + 论文发表在CCS 2017，论文链接见[eprint](https://eprint.iacr.org/2017/030), [code](https://github.com/emp-toolkit/emp-ag2pc)
-+ ***[WRK17]Global-Scale Secure Multi-Party Computation***
++ ***[WRK17-b]Global-Scale Secure Multi-Party Computation***
   + 基于可认证混淆电路的恶意安全多方计算技术
   + 论文发表在CCS 2017，论文链接见[eprint](http://eprint.iacr.org/2017/189), [code](https://github.com/emp-toolkit/emp-agmpc)
++ ***[ZCSH18]nanoPI: Extreme-Scale Actively-Secure Multi-Party Computation***
+  + 基于WRK17-a和WRK17-b进行协议优化，提出了恶意安全四方逻辑回归计算协议
+  + 论文发表在CCS 2018，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/3243734.3243850), [web-huang](https://homes.luddy.indiana.edu/yh33/mypub/scalableMPC.pdf),[code](https://github.com/nanoPIMPC/nanoPI)
 + ***[KRRW18]Optimizing Authenticated Garbling for Faster Secure Two-Party Computation***
   + 基于优化可认证混淆电路的安全两方计算协议
   + 论文发表在CRYPTO 2018，论文链接见[eprint](https://eprint.iacr.org/2018/578)
