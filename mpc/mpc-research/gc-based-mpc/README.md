@@ -7,7 +7,7 @@
   + 参考[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)2PC Course，[video-gc](https://www.bilibili.com/video/BV1e64y1C7Te/?spm_id_from=333.999.0.0), [slides-textbook Yao's protocol](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/1-overview.pdf)
   + 相关书籍参考[book-Pragmatic MPC](https://securecomputation.org/)-3.1 Yao’s Garbled Circuits Protocol
 + 混淆电路优化协议学习
-  + 参考[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)的2PC Course，[video-gc optimation-2018](https://www.bilibili.com/video/BV1hK4y197gW/?spm_id_from=333.999.0.0), [slides-Optimizations to garbled circuits (point-permute, free-XOR, half-gates, arithmetic garbling)](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/2-gc.pdf), [video-A Brief History of Practical Garbled Circuit Optimizations-2015](https://www.youtube.com/watch?v=FTxh908u9y8)
+  + 参考[Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)的2PC Course，[video-gc optimation-2018](https://www.bilibili.com/video/BV1hK4y197gW/?spm_id_from=333.999.0.0), [slides-Optimizations to garbled circuits (point-permute, free-XOR, half-gates, arithmetic garbling)](https://web.engr.oregonstate.edu/~rosulekm/cryptabit/2-gc.pdf), [slides-indocrypt-talk](https://web.engr.oregonstate.edu/~rosulekm/pubs/gc-indocrypt-talk.pdf),  [video-gc-survey-talk](https://www.youtube.com/watch?v=FTxh908u9y8), [slides-gc-survey-talk](https://web.engr.oregonstate.edu/~rosulekm/pubs/gc-survey-talk.pdf)
   + 相关书籍参考[book-Pragmatic MPC](https://securecomputation.org/)-4.1 Less Expensive Garbling
   + 针对一些关键优化进行，通过阅读下面的论文来学习其具体协议
 + 恶意混淆电路协议学习
@@ -16,6 +16,9 @@
 + 实用混淆电路协议学习
   + 针对一些混淆电路设计和实现，通过阅读下面的论文进行学习
   + [Mike Rosulek](https://web.engr.oregonstate.edu/~rosulekm/)整理了一系列论文，见[An Annotated Bibliography of Practical Secure Computation](https://web.engr.oregonstate.edu/~rosulekm/scbib/index.php)
+  + [On Garbled Circuits](https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/computing/public/1718-ug-projects/Ignacio-Navarro-On-Garbled-Circuits.pdf)
+
+
 
 下面对混淆电路协议进行一个分类和总结
 
@@ -169,7 +172,7 @@
   + 论文发表在[CCS 2012](https://dl.acm.org/doi/10.1145/2382196.2382279)，论文链接见[CCS](https://dl.acm.org/doi/10.1145/2382196.2382279), [IACR-eprint](https://eprint.iacr.org/2012/265)
 + :triangular_flag_on_post:***[KMR14]FleXOR: Flexible garbling for XOR gates that beats free-XOR***
   + 提出了混淆电路优化技术FleXOR
-  + 论文发表在CRYPTO 2014，论文链接见[eprint](https://eprint.iacr.org/2014/460)
+  + 论文发表在CRYPTO 2014，论文链接见[eprint](https://eprint.iacr.org/2014/460), [slides](https://web.engr.oregonstate.edu/~rosulekm/pubs/flexor-slides-aarhus.pdf)
 + :triangular_flag_on_post:***[ZRE15]Two Halves Make a Whole: Reducing Data Transfer in Garbled Circuits using Half Gates***
   + 提出了混淆电路优化技术Half-Gates
   + 论文发表在EUROCRYPTO 2015，论文链接见[eprint](https://eprint.iacr.org/2014/756.pdf)
@@ -246,7 +249,13 @@
   + 发表在PKC 2006，论文链接见[PKC 2006](https://www.iacr.org/archive/pkc2006/39580468/39580468.pdf), [Springer](https://link.springer.com/chapter/10.1007/11745853_30)
 + :triangular_flag_on_post: ***[HKE12]Quid-Pro-Quo-tocols: Strengthening Semi-Honest Protocols with Dual Execution***
   + Quid-Pro-Quo-tocols意为等价交换，该论文是针对基于Dual Execution的恶意安全两方计算协议的优化
-  + 论文发表在[SP 2012](https://ieeexplore.ieee.org/document/6234418)，论文链接见[IEEE SP 2012](https://ieeexplore.ieee.org/document/6234418)，[Huang](https://homes.luddy.indiana.edu/yh33/mypub/mal-sec-two-party-comp.pdf)
+  + 论文发表在SP 2012，论文链接见[IEEE SP 2012](https://ieeexplore.ieee.org/document/6234418)，[Huang](https://homes.luddy.indiana.edu/yh33/mypub/mal-sec-two-party-comp.pdf)
++ ***[KMRR15]Richer Efficiency/Security Trade-offs in 2PC***
+  + 展示了如何极大地限制对偶执行2PC协议的泄露函数，进一步降低数据泄露的概率
+  + 论文发表在TCC 2015，论文链接见[eprint](https://eprint.iacr.org/2015/055)，[slides](https://web.engr.oregonstate.edu/~rosulekm/pubs/dual-ex-talk.pdf)
++ ***[RR16]Faster Malicious 2-party Secure Computation with Online/Offline Dual Execution***
+  + 基于Dual Execution的多次执行设定下的恶意安全两方计算协议
+  + 论文发表在USENIX 2016，论文链接见[eprint](https://eprint.iacr.org/2016/632)，[slides](https://web.engr.oregonstate.edu/~rosulekm/pubs/dual-ex-talk2.pdf)
 + ***[GRW18]Secure Computation with Low Communication from Cross-checking***
   + 诚实大多数设置下的恶意安全四方计算，提出了四方的Dual Execution技术
   + 论文发表在ASIACRYPT 2018，论文链接见[eprint](https://eprint.iacr.org/2018/216)
@@ -271,9 +280,15 @@
   + 论文发表在EUROCRYPT 2023，论文链接见[eprint](https://eprint.iacr.org/2023/278)
 
 
+### 2.3 混淆电路应用
 
++ ***【Ros16】Improvements for Gate-Hiding Garbled Circuits***
+  + 门隐藏的混淆电路协议（只泄漏电路拓扑，不泄漏电路门类型）
+  + 发表在Indocrypt 2017，论文链接见[eprint](https://eprint.iacr.org/2017/976), [code](https://web.engr.oregonstate.edu/~rosulekm/pubs/gatehiding-talk.pdf)
 
-
++ ***[BCM+19]Garbled Neural Networks are Practical***
+  + 基于算术电路混淆的神经网络推理
+  + 发表在PPML @ ACM CCS 2019，论文链接见[eprint](https://eprint.iacr.org/2019/338), [slides](https://web.engr.oregonstate.edu/~rosulekm/pubs/garbled-nn.pdf), [code](https://github.com/GaloisInc/fancy-garbling?tab=readme-ov-file)
 
 
 
