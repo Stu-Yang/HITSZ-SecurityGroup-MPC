@@ -238,9 +238,14 @@
 + ***[ZHC17]Pool: Scalable On-Demand Secure Computation Service Against Malicious Adversaries***
   + 提出了pool-based cut-and-choose，相比于Batch Cut-and-Choose，pool-based cut-and-choose不会总是从为预定义函数 f 混淆“足够”多个门开始，然后在最后耗尽所有混淆门，而是选择始终维护一个混淆条目池，并始终在池中进行剪切和选择。
   + 论文发表在CCS 2017，论文链接见[ACM CCS](https://dl.acm.org/doi/abs/10.1145/3133956.3134070), [web-huang](https://homes.luddy.indiana.edu/yh33/mypub/pool.pdf), [code](https://github.com/jimu-pool)
++ ***[WMK17]Faster Secure Two-Party Computation in the Single-Execution Setting***
+  + 基于CUt-and-Choose范式实现了单次执行设置下的恶意安全两方计算协议
+  + 论文发表在EUROCRYPT 2017，论文链接见[eprint](https://eprint.iacr.org/2016/762)
 + ***[ZDH19]Efficient Publicly Verifiable 2PC over a Blockchain with Applications to Financially-Secure Computations***
   + 基于GC和Cut-and-Choose技术实现了PVC安全两方计算，并应用于金融安全计算应用
   + 论文发表在CCS 2019，论文链接见[ACM CCS](https://dl.acm.org/doi/10.1145/3319535.3363215), [web-huang](https://homes.luddy.indiana.edu/yh33/mypub/pvc.pdf)
+
+
 
 #### 2.2.2 基于Dual Excution的恶意安全两方计算协议
 
