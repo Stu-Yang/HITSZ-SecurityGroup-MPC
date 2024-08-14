@@ -283,7 +283,7 @@
   + 基于优化可认证混淆电路的安全两方计算协议
   + 论文发表在CRYPTO 2018，论文链接见[eprint](https://eprint.iacr.org/2018/578)
 + ***[CWYY23]Actively Secure Half-Gates with Minimum Overhead under Duplex Networks***
-  + 提出恶意安全的Half-Gates安全两方计算
+  + 提出恶意安全的Half-Gates安全两方计算，其中有提到Dual Execution without Leakage
   + 论文发表在EUROCRYPT 2023，论文链接见[eprint](https://eprint.iacr.org/2023/278)
 
 
