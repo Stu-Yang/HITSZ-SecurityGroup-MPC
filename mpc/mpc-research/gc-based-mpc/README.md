@@ -287,7 +287,7 @@
 
 ### 2.3 混淆电路应用
 
-+ ***【Ros16】Improvements for Gate-Hiding Garbled Circuits***
++ ***[Rosulek16]Improvements for Gate-Hiding Garbled Circuits***
   + 门隐藏的混淆电路协议（只泄漏电路拓扑，不泄漏电路门类型）
   + 发表在Indocrypt 2017，论文链接见[eprint](https://eprint.iacr.org/2017/976), [code](https://web.engr.oregonstate.edu/~rosulekm/pubs/gatehiding-talk.pdf)
 
