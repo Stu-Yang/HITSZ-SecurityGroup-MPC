@@ -264,7 +264,9 @@
 + ***[GRW18]Secure Computation with Low Communication from Cross-checking***
   + 诚实大多数设置下的恶意安全四方计算，提出了四方的Dual Execution技术
   + 论文发表在ASIACRYPT 2018，论文链接见[eprint](https://eprint.iacr.org/2018/216)
-
++ ***[HSV20]Going beyond dual execution: MPC for functions with efficient verification***
+  + 将基于Dual Execution的2PC扩展到多方
+  + 论文发表在PKC 2020，论文链接见[eprint](https://eprint.iacr.org/2020/139)
 
 #### 2.2.3 基于Authenticated Garbling可认证混淆电路的安全两方和多方计算协议
 
