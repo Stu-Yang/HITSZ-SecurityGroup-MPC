@@ -38,6 +38,11 @@
 
 > **Elette Boyle等人在2022年撰写了关于函数秘密共享、同态秘密共享和伪随机相关生成器的综述，详见[Survey-FSS-HSS-PCG](https://cs.idc.ac.il/~elette/HSS_FSS-Survey.pdf)**
 
+#### 1.2.4 Shamir secret sharing and Packed Shamir secret sharing
+
+详见[Shamir secret sharing and Packed Shamir secret sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/sss-and-psss)
+
+
 ### 1.3 基于混淆电路的安全多方计算协议
 
 详见[基于混淆电路的安全多方计算协议](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/gc-based-mpc)
