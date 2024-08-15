@@ -40,7 +40,7 @@
 
 #### 1.2.4 Shamir secret sharing and Packed Shamir secret sharing
 
-详见[Shamir secret sharing and Packed Shamir secret sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/sss-and-psss)
+详见[Shamir secret sharing and Packed Shamir secret sharing](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/shamir-ss-and-packed-shamir-ss)
 
 
 ### 1.3 基于混淆电路的安全多方计算协议
