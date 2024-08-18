@@ -118,9 +118,11 @@
 
 
 ## 2.z 基于PFE的应用
-+ ***OPFE: Outsourcing Computation for Private Function Evaluation***
++ ***[CT19]OPFE: Outsourcing Computation for Private Function Evaluation***
   + 面向PFE的外包计算，协议分别可以抵御半诚实、隐蔽和恶意敌手
   + 论文发表在IJICS 2019（CCF C期刊），论文链接见[eprint](https://eprint.iacr.org/2016/067)
++ ***[BBKL19]An Efficient 2-Party Private Function Evaluation Protocol Based on Half Gates***
+  + 基于Half Gates的安全两方PFE
 + ***[JZLR22]Multi-party Private Function Evaluation for RAM***
   + 基于安全四方PFE的安全ORAM应用
   + 论文发表在TIFS 2023，论文链接见[IEEE TIF](https://ieeexplore.ieee.org/document/10015843)，[eprint](https://eprint.iacr.org/2022/939)
