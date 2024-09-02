@@ -2,7 +2,9 @@
 
 ## Crypto 2024
 > 详见[Crypto 2024 accepted-papers](https://crypto.iacr.org/2024/acceptedpapers.php)
-<details>
+
+<details> 
+<summary>以下是Crypto 2024中MPC相关论文，请点击展开</summary>
   
 + ***[HJ24]MPC in the head using the subfield bilinear collision problem***
 + ***[CDKS24]Secure Multiparty Computation with Identifiable Abort from Vindicating Release***
@@ -16,6 +18,12 @@
 + ***[LMRS24]Hintless Single-Server Private Information Retrieval***
 + ***[GGM24]Computation Efficient Structure-Aware PSI From Incremental Function Secret Sharing***
 + ***[ABG+24]Compressing Unit-Vector Correlations via Sparse Pseudorandom Generators***
++ ***[Ngu24]Towards Breaking the Half-barrier of Local Leakage-resilient Shamir's Secret Sharing***
++ ***[Ost24]Privacy-Preserving Dijkstra***
++ ***[GJMW24]Scalable Multiparty Computation from Non-linear Secret Sharing***
++ ***[AK24]Stochastic Secret Sharing with 1-Bit Shares and Applications to MPC***
++ ***[JLS24]Linear-Communication Asynchronous Complete Secret Sharing with Optimal Resilience***
++ ***[BMRS24]Cheater Identification on a Budget: MPC with Identifiable Abort from Pairwise MACs***
 
 
 
