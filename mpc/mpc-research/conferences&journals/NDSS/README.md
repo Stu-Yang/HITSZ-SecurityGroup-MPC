@@ -1,5 +1,30 @@
 # NDSS中MPC相关论文
 
+## NDSS 2025
+
+> 详见[NDSS 2025 accepted-papers](https://www.ndss-symposium.org/ndss2025/accepted-papers/)
+
+<details>
+<summary>以下是NDSS 2023中MPC相关论文，请点击展开</summary>
+  
++ ***[ZYH+25]Secure Transformer Inference Made Non-interactive***
+  + 基于同态加密的非交互Transformer推理
+  + 论文链接见[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/secure-transformer-inference-made-non-interactive/)
++ ***BumbleBee: Secure Two-party Inference Framework for Large Transformers***
+  + 基于半诚实安全两方计算的Transformer推理
+  + 论文链接见[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/bumblebee-secure-two-party-inference-framework-for-large-transformers/)
++ ***Distributed Function Secret Sharing and Applications***
+  + 高效地实现了函数秘密共享的离线阶段，并基于此实现了许多基础模块
+  + 论文链接见[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/distributed-function-secret-sharing-and-applications/)
++ ***A New PPML Paradigm for Quantized Models***
+  + 基于私有查找表评估的半诚实两方量化神经网络推理
+  + 论文链接见[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/a-new-ppml-paradigm-for-quantized-models/)
++ ***Siniel: Distributed Privacy-Preserving zkSNARK***
+  + 分布式隐私保护zkSNARK
+  + 论文链接见[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/siniel-distributed-privacy-preserving-zksnark/)
+
+</details>
+
 ## NDSS 2023
 
 > 详见[NDSS 2023 accepted-papers](https://www.ndss-symposium.org/ndss2023/accepted-papers/)
