@@ -35,5 +35,7 @@ Packed Secret Sharing（Packed SS）是Linear Secret Sharing (例如Shamir SS) �
 + ***[EGP+23]SUPERPACK: Dishonest Majority MPC with Constant Online Communication***
   + 基于Packed Secret Sharing实现具有常数在线通信的不诚实大多数MPC协议
   + 论文发表在EUROCRYPTO 2023，论文链接见[epirnt](https://eprint.iacr.org/2023/307)
-
++ ***[Zhou24]Private Neural Network Training with Packed Secret Sharing***
+  + 基于Packed Secret Sharing的隐私保护神经网络训练
+  + 论文发表在COCOON 2024，论文链接见[eprint](https://eprint.iacr.org/2024/1833)
 
