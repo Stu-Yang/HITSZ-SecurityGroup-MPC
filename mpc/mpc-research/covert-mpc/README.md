@@ -10,6 +10,8 @@
 ## 2. 隐蔽安全相关论文
 
 > 正如Yehuda Lindell在[[Lin13]Fast Cut-and-Choose Based Protocols for Malicious and Covert Adversaries](https://eprint.iacr.org/2013/079)指出，现有Cut-and-Choose-based Garbled Circuit (GC) 协议能够实现隐蔽安全，其中攻击者作弊被抓获的威慑概率等于1减去协议的统计误差（[Lin13], page 3）。但Cut-and-Choose-based GC协议主要目标是实现主动安全，因此不在本页面展示，详见[cut-and-choose-based-gc](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/gc-based-mpc#221-%E5%9F%BA%E4%BA%8Ecut-and-choose%E7%9A%84%E6%81%B6%E6%84%8F%E5%AE%89%E5%85%A8%E4%B8%A4%E6%96%B9%E8%AE%A1%E7%AE%97%E5%8D%8F%E8%AE%AE)
+>
+> 同时，部分Covert multi-party computation的论文（[[AHL05]Covert Two-Party Computation](https://dl.acm.org/doi/abs/10.1145/1060590.1060668), [[CGOS07]Covert Multiparty Computation](http://web.cs.ucla.edu/~rafail/PUBLIC/83.pdf)等）考虑隐写安全计算，因此是计算本身是隐蔽的，而本页面讨论的工作考虑隐蔽的敌手行为，因此这些工作与本页面讨论的隐蔽安全有着本质不同，因此不包括在本页面
 > 
 > 另外，注意公开可验证隐蔽安全（Publicly Verifiable Covert Security）和可识别中止（Identifiable Abort Security）的区别
 
@@ -28,6 +30,9 @@
 + :triangular_flag_on_post:***[AO12] Calling out Cheaters: Covert Security with Public Verifiability***
   + 提出公开可验证隐蔽安全，其中提出sign-OT协议
   + 发表在AsiaCrypt 2012，论文链接见[IACR eprint](https://eprint.iacr.org/2012/708.pdf)
++ ***Efficient Multiparty Computation for Arithmetic Circuits against a Covert Majority***
+  + 设计了不诚实大多数情况下隐蔽安全算术电路协议，之前的协议大多考虑布尔电路
+  + 发表在AfricaCrypt 2013，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-38553-7_15)
 + ***[DKL+13]Practical Covertly Secure MPC for Dishonest Majority – or: Breaking the SPDZ Limits***
   + 提出SPDZ范式的不诚实大多数下隐蔽安全多方计算协议，其未实现公开可验证
   + 发表在ESORICS 2013，论文链接见[IACR eprint](https://eprint.iacr.org/2012/642)
@@ -64,7 +69,9 @@
 + :triangular_flag_on_post:***[LLW+23]Robust Publicly Verifiable Covert Security: Limited Information Leakage and Guaranteed Correctness with Low Overhead***
   + 提出鲁棒公开可验证隐蔽安全
   + 发表在AsiaCrypt 2015，论文链接见[IACR eprint](https://eprint.iacr.org/2023/1392)
++ ***[NH24]Covert Adaptive Adversary Model: A New Adversary Model for Multiparty Computation***
+  + 提出自适应敌手（Adaptive Adversaries）设置下隐蔽安全多方计算协议
+  + 论文链接见[IACR eprint-1](https://eprint.iacr.org/2024/729), [IACR eprint-2](https://eprint.iacr.org/2024/735)
 + ***[LSYL25]Zero-Knowledge Protocols with PVC Security: Striking the Balance Between Security and Efficiency***
   + 提出公开可验证隐蔽安全的零知识证明协议
   + 发表在ICICS 2025，论文链接见[IACR 2025](https://eprint.iacr.org/2025/2146)
-
