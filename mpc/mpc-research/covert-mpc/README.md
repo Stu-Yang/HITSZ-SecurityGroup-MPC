@@ -63,7 +63,7 @@
 + ***[LWY22]Making Private Function Evaluation Safer, Faster, and Simpler***
   + 提出公开可验证隐蔽安全的私有函数评估协议
   + 发表在PKC 2022，论文链接见[IACR eprint](https://eprint.iacr.org/2021/1682)
-+ ***Financially Backed Covert Security***
++ ***[FHKS22]Financially Backed Covert Security***
   + 提出以经济支持为保障的隐蔽安全（Financially Backed Covert，FBC）的概念，确保如果发现作弊行为，对手将受到经济惩罚
   + 发表在PKC 2022，论文链接见[IACR eprint](https://eprint.iacr.org/2021/1652)
 + ***[ADEL22]Efficient Compiler to Covert Security with Public Verifiability for Honest Majority MPC***
