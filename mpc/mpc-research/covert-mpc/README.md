@@ -9,7 +9,7 @@
 
 ## 2. 隐蔽安全相关论文
 
-> 正如Yehuda Lindell在[[Lin13]Fast Cut-and-Choose Based Protocols for Malicious and Covert Adversaries](https://eprint.iacr.org/2013/079)指出，现有Cut-and-Choose-based Garbled Circuit (GC) 协议能够实现隐蔽安全，其中攻击者作弊被抓获的威慑概率等于1减去协议的统计误差（[Lin13], page 3）。但Cut-and-Choose-based GC协议主要目标是实现主动安全，因此不在本页面展示，详见[cut-and-choose-based-gc](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/gc-based-mpc#221-%E5%9F%BA%E4%BA%8Ecut-and-choose%E7%9A%84%E6%81%B6%E6%84%8F%E5%AE%89%E5%85%A8%E4%B8%A4%E6%96%B9%E8%AE%A1%E7%AE%97%E5%8D%8F%E8%AE%AE)
+> 正如Yehuda Lindell在[[LP11]Secure Two-Party Computation via Cut-and-Choose Oblivious Transfer](https://eprint.iacr.org/2010/284)和[[Lin13]Fast Cut-and-Choose Based Protocols for Malicious and Covert Adversaries](https://eprint.iacr.org/2013/079)指出，现有Cut-and-Choose-based Garbled Circuit (GC) 协议能够实现隐蔽安全，其中攻击者作弊被抓获的威慑概率等于1减去协议的统计误差（[LP11], page 27; [Lin13], page 3）。但Cut-and-Choose-based GC协议主要目标是实现主动安全，因此不在本页面展示，详见[cut-and-choose-based-gc](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/gc-based-mpc#221-%E5%9F%BA%E4%BA%8Ecut-and-choose%E7%9A%84%E6%81%B6%E6%84%8F%E5%AE%89%E5%85%A8%E4%B8%A4%E6%96%B9%E8%AE%A1%E7%AE%97%E5%8D%8F%E8%AE%AE)
 >
 > 同时，部分Covert multi-party computation的论文（[[AHL05]Covert Two-Party Computation](https://dl.acm.org/doi/abs/10.1145/1060590.1060668), [[CGOS07]Covert Multiparty Computation](http://web.cs.ucla.edu/~rafail/PUBLIC/83.pdf)等）考虑隐写安全计算，因此是计算本身是隐蔽的，而本页面讨论的工作考虑隐蔽的敌手行为，因此这些工作与本页面讨论的隐蔽安全有着本质不同，因此不包括在本页面
 > 
