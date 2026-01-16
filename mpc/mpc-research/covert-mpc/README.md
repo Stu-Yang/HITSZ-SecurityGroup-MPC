@@ -30,7 +30,10 @@
 + :triangular_flag_on_post:***[AO12] Calling out Cheaters: Covert Security with Public Verifiability***
   + 提出公开可验证隐蔽安全，其中提出sign-OT协议
   + 发表在AsiaCrypt 2012，论文链接见[IACR eprint](https://eprint.iacr.org/2012/708.pdf)
-+ ***Efficient Multiparty Computation for Arithmetic Circuits against a Covert Majority***
++ ***[MR13]Garbled Circuits Checking Garbled Circuits: More Efficient and Secure Two-Party Computation***
+  + 结合Dual Execution和Cut-and-Choose实现了保证输出正确性的Covert 2PC协议
+  + 发表在Crypto 2013，论文链接见[IACR eprint](https://eprint.iacr.org/2013/051)
++ ***[NME13]Efficient Multiparty Computation for Arithmetic Circuits against a Covert Majority***
   + 设计了不诚实大多数情况下隐蔽安全算术电路协议，之前的协议大多考虑布尔电路
   + 发表在AfricaCrypt 2013，论文链接见[Springer](https://link.springer.com/chapter/10.1007/978-3-642-38553-7_15)
 + ***[DKL+13]Practical Covertly Secure MPC for Dishonest Majority – or: Breaking the SPDZ Limits***
