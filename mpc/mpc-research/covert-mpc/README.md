@@ -57,7 +57,6 @@
 + ***[Gol20]Practical Covert Multiparty Computation with Interactive Public Verifiability***
   + 结合PVC和dual execution去实现输出正确性
   + Reichman University (Israel) 学位论文，论文链接见[ProQuest](https://www.proquest.com/docview/2904457864?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses)，[Github Upload](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/blob/main/mpc/mpc-research/covert-mpc/%5BGol20%5DThesis-Practical%20Covert%20Multiparty%20Computation%20With%20Interactive%20Public%20Verifiability.pdf)
-
 + ***[FHKS21]Generic Compiler for Publicly Verifiable Covert Multi-Party Computation***
   + 提出公开可验证安全多方计算协议编译器，DOS20主要关注两方计算
   + 发表在EuroCrypt 2021，论文链接见[IACR eprint](https://eprint.iacr.org/2021/251)
