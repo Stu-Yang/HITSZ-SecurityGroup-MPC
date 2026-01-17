@@ -45,7 +45,7 @@
 
 ### 1.3 基于混淆电路的安全多方计算协议
 
-详见[基于混淆电路的安全多方计算协议](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/gc-based-mpc)
+详见[基于混淆电路的安全多方计算协议](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/gc-based-mpc)，[隐蔽安全两方和多方计算协议](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/covert-mpc)
 
 ### 1.4 私有函数评估（Private Function Evaluation， PFE）
 
