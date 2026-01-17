@@ -286,13 +286,11 @@
   + 提出恶意安全的Half-Gates安全两方计算，其中有提到Dual Execution without Leakage
   + 论文发表在EUROCRYPT 2023，论文链接见[eprint](https://eprint.iacr.org/2023/278)
 
-
 ### 2.3 混淆电路应用
 
 + ***[Rosulek16]Improvements for Gate-Hiding Garbled Circuits***
   + 门隐藏的混淆电路协议（只泄漏电路拓扑，不泄漏电路门类型）
   + 发表在Indocrypt 2017，论文链接见[eprint](https://eprint.iacr.org/2017/976), [code](https://web.engr.oregonstate.edu/~rosulekm/pubs/gatehiding-talk.pdf)
-
 + ***[BCM+19]Garbled Neural Networks are Practical***
   + 基于算术电路混淆的神经网络推理
   + 发表在PPML @ ACM CCS 2019，论文链接见[eprint](https://eprint.iacr.org/2019/338), [slides](https://web.engr.oregonstate.edu/~rosulekm/pubs/garbled-nn.pdf), [code](https://github.com/GaloisInc/fancy-garbling?tab=readme-ov-file)
