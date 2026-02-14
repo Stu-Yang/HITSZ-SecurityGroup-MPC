@@ -75,6 +75,9 @@
 + ***[ADEL22]Efficient Compiler to Covert Security with Public Verifiability for Honest Majority MPC***
   + 提出诚实大多数下公开可验证隐蔽安全多方计算协议编译器，通过提出一个公开可验证秘密共享方案，避免使用FHKS21和SSS22中计算开销大的time-lock puzzles（FHKS21和SSS22都是利用通用主动安全MPC协议来实例化time-lock puzzles）
   + 发表在ACNS 2022，论文链接见[IACR eprint](https://eprint.iacr.org/2022/454), [Msc Thesis with implementation by V.A. Dunning](http://essay.utwente.nl/87995/)
++ ***[FHKS23]Putting the Online Phase on a Diet: Covert Security from Short MACs***
+  + 提出基于IT-MAC的Covert MPC协议
+  + 发表在CT-RSA 2023，论文链接见[IACR eprint](https://eprint.iacr.org/2023/052)
 + :triangular_flag_on_post:***[LLW+23]Robust Publicly Verifiable Covert Security: Limited Information Leakage and Guaranteed Correctness with Low Overhead***
   + 提出鲁棒公开可验证隐蔽安全
   + 发表在AsiaCrypt 2015，论文链接见[IACR eprint](https://eprint.iacr.org/2023/1392)
@@ -84,3 +87,6 @@
 + ***[LSYL25]Zero-Knowledge Protocols with PVC Security: Striking the Balance Between Security and Efficiency***
   + 提出公开可验证隐蔽安全的零知识证明协议
   + 发表在ICICS 2025，论文链接见[IACR 2025](https://eprint.iacr.org/2025/2146)
++ ***[DLH+26]ECHO: Efficient Covertly-Secure Three-party Computation with Applications to Private Machine Learning***
+   + 提出基于MAC和Distributed ZK的PVC安全诚实大多数安全三方计算协议
+   + 发表在TIFS，论文链接在[IACR eprint](https://eprint.iacr.org/2026/216)
