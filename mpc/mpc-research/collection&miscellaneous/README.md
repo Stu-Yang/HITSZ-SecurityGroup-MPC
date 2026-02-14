@@ -56,8 +56,6 @@
 
 参考[slides](https://web.engr.oregonstate.edu/~rosulekm/pubs/malram-talk.pdf)
 
-
-
 ### 1.Z 其他模型下的安全多方计算协议
 
 #### 1.5.1 支持动态参与方的安全多方计算协议（Fluid MPC）
@@ -69,6 +67,10 @@
 + ***Maximally-Fluid MPC with Guaranteed Output Delivery***
   + 论文发表在CRYPTO 2023，论文链接见[IACR eprint](https://eprint.iacr.org/2023/415)
 
+
+#### 1.5.2 隐蔽安全多方计算协议（Covert MPC）
+
+详见[Covert Security 隐蔽安全性](https://github.com/Stu-Yang/HITSZ-SecurityGroup-MPC/tree/main/mpc/mpc-research/covert-mpc)
 
 ## 2. 安全多方计算应用研究
 
