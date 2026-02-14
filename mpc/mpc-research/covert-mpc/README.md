@@ -27,6 +27,9 @@
 + ***[LOP11] IPS Compiler: Optimizations, Variants and Concrete Efficiency***
   + 提出了一种类似于IPS (Ishai, Prabhakaran and Saha, CRYPTO 2008)的编译器，可将不诚实大多数下半诚实安全协议编译成隐蔽安全协议
   + 发表在CRYPTO 2011，论文链接见[IACR eprint](https://eprint.iacr.org/2011/435)
++ ***[DKL+12]Implementing AES via an Actively/Covertly Secure Dishonest-Majority MPC Protocol***
+  + 提出不诚实大多数设置下的主动安全和隐蔽安全AES计算协议
+  + 发表在SCN 2012，论文链接见[IACR eprint](https://eprint.iacr.org/2012/262)
 + :triangular_flag_on_post:***[AO12] Calling out Cheaters: Covert Security with Public Verifiability***
   + 提出公开可验证隐蔽安全，其中提出sign-OT协议
   + 发表在AsiaCrypt 2012，论文链接见[IACR eprint](https://eprint.iacr.org/2012/708.pdf)
@@ -87,7 +90,7 @@
 + ***[LSYL25]Zero-Knowledge Protocols with PVC Security: Striking the Balance Between Security and Efficiency***
   + 提出公开可验证隐蔽安全的零知识证明协议
   + 发表在ICICS 2025，论文链接见[IACR 2025](https://eprint.iacr.org/2025/2146)
-+ ***[BKV] The Complexity of Memory Checking with Covert Security***
++ ***[BKV25] The Complexity of Memory Checking with Covert Security***
    + Memory checker 是一种算法工具，用于验证维护在远程、不可靠、计算能力有限的服务器上的数据库的完整性，该工作将隐蔽安全的概念应用于Memory Checking
    + 发表在EUROCRYPT 2025，论文链接在[IACR eprint 2025](https://eprint.iacr.org/2025/358)
 + ***[DLH+26]ECHO: Efficient Covertly-Secure Three-party Computation with Applications to Private Machine Learning***
