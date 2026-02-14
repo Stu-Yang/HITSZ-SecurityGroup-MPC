@@ -87,6 +87,9 @@
 + ***[LSYL25]Zero-Knowledge Protocols with PVC Security: Striking the Balance Between Security and Efficiency***
   + 提出公开可验证隐蔽安全的零知识证明协议
   + 发表在ICICS 2025，论文链接见[IACR 2025](https://eprint.iacr.org/2025/2146)
++ ***[BKV] The Complexity of Memory Checking with Covert Security***
+   + Memory checker 是一种算法工具，用于验证维护在远程、不可靠、计算能力有限的服务器上的数据库的完整性，该工作将隐蔽安全的概念应用于Memory Checking
+   + 发表在EUROCRYPT 2025，论文链接在[IACR eprint 2025](https://eprint.iacr.org/2025/358)
 + ***[DLH+26]ECHO: Efficient Covertly-Secure Three-party Computation with Applications to Private Machine Learning***
    + 提出基于MAC和Distributed ZK的PVC安全诚实大多数安全三方计算协议
    + 发表在TIFS，论文链接在[IACR eprint](https://eprint.iacr.org/2026/216)
